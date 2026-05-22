@@ -1733,6 +1733,1478 @@ const WORDS = [
     "category": "語句の意味",
     "difficulty": "難",
     "note": "本来は疑い深い見方ではなく、核心を突く見方。"
+  },
+  {
+    "term": "照準",
+    "reading": "しょうじゅん",
+    "meaning": "ねらいを定めること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ねらいを定めること"
+  },
+  {
+    "term": "蹂躙",
+    "reading": "じゅうりん",
+    "meaning": "踏みにじったり侵害したりすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "踏みにじったり侵害したりすること"
+  },
+  {
+    "term": "苦笑",
+    "reading": "くしょう",
+    "meaning": "怒りや不快感を持ちながらしかたなく笑うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "怒りや不快感を持ちながらしかたなく笑うこと"
+  },
+  {
+    "term": "強記",
+    "reading": "きょうき",
+    "meaning": "記憶力が優れていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "記憶力が優れていること"
+  },
+  {
+    "term": "領袖",
+    "reading": "りょうしゅう",
+    "meaning": "ある集団を率いる人物",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ある集団を率いる人物"
+  },
+  {
+    "term": "垂涎",
+    "reading": "すいぜん",
+    "meaning": "ある物をしきりに欲しがること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ある物をしきりに欲しがること"
+  },
+  {
+    "term": "刮目",
+    "reading": "かつもく",
+    "meaning": "目をこすってよく見ること。注目すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "目をこすってよく見ること。注目すること"
+  },
+  {
+    "term": "催事",
+    "reading": "さいじ",
+    "meaning": "特別に行われる催しもの",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "特別に行われる催しもの"
+  },
+  {
+    "term": "流布",
+    "reading": "るふ",
+    "meaning": "世に広まること。広く知れ渡ること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "世に広まること。広く知れ渡ること"
+  },
+  {
+    "term": "驚嘆",
+    "reading": "きょうたん",
+    "meaning": "ひどく感心すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ひどく感心すること"
+  },
+  {
+    "term": "心服",
+    "reading": "しんぷく",
+    "meaning": "心から尊敬して従うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "心から尊敬して従うこと"
+  },
+  {
+    "term": "参画",
+    "reading": "さんかく",
+    "meaning": "計画段階から参加すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "計画段階から参加すること"
+  },
+  {
+    "term": "鎬",
+    "reading": "しのぎ",
+    "meaning": "激しく争うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "激しく争うこと"
+  },
+  {
+    "term": "鳩首",
+    "reading": "きゅうしゅ",
+    "meaning": "人々が集まって額を寄せ合い相談すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人々が集まって額を寄せ合い相談すること"
+  },
+  {
+    "term": "木鐸",
+    "reading": "ぼくたく",
+    "meaning": "世の人を教え導く人。指導者",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "世の人を教え導く人。指導者"
+  },
+  {
+    "term": "陥穽",
+    "reading": "かんせい",
+    "meaning": "人をおとしいれるはかりごと。落とし穴",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人をおとしいれるはかりごと。落とし穴"
+  },
+  {
+    "term": "義憤",
+    "reading": "ぎふん",
+    "meaning": "不正なことにいきどおること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "不正なことにいきどおること"
+  },
+  {
+    "term": "謳歌",
+    "reading": "おうか",
+    "meaning": "恵まれた境遇を大いに楽しみ、表現すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "恵まれた境遇を大いに楽しみ、表現すること"
+  },
+  {
+    "term": "粉飾",
+    "reading": "ふんしょく",
+    "meaning": "立派に見せようとしてうわべを飾ること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "立派に見せようとしてうわべを飾ること"
+  },
+  {
+    "term": "因習",
+    "reading": "いんしゅう",
+    "meaning": "古くから伝えられている風習",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "古くから伝えられている風習"
+  },
+  {
+    "term": "言下",
+    "reading": "げんか",
+    "meaning": "言い終わるか終わらない時。即座",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "言い終わるか終わらない時。即座"
+  },
+  {
+    "term": "居丈高",
+    "reading": "いたけだか",
+    "meaning": "人を威圧するような態度",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人を威圧するような態度"
+  },
+  {
+    "term": "梗概",
+    "reading": "こうがい",
+    "meaning": "あらすじ",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "あらすじ"
+  },
+  {
+    "term": "瞠目",
+    "reading": "どうもく",
+    "meaning": "驚いたり感心したりして目をみはること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "驚いたり感心したりして目をみはること"
+  },
+  {
+    "term": "保身",
+    "reading": "ほしん",
+    "meaning": "自分の地位や名声などの安全をはかること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "自分の地位や名声などの安全をはかること"
+  },
+  {
+    "term": "跋扈",
+    "reading": "ばっこ",
+    "meaning": "勝手にはねまわること。悪がのさばること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "勝手にはねまわること。悪がのさばること"
+  },
+  {
+    "term": "履行",
+    "reading": "りこう",
+    "meaning": "約束されたことなどを実際に行うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "約束されたことなどを実際に行うこと"
+  },
+  {
+    "term": "安閑",
+    "reading": "あんかん",
+    "meaning": "安らかで静かなさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "安らかで静かなさま"
+  },
+  {
+    "term": "私淑",
+    "reading": "ししゅく",
+    "meaning": "ひそかに尊敬し、師と仰ぐこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ひそかに尊敬し、師と仰ぐこと"
+  },
+  {
+    "term": "高尚",
+    "reading": "こうしょう",
+    "meaning": "学問・言行などの程度が高く上品なこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "学問・言行などの程度が高く上品なこと"
+  },
+  {
+    "term": "即妙",
+    "reading": "そくみょう",
+    "meaning": "気がきいていること。当意即妙の略",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "気がきいていること。当意即妙の略"
+  },
+  {
+    "term": "崇高",
+    "reading": "すうこう",
+    "meaning": "気高く尊いさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "気高く尊いさま"
+  },
+  {
+    "term": "出仕",
+    "reading": "しゅっし",
+    "meaning": "役所などに勤めること。官職につくこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "役所などに勤めること。官職につくこと"
+  },
+  {
+    "term": "射幸",
+    "reading": "しゃこう",
+    "meaning": "偶然の利益や成功を当てにすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "偶然の利益や成功を当てにすること"
+  },
+  {
+    "term": "蔓延",
+    "reading": "まんえん",
+    "meaning": "好ましくないことがはびこること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "好ましくないことがはびこること"
+  },
+  {
+    "term": "落成",
+    "reading": "らくせい",
+    "meaning": "工事が完了して建築物などができあがること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "工事が完了して建築物などができあがること"
+  },
+  {
+    "term": "言外",
+    "reading": "げんがい",
+    "meaning": "直接は言葉に出さない部分",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "直接は言葉に出さない部分"
+  },
+  {
+    "term": "膠着",
+    "reading": "こうちゃく",
+    "meaning": "ある状態に固定して進展しないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ある状態に固定して進展しないこと"
+  },
+  {
+    "term": "言質",
+    "reading": "げんち",
+    "meaning": "後で証拠となる言葉",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "後で証拠となる言葉"
+  },
+  {
+    "term": "博覧",
+    "reading": "はくらん",
+    "meaning": "広く一般の人が見ること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "広く一般の人が見ること"
+  },
+  {
+    "term": "画策",
+    "reading": "かくさく",
+    "meaning": "考えて実行すること。計画すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "考えて実行すること。計画すること"
+  },
+  {
+    "term": "慇懃",
+    "reading": "いんぎん",
+    "meaning": "礼儀正しいこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "礼儀正しいこと"
+  },
+  {
+    "term": "果断",
+    "reading": "かだん",
+    "meaning": "ためらわずに思い切って行うさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ためらわずに思い切って行うさま"
+  },
+  {
+    "term": "慧眼",
+    "reading": "けいがん",
+    "meaning": "物事の本質を見抜く優れた眼力",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事の本質を見抜く優れた眼力"
+  },
+  {
+    "term": "省察",
+    "reading": "せいさつ",
+    "meaning": "自身を反省して考えること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "自身を反省して考えること"
+  },
+  {
+    "term": "喟息",
+    "reading": "きそく",
+    "meaning": "なげいて、ため息をつくこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "なげいて、ため息をつくこと"
+  },
+  {
+    "term": "意匠",
+    "reading": "いしょう",
+    "meaning": "工夫をめぐらすこと。デザイン",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "工夫をめぐらすこと。デザイン"
+  },
+  {
+    "term": "具備",
+    "reading": "ぐび",
+    "meaning": "十分に備えていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "十分に備えていること"
+  },
+  {
+    "term": "銘記",
+    "reading": "めいき",
+    "meaning": "心に刻み込むこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "心に刻み込むこと"
+  },
+  {
+    "term": "断腸",
+    "reading": "だんちょう",
+    "meaning": "非常に辛いこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "非常に辛いこと"
+  },
+  {
+    "term": "仮託",
+    "reading": "かたく",
+    "meaning": "他の物事を借りて言い表すこと。かこつけること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "他の物事を借りて言い表すこと。かこつけること"
+  },
+  {
+    "term": "雄飛",
+    "reading": "ゆうひ",
+    "meaning": "勢い盛んに活動すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "勢い盛んに活動すること"
+  },
+  {
+    "term": "晦日",
+    "reading": "みそか",
+    "meaning": "月の最後の日",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "月の最後の日"
+  },
+  {
+    "term": "忖度",
+    "reading": "そんたく",
+    "meaning": "相手の事情や心情などをくみとること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "相手の事情や心情などをくみとること"
+  },
+  {
+    "term": "付度",
+    "reading": "ふたく",
+    "meaning": "相手の心中をおしはかること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "相手の心中をおしはかること"
+  },
+  {
+    "term": "不埒",
+    "reading": "ふらち",
+    "meaning": "道理にはずれていて、けしからぬこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "道理にはずれていて、けしからぬこと"
+  },
+  {
+    "term": "祈念",
+    "reading": "きねん",
+    "meaning": "心から願うこと。強く希望すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "心から願うこと。強く希望すること"
+  },
+  {
+    "term": "拮抗",
+    "reading": "きっこう",
+    "meaning": "力がほぼ等しくて優劣のないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "力がほぼ等しくて優劣のないこと"
+  },
+  {
+    "term": "先達",
+    "reading": "せんだつ",
+    "meaning": "先にその分野に進んで他を導く人",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "先にその分野に進んで他を導く人"
+  },
+  {
+    "term": "督励",
+    "reading": "とくれい",
+    "meaning": "監督し励ますこと。指図して元気づけること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "監督し励ますこと。指図して元気づけること"
+  },
+  {
+    "term": "超然",
+    "reading": "ちょうぜん",
+    "meaning": "俗事にこだわらず、ゆうゆうとしているさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "俗事にこだわらず、ゆうゆうとしているさま"
+  },
+  {
+    "term": "杜撰",
+    "reading": "ずさん",
+    "meaning": "いい加減。手抜き。おざなり",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "いい加減。手抜き。おざなり"
+  },
+  {
+    "term": "円熟",
+    "reading": "えんじゅく",
+    "meaning": "十分に熟達して豊かな内容をもつこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "十分に熟達して豊かな内容をもつこと"
+  },
+  {
+    "term": "老成",
+    "reading": "ろうせい",
+    "meaning": "経験を積んで円熟すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "経験を積んで円熟すること"
+  },
+  {
+    "term": "至言",
+    "reading": "しげん",
+    "meaning": "的を射た言葉。本質を突いた言葉",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "的を射た言葉。本質を突いた言葉"
+  },
+  {
+    "term": "適宜",
+    "reading": "てきぎ",
+    "meaning": "その場の状況に合っていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "その場の状況に合っていること"
+  },
+  {
+    "term": "僭越",
+    "reading": "せんえつ",
+    "meaning": "さしでがましいこと。出過ぎたこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "さしでがましいこと。出過ぎたこと"
+  },
+  {
+    "term": "裁量",
+    "reading": "さいりょう",
+    "meaning": "本人の考えで判断し処理すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "本人の考えで判断し処理すること"
+  },
+  {
+    "term": "気概",
+    "reading": "きがい",
+    "meaning": "困難に負けない強い気性・意志",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "困難に負けない強い気性・意志"
+  },
+  {
+    "term": "笑殺",
+    "reading": "しょうさつ",
+    "meaning": "問題にしないこと。一笑に付すこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "問題にしないこと。一笑に付すこと"
+  },
+  {
+    "term": "希有",
+    "reading": "けう",
+    "meaning": "めったにないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "めったにないこと"
+  },
+  {
+    "term": "証左",
+    "reading": "しょうさ",
+    "meaning": "証拠。あかし",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "証拠。あかし"
+  },
+  {
+    "term": "気丈",
+    "reading": "きじょう",
+    "meaning": "気持ちがしっかりしていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "気持ちがしっかりしていること"
+  },
+  {
+    "term": "早晩",
+    "reading": "そうばん",
+    "meaning": "いずれ。遅かれ早かれ。近い将来",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "いずれ。遅かれ早かれ。近い将来"
+  },
+  {
+    "term": "幇間",
+    "reading": "ほうかん",
+    "meaning": "太鼓持ち。客の機嫌をとって場を盛り上げる職業",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "太鼓持ち。客の機嫌をとって場を盛り上げる職業"
+  },
+  {
+    "term": "暁通",
+    "reading": "ぎょうつう",
+    "meaning": "すみずみまで詳しく知っていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "すみずみまで詳しく知っていること"
+  },
+  {
+    "term": "姑息",
+    "reading": "こそく",
+    "meaning": "その場しのぎの間に合わせ",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "その場しのぎの間に合わせ"
+  },
+  {
+    "term": "営営",
+    "reading": "えいえい",
+    "meaning": "こつこつと励むさま。せっせと働く様子",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "こつこつと励むさま。せっせと働く様子"
+  },
+  {
+    "term": "恬淡",
+    "reading": "てんたん",
+    "meaning": "欲がなくあっさりしているさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "欲がなくあっさりしているさま"
+  },
+  {
+    "term": "闊達",
+    "reading": "かったつ",
+    "meaning": "度量が広く小事にこだわらないさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "度量が広く小事にこだわらないさま"
+  },
+  {
+    "term": "馴致",
+    "reading": "じゅんち",
+    "meaning": "なれさせること。なじませること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "なれさせること。なじませること"
+  },
+  {
+    "term": "卓越",
+    "reading": "たくえつ",
+    "meaning": "他よりはるかに優れていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "他よりはるかに優れていること"
+  },
+  {
+    "term": "伝播",
+    "reading": "でんぱ",
+    "meaning": "伝わり広がっていくこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "伝わり広がっていくこと"
+  },
+  {
+    "term": "煌煌",
+    "reading": "こうこう",
+    "meaning": "光り輝くさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "光り輝くさま"
+  },
+  {
+    "term": "秘匿",
+    "reading": "ひとく",
+    "meaning": "秘密にして隠しておくこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "秘密にして隠しておくこと"
+  },
+  {
+    "term": "奢侈",
+    "reading": "しゃし",
+    "meaning": "過度のぜいたく。身分不相応なぜいたく",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "過度のぜいたく。身分不相応なぜいたく"
+  },
+  {
+    "term": "法外",
+    "reading": "ほうがい",
+    "meaning": "並外れていて普通の程度をこえていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "並外れていて普通の程度をこえていること"
+  },
+  {
+    "term": "滔滔",
+    "reading": "とうとう",
+    "meaning": "次から次へとよどみなく話すさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "次から次へとよどみなく話すさま"
+  },
+  {
+    "term": "蜿蜿",
+    "reading": "えんえん",
+    "meaning": "うねうねと長く続くさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "うねうねと長く続くさま"
+  },
+  {
+    "term": "疎通",
+    "reading": "そつう",
+    "meaning": "意思や考えが支障なく相手に通じること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "意思や考えが支障なく相手に通じること"
+  },
+  {
+    "term": "直言",
+    "reading": "ちょくげん",
+    "meaning": "自分の考えや信念を遠慮せず言うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "自分の考えや信念を遠慮せず言うこと"
+  },
+  {
+    "term": "進言",
+    "reading": "しんげん",
+    "meaning": "上位の者に意見を申し述べること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "上位の者に意見を申し述べること"
+  },
+  {
+    "term": "咀嚼",
+    "reading": "そしゃく",
+    "meaning": "内容をよく考えて十分に理解し味わうこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "内容をよく考えて十分に理解し味わうこと"
+  },
+  {
+    "term": "歴然",
+    "reading": "れきぜん",
+    "meaning": "はっきりとして明白なさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "はっきりとして明白なさま"
+  },
+  {
+    "term": "恭順",
+    "reading": "きょうじゅん",
+    "meaning": "つつしんで命令などに従うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "つつしんで命令などに従うこと"
+  },
+  {
+    "term": "大綱",
+    "reading": "たいこう",
+    "meaning": "事柄の根本。大づかみの内容",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "事柄の根本。大づかみの内容"
+  },
+  {
+    "term": "蹉跌",
+    "reading": "さてつ",
+    "meaning": "物事がうまくいかず、しくじること。失敗",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事がうまくいかず、しくじること。失敗"
+  },
+  {
+    "term": "漸減",
+    "reading": "ぜんげん",
+    "meaning": "だんだん少なくなること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "だんだん少なくなること"
+  },
+  {
+    "term": "閨秀",
+    "reading": "けいしゅう",
+    "meaning": "学問や芸術などに優れた女性",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "学問や芸術などに優れた女性"
+  },
+  {
+    "term": "意表",
+    "reading": "いひょう",
+    "meaning": "まったく考えてもいないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "まったく考えてもいないこと"
+  },
+  {
+    "term": "軋轢",
+    "reading": "あつれき",
+    "meaning": "仲が悪くなること。不和",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "仲が悪くなること。不和"
+  },
+  {
+    "term": "労",
+    "reading": "ろう",
+    "meaning": "苦労・努力・ほねおり",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "苦労・努力・ほねおり"
+  },
+  {
+    "term": "典拠",
+    "reading": "てんきょ",
+    "meaning": "よりどころとなる文献。引用した資料",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "よりどころとなる文献。引用した資料"
+  },
+  {
+    "term": "枢軸",
+    "reading": "すうじく",
+    "meaning": "物事の中心となる重要な部分",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事の中心となる重要な部分"
+  },
+  {
+    "term": "泰斗",
+    "reading": "たいと",
+    "meaning": "その道で最も権威のある人",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "その道で最も権威のある人"
+  },
+  {
+    "term": "比肩",
+    "reading": "ひけん",
+    "meaning": "同等のものとして並ぶこと。匹敵すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "同等のものとして並ぶこと。匹敵すること"
+  },
+  {
+    "term": "懸案",
+    "reading": "けんあん",
+    "meaning": "問題になっていながら解決がつかない事柄",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "問題になっていながら解決がつかない事柄"
+  },
+  {
+    "term": "宥和",
+    "reading": "ゆうわ",
+    "meaning": "対立する相手をゆるし、仲よくすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "対立する相手をゆるし、仲よくすること"
+  },
+  {
+    "term": "遁走",
+    "reading": "とんそう",
+    "meaning": "逃げ出すこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "逃げ出すこと"
+  },
+  {
+    "term": "虚心",
+    "reading": "きょしん",
+    "meaning": "先入観を持たない、すなおな態度",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "先入観を持たない、すなおな態度"
+  },
+  {
+    "term": "中原",
+    "reading": "ちゅうげん",
+    "meaning": "天下の中央。中心の地",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "天下の中央。中心の地"
+  },
+  {
+    "term": "演繹",
+    "reading": "えんえき",
+    "meaning": "一般論から個別のものを推論・説明すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "一般論から個別のものを推論・説明すること"
+  },
+  {
+    "term": "知遇",
+    "reading": "ちぐう",
+    "meaning": "力を認められて厚く待遇されること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "力を認められて厚く待遇されること"
+  },
+  {
+    "term": "失笑",
+    "reading": "しっしょう",
+    "meaning": "思わず笑ってしまうこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "思わず笑ってしまうこと"
+  },
+  {
+    "term": "斯界",
+    "reading": "しかい",
+    "meaning": "この分野。この専門の方面",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "この分野。この専門の方面"
+  },
+  {
+    "term": "耽読",
+    "reading": "たんどく",
+    "meaning": "夢中になって読むこと。読みふけること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "夢中になって読むこと。読みふけること"
+  },
+  {
+    "term": "着着",
+    "reading": "ちゃくちゃく",
+    "meaning": "物事が予定通り順調に進むさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事が予定通り順調に進むさま"
+  },
+  {
+    "term": "諸般",
+    "reading": "しょはん",
+    "meaning": "さまざま。いろいろ",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "さまざま。いろいろ"
+  },
+  {
+    "term": "這般",
+    "reading": "しゃはん",
+    "meaning": "これら。この辺。このたび",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "これら。この辺。このたび"
+  },
+  {
+    "term": "佳境",
+    "reading": "かきょう",
+    "meaning": "物事の面白くなったところ。興味深い場面",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事の面白くなったところ。興味深い場面"
+  },
+  {
+    "term": "気脈",
+    "reading": "きみゃく",
+    "meaning": "連絡。気持ちのつながり",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "連絡。気持ちのつながり"
+  },
+  {
+    "term": "隠匿",
+    "reading": "いんとく",
+    "meaning": "人に見つからないように隠すこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人に見つからないように隠すこと"
+  },
+  {
+    "term": "増長",
+    "reading": "ぞうちょう",
+    "meaning": "だんだんいい気になってつけ上がること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "だんだんいい気になってつけ上がること"
+  },
+  {
+    "term": "咽喉",
+    "reading": "いんこう",
+    "meaning": "のど。転じて重要な通路",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "のど。転じて重要な通路"
+  },
+  {
+    "term": "回顧",
+    "reading": "かいこ",
+    "meaning": "過去をふりかえってみること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "過去をふりかえってみること"
+  },
+  {
+    "term": "看破",
+    "reading": "かんぱ",
+    "meaning": "真相などを見破ること。見抜くこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "真相などを見破ること。見抜くこと"
+  },
+  {
+    "term": "打診",
+    "reading": "だしん",
+    "meaning": "相手の反応を見るために事前に伝えること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "相手の反応を見るために事前に伝えること"
+  },
+  {
+    "term": "標榜",
+    "reading": "ひょうぼう",
+    "meaning": "主義・主張などを公然と表すこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "主義・主張などを公然と表すこと"
+  },
+  {
+    "term": "峻別",
+    "reading": "しゅんべつ",
+    "meaning": "厳しく区別すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "厳しく区別すること"
+  },
+  {
+    "term": "吹聴",
+    "reading": "ふいちょう",
+    "meaning": "言いふらすこと。言い広めること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "言いふらすこと。言い広めること"
+  },
+  {
+    "term": "寡聞",
+    "reading": "かぶん",
+    "meaning": "見聞が狭くて知識をもたないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "見聞が狭くて知識をもたないこと"
+  },
+  {
+    "term": "肝要",
+    "reading": "かんよう",
+    "meaning": "非常に大切なこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "非常に大切なこと"
+  },
+  {
+    "term": "消長",
+    "reading": "しょうちょう",
+    "meaning": "衰えたり栄えたりすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "衰えたり栄えたりすること"
+  },
+  {
+    "term": "遜色",
+    "reading": "そんしょく",
+    "meaning": "見劣りすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "見劣りすること"
+  },
+  {
+    "term": "卑近",
+    "reading": "ひきん",
+    "meaning": "身近でありふれていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "身近でありふれていること"
+  },
+  {
+    "term": "腐心",
+    "reading": "ふしん",
+    "meaning": "事を成し遂げようと心を痛め悩ますこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "事を成し遂げようと心を痛め悩ますこと"
+  },
+  {
+    "term": "内内",
+    "reading": "ないない",
+    "meaning": "こっそり。うちわ。内密",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "こっそり。うちわ。内密"
+  },
+  {
+    "term": "憐憫",
+    "reading": "れんびん",
+    "meaning": "かわいそうに思うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "かわいそうに思うこと"
+  },
+  {
+    "term": "造詣",
+    "reading": "ぞうけい",
+    "meaning": "その分野についての深い知識や優れた技量",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "その分野についての深い知識や優れた技量"
+  },
+  {
+    "term": "閉口",
+    "reading": "へいこう",
+    "meaning": "手に負えなくて困ること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "手に負えなくて困ること"
+  },
+  {
+    "term": "喧伝",
+    "reading": "けんでん",
+    "meaning": "言いふらして広く知らせること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "言いふらして広く知らせること"
+  },
+  {
+    "term": "漸次",
+    "reading": "ぜんじ",
+    "meaning": "だんだん。次第に",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "だんだん。次第に"
+  },
+  {
+    "term": "招致",
+    "reading": "しょうち",
+    "meaning": "招き寄せること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "招き寄せること"
+  },
+  {
+    "term": "英気",
+    "reading": "えいき",
+    "meaning": "何かをしようとする元気。優れた才気",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "何かをしようとする元気。優れた才気"
+  },
+  {
+    "term": "市井",
+    "reading": "しせい",
+    "meaning": "人家が集まっている所。ちまた",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人家が集まっている所。ちまた"
+  },
+  {
+    "term": "披瀝",
+    "reading": "ひれき",
+    "meaning": "気持ちなどを隠さずすべて打ち明けること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "気持ちなどを隠さずすべて打ち明けること"
+  },
+  {
+    "term": "謬見",
+    "reading": "びゅうけん",
+    "meaning": "誤った意見、考え",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "誤った意見、考え"
+  },
+  {
+    "term": "出色",
+    "reading": "しゅっしょく",
+    "meaning": "他より目立って優れていること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "他より目立って優れていること"
+  },
+  {
+    "term": "異彩",
+    "reading": "いさい",
+    "meaning": "普通とは異なっていて目立つ様子",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "普通とは異なっていて目立つ様子"
+  },
+  {
+    "term": "折半",
+    "reading": "せっぱん",
+    "meaning": "二等分にすること。半分に分けること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "二等分にすること。半分に分けること"
+  },
+  {
+    "term": "度外視",
+    "reading": "どがいし",
+    "meaning": "まったく問題にしないこと。無視すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "まったく問題にしないこと。無視すること"
+  },
+  {
+    "term": "辟易",
+    "reading": "へきえき",
+    "meaning": "うんざりして嫌になること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "うんざりして嫌になること"
+  },
+  {
+    "term": "予見",
+    "reading": "よけん",
+    "meaning": "前もって見通すこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "前もって見通すこと"
+  },
+  {
+    "term": "畏敬",
+    "reading": "いけい",
+    "meaning": "かしこまりうやまうこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "かしこまりうやまうこと"
+  },
+  {
+    "term": "研鑽",
+    "reading": "けんさん",
+    "meaning": "学問などを深く究めること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "学問などを深く究めること"
+  },
+  {
+    "term": "必至",
+    "reading": "ひっし",
+    "meaning": "そうなることが避けられないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "そうなることが避けられないこと"
+  },
+  {
+    "term": "逆鱗",
+    "reading": "げきりん",
+    "meaning": "目上の人の怒り",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "目上の人の怒り"
+  },
+  {
+    "term": "緊迫",
+    "reading": "きんぱく",
+    "meaning": "きびしくさしせまること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "きびしくさしせまること"
+  },
+  {
+    "term": "僥倖",
+    "reading": "ぎょうこう",
+    "meaning": "思いがけない幸運。偶然に得る幸い",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "思いがけない幸運。偶然に得る幸い"
+  },
+  {
+    "term": "隘路",
+    "reading": "あいろ",
+    "meaning": "狭くて困難な道。進行の妨げとなるもの",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "狭くて困難な道。進行の妨げとなるもの"
+  },
+  {
+    "term": "愁眉",
+    "reading": "しゅうび",
+    "meaning": "心配そうな顔。うれいを含んだまゆ",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "心配そうな顔。うれいを含んだまゆ"
+  },
+  {
+    "term": "焦眉",
+    "reading": "しょうび",
+    "meaning": "眉が焦げるほどの火の接近。切迫した危険",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "眉が焦げるほどの火の接近。切迫した危険"
+  },
+  {
+    "term": "一瞥",
+    "reading": "いちべつ",
+    "meaning": "ちらっと見ること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "ちらっと見ること"
+  },
+  {
+    "term": "薫陶",
+    "reading": "くんとう",
+    "meaning": "人徳で人を感化してよい方に導くこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "人徳で人を感化してよい方に導くこと"
+  },
+  {
+    "term": "随意",
+    "reading": "ずいい",
+    "meaning": "制限を受けず自分の思うままであること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "制限を受けず自分の思うままであること"
+  },
+  {
+    "term": "桎梏",
+    "reading": "しっこく",
+    "meaning": "手かせ足かせ。自由を束縛するもの",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "手かせ足かせ。自由を束縛するもの"
+  },
+  {
+    "term": "洒脱",
+    "reading": "しゃだつ",
+    "meaning": "気取りなくさっぱりと洗練されているさま",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "気取りなくさっぱりと洗練されているさま"
+  },
+  {
+    "term": "収斂",
+    "reading": "しゅうれん",
+    "meaning": "同質・同等にまとまること。縮むこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "同質・同等にまとまること。縮むこと"
+  },
+  {
+    "term": "浚渫",
+    "reading": "しゅんせつ",
+    "meaning": "海底・河床などの土砂を掘削すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "海底・河床などの土砂を掘削すること"
+  },
+  {
+    "term": "子細",
+    "reading": "しさい",
+    "meaning": "物事の詳しい事情",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事の詳しい事情"
+  },
+  {
+    "term": "粗忽",
+    "reading": "そこつ",
+    "meaning": "軽はずみでそそっかしいこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "軽はずみでそそっかしいこと"
+  },
+  {
+    "term": "詮議",
+    "reading": "せんぎ",
+    "meaning": "話し合って物事を明らかにすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "話し合って物事を明らかにすること"
+  },
+  {
+    "term": "糊塗",
+    "reading": "こと",
+    "meaning": "一時しのぎにごまかして取り繕うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "一時しのぎにごまかして取り繕うこと"
+  },
+  {
+    "term": "奉職",
+    "reading": "ほうしょく",
+    "meaning": "公の職務につくこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "公の職務につくこと"
+  },
+  {
+    "term": "籠絡",
+    "reading": "ろうらく",
+    "meaning": "まるめこんで思い通りにあやつること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "まるめこんで思い通りにあやつること"
+  },
+  {
+    "term": "重畳",
+    "reading": "ちょうじょう",
+    "meaning": "良い事が重なること。大変喜ばしいこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "良い事が重なること。大変喜ばしいこと"
+  },
+  {
+    "term": "依拠",
+    "reading": "いきょ",
+    "meaning": "よりどころとすること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "よりどころとすること"
+  },
+  {
+    "term": "頓挫",
+    "reading": "とんざ",
+    "meaning": "進行が急にくじけること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "進行が急にくじけること"
+  },
+  {
+    "term": "獰悪",
+    "reading": "どうあく",
+    "meaning": "性質や姿が凶悪で荒々しいこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "性質や姿が凶悪で荒々しいこと"
+  },
+  {
+    "term": "角",
+    "reading": "かど",
+    "meaning": "言動・性格が円満でないこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "言動・性格が円満でないこと"
+  },
+  {
+    "term": "識見",
+    "reading": "しきけん",
+    "meaning": "物事を正しく判断する力",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "物事を正しく判断する力"
+  },
+  {
+    "term": "溜飲",
+    "reading": "りゅういん",
+    "meaning": "胸のつかえ。気を晴らすこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "胸のつかえ。気を晴らすこと"
+  },
+  {
+    "term": "符合",
+    "reading": "ふごう",
+    "meaning": "二つ以上の事柄がぴったりと一致すること",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "二つ以上の事柄がぴったりと一致すること"
+  },
+  {
+    "term": "猜疑",
+    "reading": "さいぎ",
+    "meaning": "何か裏があるのではないかと疑うこと",
+    "category": "PDF頻出語句",
+    "difficulty": "標準",
+    "note": "何か裏があるのではないかと疑うこと"
   }
 ];
 
