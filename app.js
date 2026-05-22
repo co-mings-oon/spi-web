@@ -3205,6 +3205,1870 @@ const WORDS = [
     "category": "PDF頻出語句",
     "difficulty": "標準",
     "note": "何か裏があるのではないかと疑うこと"
+  },
+  {
+    "term": "すげない",
+    "reading": "すげない",
+    "meaning": "思いやりがない。冷たい態度をとる。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "思いやりがない。冷たい態度をとる。"
+  },
+  {
+    "term": "変遷",
+    "reading": "へんせん",
+    "meaning": "時代や状況の移り変わり。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "時代や状況の移り変わり。"
+  },
+  {
+    "term": "壮途",
+    "reading": "そうと",
+    "meaning": "前途有望な旅立ちや出発。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "前途有望な旅立ちや出発。"
+  },
+  {
+    "term": "通暁",
+    "reading": "つうぎょう",
+    "meaning": "深く知り尽くしていること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "深く知り尽くしていること。"
+  },
+  {
+    "term": "要衝",
+    "reading": "ようしょう",
+    "meaning": "戦略や交通などの重要な地点。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "戦略や交通などの重要な地点。"
+  },
+  {
+    "term": "数奇",
+    "reading": "すうき",
+    "meaning": "運命が変転しやすく不遇なこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "運命が変転しやすく不遇なこと。"
+  },
+  {
+    "term": "喫緊",
+    "reading": "きっきん",
+    "meaning": "差し迫って重要なさま。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "差し迫って重要なさま。"
+  },
+  {
+    "term": "宿願",
+    "reading": "しゅくがん",
+    "meaning": "以前からの願い。長年の望み。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "以前からの願い。長年の望み。"
+  },
+  {
+    "term": "減退",
+    "reading": "げんたい",
+    "meaning": "力や勢いが弱まること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "力や勢いが弱まること。"
+  },
+  {
+    "term": "風間",
+    "reading": "ふうかん",
+    "meaning": "うわさ。人づての話。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "うわさ。人づての話。"
+  },
+  {
+    "term": "酒脱",
+    "reading": "しゃだつ",
+    "meaning": "あかぬけていて洗練されたさま。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "あかぬけていて洗練されたさま。"
+  },
+  {
+    "term": "呻吟",
+    "reading": "しんぎん",
+    "meaning": "苦しんでうめくこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "苦しんでうめくこと。"
+  },
+  {
+    "term": "寸志",
+    "reading": "すんし",
+    "meaning": "ほんの少しの心づけ。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ほんの少しの心づけ。"
+  },
+  {
+    "term": "脱稿",
+    "reading": "だっこう",
+    "meaning": "原稿を書き終えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "原稿を書き終えること。"
+  },
+  {
+    "term": "凋落",
+    "reading": "ちょうらく",
+    "meaning": "衰えること、落ちぶれること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "衰えること、落ちぶれること"
+  },
+  {
+    "term": "泰然",
+    "reading": "たいぜん",
+    "meaning": "落ち着いていて物事に驚かないさま",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "落ち着いていて物事に驚かないさま"
+  },
+  {
+    "term": "斡旋",
+    "reading": "あっせん",
+    "meaning": "間に入って双方をうまく取り持つこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "間に入って双方をうまく取り持つこと"
+  },
+  {
+    "term": "生粋",
+    "reading": "きっすい",
+    "meaning": "純粋で混ざり気のないこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "純粋で混ざり気のないこと"
+  },
+  {
+    "term": "符号",
+    "reading": "ふごう",
+    "meaning": "ある情報を伝達するために体系的に使われる記号",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある情報を伝達するために体系的に使われる記号"
+  },
+  {
+    "term": "営々",
+    "reading": "えいえい",
+    "meaning": "せっせと休みなく励むこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "せっせと休みなく励むこと"
+  },
+  {
+    "term": "気鋭",
+    "reading": "きえい",
+    "meaning": "気力があって、意気込みが鋭いこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "気力があって、意気込みが鋭いこと"
+  },
+  {
+    "term": "鳥瞰",
+    "reading": "ちょうかん",
+    "meaning": "全体を一目で観察すること、高いところから広い範囲を見ること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "全体を一目で観察すること、高いところから広い範囲を見ること"
+  },
+  {
+    "term": "協議",
+    "reading": "きょうぎ",
+    "meaning": "集まって相談すること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "集まって相談すること"
+  },
+  {
+    "term": "専横",
+    "reading": "せんおう",
+    "meaning": "わがままで横暴な振舞い・態度",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "わがままで横暴な振舞い・態度"
+  },
+  {
+    "term": "度量",
+    "reading": "どりょう",
+    "meaning": "心の広さ",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心の広さ"
+  },
+  {
+    "term": "英断",
+    "reading": "えいだん",
+    "meaning": "きっぱりと事を決めること、すぐれた決断",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "きっぱりと事を決めること、すぐれた決断"
+  },
+  {
+    "term": "機知",
+    "reading": "きち",
+    "meaning": "その場に応じて、とっさに適切な発言ができるような鋭い才知",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "その場に応じて、とっさに適切な発言ができるような鋭い才知"
+  },
+  {
+    "term": "進取",
+    "reading": "しんしゅ",
+    "meaning": "みずから進んで物事に取り組むこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "みずから進んで物事に取り組むこと"
+  },
+  {
+    "term": "謙遜",
+    "reading": "けんそん",
+    "meaning": "控えめな態度をとること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "控えめな態度をとること"
+  },
+  {
+    "term": "悠長",
+    "reading": "ゆうちょう",
+    "meaning": "急がずのんびりしていること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "急がずのんびりしていること"
+  },
+  {
+    "term": "強靭",
+    "reading": "きょうじん",
+    "meaning": "しなやかで強いこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "しなやかで強いこと"
+  },
+  {
+    "term": "引見",
+    "reading": "いんけん",
+    "meaning": "目上の人が人を呼んで会うこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "目上の人が人を呼んで会うこと"
+  },
+  {
+    "term": "膾炙",
+    "reading": "かいしゃ",
+    "meaning": "世間に広く知れ渡ること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "世間に広く知れ渡ること"
+  },
+  {
+    "term": "卓見",
+    "reading": "たっけん",
+    "meaning": "優れた意見",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "優れた意見"
+  },
+  {
+    "term": "大度",
+    "reading": "たいど",
+    "meaning": "度量が大きいこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "度量が大きいこと"
+  },
+  {
+    "term": "融合",
+    "reading": "ゆうごう",
+    "meaning": "いくつかのものがとけ合って一つになること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "いくつかのものがとけ合って一つになること"
+  },
+  {
+    "term": "跳梁",
+    "reading": "ちょうりょう",
+    "meaning": "悪者などが勝手にはね回ること、悪のはびこること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "悪者などが勝手にはね回ること、悪のはびこること"
+  },
+  {
+    "term": "助勢",
+    "reading": "じょせい",
+    "meaning": "力を貸して助けること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "力を貸して助けること"
+  },
+  {
+    "term": "邁進",
+    "reading": "まいしん",
+    "meaning": "ひるまず勢いよく進むこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ひるまず勢いよく進むこと"
+  },
+  {
+    "term": "機軸",
+    "reading": "きじく",
+    "meaning": "物事の中心となる考えや仕組み",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の中心となる考えや仕組み"
+  },
+  {
+    "term": "嘆息",
+    "reading": "たんそく",
+    "meaning": "なげいてため息をつくこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "なげいてため息をつくこと"
+  },
+  {
+    "term": "不肖",
+    "reading": "ふしょう",
+    "meaning": "未熟であること、自分をへりくだっていう語",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "未熟であること、自分をへりくだっていう語"
+  },
+  {
+    "term": "慚愧",
+    "reading": "ざんき",
+    "meaning": "恥ずかしく思うこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "恥ずかしく思うこと"
+  },
+  {
+    "term": "熱情",
+    "reading": "ねつじょう",
+    "meaning": "強く激しい情熱",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "強く激しい情熱"
+  },
+  {
+    "term": "先陣",
+    "reading": "せんじん",
+    "meaning": "先頭に立って物事を進めること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "先頭に立って物事を進めること"
+  },
+  {
+    "term": "躍動",
+    "reading": "やくどう",
+    "meaning": "生き生きと動くこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "生き生きと動くこと"
+  },
+  {
+    "term": "執拗",
+    "reading": "しつよう",
+    "meaning": "しつこいこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "しつこいこと"
+  },
+  {
+    "term": "円満",
+    "reading": "えんまん",
+    "meaning": "欠けたところがなく、穏やかなこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "欠けたところがなく、穏やかなこと"
+  },
+  {
+    "term": "老獪",
+    "reading": "ろうかい",
+    "meaning": "経験を積んでいて悪賢いこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "経験を積んでいて悪賢いこと"
+  },
+  {
+    "term": "迂遠",
+    "reading": "うえん",
+    "meaning": "回りくどく、すぐに役立たないこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "回りくどく、すぐに役立たないこと"
+  },
+  {
+    "term": "道程",
+    "reading": "どうてい",
+    "meaning": "ある地点までの道のり、物事の過程",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある地点までの道のり、物事の過程"
+  },
+  {
+    "term": "倨傲",
+    "reading": "きょごう",
+    "meaning": "おごり高ぶっていること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "おごり高ぶっていること"
+  },
+  {
+    "term": "感慨",
+    "reading": "かんがい",
+    "meaning": "心に深く感じること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心に深く感じること"
+  },
+  {
+    "term": "矢継ぎ早",
+    "reading": "やつぎばや",
+    "meaning": "次々と続けざまに行うこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "次々と続けざまに行うこと"
+  },
+  {
+    "term": "精髄",
+    "reading": "せいずい",
+    "meaning": "物事の最も重要な部分",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の最も重要な部分"
+  },
+  {
+    "term": "健全",
+    "reading": "けんぜん",
+    "meaning": "心身や状態が正常でしっかりしていること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心身や状態が正常でしっかりしていること"
+  },
+  {
+    "term": "冗漫",
+    "reading": "じょうまん",
+    "meaning": "無駄が多く、まとまりがないこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "無駄が多く、まとまりがないこと"
+  },
+  {
+    "term": "訴追",
+    "reading": "そつい",
+    "meaning": "法律上の手続きによって責任を追及すること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "法律上の手続きによって責任を追及すること"
+  },
+  {
+    "term": "歌謡",
+    "reading": "かよう",
+    "meaning": "歌、または歌われる文芸",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "歌、または歌われる文芸"
+  },
+  {
+    "term": "陰鬱",
+    "reading": "いんうつ",
+    "meaning": "暗く晴れ晴れしないこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "暗く晴れ晴れしないこと"
+  },
+  {
+    "term": "拡充",
+    "reading": "かくじゅう",
+    "meaning": "広げて充実させること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "広げて充実させること"
+  },
+  {
+    "term": "棄却",
+    "reading": "ききゃく",
+    "meaning": "取り上げずに退けること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "取り上げずに退けること"
+  },
+  {
+    "term": "退去",
+    "reading": "たいきょ",
+    "meaning": "その場から立ち去ること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "その場から立ち去ること"
+  },
+  {
+    "term": "開業",
+    "reading": "かいぎょう",
+    "meaning": "事業や商売を始めること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "事業や商売を始めること"
+  },
+  {
+    "term": "清濁",
+    "reading": "せいだく",
+    "meaning": "善と悪、清いことと濁ったこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "善と悪、清いことと濁ったこと"
+  },
+  {
+    "term": "詰責",
+    "reading": "きっせき",
+    "meaning": "問い詰めて責めること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "問い詰めて責めること"
+  },
+  {
+    "term": "追跡",
+    "reading": "ついせき",
+    "meaning": "あとを追うこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "あとを追うこと"
+  },
+  {
+    "term": "徒労",
+    "reading": "とろう",
+    "meaning": "無駄な骨折り",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "無駄な骨折り"
+  },
+  {
+    "term": "加味",
+    "reading": "かみ",
+    "meaning": "ある要素を付け加えて考えること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある要素を付け加えて考えること"
+  },
+  {
+    "term": "識別",
+    "reading": "しきべつ",
+    "meaning": "見分けること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "見分けること"
+  },
+  {
+    "term": "忠告",
+    "reading": "ちゅうこく",
+    "meaning": "相手のために注意を与えること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "相手のために注意を与えること"
+  },
+  {
+    "term": "精進",
+    "reading": "しょうじん",
+    "meaning": "一つのことに励み努力すること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一つのことに励み努力すること"
+  },
+  {
+    "term": "披露",
+    "reading": "ひろう",
+    "meaning": "人に知らせたり見せたりすること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "人に知らせたり見せたりすること"
+  },
+  {
+    "term": "墨守",
+    "reading": "ぼくしゅ",
+    "meaning": "古い考えや習慣を固く守ること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "古い考えや習慣を固く守ること"
+  },
+  {
+    "term": "見劣り",
+    "reading": "みおとり",
+    "meaning": "他と比べて劣って見えること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "他と比べて劣って見えること"
+  },
+  {
+    "term": "長夜",
+    "reading": "ちょうや",
+    "meaning": "長い夜、または眠れない夜",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "長い夜、または眠れない夜"
+  },
+  {
+    "term": "渋面",
+    "reading": "じゅうめん",
+    "meaning": "不満そうな顔つき",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "不満そうな顔つき"
+  },
+  {
+    "term": "繁迫",
+    "reading": "はんぱく",
+    "meaning": "差し迫って忙しいこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "差し迫って忙しいこと"
+  },
+  {
+    "term": "険路",
+    "reading": "けんろ",
+    "meaning": "険しい道、困難な道",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "険しい道、困難な道"
+  },
+  {
+    "term": "秋霜",
+    "reading": "しゅうそう",
+    "meaning": "厳しく冷たいもののたとえ",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "厳しく冷たいもののたとえ"
+  },
+  {
+    "term": "相承",
+    "reading": "そうしょう",
+    "meaning": "受け継ぐこと",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "受け継ぐこと"
+  },
+  {
+    "term": "雌雄",
+    "reading": "しゆう",
+    "meaning": "勝ち負け、優劣",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "勝ち負け、優劣"
+  },
+  {
+    "term": "注進",
+    "reading": "ちゅうしん",
+    "meaning": "事件などを急いで知らせること",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "事件などを急いで知らせること"
+  },
+  {
+    "term": "帰趨",
+    "reading": "きすう",
+    "meaning": "物事が最終的に落ち着くところ",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事が最終的に落ち着くところ"
+  },
+  {
+    "term": "先鋭",
+    "reading": "せんえい",
+    "meaning": "考え方や主張が、他よりもはっきり強く尖っていること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "考え方や主張が、他よりもはっきり強く尖っていること。"
+  },
+  {
+    "term": "措置",
+    "reading": "そち",
+    "meaning": "状況に応じて取る具体的な処置や対応。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "状況に応じて取る具体的な処置や対応。"
+  },
+  {
+    "term": "俊敏",
+    "reading": "しゅんびん",
+    "meaning": "動きや判断がすばやく、機敏であること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "動きや判断がすばやく、機敏であること。"
+  },
+  {
+    "term": "詳述",
+    "reading": "しょうじゅつ",
+    "meaning": "細かいところまで詳しく書いたり説明したりすること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "細かいところまで詳しく書いたり説明したりすること。"
+  },
+  {
+    "term": "深慮",
+    "reading": "しんりょ",
+    "meaning": "浅く判断せず、深くよく考えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "浅く判断せず、深くよく考えること。"
+  },
+  {
+    "term": "精査",
+    "reading": "せいさ",
+    "meaning": "細かな点まで丁寧に調べ、正確に確かめること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "細かな点まで丁寧に調べ、正確に確かめること。"
+  },
+  {
+    "term": "訴求",
+    "reading": "そきゅう",
+    "meaning": "相手の気持ちや関心に働きかけて、行動を促すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "相手の気持ちや関心に働きかけて、行動を促すこと。"
+  },
+  {
+    "term": "堆積",
+    "reading": "たいせき",
+    "meaning": "積み重なってたまること。知識や経験にも比喩的に使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "積み重なってたまること。知識や経験にも比喩的に使う。"
+  },
+  {
+    "term": "担保",
+    "reading": "たんぽ",
+    "meaning": "ある結果や信用が確実に保たれるように支えること。金銭以外にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある結果や信用が確実に保たれるように支えること。金銭以外にも使う。"
+  },
+  {
+    "term": "沈静",
+    "reading": "ちんせい",
+    "meaning": "高まっていた感情や混乱が落ち着くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "高まっていた感情や混乱が落ち着くこと。"
+  },
+  {
+    "term": "陳腐",
+    "reading": "ちんぷ",
+    "meaning": "ありふれていて新しさがなく、古くさく感じられること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ありふれていて新しさがなく、古くさく感じられること。"
+  },
+  {
+    "term": "抵触",
+    "reading": "ていしょく",
+    "meaning": "ルールや方針にぶつかって、合わなくなること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ルールや方針にぶつかって、合わなくなること。"
+  },
+  {
+    "term": "内包",
+    "reading": "ないほう",
+    "meaning": "内側に含み持っていること。表面に出ていなくても中にあること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "内側に含み持っていること。表面に出ていなくても中にあること。"
+  },
+  {
+    "term": "白眉",
+    "reading": "はくび",
+    "meaning": "多くの中でも特にすぐれているもののたとえ。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "多くの中でも特にすぐれているもののたとえ。"
+  },
+  {
+    "term": "判然",
+    "reading": "はんぜん",
+    "meaning": "はっきりと区別でき、明らかであること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "はっきりと区別でき、明らかであること。"
+  },
+  {
+    "term": "包摂",
+    "reading": "ほうせつ",
+    "meaning": "別々のものを、より大きな枠組みの中に含めること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "別々のものを、より大きな枠組みの中に含めること。"
+  },
+  {
+    "term": "補完",
+    "reading": "ほかん",
+    "meaning": "足りない部分を補って、全体として成り立たせること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "足りない部分を補って、全体として成り立たせること。"
+  },
+  {
+    "term": "明晰",
+    "reading": "めいせき",
+    "meaning": "考え方や説明が、はっきりしていて分かりやすいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "考え方や説明が、はっきりしていて分かりやすいこと。"
+  },
+  {
+    "term": "利便",
+    "reading": "りべん",
+    "meaning": "都合がよく、使いやすくて便利であること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "都合がよく、使いやすくて便利であること。"
+  },
+  {
+    "term": "委嘱",
+    "reading": "いしょく",
+    "meaning": "ある仕事や役目を、正式に人に頼んで任せること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある仕事や役目を、正式に人に頼んで任せること。"
+  },
+  {
+    "term": "援用",
+    "reading": "えんよう",
+    "meaning": "自分の主張を裏づけるために、他の例や考え方を引いて使うこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分の主張を裏づけるために、他の例や考え方を引いて使うこと。"
+  },
+  {
+    "term": "帰結",
+    "reading": "きけつ",
+    "meaning": "ある原因や流れの先に、最終的にたどり着く結果。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある原因や流れの先に、最終的にたどり着く結果。"
+  },
+  {
+    "term": "奇特",
+    "reading": "きとく",
+    "meaning": "行いが感心するほど立派で、めずらしいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "行いが感心するほど立派で、めずらしいこと。"
+  },
+  {
+    "term": "曲解",
+    "reading": "きょっかい",
+    "meaning": "本来の意味とは違う方向に、ねじ曲げて理解すること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "本来の意味とは違う方向に、ねじ曲げて理解すること。"
+  },
+  {
+    "term": "苦慮",
+    "reading": "くりょ",
+    "meaning": "どうすればよいか分からず、苦しみながら考えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "どうすればよいか分からず、苦しみながら考えること。"
+  },
+  {
+    "term": "建前",
+    "reading": "たてまえ",
+    "meaning": "表向きに示す理由や考え。本音とは異なる場合がある。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "表向きに示す理由や考え。本音とは異なる場合がある。"
+  },
+  {
+    "term": "踏襲",
+    "reading": "とうしゅう",
+    "meaning": "今までのやり方や考え方を、そのまま受け継いで続けること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "今までのやり方や考え方を、そのまま受け継いで続けること。"
+  },
+  {
+    "term": "特筆",
+    "reading": "とくひつ",
+    "meaning": "特に取り上げて書く価値があるほど、目立っていること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "特に取り上げて書く価値があるほど、目立っていること。"
+  },
+  {
+    "term": "難色",
+    "reading": "なんしょく",
+    "meaning": "気が進まない様子を示し、賛成しにくい気持ちを表すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "気が進まない様子を示し、賛成しにくい気持ちを表すこと。"
+  },
+  {
+    "term": "破綻",
+    "reading": "はたん",
+    "meaning": "まとまりや仕組みが成り立たなくなり、うまくいかなくなること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "まとまりや仕組みが成り立たなくなり、うまくいかなくなること。"
+  },
+  {
+    "term": "汎用",
+    "reading": "はんよう",
+    "meaning": "一つの場面だけでなく、広い用途に使えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一つの場面だけでなく、広い用途に使えること。"
+  },
+  {
+    "term": "逼迫",
+    "reading": "ひっぱく",
+    "meaning": "余裕がなくなり、差し迫った苦しい状態になること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "余裕がなくなり、差し迫った苦しい状態になること。"
+  },
+  {
+    "term": "付随",
+    "reading": "ふずい",
+    "meaning": "主となるものに伴って、自然についてくること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "主となるものに伴って、自然についてくること。"
+  },
+  {
+    "term": "本懐",
+    "reading": "ほんかい",
+    "meaning": "長く願っていたことがかなって、満足できる本当の望み。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "長く願っていたことがかなって、満足できる本当の望み。"
+  },
+  {
+    "term": "慢心",
+    "reading": "まんしん",
+    "meaning": "自分に実力があると思い込み、気がゆるんでしまうこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分に実力があると思い込み、気がゆるんでしまうこと。"
+  },
+  {
+    "term": "有終",
+    "reading": "ゆうしゅう",
+    "meaning": "物事を最後まで立派にやり通して終えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事を最後まで立派にやり通して終えること。"
+  },
+  {
+    "term": "猶予",
+    "reading": "ゆうよ",
+    "meaning": "すぐには決めず、しばらく待ったり先に延ばしたりする時間。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "すぐには決めず、しばらく待ったり先に延ばしたりする時間。"
+  },
+  {
+    "term": "抑止",
+    "reading": "よくし",
+    "meaning": "よくない行動が起きないように、前もって食い止めること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "よくない行動が起きないように、前もって食い止めること。"
+  },
+  {
+    "term": "離反",
+    "reading": "りはん",
+    "meaning": "それまで従っていた側から離れて、反対側に回ること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "それまで従っていた側から離れて、反対側に回ること。"
+  },
+  {
+    "term": "漏洩",
+    "reading": "ろうえい",
+    "meaning": "秘密や情報が外へ漏れること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "秘密や情報が外へ漏れること。"
+  },
+  {
+    "term": "廉価",
+    "reading": "れんか",
+    "meaning": "値段が安いこと。ただし「安っぽい」という意味ではない。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "値段が安いこと。ただし「安っぽい」という意味ではない。"
+  },
+  {
+    "term": "流転",
+    "reading": "るてん",
+    "meaning": "一箇所にとどまらず移り変わること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一箇所にとどまらず移り変わること。"
+  },
+  {
+    "term": "不憫",
+    "reading": "ふびん",
+    "meaning": "可哀想で哀れむべき様子。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "可哀想で哀れむべき様子。"
+  },
+  {
+    "term": "吐露",
+    "reading": "とろ",
+    "meaning": "心のうちを包み隠さず言葉に出すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心のうちを包み隠さず言葉に出すこと。"
+  },
+  {
+    "term": "呵責",
+    "reading": "かしゃく",
+    "meaning": "厳しく責めること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "厳しく責めること。"
+  },
+  {
+    "term": "反目",
+    "reading": "はんもく",
+    "meaning": "仲が悪く互いに対立し合うこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "仲が悪く互いに対立し合うこと。"
+  },
+  {
+    "term": "困憊",
+    "reading": "こんぱい",
+    "meaning": "疲れ果てて、エネルギーが尽きること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "疲れ果てて、エネルギーが尽きること。"
+  },
+  {
+    "term": "具に",
+    "reading": "つぶさに",
+    "meaning": "細かく、詳細に。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "細かく、詳細に。"
+  },
+  {
+    "term": "悠然",
+    "reading": "ゆうぜん",
+    "meaning": "ゆったりと構えて落ち着いている様子。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ゆったりと構えて落ち着いている様子。"
+  },
+  {
+    "term": "資する",
+    "reading": "しする",
+    "meaning": "何かの役に立つこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "何かの役に立つこと。"
+  },
+  {
+    "term": "与する",
+    "reading": "くみする",
+    "meaning": "仲間になること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "仲間になること。"
+  },
+  {
+    "term": "再三",
+    "reading": "さいさん",
+    "meaning": "たびたび。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "たびたび。"
+  },
+  {
+    "term": "在野",
+    "reading": "ざいや",
+    "meaning": "公職ではなく、民間にいること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "公職ではなく、民間にいること。"
+  },
+  {
+    "term": "甘受",
+    "reading": "かんじゅ",
+    "meaning": "甘んじて受け入れること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "甘んじて受け入れること。"
+  },
+  {
+    "term": "皮相",
+    "reading": "ひそう",
+    "meaning": "うわっつら。表面だけであること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "うわっつら。表面だけであること。"
+  },
+  {
+    "term": "潮時",
+    "reading": "しおどき",
+    "meaning": "物事をするのにちょうどよいタイミング。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事をするのにちょうどよいタイミング。"
+  },
+  {
+    "term": "凱旋",
+    "reading": "がいせん",
+    "meaning": "戦いに勝って意気揚々と帰ること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "戦いに勝って意気揚々と帰ること。"
+  },
+  {
+    "term": "議見",
+    "reading": "ぎけん",
+    "meaning": "物事に対する意見や見解。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事に対する意見や見解。"
+  },
+  {
+    "term": "過分",
+    "reading": "かぶん",
+    "meaning": "自分の身分や能力以上であること。身に余ること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分の身分や能力以上であること。身に余ること。"
+  },
+  {
+    "term": "更迭",
+    "reading": "こうてつ",
+    "meaning": "職や地位についている人を替えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "職や地位についている人を替えること。"
+  },
+  {
+    "term": "昵懇",
+    "reading": "じっこん",
+    "meaning": "親しくつきあう間柄。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "親しくつきあう間柄。"
+  },
+  {
+    "term": "慟哭",
+    "reading": "どうこく",
+    "meaning": "声をあげて激しく泣くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "声をあげて激しく泣くこと。"
+  },
+  {
+    "term": "器量",
+    "reading": "きりょう",
+    "meaning": "物の役に立つべき才能と徳。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物の役に立つべき才能と徳。"
+  },
+  {
+    "term": "感服",
+    "reading": "かんぷく",
+    "meaning": "深く感心して尊敬の気持ちを抱くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "深く感心して尊敬の気持ちを抱くこと。"
+  },
+  {
+    "term": "背反",
+    "reading": "はいはん",
+    "meaning": "道理に背くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "道理に背くこと。"
+  },
+  {
+    "term": "寡少",
+    "reading": "かしょう",
+    "meaning": "非常に少ないこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "非常に少ないこと。"
+  },
+  {
+    "term": "落伍",
+    "reading": "らくご",
+    "meaning": "集団から遅れてついていけなくなること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "集団から遅れてついていけなくなること。"
+  },
+  {
+    "term": "殊勝",
+    "reading": "しゅしょう",
+    "meaning": "心がけや行動が感心なさま。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心がけや行動が感心なさま。"
+  },
+  {
+    "term": "変節",
+    "reading": "へんせつ",
+    "meaning": "それまでの主義や信念を変えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "それまでの主義や信念を変えること。"
+  },
+  {
+    "term": "奸智",
+    "reading": "かんち",
+    "meaning": "ずる賢い知恵。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ずる賢い知恵。"
+  },
+  {
+    "term": "健気",
+    "reading": "けなげ",
+    "meaning": "心がけや態度がしっかりしている様子。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心がけや態度がしっかりしている様子。"
+  },
+  {
+    "term": "傀儡",
+    "reading": "かいらい",
+    "meaning": "操り人形、人の手先で使われる人。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "操り人形、人の手先で使われる人。"
+  },
+  {
+    "term": "汗顔",
+    "reading": "かんがん",
+    "meaning": "恥じて顔に汗をかくこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "恥じて顔に汗をかくこと。"
+  },
+  {
+    "term": "金言",
+    "reading": "きんげん",
+    "meaning": "模範となるような優れた格言。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "模範となるような優れた格言。"
+  },
+  {
+    "term": "達観",
+    "reading": "たっかん",
+    "meaning": "物事の本質を見通すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の本質を見通すこと。"
+  },
+  {
+    "term": "新鋭",
+    "reading": "しんえい",
+    "meaning": "新しく現れてきて勢いが鋭いこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "新しく現れてきて勢いが鋭いこと。"
+  },
+  {
+    "term": "沿革",
+    "reading": "えんかく",
+    "meaning": "物事の移り変わり。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の移り変わり。"
+  },
+  {
+    "term": "多寡",
+    "reading": "たか",
+    "meaning": "多いことと少ないこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "多いことと少ないこと。"
+  },
+  {
+    "term": "閑談",
+    "reading": "かんだん",
+    "meaning": "ひまつぶしのむだばなし。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ひまつぶしのむだばなし。"
+  },
+  {
+    "term": "招聘",
+    "reading": "しょうへい",
+    "meaning": "人を丁重な態度で招くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "人を丁重な態度で招くこと。"
+  },
+  {
+    "term": "邪険",
+    "reading": "じゃけん",
+    "meaning": "意地悪く無慈悲で荒々しいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "意地悪く無慈悲で荒々しいこと。"
+  },
+  {
+    "term": "酩酊",
+    "reading": "めいてい",
+    "meaning": "ひどく酒に酔うこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ひどく酒に酔うこと。"
+  },
+  {
+    "term": "諧謔",
+    "reading": "かいぎゃく",
+    "meaning": "面白い気のきいた冗談。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "面白い気のきいた冗談。"
+  },
+  {
+    "term": "誹謗",
+    "reading": "ひぼう",
+    "meaning": "そしること。悪口を言うこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "そしること。悪口を言うこと。"
+  },
+  {
+    "term": "眺望",
+    "reading": "ちょうぼう",
+    "meaning": "ながめ。見晴らし。広く遠くまで見晴らすこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ながめ。見晴らし。広く遠くまで見晴らすこと。"
+  },
+  {
+    "term": "見識",
+    "reading": "けんしき",
+    "meaning": "物事について鋭い判断をもち、それに基づいて立てた、すぐれた考え・意見。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事について鋭い判断をもち、それに基づいて立てた、すぐれた考え・意見。"
+  },
+  {
+    "term": "輻輳",
+    "reading": "ふくそう",
+    "meaning": "いろいろなものが同じ箇所に集中して混雑する状況のこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "いろいろなものが同じ箇所に集中して混雑する状況のこと。"
+  },
+  {
+    "term": "ぞんざい",
+    "reading": "ぞんざい",
+    "meaning": "投げやりで乱暴なこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "投げやりで乱暴なこと。"
+  },
+  {
+    "term": "後逸",
+    "reading": "こういつ",
+    "meaning": "球を受けそこなって後ろにのがすこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "球を受けそこなって後ろにのがすこと。"
+  },
+  {
+    "term": "禍根",
+    "reading": "かこん",
+    "meaning": "わざわいの起こるおおもと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "わざわいの起こるおおもと。"
+  },
+  {
+    "term": "凶兆",
+    "reading": "きょうちょう",
+    "meaning": "不吉な前兆。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "不吉な前兆。"
+  },
+  {
+    "term": "災厄",
+    "reading": "さいやく",
+    "meaning": "わざわい。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "わざわい。"
+  },
+  {
+    "term": "難儀",
+    "reading": "なんぎ",
+    "meaning": "困難。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "困難。"
+  },
+  {
+    "term": "不吉",
+    "reading": "ふきつ",
+    "meaning": "縁起が悪いこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "縁起が悪いこと。"
+  },
+  {
+    "term": "大勢",
+    "reading": "たいせい",
+    "meaning": "物事の大筋となる形勢。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の大筋となる形勢。"
+  },
+  {
+    "term": "情勢",
+    "reading": "じょうせい",
+    "meaning": "物事の事情やなりゆき。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事の事情やなりゆき。"
+  },
+  {
+    "term": "大局",
+    "reading": "たいきょく",
+    "meaning": "全体を見渡した場合の状況。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "全体を見渡した場合の状況。"
+  },
+  {
+    "term": "心酔",
+    "reading": "しんすい",
+    "meaning": "心から慕って感心すること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "心から慕って感心すること。"
+  },
+  {
+    "term": "瓦解",
+    "reading": "がかい",
+    "meaning": "一部から全体が壊れること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一部から全体が壊れること。"
+  },
+  {
+    "term": "鼓吹",
+    "reading": "こすい",
+    "meaning": "意見を主張し、相手に吹き込むこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "意見を主張し、相手に吹き込むこと。"
+  },
+  {
+    "term": "転機",
+    "reading": "てんき",
+    "meaning": "人生や物事の流れが大きく変わるきっかけとなる出来事。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "人生や物事の流れが大きく変わるきっかけとなる出来事。"
+  },
+  {
+    "term": "徹底",
+    "reading": "てってい",
+    "meaning": "中途半端にせず、細部までしっかりやり切ること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "中途半端にせず、細部までしっかりやり切ること。"
+  },
+  {
+    "term": "同調",
+    "reading": "どうちょう",
+    "meaning": "自分の意見や態度を、周囲の考えに合わせること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分の意見や態度を、周囲の考えに合わせること。"
+  },
+  {
+    "term": "内在",
+    "reading": "ないざい",
+    "meaning": "外から加わるのではなく、もともと内側に含まれていること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "外から加わるのではなく、もともと内側に含まれていること。"
+  },
+  {
+    "term": "難解",
+    "reading": "なんかい",
+    "meaning": "内容が複雑で、理解するのが難しいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "内容が複雑で、理解するのが難しいこと。"
+  },
+  {
+    "term": "把持",
+    "reading": "はじ",
+    "meaning": "物や状態をしっかり保ち続けること。単に持つより硬い表現。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物や状態をしっかり保ち続けること。単に持つより硬い表現。"
+  },
+  {
+    "term": "排他",
+    "reading": "はいた",
+    "meaning": "自分以外のものを受け入れず、外へしめ出すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分以外のものを受け入れず、外へしめ出すこと。"
+  },
+  {
+    "term": "反復",
+    "reading": "はんぷく",
+    "meaning": "同じことを何度も繰り返すこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "同じことを何度も繰り返すこと。"
+  },
+  {
+    "term": "比重",
+    "reading": "ひじゅう",
+    "meaning": "全体の中で、どれくらい重要な割合を占めるか。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "全体の中で、どれくらい重要な割合を占めるか。"
+  },
+  {
+    "term": "付加",
+    "reading": "ふか",
+    "meaning": "もともとあるものに、新しい価値や機能を付け加えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "もともとあるものに、新しい価値や機能を付け加えること。"
+  },
+  {
+    "term": "普及",
+    "reading": "ふきゅう",
+    "meaning": "新しい考え方や商品などが、広く世の中に行き渡ること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "新しい考え方や商品などが、広く世の中に行き渡ること。"
+  },
+  {
+    "term": "分岐",
+    "reading": "ぶんき",
+    "meaning": "一つの流れや道筋が、複数の方向に分かれること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一つの流れや道筋が、複数の方向に分かれること。"
+  },
+  {
+    "term": "補助",
+    "reading": "ほじょ",
+    "meaning": "中心となるものを助け、足りない部分を支えること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "中心となるものを助け、足りない部分を支えること。"
+  },
+  {
+    "term": "本来",
+    "reading": "ほんらい",
+    "meaning": "もともとの性質やあるべき姿。今の状態と比べる時にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "もともとの性質やあるべき姿。今の状態と比べる時にも使う。"
+  },
+  {
+    "term": "無為",
+    "reading": "むい",
+    "meaning": "何もしないこと。成果につながる行動を取らない状態。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "何もしないこと。成果につながる行動を取らない状態。"
+  },
+  {
+    "term": "明瞭",
+    "reading": "めいりょう",
+    "meaning": "内容や意味がはっきりしていて、分かりやすいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "内容や意味がはっきりしていて、分かりやすいこと。"
+  },
+  {
+    "term": "誘導",
+    "reading": "ゆうどう",
+    "meaning": "相手をある方向へ導くこと。意図的に行動させる場合にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "相手をある方向へ導くこと。意図的に行動させる場合にも使う。"
+  },
+  {
+    "term": "有益",
+    "reading": "ゆうえき",
+    "meaning": "役に立ち、良い結果につながること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "役に立ち、良い結果につながること。"
+  },
+  {
+    "term": "要素",
+    "reading": "ようそ",
+    "meaning": "物事を成り立たせている一つ一つの部分。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事を成り立たせている一つ一つの部分。"
+  },
+  {
+    "term": "抑圧",
+    "reading": "よくあつ",
+    "meaning": "力で押さえつけ、自由な行動や感情を出しにくくすること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "力で押さえつけ、自由な行動や感情を出しにくくすること。"
+  },
+  {
+    "term": "利害",
+    "reading": "りがい",
+    "meaning": "利益と損失のこと。人や組織の立場の違いを表す時に使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "利益と損失のこと。人や組織の立場の違いを表す時に使う。"
+  },
+  {
+    "term": "流動",
+    "reading": "りゅうどう",
+    "meaning": "状態が固定されず、変わりやすいこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "状態が固定されず、変わりやすいこと。"
+  },
+  {
+    "term": "類推",
+    "reading": "るいすい",
+    "meaning": "似ているものを手がかりにして、別のことを推測すること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "似ているものを手がかりにして、別のことを推測すること。"
+  },
+  {
+    "term": "連動",
+    "reading": "れんどう",
+    "meaning": "一つの動きに合わせて、別のものもつながって動くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "一つの動きに合わせて、別のものもつながって動くこと。"
+  },
+  {
+    "term": "論拠",
+    "reading": "ろんきょ",
+    "meaning": "自分の主張を支える理由や証拠。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分の主張を支える理由や証拠。"
+  },
+  {
+    "term": "逸失",
+    "reading": "いっしつ",
+    "meaning": "得られるはずだった利益や機会を失うこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "得られるはずだった利益や機会を失うこと。"
+  },
+  {
+    "term": "精度",
+    "reading": "せいど",
+    "meaning": "結果や測定がどれだけ正確かを表す度合い。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "結果や測定がどれだけ正確かを表す度合い。"
+  },
+  {
+    "term": "即応",
+    "reading": "そくおう",
+    "meaning": "状況の変化に対して、すぐに対応すること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "状況の変化に対して、すぐに対応すること。"
+  },
+  {
+    "term": "確証",
+    "reading": "かくしょう",
+    "meaning": "間違いないと判断できる、はっきりした証拠。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "間違いないと判断できる、はっきりした証拠。"
+  },
+  {
+    "term": "異論",
+    "reading": "いろん",
+    "meaning": "他の人と違う意見や反対の考え。単なる感想ではなく、主張の違いを指す。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "他の人と違う意見や反対の考え。単なる感想ではなく、主張の違いを指す。"
+  },
+  {
+    "term": "一掃",
+    "reading": "いっそう",
+    "meaning": "不要なものや悪い状態を、まとめてすべて取り除くこと。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "不要なものや悪い状態を、まとめてすべて取り除くこと。"
+  },
+  {
+    "term": "逸話",
+    "reading": "いつわ",
+    "meaning": "その人や物事の特徴がよく表れた、興味深い短い話。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "その人や物事の特徴がよく表れた、興味深い短い話。"
+  },
+  {
+    "term": "営為",
+    "reading": "えいい",
+    "meaning": "人が目的を持って続ける行いや活動。仕事や生活の行動にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "人が目的を持って続ける行いや活動。仕事や生活の行動にも使う。"
+  },
+  {
+    "term": "遠隔",
+    "reading": "えんかく",
+    "meaning": "場所が離れていること。直接会わず、離れた場所から行う場合に使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "場所が離れていること。直接会わず、離れた場所から行う場合に使う。"
+  },
+  {
+    "term": "概念",
+    "reading": "がいねん",
+    "meaning": "物事を大きくとらえるための考え方や意味のまとまり。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事を大きくとらえるための考え方や意味のまとまり。"
+  },
+  {
+    "term": "慣例",
+    "reading": "かんれい",
+    "meaning": "明確な決まりではないが、昔から続いているやり方や習慣。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "明確な決まりではないが、昔から続いているやり方や習慣。"
+  },
+  {
+    "term": "起点",
+    "reading": "きてん",
+    "meaning": "物事が始まる場所やタイミング。考え方の出発点にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事が始まる場所やタイミング。考え方の出発点にも使う。"
+  },
+  {
+    "term": "機転",
+    "reading": "きてん",
+    "meaning": "その場の状況をすぐ判断し、うまく対応する力。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "その場の状況をすぐ判断し、うまく対応する力。"
+  },
+  {
+    "term": "契機",
+    "reading": "けいき",
+    "meaning": "物事が始まったり変化したりするきっかけ。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事が始まったり変化したりするきっかけ。"
+  },
+  {
+    "term": "見解",
+    "reading": "けんかい",
+    "meaning": "ある物事に対する考え方や判断。意見より少し改まった表現。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "ある物事に対する考え方や判断。意見より少し改まった表現。"
+  },
+  {
+    "term": "効率",
+    "reading": "こうりつ",
+    "meaning": "少ない時間や労力で、どれだけ成果を出せるかという度合い。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "少ない時間や労力で、どれだけ成果を出せるかという度合い。"
+  },
+  {
+    "term": "拘束",
+    "reading": "こうそく",
+    "meaning": "行動や自由を制限すること。ルールや条件に縛られる場合にも使う。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "行動や自由を制限すること。ルールや条件に縛られる場合にも使う。"
+  },
+  {
+    "term": "根底",
+    "reading": "こんてい",
+    "meaning": "物事を支えている最も基本的な部分。表面ではなく土台の考え。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "物事を支えている最も基本的な部分。表面ではなく土台の考え。"
+  },
+  {
+    "term": "指標",
+    "reading": "しひょう",
+    "meaning": "判断や評価をするための目安となる数値や基準。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "判断や評価をするための目安となる数値や基準。"
+  },
+  {
+    "term": "主張",
+    "reading": "しゅちょう",
+    "meaning": "自分の考えを、理由を持ってはっきり述べること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自分の考えを、理由を持ってはっきり述べること。"
+  },
+  {
+    "term": "制約",
+    "reading": "せいやく",
+    "meaning": "自由にできる範囲を狭める条件や決まり。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "自由にできる範囲を狭める条件や決まり。"
+  },
+  {
+    "term": "総括",
+    "reading": "そうかつ",
+    "meaning": "全体を振り返ってまとめること。反省や評価を含むこともある。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "全体を振り返ってまとめること。反省や評価を含むこともある。"
+  },
+  {
+    "term": "相関",
+    "reading": "そうかん",
+    "meaning": "二つの物事が互いに関係して変化すること。原因とは限らない。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "二つの物事が互いに関係して変化すること。原因とは限らない。"
+  },
+  {
+    "term": "定義",
+    "reading": "ていぎ",
+    "meaning": "言葉や物事の意味を、はっきり決めて説明すること。",
+    "category": "Excel語句リスト",
+    "difficulty": "標準",
+    "note": "言葉や物事の意味を、はっきり決めて説明すること。"
   }
 ];
 
