@@ -604,7 +604,7 @@ h1 {
 
   .control-panel {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1.55fr 1fr 0.9fr;
     gap: 6px;
     padding: 8px;
   }
@@ -641,8 +641,9 @@ h1 {
 
   .mode-button {
     min-height: 30px;
-    padding: 0 4px;
-    font-size: 0.72rem;
+    padding: 0 2px;
+    font-size: 0.68rem;
+    white-space: nowrap;
     border-radius: 5px;
   }
 
@@ -660,7 +661,7 @@ h1 {
   .select-row select {
     min-height: 34px;
     padding: 0 8px;
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     border-radius: 7px;
   }
 
