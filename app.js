@@ -5444,7 +5444,7 @@ const USAGE_QUESTIONS = [
 
 const state = {
   mode: "all",
-  genre: "random",
+  direction: "term-to-meaning",
   current: null,
   answeredThisSession: 0,
   setSize: 10,
@@ -5460,9 +5460,6 @@ const els = {
   correctCount: document.querySelector("#correctCount"),
   weakCount: document.querySelector("#weakCount"),
   totalCount: document.querySelector("#totalCount"),
-  questionGenre: document.querySelector("#questionGenre"),
-  reverseMode: document.querySelector("#reverseMode"),
-  shuffleChoices: document.querySelector("#shuffleChoices"),
   setSize: document.querySelector("#setSize"),
   sessionProgress: document.querySelector("#sessionProgress"),
   sessionCount: document.querySelector("#sessionCount"),
@@ -5490,15 +5487,15 @@ document.querySelectorAll(".mode-button").forEach((button) => {
   });
 });
 
-els.questionGenre.addEventListener("change", () => {
-  state.genre = els.questionGenre.value;
-  resetSet();
-  renderStats();
-  renderReview();
-  renderQuestion();
+document.querySelectorAll(".direction-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    state.direction = button.dataset.direction;
+    document.querySelectorAll(".direction-button").forEach((item) => {
+      item.classList.toggle("is-active", item === button);
+    });
+    renderQuestion();
+  });
 });
-els.reverseMode.addEventListener("change", renderQuestion);
-els.shuffleChoices.addEventListener("change", renderQuestion);
 els.setSize.addEventListener("change", () => {
   state.setSize = Number(els.setSize.value);
   resetSet();
@@ -5595,13 +5592,13 @@ function renderQuestion() {
     return;
   }
 
-  const reverse = els.reverseMode.checked;
+  const reverse = state.direction === "meaning-to-term";
   const answer = reverse ? state.current.term : state.current.meaning;
   const decoys = getSimpleQuestions()
     .filter((word) => word.term !== state.current.term)
     .map((word) => (reverse ? word.term : word.meaning));
   const choices = [answer, ...shuffle(decoys).slice(0, 3)];
-  const orderedChoices = els.shuffleChoices.checked ? shuffle(choices) : choices;
+  const orderedChoices = shuffle(choices);
 
   els.categoryBadge.textContent = state.current.category;
   els.difficultyBadge.textContent = state.current.difficulty;
@@ -5627,7 +5624,7 @@ function renderQuestion() {
 
 function renderUsageQuestion() {
   const question = state.current;
-  const orderedChoices = els.shuffleChoices.checked ? shuffle(question.choices) : question.choices;
+  const orderedChoices = shuffle(question.choices);
 
   els.categoryBadge.textContent = question.category;
   els.difficultyBadge.textContent = question.difficulty;
@@ -5813,7 +5810,7 @@ function updateSessionProgress() {
 
 function getQuestionPrompt(question) {
   if (isUsageQuestion(question)) return question.sentence;
-  return els.reverseMode.checked ? question.meaning : question.term;
+  return state.direction === "meaning-to-term" ? question.meaning : question.term;
 }
 
 function getExplanation(question) {
@@ -5830,7 +5827,7 @@ function getAnswerLabel(question) {
     const correct = question.choices.find((choice) => choice.correct);
     return correct ? correct.text : question.term;
   }
-  return els.reverseMode.checked ? formatAnswerLabel(question) : question.meaning;
+  return state.direction === "meaning-to-term" ? formatAnswerLabel(question) : question.meaning;
 }
 
 function isUsageQuestion(question) {
@@ -5842,9 +5839,6 @@ function getQuestionId(question) {
 }
 
 function getQuestionsByGenre() {
-  if (state.genre === "meaning") return WORDS;
-  if (state.genre === "idiom") return IDIOM_QUESTIONS;
-  if (state.genre === "usage") return USAGE_QUESTIONS;
   return getAllQuestions();
 }
 

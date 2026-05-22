@@ -147,7 +147,8 @@ h1 {
   background: #eef3f5;
 }
 
-.mode-button {
+.mode-button,
+.direction-button {
   min-height: 38px;
   border: 0;
   border-radius: 6px;
@@ -157,7 +158,8 @@ h1 {
   font-weight: 800;
 }
 
-.mode-button.is-active {
+.mode-button.is-active,
+.direction-button.is-active {
   color: white;
   background: var(--accent);
 }
@@ -604,7 +606,7 @@ h1 {
 
   .control-panel {
     display: grid;
-    grid-template-columns: 1.55fr 1fr 0.9fr;
+    grid-template-columns: 1.35fr 1.25fr 0.9fr;
     gap: 6px;
     padding: 8px;
   }
@@ -613,12 +615,11 @@ h1 {
     min-width: 0;
   }
 
-  .control-panel .panel-group:nth-of-type(3),
   .control-panel .panel-actions {
     display: none;
   }
 
-  .control-panel .panel-group:nth-of-type(5) {
+  .control-panel .panel-group:nth-of-type(4) {
     grid-column: 1 / -1;
   }
 
@@ -634,17 +635,31 @@ h1 {
   }
 
   .segmented {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2px;
     padding: 2px;
   }
 
-  .mode-button {
+  .control-panel .panel-group:first-child .segmented {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .direction-segmented {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mode-button,
+  .direction-button {
     min-height: 30px;
     padding: 0 2px;
     font-size: 0.68rem;
     white-space: nowrap;
+    word-break: keep-all;
+    line-height: 1;
     border-radius: 5px;
+  }
+
+  .direction-button {
+    font-size: 0.62rem;
   }
 
   .select-row {
@@ -659,9 +674,12 @@ h1 {
   }
 
   .select-row select {
-    min-height: 34px;
-    padding: 0 8px;
-    font-size: 0.8rem;
+    min-height: 30px;
+    padding: 0 6px;
+    font-family: inherit;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0;
     border-radius: 7px;
   }
 

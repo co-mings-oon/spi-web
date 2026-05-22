@@ -28,30 +28,12 @@
             <button class="mode-button" type="button" data-mode="fresh">未回答</button>
           </div>
         </div>
-
-        <div class="panel-group">
-          <h2>ジャンル</h2>
-          <label class="select-row">
-            <span>出題</span>
-            <select id="questionGenre">
-              <option value="random" selected>ランダム</option>
-              <option value="meaning">語句の意味</option>
-              <option value="idiom">熟語</option>
-              <option value="usage">語句の用法</option>
-            </select>
-          </label>
-        </div>
-
         <div class="panel-group">
           <h2>問題形式</h2>
-          <label class="toggle-row">
-            <input id="reverseMode" type="checkbox" />
-            <span>意味 → 語句で出題</span>
-          </label>
-          <label class="toggle-row">
-            <input id="shuffleChoices" type="checkbox" checked />
-            <span>選択肢を毎回シャッフル</span>
-          </label>
+          <div class="direction-segmented segmented" role="tablist" aria-label="問題形式">
+            <button class="direction-button is-active" type="button" data-direction="term-to-meaning">語句 → 意味</button>
+            <button class="direction-button" type="button" data-direction="meaning-to-term">意味 → 語句</button>
+          </div>
         </div>
 
         <div class="panel-group">
