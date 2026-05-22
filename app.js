@@ -1,0 +1,2640 @@
+const WORDS = [
+  {
+    term: "杞憂",
+    meaning: "必要以上に心配すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "「まだ起きていないことを過度に案じる」場面で使う。"
+  },
+  {
+    term: "示唆",
+    meaning: "それとなく知らせること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "直接言わず、ほのめかすニュアンス。"
+  },
+  {
+    term: "逡巡",
+    meaning: "決断できずためらうこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "選択を前にして迷う状態。"
+  },
+  {
+    term: "傾注",
+    meaning: "一つのことに力や注意を集中すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "努力・関心・精力などを注ぐときに使う。"
+  },
+  {
+    term: "看過",
+    meaning: "見逃してそのままにすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "問題点を放置する文脈でよく出る。"
+  },
+  {
+    term: "折衷",
+    meaning: "複数の考えのよい部分を取り合わせること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "対立案の中間を取るだけでなく、長所を合わせる意味。"
+  },
+  {
+    term: "矜持",
+    meaning: "自分の能力や立場への誇り",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "プライドに近いが、品位を保つ含みがある。"
+  },
+  {
+    term: "迎合",
+    meaning: "相手に気に入られるよう調子を合わせること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "やや否定的に使われることが多い。"
+  },
+  {
+    term: "敷衍",
+    meaning: "意味や内容を詳しく説明すること",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "要点を広げてわかりやすく述べること。"
+  },
+  {
+    term: "寡黙",
+    meaning: "口数が少ないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "無口・多弁の対義関係で出やすい。"
+  },
+  {
+    term: "冗長",
+    meaning: "無駄が多く長たらしいこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "文章や説明の評価で使う。"
+  },
+  {
+    term: "普遍",
+    meaning: "広くすべてに当てはまること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "特殊・個別との対比で覚える。"
+  },
+  {
+    term: "懐柔",
+    meaning: "うまく扱って味方に引き入れること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "対立者をなだめて従わせる文脈。"
+  },
+  {
+    term: "漸進",
+    meaning: "少しずつ進むこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "急進の対義語として覚える。"
+  },
+  {
+    term: "刹那",
+    meaning: "ごく短い時間",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "瞬間に近い意味。"
+  },
+  {
+    term: "推敲",
+    meaning: "文章を何度も練り直すこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "書いた文章をよりよく直す作業。"
+  },
+  {
+    term: "顕著",
+    meaning: "はっきり目立っていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "変化・傾向・特徴が明らかなときに使う。"
+  },
+  {
+    term: "稚拙",
+    meaning: "未熟でたどたどしいこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "技能や表現の未熟さを表す。"
+  },
+  {
+    term: "詭弁",
+    meaning: "もっともらしく見える誤った議論",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "論理をごまかす説明。"
+  },
+  {
+    term: "脆弱",
+    meaning: "もろく弱いこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "制度・体制・仕組みの弱さにも使う。"
+  },
+  {
+    term: "遵守",
+    meaning: "決まりや法律を守ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "規則・法令・約束などと結びつく。"
+  },
+  {
+    term: "弁明",
+    meaning: "事情を説明して自分の立場を明らかにすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "非難に対して理由を述べる場面が多い。"
+  },
+  {
+    term: "委細",
+    meaning: "細かく詳しいこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "「委細承知」などで見かける。"
+  },
+  {
+    term: "拙速",
+    meaning: "できは悪いが仕上がりが早いこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "巧遅との対比で出る。"
+  },
+  {
+    term: "恣意",
+    meaning: "自分勝手な考えや思いつき",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "客観性や一貫性がない判断を表す。"
+  },
+  {
+    term: "陶冶",
+    meaning: "人の性質や能力を育て上げること",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "教育や人格形成の文脈で使われる。"
+  },
+  {
+    term: "涵養",
+    meaning: "少しずつ養い育てること",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "能力・態度・品性などを時間をかけて育てる意味。"
+  },
+  {
+    term: "趨勢",
+    meaning: "物事が向かっていく全体的な流れ",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "社会や市場の傾向を述べるときに使う。"
+  },
+  {
+    term: "暫定",
+    meaning: "正式に決まるまで一時的に定めること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "仮の決定という含みがある。"
+  },
+  {
+    term: "便宜",
+    meaning: "都合がよいことや特別なはからい",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "「便宜を図る」は都合よく取り計らう意味。"
+  },
+  {
+    term: "遺憾",
+    meaning: "期待どおりでなく残念に思うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "公式な謝意や不満の表現で使われやすい。"
+  },
+  {
+    term: "顛末",
+    meaning: "物事の始めから終わりまでの経過",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "事件や出来事の一部始終を指す。"
+  },
+  {
+    term: "端緒",
+    meaning: "物事が始まるきっかけ",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "発見や解決の糸口という意味でも使う。"
+  },
+  {
+    term: "忌避",
+    meaning: "嫌って避けること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "責任や危険を避ける文脈で出やすい。"
+  },
+  {
+    term: "払拭",
+    meaning: "すっかり取り除くこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "不安・疑念・悪印象などを消すときに使う。"
+  },
+  {
+    term: "斟酌",
+    meaning: "相手の事情や気持ちをくみ取ること",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "事情を考慮して判断する意味。"
+  },
+  {
+    term: "毀損",
+    meaning: "物や名誉を傷つけ損なうこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "信用・名誉・財産などと結びつきやすい。"
+  },
+  {
+    term: "齟齬",
+    meaning: "食い違って合わないこと",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "意見・認識・説明のずれを表す。"
+  },
+  {
+    term: "瑣末",
+    meaning: "重要でない細かなこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "本質から外れた細部というニュアンス。"
+  },
+  {
+    term: "煩雑",
+    meaning: "込み入っていて面倒なこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "手続きや作業が複雑な場合に使う。"
+  },
+  {
+    term: "簡潔",
+    meaning: "短くまとまっていてわかりやすいこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "冗長の対義語として覚えやすい。"
+  },
+  {
+    term: "緻密",
+    meaning: "細部まで行き届いていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "計画・分析・構成などに使う。"
+  },
+  {
+    term: "粗雑",
+    meaning: "大ざっぱでいい加減なこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "緻密の対義語として出やすい。"
+  },
+  {
+    term: "柔軟",
+    meaning: "状況に応じて考えや対応を変えられること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "硬直の対義関係で覚える。"
+  },
+  {
+    term: "硬直",
+    meaning: "考えや対応が固定して変化に乏しいこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "組織や制度の融通のきかなさにも使う。"
+  },
+  {
+    term: "客観",
+    meaning: "個人の考えに偏らず事実に基づくこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "主観との対比で頻出。"
+  },
+  {
+    term: "主観",
+    meaning: "自分自身の見方や考えに基づくこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "客観の対義語。"
+  },
+  {
+    term: "抽象",
+    meaning: "共通する性質を取り出して考えること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "具体との対比で問われやすい。"
+  },
+  {
+    term: "具体",
+    meaning: "はっきりした形や内容を備えていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "抽象の対義語。"
+  },
+  {
+    term: "相対",
+    meaning: "他との関係や比較によって決まること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "絶対との対比で押さえる。"
+  },
+  {
+    term: "絶対",
+    meaning: "他との比較に左右されないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "条件や関係に依存しない意味。"
+  },
+  {
+    term: "均衡",
+    meaning: "力や数量などの釣り合いが取れていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "バランスという意味で使われる。"
+  },
+  {
+    term: "乖離",
+    meaning: "本来近いものが離れていること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "理想と現実、認識と実態などのずれ。"
+  },
+  {
+    term: "模倣",
+    meaning: "他のものをまねること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "創造との対比で覚える。"
+  },
+  {
+    term: "創造",
+    meaning: "新しいものをつくり出すこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "模倣の対義語として出やすい。"
+  },
+  {
+    term: "促進",
+    meaning: "物事が早く進むように働きかけること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "成長・普及・理解などと結びつく。"
+  },
+  {
+    term: "抑制",
+    meaning: "勢いや働きをおさえること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "促進の対義語として覚えやすい。"
+  },
+  {
+    term: "包括",
+    meaning: "全体をひとまとめに含むこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "広く包み込む意味。"
+  },
+  {
+    term: "排斥",
+    meaning: "受け入れず押しのけること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "異なる意見や勢力を退ける文脈。"
+  },
+  {
+    term: "希薄",
+    meaning: "濃さや関係が薄いこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "関心・意識・人間関係などにも使う。"
+  },
+  {
+    term: "濃密",
+    meaning: "内容や関係が濃く深いこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "希薄の対義語として押さえる。"
+  },
+  {
+    term: "介入",
+    meaning: "物事の間に入り込んで関わること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "第三者が関与する場面で使う。"
+  },
+  {
+    term: "静観",
+    meaning: "成り行きを何もせず見守ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "介入せず様子を見る意味。"
+  },
+  {
+    term: "黙認",
+    meaning: "知っていながら見逃すこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "明確に認めないが止めもしない状態。"
+  },
+  {
+    term: "容認",
+    meaning: "よいとして受け入れること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "黙認より明確に受け入れる意味。"
+  },
+  {
+    term: "克明",
+    meaning: "細かい点まではっきりしていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "記録や描写が詳しい場合に使う。"
+  },
+  {
+    term: "曖昧",
+    meaning: "はっきりせず不明確なこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "克明・明確との対比で覚える。"
+  },
+  {
+    term: "堅実",
+    meaning: "確かで危なげがないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "行動や方法が手堅い意味。"
+  },
+  {
+    term: "軽率",
+    meaning: "よく考えずに行動すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "慎重の対義語。"
+  },
+  {
+    term: "慎重",
+    meaning: "注意深くよく考えて行動すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "軽率との対比で頻出。"
+  },
+  {
+    term: "偏重",
+    meaning: "一方だけを重んじること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "バランスを欠く評価や方針に使う。"
+  },
+  {
+    term: "是正",
+    meaning: "悪い点を直して正しくすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "格差・誤り・不備などを直す文脈。"
+  },
+  {
+    term: "是認",
+    meaning: "正しいとして認めること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "是正と混同しやすいので注意。"
+  },
+  {
+    term: "黙殺",
+    meaning: "無視して取り合わないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "発言や要求を相手にしない意味。"
+  },
+  {
+    term: "該当",
+    meaning: "条件や項目に当てはまること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "対象に含まれるかを問う文脈で使う。"
+  },
+  {
+    term: "該博",
+    meaning: "知識が広く深いこと",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "博識に近い意味。"
+  },
+  {
+    term: "精通",
+    meaning: "ある分野について詳しく知っていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "専門知識に詳しい状態。"
+  },
+  {
+    term: "疎遠",
+    meaning: "関係が薄く遠ざかっていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "親密の対義語として覚える。"
+  },
+  {
+    term: "親密",
+    meaning: "関係が近く深いこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "疎遠との対比で出やすい。"
+  },
+  {
+    term: "収束",
+    meaning: "混乱やばらつきがまとまって落ち着くこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "事態・議論・数値などに使う。"
+  },
+  {
+    term: "拡散",
+    meaning: "広がって散らばること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "収束の対義語として覚える。"
+  },
+  {
+    term: "緩和",
+    meaning: "厳しさや程度をやわらげること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "規制・痛み・対立などに使う。"
+  },
+  {
+    term: "強硬",
+    meaning: "自分の主張を強く押し通すこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "譲歩しない姿勢。"
+  },
+  {
+    term: "譲歩",
+    meaning: "自分の主張を一部引き下げること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "交渉や対立の文脈で出る。"
+  },
+  {
+    term: "妥協",
+    meaning: "互いに譲り合って解決すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "譲歩を伴って合意する意味。"
+  },
+  {
+    term: "独断",
+    meaning: "自分だけの判断で決めること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "相談や根拠が乏しい判断に使う。"
+  },
+  {
+    term: "専断",
+    meaning: "自分だけの考えで勝手に決めること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "権限を持つ人が独りで決める否定的な語。"
+  },
+  {
+    term: "妄信",
+    meaning: "根拠なく深く信じ込むこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "批判的に考えず信じる意味。"
+  },
+  {
+    term: "懐疑",
+    meaning: "本当かどうか疑うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "妄信の対義関係で覚える。"
+  },
+  {
+    term: "楽観",
+    meaning: "物事をよい方向に考えること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "悲観との対比で頻出。"
+  },
+  {
+    term: "悲観",
+    meaning: "物事を悪い方向に考えること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "楽観の対義語。"
+  },
+  {
+    term: "過大",
+    meaning: "実際より大きすぎること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "評価・期待・負担などに使う。"
+  },
+  {
+    term: "過小",
+    meaning: "実際より小さすぎること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "過大の対義語。"
+  },
+  {
+    term: "喚起",
+    meaning: "注意や記憶などを呼び起こすこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "注意喚起という形でよく使う。"
+  },
+  {
+    term: "示威",
+    meaning: "威力や勢いを示すこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "デモや行動で力を見せる意味。"
+  },
+  {
+    term: "鼓舞",
+    meaning: "励まして気持ちを奮い立たせること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "士気を高める文脈で使う。"
+  },
+  {
+    term: "萎縮",
+    meaning: "勢いや元気がなく小さくなること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "心理的に縮こまる意味でも使う。"
+  },
+  {
+    term: "尽力",
+    meaning: "力を尽くして努力すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "協力や支援への感謝表現にも出る。"
+  },
+  {
+    term: "怠慢",
+    meaning: "やるべきことを怠ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "仕事や義務をおろそかにする意味。"
+  },
+  {
+    term: "精励",
+    meaning: "仕事や勉学に一生懸命励むこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "努力を続ける姿勢を表す。"
+  },
+  {
+    term: "傲慢",
+    meaning: "思い上がって人を見下すこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "謙虚の対義語として覚える。"
+  },
+  {
+    term: "謙虚",
+    meaning: "控えめで素直に学ぶ姿勢があること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "傲慢との対比で出やすい。"
+  },
+  {
+    term: "寛容",
+    meaning: "心が広く他者を受け入れること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "異なる考えを許す姿勢。"
+  },
+  {
+    term: "狭量",
+    meaning: "心が狭く他者を受け入れにくいこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "寛容の対義語。"
+  },
+  {
+    term: "廉潔",
+    meaning: "私欲がなく行いが清らかなこと",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "公正で不正をしない人物評価に使う。"
+  },
+  {
+    term: "潔白",
+    meaning: "悪いことをしていないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "疑いが晴れる文脈で使う。"
+  },
+  {
+    term: "権威",
+    meaning: "人を従わせる力や信頼される力",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "専門家や制度の影響力にも使う。"
+  },
+  {
+    term: "威信",
+    meaning: "人から認められる名誉や信用",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "組織や国の面目を表すこともある。"
+  },
+  {
+    term: "名声",
+    meaning: "世間に広く知られたよい評判",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "評判の広がりに注目する語。"
+  },
+  {
+    term: "風評",
+    meaning: "世間で言われている評判",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "事実か不確かなうわさにも使う。"
+  },
+  {
+    term: "通念",
+    meaning: "世間で一般に受け入れられている考え",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "社会通念という形でよく使う。"
+  },
+  {
+    term: "先入観",
+    meaning: "前もって持っている固定的な見方",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "判断を偏らせる見方。"
+  },
+  {
+    term: "偏見",
+    meaning: "偏った見方や不公平な判断",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "先入観と近いが、より不公平さが強い。"
+  },
+  {
+    term: "洞察",
+    meaning: "物事の本質を見抜くこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "表面的でなく深く理解する意味。"
+  },
+  {
+    term: "考察",
+    meaning: "物事をよく考えて明らかにすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "理由や背景を筋道立てて考える。"
+  },
+  {
+    term: "推察",
+    meaning: "事情や手がかりから推し量ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "直接見えないことを推測する意味。"
+  },
+  {
+    term: "把握",
+    meaning: "内容や状況をしっかり理解すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "状況把握・要点把握などで使う。"
+  },
+  {
+    term: "掌握",
+    meaning: "自分のものとして支配し動かせる状態にすること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "権力や組織を握る文脈で使う。"
+  },
+  {
+    term: "網羅",
+    meaning: "関係するものを残さず取り入れること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "一覧や調査の完全性を表す。"
+  },
+  {
+    term: "列挙",
+    meaning: "一つ一つ並べ上げること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "項目を順に挙げる意味。"
+  },
+  {
+    term: "羅列",
+    meaning: "順序やまとまりなく並べること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "列挙より整理不足のニュアンスがある。"
+  },
+  {
+    term: "補填",
+    meaning: "不足や損失を補うこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "費用・欠員・損失などに使う。"
+  },
+  {
+    term: "充足",
+    meaning: "必要なものが十分に満たされること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "条件や欲求が満たされる意味。"
+  },
+  {
+    term: "欠如",
+    meaning: "必要なものが欠けていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "能力・配慮・根拠などに使う。"
+  },
+  {
+    term: "潤沢",
+    meaning: "十分にあって不足がないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "資金や資源が豊富な意味。"
+  },
+  {
+    term: "枯渇",
+    meaning: "使い尽くしてなくなること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "資源・才能・発想などにも使う。"
+  },
+  {
+    term: "蓄積",
+    meaning: "少しずつためて積み重ねること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "経験・知識・資本などに使う。"
+  },
+  {
+    term: "消耗",
+    meaning: "使って減ることや疲れて弱ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "体力・資源・時間などに使う。"
+  },
+  {
+    term: "恒常",
+    meaning: "いつも一定で変わらないこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "一時的ではなく継続している意味。"
+  },
+  {
+    term: "暫時",
+    meaning: "しばらくの間",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "短時間の継続を表す。"
+  },
+  {
+    term: "逐次",
+    meaning: "順を追って次々に行うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "段階的に進める意味。"
+  },
+  {
+    term: "随時",
+    meaning: "必要なときにいつでも行うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "逐次と混同しないようにする。"
+  },
+  {
+    term: "一律",
+    meaning: "すべて同じように扱うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "差をつけない扱い。"
+  },
+  {
+    term: "個別",
+    meaning: "一つ一つを別々に扱うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "一律との対比で覚える。"
+  },
+  {
+    term: "画一",
+    meaning: "すべてを同じ型にそろえること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "多様性が乏しいニュアンスがある。"
+  },
+  {
+    term: "多様",
+    meaning: "さまざまな種類や形があること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "画一の対義語として押さえる。"
+  },
+  {
+    term: "顕在",
+    meaning: "はっきり表に現れていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "潜在との対比で頻出。"
+  },
+  {
+    term: "潜在",
+    meaning: "表には現れていないが内側に存在すること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "隠れている可能性や問題を表す。"
+  },
+  {
+    term: "露呈",
+    meaning: "隠れていたものが表に現れること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "欠点や問題点が明らかになる文脈。"
+  },
+  {
+    term: "隠蔽",
+    meaning: "都合の悪いことを隠すこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "事実や証拠を隠す意味。"
+  },
+  {
+    term: "公然",
+    meaning: "人目をはばからず明らかに行うこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "秘密でなく堂々としている状態。"
+  },
+  {
+    term: "暗黙",
+    meaning: "言葉に出さず了解されていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "暗黙の了解という形でよく使う。"
+  },
+  {
+    term: "端的",
+    meaning: "要点がはっきりしていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "簡潔に核心を示す意味。"
+  },
+  {
+    term: "婉曲",
+    meaning: "遠回しにやわらかく表現すること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "直接的な表現を避ける意味。"
+  },
+  {
+    term: "辛辣",
+    meaning: "言い方や批評が非常に厳しいこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "鋭く手厳しい表現。"
+  },
+  {
+    term: "温厚",
+    meaning: "穏やかで人柄がやさしいこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "人の性格を表す語。"
+  },
+  {
+    term: "険悪",
+    meaning: "雰囲気や関係が悪く緊張していること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "関係や空気が悪い状態。"
+  },
+  {
+    term: "円滑",
+    meaning: "物事が滞りなく進むこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "交渉・運営・連携などに使う。"
+  },
+  {
+    term: "停滞",
+    meaning: "物事が進まず止まっていること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "円滑や進展との対比で覚える。"
+  },
+  {
+    term: "進展",
+    meaning: "物事が進んで新しい段階に入ること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "議論・交渉・研究などに使う。"
+  },
+  {
+    term: "保守",
+    meaning: "従来の制度や考え方を守ろうとすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "革新との対比で問われやすい。"
+  },
+  {
+    term: "革新",
+    meaning: "古いものを改めて新しくすること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "保守の対義語。"
+  },
+  {
+    term: "逸脱",
+    meaning: "本来の範囲や基準から外れること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "規範・基準・目的から外れる意味。"
+  },
+  {
+    term: "半可通",
+    reading: "はんかつう",
+    meaning: "十分に知らないのに、よく知っているようにふるまうこと",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "未熟な知識で通人ぶる人を指す。画像例の説明に合う語。"
+  },
+  {
+    term: "得意顔",
+    reading: "とくいがお",
+    meaning: "誇らしげで満足そうな顔つき",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "成功や優位を感じている表情を表す。"
+  },
+  {
+    term: "物知り顔",
+    reading: "ものしりがお",
+    meaning: "物事をよく知っているような顔つき",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "実際に詳しいかどうかより、そう見せる態度に注目する語。"
+  },
+  {
+    term: "したり顔",
+    reading: "したりがお",
+    meaning: "うまくやったと得意になっている顔つき",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "得意げな表情を表す。"
+  },
+  {
+    term: "知ったかぶり",
+    reading: "しったかぶり",
+    meaning: "知らないことを知っているように見せること",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "半可通と近いが、日常的な表現。"
+  },
+  {
+    term: "お茶を濁す",
+    reading: "おちゃをにごす",
+    meaning: "その場しのぎでごまかすこと",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "本質に触れず、曖昧に済ませる場面で使う。"
+  },
+  {
+    term: "水を差す",
+    reading: "みずをさす",
+    meaning: "順調な物事やよい雰囲気を邪魔すること",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "盛り上がりや進行を妨げる意味。"
+  },
+  {
+    term: "肩を持つ",
+    reading: "かたをもつ",
+    meaning: "一方の味方をすること",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "公平でなく片方を支援する文脈で使う。"
+  },
+  {
+    term: "気が置けない",
+    reading: "きがおけない",
+    meaning: "遠慮せず親しく付き合えること",
+    category: "慣用句",
+    difficulty: "やや難",
+    note: "「気を許せない」ではなく、親密で気楽という意味。"
+  },
+  {
+    term: "鼻につく",
+    reading: "はなにつく",
+    meaning: "言動が嫌味に感じられて不快であること",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "自慢やわざとらしさに対して使う。"
+  },
+  {
+    term: "身に余る",
+    reading: "みにあまる",
+    meaning: "自分には過分でありがたいこと",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "評価や待遇への謙遜表現として使われる。"
+  },
+  {
+    term: "目を見張る",
+    reading: "めをみはる",
+    meaning: "驚くほどすばらしいこと",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "成長や成果が著しい場合に使う。"
+  },
+  {
+    term: "手をこまねく",
+    reading: "てをこまねく",
+    meaning: "何もできずに見ていること",
+    category: "慣用句",
+    difficulty: "やや難",
+    note: "対策を取れず傍観する意味。"
+  },
+  {
+    term: "取り付く島がない",
+    reading: "とりつくしまがない",
+    meaning: "相手が冷淡で話を進めるきっかけがないこと",
+    category: "慣用句",
+    difficulty: "やや難",
+    note: "相談や交渉を受け入れてもらえない状態。"
+  },
+  {
+    term: "折り紙付き",
+    reading: "おりがみつき",
+    meaning: "確かな評価や保証があること",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "品質や実力が認められている意味。"
+  },
+  {
+    term: "筋が通る",
+    reading: "すじがとおる",
+    meaning: "考えや説明に一貫性があること",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "論理が矛盾していない場合に使う。"
+  },
+  {
+    term: "歯に衣着せぬ",
+    reading: "はにきぬきせぬ",
+    meaning: "遠慮せず率直に言うこと",
+    category: "慣用句",
+    difficulty: "やや難",
+    note: "言いにくいこともはっきり述べる意味。"
+  },
+  {
+    term: "青天の霹靂",
+    reading: "せいてんのへきれき",
+    meaning: "突然起こる思いがけない出来事",
+    category: "慣用句",
+    difficulty: "難",
+    note: "霹靂は雷の意味。予想外の知らせに使う。"
+  },
+  {
+    term: "杓子定規",
+    reading: "しゃくしじょうぎ",
+    meaning: "形式にこだわって融通がきかないこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "規則を機械的に当てはめる態度。"
+  },
+  {
+    term: "紋切り型",
+    reading: "もんきりがた",
+    meaning: "型にはまっていて新味がないこと",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "決まり文句のような表現に使う。"
+  },
+  {
+    term: "机上の空論",
+    reading: "きじょうのくうろん",
+    meaning: "実際には役に立たない理屈だけの考え",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "現実性のない計画や議論を批判する語。"
+  },
+  {
+    term: "絵に描いた餅",
+    reading: "えにかいたもち",
+    meaning: "実際には役に立たない計画や期待",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "見た目はよくても実益がないこと。"
+  },
+  {
+    term: "焼け石に水",
+    reading: "やけいしにみず",
+    meaning: "少しの努力や援助では効果がほとんどないこと",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "不足が大きすぎて対策が追いつかない場面で使う。"
+  },
+  {
+    term: "灯台下暗し",
+    reading: "とうだいもとくらし",
+    meaning: "身近なことほど気づきにくいこと",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "近くにある答えや原因を見落とす意味。"
+  },
+  {
+    term: "急がば回れ",
+    reading: "いそがばまわれ",
+    meaning: "急ぐときほど安全で確実な方法を取るべきだということ",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "近道より堅実な手段を選ぶ教訓。"
+  },
+  {
+    term: "転ばぬ先の杖",
+    reading: "ころばぬさきのつえ",
+    meaning: "失敗しないよう前もって準備すること",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "予防や備えの大切さを表す。"
+  },
+  {
+    term: "弘法にも筆の誤り",
+    reading: "こうぼうにもふでのあやまり",
+    meaning: "名人でも時には失敗すること",
+    category: "ことわざ",
+    difficulty: "標準",
+    note: "どんな達人にもミスはあるという意味。"
+  },
+  {
+    term: "覆水盆に返らず",
+    reading: "ふくすいぼんにかえらず",
+    meaning: "一度起きたことは元に戻せないこと",
+    category: "ことわざ",
+    difficulty: "やや難",
+    note: "取り返しのつかない事態を表す。"
+  },
+  {
+    term: "背水の陣",
+    reading: "はいすいのじん",
+    meaning: "退路を断って全力で取り組むこと",
+    category: "慣用句",
+    difficulty: "標準",
+    note: "後に引けない状況で覚悟して臨む意味。"
+  },
+  {
+    term: "玉石混交",
+    reading: "ぎょくせきこんこう",
+    meaning: "よいものと悪いものが入り混じっていること",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "玉は価値あるもの、石は価値の低いものを指す。"
+  },
+  {
+    term: "朝令暮改",
+    reading: "ちょうれいぼかい",
+    meaning: "命令や方針が頻繁に変わること",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "朝出した命令を夕方に改めるほど変化が激しい意味。"
+  },
+  {
+    term: "付和雷同",
+    reading: "ふわらいどう",
+    meaning: "自分の考えなく他人の意見に同調すること",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "周囲に流される態度を表す。"
+  },
+  {
+    term: "言語道断",
+    reading: "ごんごどうだん",
+    meaning: "とんでもなくひどく、言葉で言い表せないこと",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "強い非難を表す語。"
+  },
+  {
+    term: "自業自得",
+    reading: "じごうじとく",
+    meaning: "自分の行いの結果を自分で受けること",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "悪い結果について使われることが多い。"
+  },
+  {
+    term: "本末転倒",
+    reading: "ほんまつてんとう",
+    meaning: "大切なことと些細なことを取り違えること",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "目的と手段が逆になる場合にも使う。"
+  },
+  {
+    term: "一朝一夕",
+    reading: "いっちょういっせき",
+    meaning: "わずかな時間",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "否定形で、簡単にはできないという文脈が多い。"
+  },
+  {
+    term: "臨機応変",
+    reading: "りんきおうへん",
+    meaning: "状況に応じて適切に対応すること",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "柔軟な判断力を表す。"
+  },
+  {
+    term: "優柔不断",
+    reading: "ゆうじゅうふだん",
+    meaning: "決断力に乏しく迷いやすいこと",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "逡巡と近いが、人の性質として使いやすい。"
+  },
+  {
+    term: "支離滅裂",
+    reading: "しりめつれつ",
+    meaning: "ばらばらで筋道が立っていないこと",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "発言や文章に一貫性がない場合に使う。"
+  },
+  {
+    term: "針小棒大",
+    reading: "しんしょうぼうだい",
+    meaning: "小さなことを大げさに言うこと",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "事実を誇張する意味。"
+  },
+  {
+    term: "五里霧中",
+    reading: "ごりむちゅう",
+    meaning: "方針や手がかりがなく迷っていること",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "見通しが立たない状態を表す。"
+  },
+  {
+    term: "紆余曲折",
+    reading: "うよきょくせつ",
+    meaning: "物事が順調に進まず複雑な経過をたどること",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "曲がりくねった道筋の比喩。"
+  },
+  {
+    term: "疑心暗鬼",
+    reading: "ぎしんあんき",
+    meaning: "疑いの心から何でも恐ろしく感じること",
+    category: "四字熟語",
+    difficulty: "標準",
+    note: "疑いが疑いを生む心理状態。"
+  },
+  {
+    term: "千載一遇",
+    reading: "せんざいいちぐう",
+    meaning: "めったにないよい機会",
+    category: "四字熟語",
+    difficulty: "やや難",
+    note: "千年に一度会うほど貴重な機会という意味。"
+  },
+  {
+    term: "荒唐無稽",
+    reading: "こうとうむけい",
+    meaning: "根拠がなく現実離れしていること",
+    category: "四字熟語",
+    difficulty: "難",
+    note: "話や計画がでたらめで信じがたい場合に使う。"
+  },
+  {
+    term: "杞人天憂",
+    reading: "きじんてんゆう",
+    meaning: "取り越し苦労をすること",
+    category: "四字熟語",
+    difficulty: "難",
+    note: "杞憂と同じ由来を持つ表現。"
+  },
+  {
+    term: "アジェンダ",
+    reading: "あじぇんだ",
+    meaning: "会議で扱う議題や予定表",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "会議前に確認する項目一覧を指すことが多い。"
+  },
+  {
+    term: "コンセンサス",
+    reading: "こんせんさす",
+    meaning: "関係者の合意や意見の一致",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "組織内の合意形成でよく使う。"
+  },
+  {
+    term: "リスクヘッジ",
+    reading: "りすくへっじ",
+    meaning: "危険を予測して損失を避ける対策を取ること",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "複数案を用意するなど、危険を分散する考え方。"
+  },
+  {
+    term: "ボトルネック",
+    reading: "ぼとるねっく",
+    meaning: "全体の進行を妨げる制約や障害",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "処理や業務が詰まる原因を指す。"
+  },
+  {
+    term: "ペンディング",
+    reading: "ぺんでぃんぐ",
+    meaning: "未決定のまま保留すること",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "判断や対応をいったん先送りする意味。"
+  },
+  {
+    term: "フィードバック",
+    reading: "ふぃーどばっく",
+    meaning: "結果や反応を伝えて改善に役立てること",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "評価や意見を返す意味。"
+  },
+  {
+    term: "スキーム",
+    reading: "すきーむ",
+    meaning: "計画や仕組みの枠組み",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "事業や制度の全体設計を指すことが多い。"
+  },
+  {
+    term: "イニシアチブ",
+    reading: "いにしあちぶ",
+    meaning: "主導権",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "自分が中心となって進める力や立場。"
+  },
+  {
+    term: "レガシー",
+    reading: "れがしー",
+    meaning: "過去から受け継がれたもの",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "古い仕組みや遺産という意味で使われる。"
+  },
+  {
+    term: "インセンティブ",
+    reading: "いんせんてぃぶ",
+    meaning: "行動を促す動機づけや報酬",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "成果を促す仕組みとして使われる。"
+  },
+  {
+    term: "ナレッジ",
+    reading: "なれっじ",
+    meaning: "業務などで蓄積された知識や知見",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "組織で共有する知識を指すことが多い。"
+  },
+  {
+    term: "エビデンス",
+    reading: "えびでんす",
+    meaning: "判断の根拠となる証拠",
+    category: "カタカナ語",
+    difficulty: "標準",
+    note: "説明や主張の裏づけを指す。"
+  },
+  {
+    term: "なおざり",
+    reading: "なおざり",
+    meaning: "十分に注意を払わずいい加減にすること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "おろそかにする意味。"
+  },
+  {
+    term: "おざなり",
+    reading: "おざなり",
+    meaning: "その場だけの間に合わせで済ませること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "なおざりと似るが、その場しのぎの対応に重点がある。"
+  },
+  {
+    term: "やぶさかでない",
+    reading: "やぶさかでない",
+    meaning: "喜んで引き受ける気持ちがあること",
+    category: "語句の意味",
+    difficulty: "やや難",
+    note: "消極的な否定ではなく、前向きな承諾を表す。"
+  },
+  {
+    term: "あながち",
+    reading: "あながち",
+    meaning: "必ずしも一概には言えないさま",
+    category: "副詞",
+    difficulty: "標準",
+    note: "否定を伴って、完全には否定できない意味になる。"
+  },
+  {
+    term: "おもむろに",
+    reading: "おもむろに",
+    meaning: "落ち着いてゆっくりと動作を始めるさま",
+    category: "副詞",
+    difficulty: "標準",
+    note: "突然という意味ではないので注意。"
+  },
+  {
+    term: "つぶさに",
+    reading: "つぶさに",
+    meaning: "細かく詳しく",
+    category: "副詞",
+    difficulty: "やや難",
+    note: "状況を詳しく見る・調べる場合に使う。"
+  },
+  {
+    term: "すべからく",
+    reading: "すべからく",
+    meaning: "当然そうすべきであるという意味で用いる語",
+    category: "副詞",
+    difficulty: "難",
+    note: "「すべて」という意味ではない。"
+  },
+  {
+    term: "さしずめ",
+    reading: "さしずめ",
+    meaning: "今のところ、結局のところ",
+    category: "副詞",
+    difficulty: "やや難",
+    note: "当面の判断を述べるときに使う。"
+  },
+  {
+    term: "ひいては",
+    reading: "ひいては",
+    meaning: "さらに進んでは、その結果として",
+    category: "副詞",
+    difficulty: "標準",
+    note: "影響が広がる先を示す接続表現。"
+  },
+  {
+    term: "かねて",
+    reading: "かねて",
+    meaning: "以前から",
+    category: "副詞",
+    difficulty: "標準",
+    note: "かねてより、という形でよく使う。"
+  },
+  {
+    term: "おしなべて",
+    reading: "おしなべて",
+    meaning: "全体的に見て、だいたい",
+    category: "副詞",
+    difficulty: "やや難",
+    note: "例外を細かく見ず、全体傾向を述べる語。"
+  },
+  {
+    term: "すこぶる",
+    reading: "すこぶる",
+    meaning: "非常に、たいへん",
+    category: "副詞",
+    difficulty: "標準",
+    note: "程度が大きいことを表す。"
+  },
+  {
+    term: "おおむね",
+    reading: "おおむね",
+    meaning: "だいたい、全体として",
+    category: "副詞",
+    difficulty: "標準",
+    note: "完全ではないが大筋で合っている意味。"
+  },
+  {
+    term: "かろうじて",
+    reading: "かろうじて",
+    meaning: "やっとのことで",
+    category: "副詞",
+    difficulty: "標準",
+    note: "余裕がなくぎりぎり達成する意味。"
+  },
+  {
+    term: "ことさら",
+    reading: "ことさら",
+    meaning: "わざわざ、特に",
+    category: "副詞",
+    difficulty: "標準",
+    note: "意図的に強調する場合に使う。"
+  },
+  {
+    term: "あまつさえ",
+    reading: "あまつさえ",
+    meaning: "そのうえ、さらに悪いことに",
+    category: "副詞",
+    difficulty: "難",
+    note: "悪い内容を重ねるときに使うことが多い。"
+  },
+  {
+    term: "いみじくも",
+    reading: "いみじくも",
+    meaning: "実に適切に、巧みに",
+    category: "副詞",
+    difficulty: "難",
+    note: "発言や表現が本質を突いている場合に使う。"
+  },
+  {
+    term: "けげん",
+    reading: "けげん",
+    meaning: "不思議に思い納得できないさま",
+    category: "形容動詞",
+    difficulty: "標準",
+    note: "漢字では怪訝。読みが難しい語として出やすい。"
+  },
+  {
+    term: "したたか",
+    reading: "したたか",
+    meaning: "手ごわく、簡単には屈しないさま",
+    category: "形容動詞",
+    difficulty: "標準",
+    note: "強くしぶとい性質を表す。"
+  },
+  {
+    term: "あざとい",
+    reading: "あざとい",
+    meaning: "抜け目がなく、やり方が露骨であるさま",
+    category: "形容詞",
+    difficulty: "標準",
+    note: "計算高さやわざとらしさを含む。"
+  },
+  {
+    term: "いぶかしい",
+    reading: "いぶかしい",
+    meaning: "疑わしく不審に思われるさま",
+    category: "形容詞",
+    difficulty: "やや難",
+    note: "理由がわからず怪しく感じる意味。"
+  },
+  {
+    term: "おぼつかない",
+    reading: "おぼつかない",
+    meaning: "頼りなく不安であるさま",
+    category: "形容詞",
+    difficulty: "標準",
+    note: "足取り・記憶・見通しなどに使う。"
+  },
+  {
+    term: "やにわに",
+    reading: "やにわに",
+    meaning: "その場ですぐに、突然",
+    category: "副詞",
+    difficulty: "難",
+    note: "動作が急に始まるさまを表す。"
+  },
+  {
+    term: "しどろもどろ",
+    reading: "しどろもどろ",
+    meaning: "話し方が乱れてまとまらないさま",
+    category: "副詞",
+    difficulty: "標準",
+    note: "慌てて説明が支離滅裂になる状態。"
+  },
+  {
+    term: "ままならない",
+    reading: "ままならない",
+    meaning: "思いどおりにならないこと",
+    category: "語句の意味",
+    difficulty: "標準",
+    note: "状況を自由に動かせない場合に使う。"
+  },
+  {
+    term: "あえなく",
+    reading: "あえなく",
+    meaning: "期待に反して簡単にだめになるさま",
+    category: "副詞",
+    difficulty: "標準",
+    note: "失敗や敗北があっけなく起こる意味。"
+  },
+  {
+    term: "おもねる",
+    reading: "おもねる",
+    meaning: "人の気に入るようにへつらうこと",
+    category: "動詞",
+    difficulty: "やや難",
+    note: "迎合に近く、相手に取り入ろうとする意味。"
+  },
+  {
+    term: "いなす",
+    reading: "いなす",
+    meaning: "相手の勢いをうまくそらすこと",
+    category: "動詞",
+    difficulty: "やや難",
+    note: "攻撃や追及を正面から受けずにかわす意味。"
+  },
+  {
+    term: "あしらう",
+    reading: "あしらう",
+    meaning: "相手を適当に扱うこと",
+    category: "動詞",
+    difficulty: "標準",
+    note: "丁寧に対応しないニュアンスがある。"
+  },
+  {
+    term: "はぐらかす",
+    reading: "はぐらかす",
+    meaning: "話の焦点をそらしてごまかすこと",
+    category: "動詞",
+    difficulty: "標準",
+    note: "質問に正面から答えない場合に使う。"
+  },
+  {
+    term: "取り繕う",
+    reading: "とりつくろう",
+    meaning: "欠点や失敗が目立たないように表面だけ整えること",
+    category: "動詞",
+    difficulty: "標準",
+    note: "その場をうまく見せかける意味。"
+  },
+  {
+    term: "見限る",
+    reading: "みかぎる",
+    meaning: "見込みがないとしてあきらめること",
+    category: "動詞",
+    difficulty: "標準",
+    note: "期待を捨てる判断を表す。"
+  },
+  {
+    term: "見据える",
+    reading: "みすえる",
+    meaning: "将来や本質をしっかり見定めること",
+    category: "動詞",
+    difficulty: "標準",
+    note: "長期的な視点で考える意味。"
+  },
+  {
+    term: "見込む",
+    reading: "みこむ",
+    meaning: "将来そうなると予想すること",
+    category: "動詞",
+    difficulty: "標準",
+    note: "売上や効果を予測する場面でも使う。"
+  },
+  {
+    term: "かこつける",
+    reading: "かこつける",
+    meaning: "別のことを口実にすること",
+    category: "動詞",
+    difficulty: "やや難",
+    note: "本当の理由を隠して理由づけする意味。"
+  },
+  {
+    term: "取り沙汰する",
+    reading: "とりざたする",
+    meaning: "世間で話題にすること",
+    category: "動詞",
+    difficulty: "やや難",
+    note: "うわさや評判として取り上げる意味。"
+  },
+  {
+    term: "うがった見方",
+    reading: "うがったみかた",
+    meaning: "物事の本質を的確にとらえた見方",
+    category: "語句の意味",
+    difficulty: "難",
+    note: "本来は疑い深い見方ではなく、核心を突く見方。"
+  }
+];
+
+const IDIOM_QUESTIONS = [
+  {
+    term: "豪遊",
+    reading: "ごうゆう",
+    meaning: "惜しげもなく金を使って派手に遊ぶこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "豪は勢いが盛んなこと。派手に遊興する意味。"
+  },
+  {
+    term: "奢侈",
+    reading: "しゃし",
+    meaning: "必要以上にぜいたくをすること",
+    category: "熟語",
+    difficulty: "難",
+    note: "生活や消費が分を超えてぜいたくな場合に使う。"
+  },
+  {
+    term: "専横",
+    reading: "せんおう",
+    meaning: "自分勝手に権力を振るうこと",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "権限をかさに着て横暴にふるまう意味。"
+  },
+  {
+    term: "富裕",
+    reading: "ふゆう",
+    meaning: "財産が多く生活に余裕があること",
+    category: "熟語",
+    difficulty: "標準",
+    note: "裕福に近い意味。"
+  },
+  {
+    term: "優柔",
+    reading: "ゆうじゅう",
+    meaning: "決断力に乏しくぐずぐずすること",
+    category: "熟語",
+    difficulty: "標準",
+    note: "優柔不断の形でよく使われる。"
+  },
+  {
+    term: "悠長",
+    reading: "ゆうちょう",
+    meaning: "落ち着きすぎていて急ぐ様子がないこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "状況に対してのんびりしすぎている文脈で使う。"
+  },
+  {
+    term: "拮抗",
+    reading: "きっこう",
+    meaning: "互いの力がほぼ等しく張り合っていること",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "勢力・実力・試合展開などが均衡している状態。"
+  },
+  {
+    term: "緩慢",
+    reading: "かんまん",
+    meaning: "動きや進み方がゆっくりで締まりがないこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "動作や変化が遅い場合に使う。"
+  },
+  {
+    term: "頑迷",
+    reading: "がんめい",
+    meaning: "考えに固執して道理を受け入れないこと",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "頑固で聞き分けがない意味。"
+  },
+  {
+    term: "明晰",
+    reading: "めいせき",
+    meaning: "はっきりしていて筋道が通っていること",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "思考・説明・文章が明確な場合に使う。"
+  },
+  {
+    term: "隆盛",
+    reading: "りゅうせい",
+    meaning: "勢いが盛んで栄えていること",
+    category: "熟語",
+    difficulty: "標準",
+    note: "産業や文化が発展している状態。"
+  },
+  {
+    term: "衰微",
+    reading: "すいび",
+    meaning: "勢いが弱まり衰えること",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "隆盛の対義として覚えやすい。"
+  },
+  {
+    term: "堅牢",
+    reading: "けんろう",
+    meaning: "作りがしっかりしていて丈夫なこと",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "建物・構造・仕組みの強さに使う。"
+  },
+  {
+    term: "脆弱",
+    reading: "ぜいじゃく",
+    meaning: "もろくて弱いこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "堅牢の対義としても出やすい。"
+  },
+  {
+    term: "俊敏",
+    reading: "しゅんびん",
+    meaning: "動作や判断がすばやいこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "素早く機敏な様子を表す。"
+  },
+  {
+    term: "冗漫",
+    reading: "じょうまん",
+    meaning: "締まりがなく無駄に長いこと",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "文章や話がだらだらしている場合に使う。"
+  },
+  {
+    term: "荘厳",
+    reading: "そうごん",
+    meaning: "重々しく立派でおごそかなこと",
+    category: "熟語",
+    difficulty: "標準",
+    note: "建築・儀式・雰囲気などに使う。"
+  },
+  {
+    term: "卑近",
+    reading: "ひきん",
+    meaning: "身近でありふれていること",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "卑近な例、という形でよく使う。"
+  },
+  {
+    term: "泰然",
+    reading: "たいぜん",
+    meaning: "落ち着いていて動じないこと",
+    category: "熟語",
+    difficulty: "やや難",
+    note: "泰然自若の形でも使われる。"
+  },
+  {
+    term: "狼狽",
+    reading: "ろうばい",
+    meaning: "慌てふためいてうろたえること",
+    category: "熟語",
+    difficulty: "標準",
+    note: "予想外の事態に動揺する意味。"
+  }
+];
+
+const USAGE_QUESTIONS = [
+  {
+    id: "usage:ageru:present",
+    term: "あげる",
+    target: "あげる",
+    sentence: "改善案をあげる",
+    meaning: "提示する・例示する",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "ここでの「あげる」は、案や例を提示する意味。",
+    choices: [
+      { text: "候補をあげる", correct: true, note: "候補を提示する意味。" },
+      { text: "旗をあげる", correct: false, note: "上に持ち上げる意味。" },
+      { text: "腕をあげる", correct: false, note: "上達する意味。" },
+      { text: "利益をあげる", correct: false, note: "成果を得る意味。" },
+      { text: "歓声をあげる", correct: false, note: "声を発する意味。" }
+    ]
+  },
+  {
+    id: "usage:de:tool",
+    term: "で",
+    target: "で",
+    sentence: "鉛筆で線を引く",
+    meaning: "手段・道具",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「で」は、何を用いるかを表す手段・道具の用法。",
+    choices: [
+      { text: "電車で会社へ行く", correct: true, note: "移動手段を表す。" },
+      { text: "会議室で話し合う", correct: false, note: "場所を表す。" },
+      { text: "病気で休む", correct: false, note: "原因を表す。" },
+      { text: "一人で調べる", correct: false, note: "人数や状態を表す。" },
+      { text: "三日で仕上げる", correct: false, note: "期間を表す。" }
+    ]
+  },
+  {
+    id: "usage:ni:purpose",
+    term: "に",
+    target: "に",
+    sentence: "資料を借りに行く",
+    meaning: "目的",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「に」は、行く目的を表す用法。",
+    choices: [
+      { text: "友人に会いに行く", correct: true, note: "行く目的を表す。" },
+      { text: "机に本を置く", correct: false, note: "到達点・場所を表す。" },
+      { text: "三時に始まる", correct: false, note: "時を表す。" },
+      { text: "父に似ている", correct: false, note: "比較対象を表す。" },
+      { text: "静かに話す", correct: false, note: "様子を表す。" }
+    ]
+  },
+  {
+    id: "usage:kakeru:call",
+    term: "かける",
+    target: "かける",
+    sentence: "電話をかける",
+    meaning: "通信・働きかけをする",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「かける」は、相手へ働きかける動作を表す。",
+    choices: [
+      { text: "声をかける", correct: true, note: "相手に働きかける意味。" },
+      { text: "橋をかける", correct: false, note: "渡す・架設する意味。" },
+      { text: "椅子に腰をかける", correct: false, note: "座る意味。" },
+      { text: "壁に時計をかける", correct: false, note: "掛けて固定する意味。" },
+      { text: "費用をかける", correct: false, note: "費やす意味。" }
+    ]
+  },
+  {
+    id: "usage:toru:reserve",
+    term: "取る",
+    target: "取る",
+    sentence: "予約を取る",
+    meaning: "確保する",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「取る」は、必要なものを確保する意味。",
+    choices: [
+      { text: "席を取る", correct: true, note: "場所を確保する意味。" },
+      { text: "写真を取る", correct: false, note: "撮影する意味。通常は「撮る」。" },
+      { text: "皿を取る", correct: false, note: "手に持つ意味。" },
+      { text: "年を取る", correct: false, note: "年齢が増える意味。" },
+      { text: "責任を取る", correct: false, note: "引き受ける意味。" }
+    ]
+  },
+  {
+    id: "usage:utsu:measure",
+    term: "打つ",
+    target: "打つ",
+    sentence: "対策を打つ",
+    meaning: "手段を講じる",
+    category: "語句の用法",
+    difficulty: "やや難",
+    note: "この「打つ」は、必要な手段を実行する意味。",
+    choices: [
+      { text: "手を打つ", correct: true, note: "対策を講じる意味。" },
+      { text: "太鼓を打つ", correct: false, note: "たたく意味。" },
+      { text: "電報を打つ", correct: false, note: "送る意味。" },
+      { text: "心を打つ", correct: false, note: "感動させる意味。" },
+      { text: "くぎを打つ", correct: false, note: "打ち込む意味。" }
+    ]
+  },
+  {
+    id: "usage:tsuku:judge",
+    term: "つく",
+    target: "つく",
+    sentence: "見当がつく",
+    meaning: "判断できる・分かる",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「つく」は、考えや判断がまとまる意味。",
+    choices: [
+      { text: "区別がつく", correct: true, note: "判断できる意味。" },
+      { text: "火がつく", correct: false, note: "燃え始める意味。" },
+      { text: "駅に着く", underline: "着く", correct: false, note: "到着する意味。漢字も異なる。" },
+      { text: "汚れがつく", correct: false, note: "付着する意味。" },
+      { text: "味方につく", correct: false, note: "所属する意味。" }
+    ]
+  },
+  {
+    id: "usage:ireru:include",
+    term: "入れる",
+    target: "入れる",
+    sentence: "予定に入れる",
+    meaning: "含める",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「入れる」は、範囲や計画の中に含める意味。",
+    choices: [
+      { text: "候補に入れる", correct: true, note: "対象に含める意味。" },
+      { text: "箱に入れる", correct: false, note: "中へ移す意味。" },
+      { text: "電源を入れる", correct: false, note: "作動させる意味。" },
+      { text: "力を入れる", correct: false, note: "力を注ぐ意味。" },
+      { text: "茶を入れる", correct: false, note: "飲み物を用意する意味。" }
+    ]
+  },
+  {
+    id: "usage:miru:try",
+    term: "みる",
+    target: "みる",
+    sentence: "試してみる",
+    meaning: "試しに行う",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "補助動詞の「みる」で、試しに行う意味。",
+    choices: [
+      { text: "考えてみる", correct: true, note: "試しに考える意味。" },
+      { text: "景色を見る", underline: "見る", correct: false, note: "目で見る意味。" },
+      { text: "面倒を見る", underline: "見る", correct: false, note: "世話をする意味。" },
+      { text: "夢を見る", underline: "見る", correct: false, note: "夢を体験する意味。" },
+      { text: "資料を見る", underline: "見る", correct: false, note: "確認する意味。" }
+    ]
+  },
+  {
+    id: "usage:ataru:correspond",
+    term: "あたる",
+    target: "あたる",
+    sentence: "担当にあたる",
+    meaning: "役割を引き受ける",
+    category: "語句の用法",
+    difficulty: "やや難",
+    note: "この「あたる」は、役目として受け持つ意味。",
+    choices: [
+      { text: "警備にあたる", correct: true, note: "任務として担当する意味。" },
+      { text: "日があたる", correct: false, note: "光が届く意味。" },
+      { text: "くじにあたる", correct: false, note: "当選する意味。" },
+      { text: "壁にあたる", correct: false, note: "ぶつかる意味。" },
+      { text: "予想があたる", correct: false, note: "的中する意味。" }
+    ]
+  },
+  {
+    id: "usage:hiku:quote",
+    term: "引く",
+    target: "引く",
+    sentence: "辞書を引く",
+    meaning: "調べる",
+    category: "語句の用法",
+    difficulty: "標準",
+    note: "この「引く」は、辞書などで調べる意味。",
+    choices: [
+      { text: "索引を引く", correct: true, note: "調べる意味。" },
+      { text: "線を引く", correct: false, note: "線を書く意味。" },
+      { text: "手を引く", correct: false, note: "退く・やめる意味。" },
+      { text: "荷車を引く", correct: false, note: "引っ張る意味。" },
+      { text: "風邪を引く", correct: false, note: "病気にかかる意味。" }
+    ]
+  },
+  {
+    id: "usage:osu:recommend",
+    term: "押す",
+    target: "押す",
+    sentence: "候補者を押す",
+    meaning: "推薦する・支持する",
+    category: "語句の用法",
+    difficulty: "やや難",
+    note: "この「押す」は、推薦して後押しする意味。",
+    choices: [
+      { text: "企画案を押す", correct: true, note: "支持して推す意味。" },
+      { text: "扉を押す", correct: false, note: "力を加える意味。" },
+      { text: "印鑑を押す", correct: false, note: "押印する意味。" },
+      { text: "念を押す", correct: false, note: "確認する意味。" },
+      { text: "時間に押される", underline: "押される", correct: false, note: "余裕がなくなる意味。" }
+    ]
+  }
+];
+
+const state = {
+  mode: "all",
+  genre: "random",
+  current: null,
+  answeredThisSession: 0,
+  setSize: 10,
+  setResults: [],
+  showingSummary: false,
+  locked: false,
+  progress: loadProgress()
+};
+
+const els = {
+  accuracy: document.querySelector("#accuracy"),
+  answeredCount: document.querySelector("#answeredCount"),
+  correctCount: document.querySelector("#correctCount"),
+  weakCount: document.querySelector("#weakCount"),
+  totalCount: document.querySelector("#totalCount"),
+  questionGenre: document.querySelector("#questionGenre"),
+  reverseMode: document.querySelector("#reverseMode"),
+  shuffleChoices: document.querySelector("#shuffleChoices"),
+  setSize: document.querySelector("#setSize"),
+  sessionProgress: document.querySelector("#sessionProgress"),
+  sessionCount: document.querySelector("#sessionCount"),
+  addToReview: document.querySelector("#addToReview"),
+  nextQuestion: document.querySelector("#nextQuestion"),
+  categoryBadge: document.querySelector("#categoryBadge"),
+  difficultyBadge: document.querySelector("#difficultyBadge"),
+  promptLabel: document.querySelector("#promptLabel"),
+  questionText: document.querySelector("#questionText"),
+  choices: document.querySelector("#choices"),
+  feedback: document.querySelector("#feedback"),
+  resetProgress: document.querySelector("#resetProgress"),
+  clearWeak: document.querySelector("#clearWeak"),
+  reviewList: document.querySelector("#reviewList"),
+  choiceTemplate: document.querySelector("#choiceTemplate")
+};
+
+document.querySelectorAll(".mode-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    state.mode = button.dataset.mode;
+    document.querySelectorAll(".mode-button").forEach((item) => {
+      item.classList.toggle("is-active", item === button);
+    });
+    renderQuestion();
+  });
+});
+
+els.questionGenre.addEventListener("change", () => {
+  state.genre = els.questionGenre.value;
+  resetSet();
+  renderStats();
+  renderReview();
+  renderQuestion();
+});
+els.reverseMode.addEventListener("change", renderQuestion);
+els.shuffleChoices.addEventListener("change", renderQuestion);
+els.setSize.addEventListener("change", () => {
+  state.setSize = Number(els.setSize.value);
+  resetSet();
+  renderQuestion();
+});
+els.addToReview.addEventListener("click", () => {
+  if (!state.current || state.showingSummary) return;
+  addCurrentQuestionToReview();
+});
+
+els.nextQuestion.addEventListener("click", () => {
+  if (!state.locked) return;
+  if (state.showingSummary) {
+    resetSet();
+  }
+  renderQuestion();
+});
+
+els.resetProgress.addEventListener("click", () => {
+  if (!confirm("学習状況をリセットしますか？")) return;
+  state.progress = {};
+  resetSet();
+  saveProgress();
+  renderStats();
+  renderReview();
+  renderQuestion();
+});
+
+els.clearWeak.addEventListener("click", () => {
+  Object.values(state.progress).forEach((entry) => {
+    entry.wrong = 0;
+    entry.review = false;
+  });
+  saveProgress();
+  renderStats();
+  renderReview();
+});
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem("spi-vocab-progress") || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveProgress() {
+  localStorage.setItem("spi-vocab-progress", JSON.stringify(state.progress));
+}
+
+function pickQuestion() {
+  const pool = getPool();
+  if (pool.length === 0) return getAllQuestions()[Math.floor(Math.random() * getAllQuestions().length)];
+
+  const weighted = pool.flatMap((question) => {
+    const entry = state.progress[getQuestionId(question)] || {};
+    const weight = 1 + Math.min(entry.wrong || 0, 4);
+    return Array.from({ length: weight }, () => question);
+  });
+
+  let next = weighted[Math.floor(Math.random() * weighted.length)];
+  if (weighted.length > 1 && state.current) {
+    let guard = 0;
+    while (getQuestionId(next) === getQuestionId(state.current) && guard < 8) {
+      next = weighted[Math.floor(Math.random() * weighted.length)];
+      guard += 1;
+    }
+  }
+  return next;
+}
+
+function getPool() {
+  const all = getQuestionsByGenre();
+  if (state.mode === "weak") {
+    const weak = all.filter((question) => (state.progress[getQuestionId(question)]?.wrong || 0) > 0);
+    return weak.length ? weak : all;
+  }
+  if (state.mode === "fresh") {
+    const fresh = all.filter((question) => !state.progress[getQuestionId(question)]?.answered);
+    return fresh.length ? fresh : all;
+  }
+  return all;
+}
+
+function renderQuestion() {
+  state.showingSummary = false;
+  state.locked = false;
+  state.current = pickQuestion();
+  els.questionText.classList.toggle("is-sentence", isUsageQuestion(state.current));
+
+  if (isUsageQuestion(state.current)) {
+    renderUsageQuestion();
+    updateSessionProgress();
+    return;
+  }
+
+  const reverse = els.reverseMode.checked;
+  const answer = reverse ? state.current.term : state.current.meaning;
+  const decoys = getSimpleQuestions()
+    .filter((word) => word.term !== state.current.term)
+    .map((word) => (reverse ? word.term : word.meaning));
+  const choices = [answer, ...shuffle(decoys).slice(0, 3)];
+  const orderedChoices = els.shuffleChoices.checked ? shuffle(choices) : choices;
+
+  els.categoryBadge.textContent = state.current.category;
+  els.difficultyBadge.textContent = state.current.difficulty;
+  els.promptLabel.textContent = reverse
+    ? "次の意味に合う語句として最も近いものを選んでください。"
+    : "次の語句の意味として最も近いものを選んでください。";
+  els.questionText.textContent = reverse ? state.current.meaning : state.current.term;
+  els.choices.replaceChildren();
+  els.feedback.textContent = "";
+  resetQuestionActions();
+
+  orderedChoices.forEach((choice) => {
+    const button = els.choiceTemplate.content.firstElementChild.cloneNode(true);
+    button.textContent = choice;
+    button.dataset.correct = String(choice === answer);
+    button.dataset.answerLabel = choice;
+    button.addEventListener("click", () => answerQuestion(button));
+    els.choices.append(button);
+  });
+
+  updateSessionProgress();
+}
+
+function renderUsageQuestion() {
+  const question = state.current;
+  const orderedChoices = els.shuffleChoices.checked ? shuffle(question.choices) : question.choices;
+
+  els.categoryBadge.textContent = question.category;
+  els.difficultyBadge.textContent = question.difficulty;
+  els.promptLabel.textContent = "下線部の語句と用法が最も近いものを1つ選んでください。";
+  els.questionText.innerHTML = underlineTarget(question.sentence, question.target);
+  els.choices.replaceChildren();
+  els.feedback.textContent = "";
+  resetQuestionActions();
+
+  orderedChoices.forEach((choice) => {
+    const button = els.choiceTemplate.content.firstElementChild.cloneNode(true);
+    button.innerHTML = underlineTarget(choice.text, choice.underline || question.target);
+    button.dataset.correct = String(choice.correct);
+    button.dataset.answerLabel = choice.text;
+    button.dataset.note = choice.note;
+    button.addEventListener("click", () => answerQuestion(button));
+    els.choices.append(button);
+  });
+}
+
+function answerQuestion(button) {
+  if (state.locked) return;
+  state.locked = true;
+
+  const isCorrect = button.dataset.correct === "true";
+  const questionId = getQuestionId(state.current);
+  const entry = state.progress[questionId] || { answered: 0, correct: 0, wrong: 0 };
+  entry.answered += 1;
+  entry.correct += isCorrect ? 1 : 0;
+  entry.wrong = Math.max(0, (entry.wrong || 0) + (isCorrect ? -1 : 1));
+  state.progress[questionId] = entry;
+  state.answeredThisSession += 1;
+  recordSetResult(button, isCorrect);
+
+  [...els.choices.children].forEach((choiceButton) => {
+    choiceButton.disabled = true;
+    if (choiceButton.dataset.correct === "true") choiceButton.classList.add("is-correct");
+  });
+  if (!isCorrect) button.classList.add("is-wrong");
+
+  const answerLabel = getAnswerLabel(state.current);
+  const readingHint = state.current.reading ? ` 読み：${state.current.reading}。` : "";
+  const usageHint = isUsageQuestion(state.current) ? ` ${state.current.note}` : state.current.note;
+  els.feedback.innerHTML = isCorrect
+    ? `<strong>正解。</strong>${readingHint}${usageHint}`
+    : `<strong>正解は「${answerLabel}」。</strong>${readingHint}${usageHint}`;
+
+  saveProgress();
+  renderStats();
+  renderReview();
+  updateSessionProgress();
+  els.addToReview.disabled = false;
+  els.addToReview.textContent = isInManualReview(state.current) ? "復習に追加済み" : "復習に追加";
+  els.nextQuestion.disabled = false;
+  if (state.answeredThisSession >= state.setSize) {
+    renderSetSummary();
+    return;
+  }
+  els.nextQuestion.querySelector("span").textContent = "次の問題";
+}
+
+function recordSetResult(button, isCorrect) {
+  state.setResults.push({
+    question: state.current,
+    correct: isCorrect,
+    selected: button.dataset.answerLabel || button.textContent,
+    answer: getAnswerLabel(state.current),
+    explanation: getExplanation(state.current),
+    prompt: getQuestionPrompt(state.current)
+  });
+}
+
+function renderSetSummary() {
+  state.showingSummary = true;
+  const total = state.setResults.length;
+  const correct = state.setResults.filter((item) => item.correct).length;
+  const wrong = state.setResults.filter((item) => !item.correct);
+  const accuracy = total ? Math.round((correct / total) * 100) : 0;
+
+  els.categoryBadge.textContent = "セット結果";
+  els.difficultyBadge.textContent = correct + " / " + total;
+  els.promptLabel.textContent = "1セットの結果";
+  els.questionText.classList.remove("is-sentence");
+  els.questionText.textContent = "正答率 " + accuracy + "%";
+  els.choices.replaceChildren();
+  els.feedback.innerHTML = buildSummaryHtml(wrong);
+  els.addToReview.disabled = true;
+  els.addToReview.textContent = "復習に追加";
+  els.nextQuestion.disabled = false;
+  els.nextQuestion.querySelector("span").textContent = "次のセットを開始";
+}
+
+function buildSummaryHtml(wrong) {
+  if (!wrong.length) {
+    return '<div class="summary-panel"><h3>間違えた問題</h3><p>このセットの間違いはありません。</p></div>';
+  }
+
+  const items = wrong
+    .map(
+      (item, index) => '<li><strong>' + (index + 1) + '. ' + escapeHtml(item.prompt) + '</strong><span>あなたの回答：' + escapeHtml(item.selected) + '</span><span>正解：' + escapeHtml(item.answer) + '</span><p>' + escapeHtml(item.explanation) + '</p></li>'
+    )
+    .join('');
+  return '<div class="summary-panel"><h3>間違えた問題</h3><ol>' + items + '</ol></div>';
+}
+
+function resetSet() {
+  state.answeredThisSession = 0;
+  state.setResults = [];
+  state.showingSummary = false;
+  updateSessionProgress();
+}
+
+function addCurrentQuestionToReview() {
+  const questionId = getQuestionId(state.current);
+  const entry = state.progress[questionId] || { answered: 0, correct: 0, wrong: 0 };
+  entry.review = true;
+  state.progress[questionId] = entry;
+  saveProgress();
+  renderStats();
+  renderReview();
+  els.addToReview.disabled = true;
+  els.addToReview.textContent = "復習に追加済み";
+}
+
+function isInManualReview(question) {
+  return Boolean(state.progress[getQuestionId(question)]?.review);
+}
+
+function resetQuestionActions() {
+  els.addToReview.disabled = true;
+  els.addToReview.textContent = "復習に追加";
+  els.nextQuestion.disabled = true;
+  els.nextQuestion.querySelector("span").textContent = "次の問題";
+}
+
+function renderStats() {
+  const values = Object.values(state.progress);
+  const answered = values.reduce((sum, item) => sum + (item.answered || 0), 0);
+  const correct = values.reduce((sum, item) => sum + (item.correct || 0), 0);
+  const weak = getQuestionsByGenre().filter((question) => isReviewTarget(question)).length;
+
+  els.answeredCount.textContent = answered;
+  els.correctCount.textContent = correct;
+  els.weakCount.textContent = weak;
+  els.totalCount.textContent = getQuestionsByGenre().length;
+  els.accuracy.textContent = answered ? `${Math.round((correct / answered) * 100)}%` : "--%";
+}
+
+function renderReview() {
+  const weakWords = getQuestionsByGenre()
+    .filter((question) => isReviewTarget(question))
+    .sort(
+      (a, b) =>
+        (state.progress[getQuestionId(b)]?.wrong || 0) - (state.progress[getQuestionId(a)]?.wrong || 0)
+    )
+    .slice(0, 9);
+
+  if (!weakWords.length) {
+    els.reviewList.innerHTML = `<p class="empty-state">間違えた語句がここに表示されます。</p>`;
+    return;
+  }
+
+  els.reviewList.replaceChildren(
+    ...weakWords.map((word) => {
+      const item = document.createElement("div");
+      item.className = "review-item";
+      item.innerHTML = `<strong>${word.term}</strong><span>${word.meaning}</span>`;
+      return item;
+    })
+  );
+}
+
+function isReviewTarget(question) {
+  const entry = state.progress[getQuestionId(question)] || {};
+  return (entry.wrong || 0) > 0 || Boolean(entry.review);
+}
+
+function updateSessionProgress() {
+  const width = Math.min(100, (state.answeredThisSession / state.setSize) * 100);
+  els.sessionProgress.style.width = `${width}%`;
+  els.sessionCount.textContent = `${Math.min(state.answeredThisSession, state.setSize)} / ${state.setSize}`;
+}
+
+function getQuestionPrompt(question) {
+  if (isUsageQuestion(question)) return question.sentence;
+  return els.reverseMode.checked ? question.meaning : question.term;
+}
+
+function getExplanation(question) {
+  const readingHint = question.reading ? "読み：" + question.reading + "。" : "";
+  return readingHint + question.note;
+}
+
+function formatAnswerLabel(word) {
+  return word.reading ? `${word.term}（${word.reading}）` : word.term;
+}
+
+function getAnswerLabel(question) {
+  if (isUsageQuestion(question)) {
+    const correct = question.choices.find((choice) => choice.correct);
+    return correct ? correct.text : question.term;
+  }
+  return els.reverseMode.checked ? formatAnswerLabel(question) : question.meaning;
+}
+
+function isUsageQuestion(question) {
+  return question.category === "語句の用法";
+}
+
+function getQuestionId(question) {
+  return question.id || `${question.category}:${question.term}`;
+}
+
+function getQuestionsByGenre() {
+  if (state.genre === "meaning") return WORDS;
+  if (state.genre === "idiom") return IDIOM_QUESTIONS;
+  if (state.genre === "usage") return USAGE_QUESTIONS;
+  return getAllQuestions();
+}
+
+function getAllQuestions() {
+  return [...WORDS, ...IDIOM_QUESTIONS, ...USAGE_QUESTIONS];
+}
+
+function getSimpleQuestions() {
+  return [...WORDS, ...IDIOM_QUESTIONS];
+}
+
+function underlineTarget(text, target) {
+  const escapedText = escapeHtml(text);
+  const escapedTarget = escapeHtml(target);
+  return escapedText.replace(escapedTarget, `<span class="underlined-term">${escapedTarget}</span>`);
+}
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function shuffle(items) {
+  return [...items].sort(() => Math.random() - 0.5);
+}
+
+renderStats();
+renderReview();
+renderQuestion();
