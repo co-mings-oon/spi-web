@@ -5460,7 +5460,6 @@ const els = {
   correctCount: document.querySelector("#correctCount"),
   weakCount: document.querySelector("#weakCount"),
   totalCount: document.querySelector("#totalCount"),
-  setSize: document.querySelector("#setSize"),
   sessionProgress: document.querySelector("#sessionProgress"),
   sessionCount: document.querySelector("#sessionCount"),
   addToReview: document.querySelector("#addToReview"),
@@ -5496,10 +5495,15 @@ document.querySelectorAll(".direction-button").forEach((button) => {
     renderQuestion();
   });
 });
-els.setSize.addEventListener("change", () => {
-  state.setSize = Number(els.setSize.value);
-  resetSet();
-  renderQuestion();
+document.querySelectorAll(".set-size-button").forEach((button) => {
+  button.addEventListener("click", () => {
+    state.setSize = Number(button.dataset.setSize);
+    document.querySelectorAll(".set-size-button").forEach((item) => {
+      item.classList.toggle("is-active", item === button);
+    });
+    resetSet();
+    renderQuestion();
+  });
 });
 els.addToReview.addEventListener("click", () => {
   if (!state.current || state.showingSummary) return;

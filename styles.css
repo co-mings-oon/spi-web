@@ -147,19 +147,32 @@ h1 {
   background: #eef3f5;
 }
 
+.direction-segmented {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.set-size-segmented {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .mode-button,
-.direction-button {
+.direction-button,
+.set-size-button {
   min-height: 38px;
   border: 0;
   border-radius: 6px;
   color: var(--muted);
   background: transparent;
+  font-family: inherit;
   font-size: 0.88rem;
   font-weight: 800;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .mode-button.is-active,
-.direction-button.is-active {
+.direction-button.is-active,
+.set-size-button.is-active {
   color: white;
   background: var(--accent);
 }
@@ -198,7 +211,10 @@ h1 {
   padding: 0 12px;
   color: var(--ink);
   background: white;
+  font-family: inherit;
+  font-size: 0.88rem;
   font-weight: 800;
+  letter-spacing: 0;
 }
 
 .stats-grid {
@@ -647,8 +663,13 @@ h1 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .set-size-segmented {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .mode-button,
-  .direction-button {
+  .direction-button,
+  .set-size-button {
     min-height: 30px;
     padding: 0 2px;
     font-size: 0.68rem;
@@ -658,7 +679,8 @@ h1 {
     border-radius: 5px;
   }
 
-  .direction-button {
+  .direction-button,
+  .set-size-button {
     font-size: 0.62rem;
   }
 
