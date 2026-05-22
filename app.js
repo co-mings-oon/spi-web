@@ -1,1834 +1,1738 @@
 const WORDS = [
   {
-    term: "杞憂",
-    meaning: "必要以上に心配すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "「まだ起きていないことを過度に案じる」場面で使う。"
+    "term": "杞憂",
+    "meaning": "必要以上に心配すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "「まだ起きていないことを過度に案じる」場面で使う。"
   },
   {
-    term: "示唆",
-    meaning: "それとなく知らせること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "直接言わず、ほのめかすニュアンス。"
+    "term": "示唆",
+    "meaning": "それとなく知らせること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "直接言わず、ほのめかすニュアンス。"
   },
   {
-    term: "逡巡",
-    meaning: "決断できずためらうこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "選択を前にして迷う状態。"
+    "term": "逡巡",
+    "meaning": "決断できずためらうこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "選択を前にして迷う状態。"
   },
   {
-    term: "傾注",
-    meaning: "一つのことに力や注意を集中すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "努力・関心・精力などを注ぐときに使う。"
+    "term": "傾注",
+    "meaning": "一つのことに力や注意を集中すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "努力・関心・精力などを注ぐときに使う。"
   },
   {
-    term: "看過",
-    meaning: "見逃してそのままにすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "問題点を放置する文脈でよく出る。"
+    "term": "看過",
+    "meaning": "見逃してそのままにすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "問題点を放置する文脈でよく出る。"
   },
   {
-    term: "折衷",
-    meaning: "複数の考えのよい部分を取り合わせること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "対立案の中間を取るだけでなく、長所を合わせる意味。"
+    "term": "折衷",
+    "meaning": "複数の考えのよい部分を取り合わせること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "対立案の中間を取るだけでなく、長所を合わせる意味。"
   },
   {
-    term: "矜持",
-    meaning: "自分の能力や立場への誇り",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "プライドに近いが、品位を保つ含みがある。"
+    "term": "矜持",
+    "meaning": "自分の能力や立場への誇り",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "プライドに近いが、品位を保つ含みがある。"
   },
   {
-    term: "迎合",
-    meaning: "相手に気に入られるよう調子を合わせること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "やや否定的に使われることが多い。"
+    "term": "迎合",
+    "meaning": "相手に気に入られるよう調子を合わせること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "やや否定的に使われることが多い。"
   },
   {
-    term: "敷衍",
-    meaning: "意味や内容を詳しく説明すること",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "要点を広げてわかりやすく述べること。"
+    "term": "敷衍",
+    "meaning": "意味や内容を詳しく説明すること",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "要点を広げてわかりやすく述べること。"
   },
   {
-    term: "寡黙",
-    meaning: "口数が少ないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "無口・多弁の対義関係で出やすい。"
+    "term": "寡黙",
+    "meaning": "口数が少ないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "無口・多弁の対義関係で出やすい。"
   },
   {
-    term: "冗長",
-    meaning: "無駄が多く長たらしいこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "文章や説明の評価で使う。"
+    "term": "冗長",
+    "meaning": "無駄が多く長たらしいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "文章や説明の評価で使う。"
   },
   {
-    term: "普遍",
-    meaning: "広くすべてに当てはまること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "特殊・個別との対比で覚える。"
+    "term": "普遍",
+    "meaning": "広くすべてに当てはまること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "特殊・個別との対比で覚える。"
   },
   {
-    term: "懐柔",
-    meaning: "うまく扱って味方に引き入れること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "対立者をなだめて従わせる文脈。"
+    "term": "懐柔",
+    "meaning": "うまく扱って味方に引き入れること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "対立者をなだめて従わせる文脈。"
   },
   {
-    term: "漸進",
-    meaning: "少しずつ進むこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "急進の対義語として覚える。"
+    "term": "漸進",
+    "meaning": "少しずつ進むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "急進の対義語として覚える。"
   },
   {
-    term: "刹那",
-    meaning: "ごく短い時間",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "瞬間に近い意味。"
+    "term": "刹那",
+    "meaning": "ごく短い時間",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "瞬間に近い意味。"
   },
   {
-    term: "推敲",
-    meaning: "文章を何度も練り直すこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "書いた文章をよりよく直す作業。"
+    "term": "推敲",
+    "meaning": "文章を何度も練り直すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "書いた文章をよりよく直す作業。"
   },
   {
-    term: "顕著",
-    meaning: "はっきり目立っていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "変化・傾向・特徴が明らかなときに使う。"
+    "term": "顕著",
+    "meaning": "はっきり目立っていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "変化・傾向・特徴が明らかなときに使う。"
   },
   {
-    term: "稚拙",
-    meaning: "未熟でたどたどしいこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "技能や表現の未熟さを表す。"
+    "term": "稚拙",
+    "meaning": "未熟でたどたどしいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "技能や表現の未熟さを表す。"
   },
   {
-    term: "詭弁",
-    meaning: "もっともらしく見える誤った議論",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "論理をごまかす説明。"
+    "term": "詭弁",
+    "meaning": "もっともらしく見える誤った議論",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "論理をごまかす説明。"
   },
   {
-    term: "脆弱",
-    meaning: "もろく弱いこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "制度・体制・仕組みの弱さにも使う。"
+    "term": "脆弱",
+    "meaning": "もろく弱いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "制度・体制・仕組みの弱さにも使う。"
   },
   {
-    term: "遵守",
-    meaning: "決まりや法律を守ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "規則・法令・約束などと結びつく。"
+    "term": "遵守",
+    "meaning": "決まりや法律を守ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "規則・法令・約束などと結びつく。"
   },
   {
-    term: "弁明",
-    meaning: "事情を説明して自分の立場を明らかにすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "非難に対して理由を述べる場面が多い。"
+    "term": "弁明",
+    "meaning": "事情を説明して自分の立場を明らかにすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "非難に対して理由を述べる場面が多い。"
   },
   {
-    term: "委細",
-    meaning: "細かく詳しいこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "「委細承知」などで見かける。"
+    "term": "委細",
+    "meaning": "細かく詳しいこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "「委細承知」などで見かける。"
   },
   {
-    term: "拙速",
-    meaning: "できは悪いが仕上がりが早いこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "巧遅との対比で出る。"
+    "term": "拙速",
+    "meaning": "できは悪いが仕上がりが早いこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "巧遅との対比で出る。"
   },
   {
-    term: "恣意",
-    meaning: "自分勝手な考えや思いつき",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "客観性や一貫性がない判断を表す。"
+    "term": "恣意",
+    "meaning": "自分勝手な考えや思いつき",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "客観性や一貫性がない判断を表す。"
   },
   {
-    term: "陶冶",
-    meaning: "人の性質や能力を育て上げること",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "教育や人格形成の文脈で使われる。"
+    "term": "陶冶",
+    "meaning": "人の性質や能力を育て上げること",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "教育や人格形成の文脈で使われる。"
   },
   {
-    term: "涵養",
-    meaning: "少しずつ養い育てること",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "能力・態度・品性などを時間をかけて育てる意味。"
+    "term": "涵養",
+    "meaning": "少しずつ養い育てること",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "能力・態度・品性などを時間をかけて育てる意味。"
   },
   {
-    term: "趨勢",
-    meaning: "物事が向かっていく全体的な流れ",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "社会や市場の傾向を述べるときに使う。"
+    "term": "趨勢",
+    "meaning": "物事が向かっていく全体的な流れ",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "社会や市場の傾向を述べるときに使う。"
   },
   {
-    term: "暫定",
-    meaning: "正式に決まるまで一時的に定めること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "仮の決定という含みがある。"
+    "term": "暫定",
+    "meaning": "正式に決まるまで一時的に定めること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "仮の決定という含みがある。"
   },
   {
-    term: "便宜",
-    meaning: "都合がよいことや特別なはからい",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "「便宜を図る」は都合よく取り計らう意味。"
+    "term": "便宜",
+    "meaning": "都合がよいことや特別なはからい",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "「便宜を図る」は都合よく取り計らう意味。"
   },
   {
-    term: "遺憾",
-    meaning: "期待どおりでなく残念に思うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "公式な謝意や不満の表現で使われやすい。"
+    "term": "遺憾",
+    "meaning": "期待どおりでなく残念に思うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "公式な謝意や不満の表現で使われやすい。"
   },
   {
-    term: "顛末",
-    meaning: "物事の始めから終わりまでの経過",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "事件や出来事の一部始終を指す。"
+    "term": "顛末",
+    "meaning": "物事の始めから終わりまでの経過",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "事件や出来事の一部始終を指す。"
   },
   {
-    term: "端緒",
-    meaning: "物事が始まるきっかけ",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "発見や解決の糸口という意味でも使う。"
+    "term": "端緒",
+    "meaning": "物事が始まるきっかけ",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "発見や解決の糸口という意味でも使う。"
   },
   {
-    term: "忌避",
-    meaning: "嫌って避けること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "責任や危険を避ける文脈で出やすい。"
+    "term": "忌避",
+    "meaning": "嫌って避けること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "責任や危険を避ける文脈で出やすい。"
   },
   {
-    term: "払拭",
-    meaning: "すっかり取り除くこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "不安・疑念・悪印象などを消すときに使う。"
+    "term": "払拭",
+    "meaning": "すっかり取り除くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "不安・疑念・悪印象などを消すときに使う。"
   },
   {
-    term: "斟酌",
-    meaning: "相手の事情や気持ちをくみ取ること",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "事情を考慮して判断する意味。"
+    "term": "斟酌",
+    "meaning": "相手の事情や気持ちをくみ取ること",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "事情を考慮して判断する意味。"
   },
   {
-    term: "毀損",
-    meaning: "物や名誉を傷つけ損なうこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "信用・名誉・財産などと結びつきやすい。"
+    "term": "毀損",
+    "meaning": "物や名誉を傷つけ損なうこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "信用・名誉・財産などと結びつきやすい。"
   },
   {
-    term: "齟齬",
-    meaning: "食い違って合わないこと",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "意見・認識・説明のずれを表す。"
+    "term": "齟齬",
+    "meaning": "食い違って合わないこと",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "意見・認識・説明のずれを表す。"
   },
   {
-    term: "瑣末",
-    meaning: "重要でない細かなこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "本質から外れた細部というニュアンス。"
+    "term": "瑣末",
+    "meaning": "重要でない細かなこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "本質から外れた細部というニュアンス。"
   },
   {
-    term: "煩雑",
-    meaning: "込み入っていて面倒なこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "手続きや作業が複雑な場合に使う。"
+    "term": "煩雑",
+    "meaning": "込み入っていて面倒なこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "手続きや作業が複雑な場合に使う。"
   },
   {
-    term: "簡潔",
-    meaning: "短くまとまっていてわかりやすいこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "冗長の対義語として覚えやすい。"
+    "term": "簡潔",
+    "meaning": "短くまとまっていてわかりやすいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "冗長の対義語として覚えやすい。"
   },
   {
-    term: "緻密",
-    meaning: "細部まで行き届いていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "計画・分析・構成などに使う。"
+    "term": "緻密",
+    "meaning": "細部まで行き届いていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "計画・分析・構成などに使う。"
   },
   {
-    term: "粗雑",
-    meaning: "大ざっぱでいい加減なこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "緻密の対義語として出やすい。"
+    "term": "粗雑",
+    "meaning": "大ざっぱでいい加減なこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "緻密の対義語として出やすい。"
   },
   {
-    term: "柔軟",
-    meaning: "状況に応じて考えや対応を変えられること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "硬直の対義関係で覚える。"
+    "term": "柔軟",
+    "meaning": "状況に応じて考えや対応を変えられること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "硬直の対義関係で覚える。"
   },
   {
-    term: "硬直",
-    meaning: "考えや対応が固定して変化に乏しいこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "組織や制度の融通のきかなさにも使う。"
+    "term": "硬直",
+    "meaning": "考えや対応が固定して変化に乏しいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "組織や制度の融通のきかなさにも使う。"
   },
   {
-    term: "客観",
-    meaning: "個人の考えに偏らず事実に基づくこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "主観との対比で頻出。"
+    "term": "客観",
+    "meaning": "個人の考えに偏らず事実に基づくこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "主観との対比で頻出。"
   },
   {
-    term: "主観",
-    meaning: "自分自身の見方や考えに基づくこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "客観の対義語。"
+    "term": "主観",
+    "meaning": "自分自身の見方や考えに基づくこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "客観の対義語。"
   },
   {
-    term: "抽象",
-    meaning: "共通する性質を取り出して考えること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "具体との対比で問われやすい。"
+    "term": "抽象",
+    "meaning": "共通する性質を取り出して考えること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "具体との対比で問われやすい。"
   },
   {
-    term: "具体",
-    meaning: "はっきりした形や内容を備えていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "抽象の対義語。"
+    "term": "具体",
+    "meaning": "はっきりした形や内容を備えていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "抽象の対義語。"
   },
   {
-    term: "相対",
-    meaning: "他との関係や比較によって決まること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "絶対との対比で押さえる。"
+    "term": "相対",
+    "meaning": "他との関係や比較によって決まること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "絶対との対比で押さえる。"
   },
   {
-    term: "絶対",
-    meaning: "他との比較に左右されないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "条件や関係に依存しない意味。"
+    "term": "絶対",
+    "meaning": "他との比較に左右されないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "条件や関係に依存しない意味。"
   },
   {
-    term: "均衡",
-    meaning: "力や数量などの釣り合いが取れていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "バランスという意味で使われる。"
+    "term": "均衡",
+    "meaning": "力や数量などの釣り合いが取れていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "バランスという意味で使われる。"
   },
   {
-    term: "乖離",
-    meaning: "本来近いものが離れていること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "理想と現実、認識と実態などのずれ。"
+    "term": "乖離",
+    "meaning": "本来近いものが離れていること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "理想と現実、認識と実態などのずれ。"
   },
   {
-    term: "模倣",
-    meaning: "他のものをまねること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "創造との対比で覚える。"
+    "term": "模倣",
+    "meaning": "他のものをまねること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "創造との対比で覚える。"
   },
   {
-    term: "創造",
-    meaning: "新しいものをつくり出すこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "模倣の対義語として出やすい。"
+    "term": "創造",
+    "meaning": "新しいものをつくり出すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "模倣の対義語として出やすい。"
   },
   {
-    term: "促進",
-    meaning: "物事が早く進むように働きかけること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "成長・普及・理解などと結びつく。"
+    "term": "促進",
+    "meaning": "物事が早く進むように働きかけること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "成長・普及・理解などと結びつく。"
   },
   {
-    term: "抑制",
-    meaning: "勢いや働きをおさえること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "促進の対義語として覚えやすい。"
+    "term": "抑制",
+    "meaning": "勢いや働きをおさえること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "促進の対義語として覚えやすい。"
   },
   {
-    term: "包括",
-    meaning: "全体をひとまとめに含むこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "広く包み込む意味。"
+    "term": "包括",
+    "meaning": "全体をひとまとめに含むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "広く包み込む意味。"
   },
   {
-    term: "排斥",
-    meaning: "受け入れず押しのけること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "異なる意見や勢力を退ける文脈。"
+    "term": "排斥",
+    "meaning": "受け入れず押しのけること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "異なる意見や勢力を退ける文脈。"
   },
   {
-    term: "希薄",
-    meaning: "濃さや関係が薄いこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "関心・意識・人間関係などにも使う。"
+    "term": "希薄",
+    "meaning": "濃さや関係が薄いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "関心・意識・人間関係などにも使う。"
   },
   {
-    term: "濃密",
-    meaning: "内容や関係が濃く深いこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "希薄の対義語として押さえる。"
+    "term": "濃密",
+    "meaning": "内容や関係が濃く深いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "希薄の対義語として押さえる。"
   },
   {
-    term: "介入",
-    meaning: "物事の間に入り込んで関わること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "第三者が関与する場面で使う。"
+    "term": "介入",
+    "meaning": "物事の間に入り込んで関わること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "第三者が関与する場面で使う。"
   },
   {
-    term: "静観",
-    meaning: "成り行きを何もせず見守ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "介入せず様子を見る意味。"
+    "term": "静観",
+    "meaning": "成り行きを何もせず見守ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "介入せず様子を見る意味。"
   },
   {
-    term: "黙認",
-    meaning: "知っていながら見逃すこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "明確に認めないが止めもしない状態。"
+    "term": "黙認",
+    "meaning": "知っていながら見逃すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "明確に認めないが止めもしない状態。"
   },
   {
-    term: "容認",
-    meaning: "よいとして受け入れること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "黙認より明確に受け入れる意味。"
+    "term": "容認",
+    "meaning": "よいとして受け入れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "黙認より明確に受け入れる意味。"
   },
   {
-    term: "克明",
-    meaning: "細かい点まではっきりしていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "記録や描写が詳しい場合に使う。"
+    "term": "克明",
+    "meaning": "細かい点まではっきりしていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "記録や描写が詳しい場合に使う。"
   },
   {
-    term: "曖昧",
-    meaning: "はっきりせず不明確なこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "克明・明確との対比で覚える。"
+    "term": "曖昧",
+    "meaning": "はっきりせず不明確なこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "克明・明確との対比で覚える。"
   },
   {
-    term: "堅実",
-    meaning: "確かで危なげがないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "行動や方法が手堅い意味。"
+    "term": "堅実",
+    "meaning": "確かで危なげがないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "行動や方法が手堅い意味。"
   },
   {
-    term: "軽率",
-    meaning: "よく考えずに行動すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "慎重の対義語。"
+    "term": "軽率",
+    "meaning": "よく考えずに行動すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "慎重の対義語。"
   },
   {
-    term: "慎重",
-    meaning: "注意深くよく考えて行動すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "軽率との対比で頻出。"
+    "term": "慎重",
+    "meaning": "注意深くよく考えて行動すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "軽率との対比で頻出。"
   },
   {
-    term: "偏重",
-    meaning: "一方だけを重んじること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "バランスを欠く評価や方針に使う。"
+    "term": "偏重",
+    "meaning": "一方だけを重んじること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "バランスを欠く評価や方針に使う。"
   },
   {
-    term: "是正",
-    meaning: "悪い点を直して正しくすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "格差・誤り・不備などを直す文脈。"
+    "term": "是正",
+    "meaning": "悪い点を直して正しくすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "格差・誤り・不備などを直す文脈。"
   },
   {
-    term: "是認",
-    meaning: "正しいとして認めること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "是正と混同しやすいので注意。"
+    "term": "是認",
+    "meaning": "正しいとして認めること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "是正と混同しやすいので注意。"
   },
   {
-    term: "黙殺",
-    meaning: "無視して取り合わないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "発言や要求を相手にしない意味。"
+    "term": "黙殺",
+    "meaning": "無視して取り合わないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "発言や要求を相手にしない意味。"
   },
   {
-    term: "該当",
-    meaning: "条件や項目に当てはまること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "対象に含まれるかを問う文脈で使う。"
+    "term": "該当",
+    "meaning": "条件や項目に当てはまること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "対象に含まれるかを問う文脈で使う。"
   },
   {
-    term: "該博",
-    meaning: "知識が広く深いこと",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "博識に近い意味。"
+    "term": "該博",
+    "meaning": "知識が広く深いこと",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "博識に近い意味。"
   },
   {
-    term: "精通",
-    meaning: "ある分野について詳しく知っていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "専門知識に詳しい状態。"
+    "term": "精通",
+    "meaning": "ある分野について詳しく知っていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "専門知識に詳しい状態。"
   },
   {
-    term: "疎遠",
-    meaning: "関係が薄く遠ざかっていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "親密の対義語として覚える。"
+    "term": "疎遠",
+    "meaning": "関係が薄く遠ざかっていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "親密の対義語として覚える。"
   },
   {
-    term: "親密",
-    meaning: "関係が近く深いこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "疎遠との対比で出やすい。"
+    "term": "親密",
+    "meaning": "関係が近く深いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "疎遠との対比で出やすい。"
   },
   {
-    term: "収束",
-    meaning: "混乱やばらつきがまとまって落ち着くこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "事態・議論・数値などに使う。"
+    "term": "収束",
+    "meaning": "混乱やばらつきがまとまって落ち着くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "事態・議論・数値などに使う。"
   },
   {
-    term: "拡散",
-    meaning: "広がって散らばること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "収束の対義語として覚える。"
+    "term": "拡散",
+    "meaning": "広がって散らばること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "収束の対義語として覚える。"
   },
   {
-    term: "緩和",
-    meaning: "厳しさや程度をやわらげること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "規制・痛み・対立などに使う。"
+    "term": "緩和",
+    "meaning": "厳しさや程度をやわらげること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "規制・痛み・対立などに使う。"
   },
   {
-    term: "強硬",
-    meaning: "自分の主張を強く押し通すこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "譲歩しない姿勢。"
+    "term": "強硬",
+    "meaning": "自分の主張を強く押し通すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "譲歩しない姿勢。"
   },
   {
-    term: "譲歩",
-    meaning: "自分の主張を一部引き下げること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "交渉や対立の文脈で出る。"
+    "term": "譲歩",
+    "meaning": "自分の主張を一部引き下げること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "交渉や対立の文脈で出る。"
   },
   {
-    term: "妥協",
-    meaning: "互いに譲り合って解決すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "譲歩を伴って合意する意味。"
+    "term": "妥協",
+    "meaning": "互いに譲り合って解決すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "譲歩を伴って合意する意味。"
   },
   {
-    term: "独断",
-    meaning: "自分だけの判断で決めること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "相談や根拠が乏しい判断に使う。"
+    "term": "独断",
+    "meaning": "自分だけの判断で決めること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "相談や根拠が乏しい判断に使う。"
   },
   {
-    term: "専断",
-    meaning: "自分だけの考えで勝手に決めること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "権限を持つ人が独りで決める否定的な語。"
+    "term": "専断",
+    "meaning": "自分だけの考えで勝手に決めること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "権限を持つ人が独りで決める否定的な語。"
   },
   {
-    term: "妄信",
-    meaning: "根拠なく深く信じ込むこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "批判的に考えず信じる意味。"
+    "term": "妄信",
+    "meaning": "根拠なく深く信じ込むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "批判的に考えず信じる意味。"
   },
   {
-    term: "懐疑",
-    meaning: "本当かどうか疑うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "妄信の対義関係で覚える。"
+    "term": "懐疑",
+    "meaning": "本当かどうか疑うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "妄信の対義関係で覚える。"
   },
   {
-    term: "楽観",
-    meaning: "物事をよい方向に考えること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "悲観との対比で頻出。"
+    "term": "楽観",
+    "meaning": "物事をよい方向に考えること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "悲観との対比で頻出。"
   },
   {
-    term: "悲観",
-    meaning: "物事を悪い方向に考えること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "楽観の対義語。"
+    "term": "悲観",
+    "meaning": "物事を悪い方向に考えること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "楽観の対義語。"
   },
   {
-    term: "過大",
-    meaning: "実際より大きすぎること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "評価・期待・負担などに使う。"
+    "term": "過大",
+    "meaning": "実際より大きすぎること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "評価・期待・負担などに使う。"
   },
   {
-    term: "過小",
-    meaning: "実際より小さすぎること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "過大の対義語。"
+    "term": "過小",
+    "meaning": "実際より小さすぎること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "過大の対義語。"
   },
   {
-    term: "喚起",
-    meaning: "注意や記憶などを呼び起こすこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "注意喚起という形でよく使う。"
+    "term": "喚起",
+    "meaning": "注意や記憶などを呼び起こすこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "注意喚起という形でよく使う。"
   },
   {
-    term: "示威",
-    meaning: "威力や勢いを示すこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "デモや行動で力を見せる意味。"
+    "term": "示威",
+    "meaning": "威力や勢いを示すこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "デモや行動で力を見せる意味。"
   },
   {
-    term: "鼓舞",
-    meaning: "励まして気持ちを奮い立たせること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "士気を高める文脈で使う。"
+    "term": "鼓舞",
+    "meaning": "励まして気持ちを奮い立たせること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "士気を高める文脈で使う。"
   },
   {
-    term: "萎縮",
-    meaning: "勢いや元気がなく小さくなること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "心理的に縮こまる意味でも使う。"
+    "term": "萎縮",
+    "meaning": "勢いや元気がなく小さくなること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "心理的に縮こまる意味でも使う。"
   },
   {
-    term: "尽力",
-    meaning: "力を尽くして努力すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "協力や支援への感謝表現にも出る。"
+    "term": "尽力",
+    "meaning": "力を尽くして努力すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "協力や支援への感謝表現にも出る。"
   },
   {
-    term: "怠慢",
-    meaning: "やるべきことを怠ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "仕事や義務をおろそかにする意味。"
+    "term": "怠慢",
+    "meaning": "やるべきことを怠ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "仕事や義務をおろそかにする意味。"
   },
   {
-    term: "精励",
-    meaning: "仕事や勉学に一生懸命励むこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "努力を続ける姿勢を表す。"
+    "term": "精励",
+    "meaning": "仕事や勉学に一生懸命励むこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "努力を続ける姿勢を表す。"
   },
   {
-    term: "傲慢",
-    meaning: "思い上がって人を見下すこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "謙虚の対義語として覚える。"
+    "term": "傲慢",
+    "meaning": "思い上がって人を見下すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "謙虚の対義語として覚える。"
   },
   {
-    term: "謙虚",
-    meaning: "控えめで素直に学ぶ姿勢があること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "傲慢との対比で出やすい。"
+    "term": "謙虚",
+    "meaning": "控えめで素直に学ぶ姿勢があること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "傲慢との対比で出やすい。"
   },
   {
-    term: "寛容",
-    meaning: "心が広く他者を受け入れること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "異なる考えを許す姿勢。"
+    "term": "寛容",
+    "meaning": "心が広く他者を受け入れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "異なる考えを許す姿勢。"
   },
   {
-    term: "狭量",
-    meaning: "心が狭く他者を受け入れにくいこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "寛容の対義語。"
+    "term": "狭量",
+    "meaning": "心が狭く他者を受け入れにくいこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "寛容の対義語。"
   },
   {
-    term: "廉潔",
-    meaning: "私欲がなく行いが清らかなこと",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "公正で不正をしない人物評価に使う。"
+    "term": "廉潔",
+    "meaning": "私欲がなく行いが清らかなこと",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "公正で不正をしない人物評価に使う。"
   },
   {
-    term: "潔白",
-    meaning: "悪いことをしていないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "疑いが晴れる文脈で使う。"
+    "term": "潔白",
+    "meaning": "悪いことをしていないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "疑いが晴れる文脈で使う。"
   },
   {
-    term: "権威",
-    meaning: "人を従わせる力や信頼される力",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "専門家や制度の影響力にも使う。"
+    "term": "権威",
+    "meaning": "人を従わせる力や信頼される力",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "専門家や制度の影響力にも使う。"
   },
   {
-    term: "威信",
-    meaning: "人から認められる名誉や信用",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "組織や国の面目を表すこともある。"
+    "term": "威信",
+    "meaning": "人から認められる名誉や信用",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "組織や国の面目を表すこともある。"
   },
   {
-    term: "名声",
-    meaning: "世間に広く知られたよい評判",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "評判の広がりに注目する語。"
+    "term": "名声",
+    "meaning": "世間に広く知られたよい評判",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "評判の広がりに注目する語。"
   },
   {
-    term: "風評",
-    meaning: "世間で言われている評判",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "事実か不確かなうわさにも使う。"
+    "term": "風評",
+    "meaning": "世間で言われている評判",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "事実か不確かなうわさにも使う。"
   },
   {
-    term: "通念",
-    meaning: "世間で一般に受け入れられている考え",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "社会通念という形でよく使う。"
+    "term": "通念",
+    "meaning": "世間で一般に受け入れられている考え",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "社会通念という形でよく使う。"
   },
   {
-    term: "先入観",
-    meaning: "前もって持っている固定的な見方",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "判断を偏らせる見方。"
+    "term": "先入観",
+    "meaning": "前もって持っている固定的な見方",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "判断を偏らせる見方。"
   },
   {
-    term: "偏見",
-    meaning: "偏った見方や不公平な判断",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "先入観と近いが、より不公平さが強い。"
+    "term": "偏見",
+    "meaning": "偏った見方や不公平な判断",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "先入観と近いが、より不公平さが強い。"
   },
   {
-    term: "洞察",
-    meaning: "物事の本質を見抜くこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "表面的でなく深く理解する意味。"
+    "term": "洞察",
+    "meaning": "物事の本質を見抜くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "表面的でなく深く理解する意味。"
   },
   {
-    term: "考察",
-    meaning: "物事をよく考えて明らかにすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "理由や背景を筋道立てて考える。"
+    "term": "考察",
+    "meaning": "物事をよく考えて明らかにすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "理由や背景を筋道立てて考える。"
   },
   {
-    term: "推察",
-    meaning: "事情や手がかりから推し量ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "直接見えないことを推測する意味。"
+    "term": "推察",
+    "meaning": "事情や手がかりから推し量ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "直接見えないことを推測する意味。"
   },
   {
-    term: "把握",
-    meaning: "内容や状況をしっかり理解すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "状況把握・要点把握などで使う。"
+    "term": "把握",
+    "meaning": "内容や状況をしっかり理解すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "状況把握・要点把握などで使う。"
   },
   {
-    term: "掌握",
-    meaning: "自分のものとして支配し動かせる状態にすること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "権力や組織を握る文脈で使う。"
+    "term": "掌握",
+    "meaning": "自分のものとして支配し動かせる状態にすること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "権力や組織を握る文脈で使う。"
   },
   {
-    term: "網羅",
-    meaning: "関係するものを残さず取り入れること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "一覧や調査の完全性を表す。"
+    "term": "網羅",
+    "meaning": "関係するものを残さず取り入れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "一覧や調査の完全性を表す。"
   },
   {
-    term: "列挙",
-    meaning: "一つ一つ並べ上げること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "項目を順に挙げる意味。"
+    "term": "列挙",
+    "meaning": "一つ一つ並べ上げること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "項目を順に挙げる意味。"
   },
   {
-    term: "羅列",
-    meaning: "順序やまとまりなく並べること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "列挙より整理不足のニュアンスがある。"
+    "term": "羅列",
+    "meaning": "順序やまとまりなく並べること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "列挙より整理不足のニュアンスがある。"
   },
   {
-    term: "補填",
-    meaning: "不足や損失を補うこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "費用・欠員・損失などに使う。"
+    "term": "補填",
+    "meaning": "不足や損失を補うこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "費用・欠員・損失などに使う。"
   },
   {
-    term: "充足",
-    meaning: "必要なものが十分に満たされること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "条件や欲求が満たされる意味。"
+    "term": "充足",
+    "meaning": "必要なものが十分に満たされること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "条件や欲求が満たされる意味。"
   },
   {
-    term: "欠如",
-    meaning: "必要なものが欠けていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "能力・配慮・根拠などに使う。"
+    "term": "欠如",
+    "meaning": "必要なものが欠けていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "能力・配慮・根拠などに使う。"
   },
   {
-    term: "潤沢",
-    meaning: "十分にあって不足がないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "資金や資源が豊富な意味。"
+    "term": "潤沢",
+    "meaning": "十分にあって不足がないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "資金や資源が豊富な意味。"
   },
   {
-    term: "枯渇",
-    meaning: "使い尽くしてなくなること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "資源・才能・発想などにも使う。"
+    "term": "枯渇",
+    "meaning": "使い尽くしてなくなること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "資源・才能・発想などにも使う。"
   },
   {
-    term: "蓄積",
-    meaning: "少しずつためて積み重ねること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "経験・知識・資本などに使う。"
+    "term": "蓄積",
+    "meaning": "少しずつためて積み重ねること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "経験・知識・資本などに使う。"
   },
   {
-    term: "消耗",
-    meaning: "使って減ることや疲れて弱ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "体力・資源・時間などに使う。"
+    "term": "消耗",
+    "meaning": "使って減ることや疲れて弱ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "体力・資源・時間などに使う。"
   },
   {
-    term: "恒常",
-    meaning: "いつも一定で変わらないこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "一時的ではなく継続している意味。"
+    "term": "恒常",
+    "meaning": "いつも一定で変わらないこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "一時的ではなく継続している意味。"
   },
   {
-    term: "暫時",
-    meaning: "しばらくの間",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "短時間の継続を表す。"
+    "term": "暫時",
+    "meaning": "しばらくの間",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "短時間の継続を表す。"
   },
   {
-    term: "逐次",
-    meaning: "順を追って次々に行うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "段階的に進める意味。"
+    "term": "逐次",
+    "meaning": "順を追って次々に行うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "段階的に進める意味。"
   },
   {
-    term: "随時",
-    meaning: "必要なときにいつでも行うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "逐次と混同しないようにする。"
+    "term": "随時",
+    "meaning": "必要なときにいつでも行うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "逐次と混同しないようにする。"
   },
   {
-    term: "一律",
-    meaning: "すべて同じように扱うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "差をつけない扱い。"
+    "term": "一律",
+    "meaning": "すべて同じように扱うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "差をつけない扱い。"
   },
   {
-    term: "個別",
-    meaning: "一つ一つを別々に扱うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "一律との対比で覚える。"
+    "term": "個別",
+    "meaning": "一つ一つを別々に扱うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "一律との対比で覚える。"
   },
   {
-    term: "画一",
-    meaning: "すべてを同じ型にそろえること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "多様性が乏しいニュアンスがある。"
+    "term": "画一",
+    "meaning": "すべてを同じ型にそろえること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "多様性が乏しいニュアンスがある。"
   },
   {
-    term: "多様",
-    meaning: "さまざまな種類や形があること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "画一の対義語として押さえる。"
+    "term": "多様",
+    "meaning": "さまざまな種類や形があること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "画一の対義語として押さえる。"
   },
   {
-    term: "顕在",
-    meaning: "はっきり表に現れていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "潜在との対比で頻出。"
+    "term": "顕在",
+    "meaning": "はっきり表に現れていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "潜在との対比で頻出。"
   },
   {
-    term: "潜在",
-    meaning: "表には現れていないが内側に存在すること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "隠れている可能性や問題を表す。"
+    "term": "潜在",
+    "meaning": "表には現れていないが内側に存在すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "隠れている可能性や問題を表す。"
   },
   {
-    term: "露呈",
-    meaning: "隠れていたものが表に現れること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "欠点や問題点が明らかになる文脈。"
+    "term": "露呈",
+    "meaning": "隠れていたものが表に現れること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "欠点や問題点が明らかになる文脈。"
   },
   {
-    term: "隠蔽",
-    meaning: "都合の悪いことを隠すこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "事実や証拠を隠す意味。"
+    "term": "隠蔽",
+    "meaning": "都合の悪いことを隠すこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "事実や証拠を隠す意味。"
   },
   {
-    term: "公然",
-    meaning: "人目をはばからず明らかに行うこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "秘密でなく堂々としている状態。"
+    "term": "公然",
+    "meaning": "人目をはばからず明らかに行うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "秘密でなく堂々としている状態。"
   },
   {
-    term: "暗黙",
-    meaning: "言葉に出さず了解されていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "暗黙の了解という形でよく使う。"
+    "term": "暗黙",
+    "meaning": "言葉に出さず了解されていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "暗黙の了解という形でよく使う。"
   },
   {
-    term: "端的",
-    meaning: "要点がはっきりしていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "簡潔に核心を示す意味。"
+    "term": "端的",
+    "meaning": "要点がはっきりしていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "簡潔に核心を示す意味。"
   },
   {
-    term: "婉曲",
-    meaning: "遠回しにやわらかく表現すること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "直接的な表現を避ける意味。"
+    "term": "婉曲",
+    "meaning": "遠回しにやわらかく表現すること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "直接的な表現を避ける意味。"
   },
   {
-    term: "辛辣",
-    meaning: "言い方や批評が非常に厳しいこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "鋭く手厳しい表現。"
+    "term": "辛辣",
+    "meaning": "言い方や批評が非常に厳しいこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "鋭く手厳しい表現。"
   },
   {
-    term: "温厚",
-    meaning: "穏やかで人柄がやさしいこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "人の性格を表す語。"
+    "term": "温厚",
+    "meaning": "穏やかで人柄がやさしいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "人の性格を表す語。"
   },
   {
-    term: "険悪",
-    meaning: "雰囲気や関係が悪く緊張していること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "関係や空気が悪い状態。"
+    "term": "険悪",
+    "meaning": "雰囲気や関係が悪く緊張していること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "関係や空気が悪い状態。"
   },
   {
-    term: "円滑",
-    meaning: "物事が滞りなく進むこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "交渉・運営・連携などに使う。"
+    "term": "円滑",
+    "meaning": "物事が滞りなく進むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "交渉・運営・連携などに使う。"
   },
   {
-    term: "停滞",
-    meaning: "物事が進まず止まっていること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "円滑や進展との対比で覚える。"
+    "term": "停滞",
+    "meaning": "物事が進まず止まっていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "円滑や進展との対比で覚える。"
   },
   {
-    term: "進展",
-    meaning: "物事が進んで新しい段階に入ること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "議論・交渉・研究などに使う。"
+    "term": "進展",
+    "meaning": "物事が進んで新しい段階に入ること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "議論・交渉・研究などに使う。"
   },
   {
-    term: "保守",
-    meaning: "従来の制度や考え方を守ろうとすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "革新との対比で問われやすい。"
+    "term": "保守",
+    "meaning": "従来の制度や考え方を守ろうとすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "革新との対比で問われやすい。"
   },
   {
-    term: "革新",
-    meaning: "古いものを改めて新しくすること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "保守の対義語。"
+    "term": "革新",
+    "meaning": "古いものを改めて新しくすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "保守の対義語。"
   },
   {
-    term: "逸脱",
-    meaning: "本来の範囲や基準から外れること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "規範・基準・目的から外れる意味。"
+    "term": "逸脱",
+    "meaning": "本来の範囲や基準から外れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "規範・基準・目的から外れる意味。"
   },
   {
-    term: "半可通",
-    reading: "はんかつう",
-    meaning: "十分に知らないのに、よく知っているようにふるまうこと",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "未熟な知識で通人ぶる人を指す。画像例の説明に合う語。"
+    "term": "半可通",
+    "reading": "はんかつう",
+    "meaning": "十分に知らないのに、よく知っているようにふるまうこと",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "未熟な知識で通人ぶる人を指す。画像例の説明に合う語。"
   },
   {
-    term: "得意顔",
-    reading: "とくいがお",
-    meaning: "誇らしげで満足そうな顔つき",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "成功や優位を感じている表情を表す。"
+    "term": "得意顔",
+    "reading": "とくいがお",
+    "meaning": "誇らしげで満足そうな顔つき",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "成功や優位を感じている表情を表す。"
   },
   {
-    term: "物知り顔",
-    reading: "ものしりがお",
-    meaning: "物事をよく知っているような顔つき",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "実際に詳しいかどうかより、そう見せる態度に注目する語。"
+    "term": "物知り顔",
+    "reading": "ものしりがお",
+    "meaning": "物事をよく知っているような顔つき",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "実際に詳しいかどうかより、そう見せる態度に注目する語。"
   },
   {
-    term: "したり顔",
-    reading: "したりがお",
-    meaning: "うまくやったと得意になっている顔つき",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "得意げな表情を表す。"
+    "term": "したり顔",
+    "reading": "したりがお",
+    "meaning": "うまくやったと得意になっている顔つき",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "得意げな表情を表す。"
   },
   {
-    term: "知ったかぶり",
-    reading: "しったかぶり",
-    meaning: "知らないことを知っているように見せること",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "半可通と近いが、日常的な表現。"
+    "term": "知ったかぶり",
+    "reading": "しったかぶり",
+    "meaning": "知らないことを知っているように見せること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "半可通と近いが、日常的な表現。"
   },
   {
-    term: "お茶を濁す",
-    reading: "おちゃをにごす",
-    meaning: "その場しのぎでごまかすこと",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "本質に触れず、曖昧に済ませる場面で使う。"
+    "term": "お茶を濁す",
+    "reading": "おちゃをにごす",
+    "meaning": "その場しのぎでごまかすこと",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "本質に触れず、曖昧に済ませる場面で使う。"
   },
   {
-    term: "水を差す",
-    reading: "みずをさす",
-    meaning: "順調な物事やよい雰囲気を邪魔すること",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "盛り上がりや進行を妨げる意味。"
+    "term": "水を差す",
+    "reading": "みずをさす",
+    "meaning": "順調な物事やよい雰囲気を邪魔すること",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "盛り上がりや進行を妨げる意味。"
   },
   {
-    term: "肩を持つ",
-    reading: "かたをもつ",
-    meaning: "一方の味方をすること",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "公平でなく片方を支援する文脈で使う。"
+    "term": "肩を持つ",
+    "reading": "かたをもつ",
+    "meaning": "一方の味方をすること",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "公平でなく片方を支援する文脈で使う。"
   },
   {
-    term: "気が置けない",
-    reading: "きがおけない",
-    meaning: "遠慮せず親しく付き合えること",
-    category: "慣用句",
-    difficulty: "やや難",
-    note: "「気を許せない」ではなく、親密で気楽という意味。"
+    "term": "気が置けない",
+    "reading": "きがおけない",
+    "meaning": "遠慮せず親しく付き合えること",
+    "category": "慣用句",
+    "difficulty": "やや難",
+    "note": "「気を許せない」ではなく、親密で気楽という意味。"
   },
   {
-    term: "鼻につく",
-    reading: "はなにつく",
-    meaning: "言動が嫌味に感じられて不快であること",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "自慢やわざとらしさに対して使う。"
+    "term": "鼻につく",
+    "reading": "はなにつく",
+    "meaning": "言動が嫌味に感じられて不快であること",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "自慢やわざとらしさに対して使う。"
   },
   {
-    term: "身に余る",
-    reading: "みにあまる",
-    meaning: "自分には過分でありがたいこと",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "評価や待遇への謙遜表現として使われる。"
+    "term": "身に余る",
+    "reading": "みにあまる",
+    "meaning": "自分には過分でありがたいこと",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "評価や待遇への謙遜表現として使われる。"
   },
   {
-    term: "目を見張る",
-    reading: "めをみはる",
-    meaning: "驚くほどすばらしいこと",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "成長や成果が著しい場合に使う。"
+    "term": "目を見張る",
+    "reading": "めをみはる",
+    "meaning": "驚くほどすばらしいこと",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "成長や成果が著しい場合に使う。"
   },
   {
-    term: "手をこまねく",
-    reading: "てをこまねく",
-    meaning: "何もできずに見ていること",
-    category: "慣用句",
-    difficulty: "やや難",
-    note: "対策を取れず傍観する意味。"
+    "term": "手をこまねく",
+    "reading": "てをこまねく",
+    "meaning": "何もできずに見ていること",
+    "category": "慣用句",
+    "difficulty": "やや難",
+    "note": "対策を取れず傍観する意味。"
   },
   {
-    term: "取り付く島がない",
-    reading: "とりつくしまがない",
-    meaning: "相手が冷淡で話を進めるきっかけがないこと",
-    category: "慣用句",
-    difficulty: "やや難",
-    note: "相談や交渉を受け入れてもらえない状態。"
+    "term": "取り付く島がない",
+    "reading": "とりつくしまがない",
+    "meaning": "相手が冷淡で話を進めるきっかけがないこと",
+    "category": "慣用句",
+    "difficulty": "やや難",
+    "note": "相談や交渉を受け入れてもらえない状態。"
   },
   {
-    term: "折り紙付き",
-    reading: "おりがみつき",
-    meaning: "確かな評価や保証があること",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "品質や実力が認められている意味。"
+    "term": "折り紙付き",
+    "reading": "おりがみつき",
+    "meaning": "確かな評価や保証があること",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "品質や実力が認められている意味。"
   },
   {
-    term: "筋が通る",
-    reading: "すじがとおる",
-    meaning: "考えや説明に一貫性があること",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "論理が矛盾していない場合に使う。"
+    "term": "筋が通る",
+    "reading": "すじがとおる",
+    "meaning": "考えや説明に一貫性があること",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "論理が矛盾していない場合に使う。"
   },
   {
-    term: "歯に衣着せぬ",
-    reading: "はにきぬきせぬ",
-    meaning: "遠慮せず率直に言うこと",
-    category: "慣用句",
-    difficulty: "やや難",
-    note: "言いにくいこともはっきり述べる意味。"
+    "term": "歯に衣着せぬ",
+    "reading": "はにきぬきせぬ",
+    "meaning": "遠慮せず率直に言うこと",
+    "category": "慣用句",
+    "difficulty": "やや難",
+    "note": "言いにくいこともはっきり述べる意味。"
   },
   {
-    term: "青天の霹靂",
-    reading: "せいてんのへきれき",
-    meaning: "突然起こる思いがけない出来事",
-    category: "慣用句",
-    difficulty: "難",
-    note: "霹靂は雷の意味。予想外の知らせに使う。"
+    "term": "青天の霹靂",
+    "reading": "せいてんのへきれき",
+    "meaning": "突然起こる思いがけない出来事",
+    "category": "慣用句",
+    "difficulty": "難",
+    "note": "霹靂は雷の意味。予想外の知らせに使う。"
   },
   {
-    term: "杓子定規",
-    reading: "しゃくしじょうぎ",
-    meaning: "形式にこだわって融通がきかないこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "規則を機械的に当てはめる態度。"
+    "term": "杓子定規",
+    "reading": "しゃくしじょうぎ",
+    "meaning": "形式にこだわって融通がきかないこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "規則を機械的に当てはめる態度。"
   },
   {
-    term: "紋切り型",
-    reading: "もんきりがた",
-    meaning: "型にはまっていて新味がないこと",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "決まり文句のような表現に使う。"
+    "term": "紋切り型",
+    "reading": "もんきりがた",
+    "meaning": "型にはまっていて新味がないこと",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "決まり文句のような表現に使う。"
   },
   {
-    term: "机上の空論",
-    reading: "きじょうのくうろん",
-    meaning: "実際には役に立たない理屈だけの考え",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "現実性のない計画や議論を批判する語。"
+    "term": "机上の空論",
+    "reading": "きじょうのくうろん",
+    "meaning": "実際には役に立たない理屈だけの考え",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "現実性のない計画や議論を批判する語。"
   },
   {
-    term: "絵に描いた餅",
-    reading: "えにかいたもち",
-    meaning: "実際には役に立たない計画や期待",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "見た目はよくても実益がないこと。"
+    "term": "絵に描いた餅",
+    "reading": "えにかいたもち",
+    "meaning": "実際には役に立たない計画や期待",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "見た目はよくても実益がないこと。"
   },
   {
-    term: "焼け石に水",
-    reading: "やけいしにみず",
-    meaning: "少しの努力や援助では効果がほとんどないこと",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "不足が大きすぎて対策が追いつかない場面で使う。"
+    "term": "焼け石に水",
+    "reading": "やけいしにみず",
+    "meaning": "少しの努力や援助では効果がほとんどないこと",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "不足が大きすぎて対策が追いつかない場面で使う。"
   },
   {
-    term: "灯台下暗し",
-    reading: "とうだいもとくらし",
-    meaning: "身近なことほど気づきにくいこと",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "近くにある答えや原因を見落とす意味。"
+    "term": "灯台下暗し",
+    "reading": "とうだいもとくらし",
+    "meaning": "身近なことほど気づきにくいこと",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "近くにある答えや原因を見落とす意味。"
   },
   {
-    term: "急がば回れ",
-    reading: "いそがばまわれ",
-    meaning: "急ぐときほど安全で確実な方法を取るべきだということ",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "近道より堅実な手段を選ぶ教訓。"
+    "term": "急がば回れ",
+    "reading": "いそがばまわれ",
+    "meaning": "急ぐときほど安全で確実な方法を取るべきだということ",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "近道より堅実な手段を選ぶ教訓。"
   },
   {
-    term: "転ばぬ先の杖",
-    reading: "ころばぬさきのつえ",
-    meaning: "失敗しないよう前もって準備すること",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "予防や備えの大切さを表す。"
+    "term": "転ばぬ先の杖",
+    "reading": "ころばぬさきのつえ",
+    "meaning": "失敗しないよう前もって準備すること",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "予防や備えの大切さを表す。"
   },
   {
-    term: "弘法にも筆の誤り",
-    reading: "こうぼうにもふでのあやまり",
-    meaning: "名人でも時には失敗すること",
-    category: "ことわざ",
-    difficulty: "標準",
-    note: "どんな達人にもミスはあるという意味。"
+    "term": "弘法にも筆の誤り",
+    "reading": "こうぼうにもふでのあやまり",
+    "meaning": "名人でも時には失敗すること",
+    "category": "ことわざ",
+    "difficulty": "標準",
+    "note": "どんな達人にもミスはあるという意味。"
   },
   {
-    term: "覆水盆に返らず",
-    reading: "ふくすいぼんにかえらず",
-    meaning: "一度起きたことは元に戻せないこと",
-    category: "ことわざ",
-    difficulty: "やや難",
-    note: "取り返しのつかない事態を表す。"
+    "term": "覆水盆に返らず",
+    "reading": "ふくすいぼんにかえらず",
+    "meaning": "一度起きたことは元に戻せないこと",
+    "category": "ことわざ",
+    "difficulty": "やや難",
+    "note": "取り返しのつかない事態を表す。"
   },
   {
-    term: "背水の陣",
-    reading: "はいすいのじん",
-    meaning: "退路を断って全力で取り組むこと",
-    category: "慣用句",
-    difficulty: "標準",
-    note: "後に引けない状況で覚悟して臨む意味。"
+    "term": "背水の陣",
+    "reading": "はいすいのじん",
+    "meaning": "退路を断って全力で取り組むこと",
+    "category": "慣用句",
+    "difficulty": "標準",
+    "note": "後に引けない状況で覚悟して臨む意味。"
   },
   {
-    term: "玉石混交",
-    reading: "ぎょくせきこんこう",
-    meaning: "よいものと悪いものが入り混じっていること",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "玉は価値あるもの、石は価値の低いものを指す。"
+    "term": "玉石混交",
+    "reading": "ぎょくせきこんこう",
+    "meaning": "よいものと悪いものが入り混じっていること",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "玉は価値あるもの、石は価値の低いものを指す。"
   },
   {
-    term: "朝令暮改",
-    reading: "ちょうれいぼかい",
-    meaning: "命令や方針が頻繁に変わること",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "朝出した命令を夕方に改めるほど変化が激しい意味。"
+    "term": "朝令暮改",
+    "reading": "ちょうれいぼかい",
+    "meaning": "命令や方針が頻繁に変わること",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "朝出した命令を夕方に改めるほど変化が激しい意味。"
   },
   {
-    term: "付和雷同",
-    reading: "ふわらいどう",
-    meaning: "自分の考えなく他人の意見に同調すること",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "周囲に流される態度を表す。"
+    "term": "付和雷同",
+    "reading": "ふわらいどう",
+    "meaning": "自分の考えなく他人の意見に同調すること",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "周囲に流される態度を表す。"
   },
   {
-    term: "言語道断",
-    reading: "ごんごどうだん",
-    meaning: "とんでもなくひどく、言葉で言い表せないこと",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "強い非難を表す語。"
+    "term": "言語道断",
+    "reading": "ごんごどうだん",
+    "meaning": "とんでもなくひどく、言葉で言い表せないこと",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "強い非難を表す語。"
   },
   {
-    term: "自業自得",
-    reading: "じごうじとく",
-    meaning: "自分の行いの結果を自分で受けること",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "悪い結果について使われることが多い。"
+    "term": "自業自得",
+    "reading": "じごうじとく",
+    "meaning": "自分の行いの結果を自分で受けること",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "悪い結果について使われることが多い。"
   },
   {
-    term: "本末転倒",
-    reading: "ほんまつてんとう",
-    meaning: "大切なことと些細なことを取り違えること",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "目的と手段が逆になる場合にも使う。"
+    "term": "本末転倒",
+    "reading": "ほんまつてんとう",
+    "meaning": "大切なことと些細なことを取り違えること",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "目的と手段が逆になる場合にも使う。"
   },
   {
-    term: "一朝一夕",
-    reading: "いっちょういっせき",
-    meaning: "わずかな時間",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "否定形で、簡単にはできないという文脈が多い。"
+    "term": "一朝一夕",
+    "reading": "いっちょういっせき",
+    "meaning": "わずかな時間",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "否定形で、簡単にはできないという文脈が多い。"
   },
   {
-    term: "臨機応変",
-    reading: "りんきおうへん",
-    meaning: "状況に応じて適切に対応すること",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "柔軟な判断力を表す。"
+    "term": "臨機応変",
+    "reading": "りんきおうへん",
+    "meaning": "状況に応じて適切に対応すること",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "柔軟な判断力を表す。"
   },
   {
-    term: "優柔不断",
-    reading: "ゆうじゅうふだん",
-    meaning: "決断力に乏しく迷いやすいこと",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "逡巡と近いが、人の性質として使いやすい。"
+    "term": "優柔不断",
+    "reading": "ゆうじゅうふだん",
+    "meaning": "決断力に乏しく迷いやすいこと",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "逡巡と近いが、人の性質として使いやすい。"
   },
   {
-    term: "支離滅裂",
-    reading: "しりめつれつ",
-    meaning: "ばらばらで筋道が立っていないこと",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "発言や文章に一貫性がない場合に使う。"
+    "term": "支離滅裂",
+    "reading": "しりめつれつ",
+    "meaning": "ばらばらで筋道が立っていないこと",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "発言や文章に一貫性がない場合に使う。"
   },
   {
-    term: "針小棒大",
-    reading: "しんしょうぼうだい",
-    meaning: "小さなことを大げさに言うこと",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "事実を誇張する意味。"
+    "term": "針小棒大",
+    "reading": "しんしょうぼうだい",
+    "meaning": "小さなことを大げさに言うこと",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "事実を誇張する意味。"
   },
   {
-    term: "五里霧中",
-    reading: "ごりむちゅう",
-    meaning: "方針や手がかりがなく迷っていること",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "見通しが立たない状態を表す。"
+    "term": "五里霧中",
+    "reading": "ごりむちゅう",
+    "meaning": "方針や手がかりがなく迷っていること",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "見通しが立たない状態を表す。"
   },
   {
-    term: "紆余曲折",
-    reading: "うよきょくせつ",
-    meaning: "物事が順調に進まず複雑な経過をたどること",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "曲がりくねった道筋の比喩。"
+    "term": "紆余曲折",
+    "reading": "うよきょくせつ",
+    "meaning": "物事が順調に進まず複雑な経過をたどること",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "曲がりくねった道筋の比喩。"
   },
   {
-    term: "疑心暗鬼",
-    reading: "ぎしんあんき",
-    meaning: "疑いの心から何でも恐ろしく感じること",
-    category: "四字熟語",
-    difficulty: "標準",
-    note: "疑いが疑いを生む心理状態。"
+    "term": "疑心暗鬼",
+    "reading": "ぎしんあんき",
+    "meaning": "疑いの心から何でも恐ろしく感じること",
+    "category": "四字熟語",
+    "difficulty": "標準",
+    "note": "疑いが疑いを生む心理状態。"
   },
   {
-    term: "千載一遇",
-    reading: "せんざいいちぐう",
-    meaning: "めったにないよい機会",
-    category: "四字熟語",
-    difficulty: "やや難",
-    note: "千年に一度会うほど貴重な機会という意味。"
+    "term": "千載一遇",
+    "reading": "せんざいいちぐう",
+    "meaning": "めったにないよい機会",
+    "category": "四字熟語",
+    "difficulty": "やや難",
+    "note": "千年に一度会うほど貴重な機会という意味。"
   },
   {
-    term: "荒唐無稽",
-    reading: "こうとうむけい",
-    meaning: "根拠がなく現実離れしていること",
-    category: "四字熟語",
-    difficulty: "難",
-    note: "話や計画がでたらめで信じがたい場合に使う。"
+    "term": "荒唐無稽",
+    "reading": "こうとうむけい",
+    "meaning": "根拠がなく現実離れしていること",
+    "category": "四字熟語",
+    "difficulty": "難",
+    "note": "話や計画がでたらめで信じがたい場合に使う。"
   },
   {
-    term: "杞人天憂",
-    reading: "きじんてんゆう",
-    meaning: "取り越し苦労をすること",
-    category: "四字熟語",
-    difficulty: "難",
-    note: "杞憂と同じ由来を持つ表現。"
+    "term": "杞人天憂",
+    "reading": "きじんてんゆう",
+    "meaning": "取り越し苦労をすること",
+    "category": "四字熟語",
+    "difficulty": "難",
+    "note": "杞憂と同じ由来を持つ表現。"
   },
   {
-    term: "アジェンダ",
-    reading: "あじぇんだ",
-    meaning: "会議で扱う議題や予定表",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "会議前に確認する項目一覧を指すことが多い。"
+    "term": "なおざり",
+    "reading": "なおざり",
+    "meaning": "十分に注意を払わずいい加減にすること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "おろそかにする意味。"
   },
   {
-    term: "コンセンサス",
-    reading: "こんせんさす",
-    meaning: "関係者の合意や意見の一致",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "組織内の合意形成でよく使う。"
+    "term": "おざなり",
+    "reading": "おざなり",
+    "meaning": "その場だけの間に合わせで済ませること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "なおざりと似るが、その場しのぎの対応に重点がある。"
   },
   {
-    term: "リスクヘッジ",
-    reading: "りすくへっじ",
-    meaning: "危険を予測して損失を避ける対策を取ること",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "複数案を用意するなど、危険を分散する考え方。"
+    "term": "やぶさかでない",
+    "reading": "やぶさかでない",
+    "meaning": "喜んで引き受ける気持ちがあること",
+    "category": "語句の意味",
+    "difficulty": "やや難",
+    "note": "消極的な否定ではなく、前向きな承諾を表す。"
   },
   {
-    term: "ボトルネック",
-    reading: "ぼとるねっく",
-    meaning: "全体の進行を妨げる制約や障害",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "処理や業務が詰まる原因を指す。"
+    "term": "あながち",
+    "reading": "あながち",
+    "meaning": "必ずしも一概には言えないさま",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "否定を伴って、完全には否定できない意味になる。"
   },
   {
-    term: "ペンディング",
-    reading: "ぺんでぃんぐ",
-    meaning: "未決定のまま保留すること",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "判断や対応をいったん先送りする意味。"
+    "term": "おもむろに",
+    "reading": "おもむろに",
+    "meaning": "落ち着いてゆっくりと動作を始めるさま",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "突然という意味ではないので注意。"
   },
   {
-    term: "フィードバック",
-    reading: "ふぃーどばっく",
-    meaning: "結果や反応を伝えて改善に役立てること",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "評価や意見を返す意味。"
+    "term": "つぶさに",
+    "reading": "つぶさに",
+    "meaning": "細かく詳しく",
+    "category": "副詞",
+    "difficulty": "やや難",
+    "note": "状況を詳しく見る・調べる場合に使う。"
   },
   {
-    term: "スキーム",
-    reading: "すきーむ",
-    meaning: "計画や仕組みの枠組み",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "事業や制度の全体設計を指すことが多い。"
+    "term": "すべからく",
+    "reading": "すべからく",
+    "meaning": "当然そうすべきであるという意味で用いる語",
+    "category": "副詞",
+    "difficulty": "難",
+    "note": "「すべて」という意味ではない。"
   },
   {
-    term: "イニシアチブ",
-    reading: "いにしあちぶ",
-    meaning: "主導権",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "自分が中心となって進める力や立場。"
+    "term": "さしずめ",
+    "reading": "さしずめ",
+    "meaning": "今のところ、結局のところ",
+    "category": "副詞",
+    "difficulty": "やや難",
+    "note": "当面の判断を述べるときに使う。"
   },
   {
-    term: "レガシー",
-    reading: "れがしー",
-    meaning: "過去から受け継がれたもの",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "古い仕組みや遺産という意味で使われる。"
+    "term": "ひいては",
+    "reading": "ひいては",
+    "meaning": "さらに進んでは、その結果として",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "影響が広がる先を示す接続表現。"
   },
   {
-    term: "インセンティブ",
-    reading: "いんせんてぃぶ",
-    meaning: "行動を促す動機づけや報酬",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "成果を促す仕組みとして使われる。"
+    "term": "かねて",
+    "reading": "かねて",
+    "meaning": "以前から",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "かねてより、という形でよく使う。"
   },
   {
-    term: "ナレッジ",
-    reading: "なれっじ",
-    meaning: "業務などで蓄積された知識や知見",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "組織で共有する知識を指すことが多い。"
+    "term": "おしなべて",
+    "reading": "おしなべて",
+    "meaning": "全体的に見て、だいたい",
+    "category": "副詞",
+    "difficulty": "やや難",
+    "note": "例外を細かく見ず、全体傾向を述べる語。"
   },
   {
-    term: "エビデンス",
-    reading: "えびでんす",
-    meaning: "判断の根拠となる証拠",
-    category: "カタカナ語",
-    difficulty: "標準",
-    note: "説明や主張の裏づけを指す。"
+    "term": "すこぶる",
+    "reading": "すこぶる",
+    "meaning": "非常に、たいへん",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "程度が大きいことを表す。"
   },
   {
-    term: "なおざり",
-    reading: "なおざり",
-    meaning: "十分に注意を払わずいい加減にすること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "おろそかにする意味。"
+    "term": "おおむね",
+    "reading": "おおむね",
+    "meaning": "だいたい、全体として",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "完全ではないが大筋で合っている意味。"
   },
   {
-    term: "おざなり",
-    reading: "おざなり",
-    meaning: "その場だけの間に合わせで済ませること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "なおざりと似るが、その場しのぎの対応に重点がある。"
+    "term": "かろうじて",
+    "reading": "かろうじて",
+    "meaning": "やっとのことで",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "余裕がなくぎりぎり達成する意味。"
   },
   {
-    term: "やぶさかでない",
-    reading: "やぶさかでない",
-    meaning: "喜んで引き受ける気持ちがあること",
-    category: "語句の意味",
-    difficulty: "やや難",
-    note: "消極的な否定ではなく、前向きな承諾を表す。"
+    "term": "ことさら",
+    "reading": "ことさら",
+    "meaning": "わざわざ、特に",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "意図的に強調する場合に使う。"
   },
   {
-    term: "あながち",
-    reading: "あながち",
-    meaning: "必ずしも一概には言えないさま",
-    category: "副詞",
-    difficulty: "標準",
-    note: "否定を伴って、完全には否定できない意味になる。"
+    "term": "あまつさえ",
+    "reading": "あまつさえ",
+    "meaning": "そのうえ、さらに悪いことに",
+    "category": "副詞",
+    "difficulty": "難",
+    "note": "悪い内容を重ねるときに使うことが多い。"
   },
   {
-    term: "おもむろに",
-    reading: "おもむろに",
-    meaning: "落ち着いてゆっくりと動作を始めるさま",
-    category: "副詞",
-    difficulty: "標準",
-    note: "突然という意味ではないので注意。"
+    "term": "いみじくも",
+    "reading": "いみじくも",
+    "meaning": "実に適切に、巧みに",
+    "category": "副詞",
+    "difficulty": "難",
+    "note": "発言や表現が本質を突いている場合に使う。"
   },
   {
-    term: "つぶさに",
-    reading: "つぶさに",
-    meaning: "細かく詳しく",
-    category: "副詞",
-    difficulty: "やや難",
-    note: "状況を詳しく見る・調べる場合に使う。"
+    "term": "けげん",
+    "reading": "けげん",
+    "meaning": "不思議に思い納得できないさま",
+    "category": "形容動詞",
+    "difficulty": "標準",
+    "note": "漢字では怪訝。読みが難しい語として出やすい。"
   },
   {
-    term: "すべからく",
-    reading: "すべからく",
-    meaning: "当然そうすべきであるという意味で用いる語",
-    category: "副詞",
-    difficulty: "難",
-    note: "「すべて」という意味ではない。"
+    "term": "したたか",
+    "reading": "したたか",
+    "meaning": "手ごわく、簡単には屈しないさま",
+    "category": "形容動詞",
+    "difficulty": "標準",
+    "note": "強くしぶとい性質を表す。"
   },
   {
-    term: "さしずめ",
-    reading: "さしずめ",
-    meaning: "今のところ、結局のところ",
-    category: "副詞",
-    difficulty: "やや難",
-    note: "当面の判断を述べるときに使う。"
+    "term": "あざとい",
+    "reading": "あざとい",
+    "meaning": "抜け目がなく、やり方が露骨であるさま",
+    "category": "形容詞",
+    "difficulty": "標準",
+    "note": "計算高さやわざとらしさを含む。"
   },
   {
-    term: "ひいては",
-    reading: "ひいては",
-    meaning: "さらに進んでは、その結果として",
-    category: "副詞",
-    difficulty: "標準",
-    note: "影響が広がる先を示す接続表現。"
+    "term": "いぶかしい",
+    "reading": "いぶかしい",
+    "meaning": "疑わしく不審に思われるさま",
+    "category": "形容詞",
+    "difficulty": "やや難",
+    "note": "理由がわからず怪しく感じる意味。"
   },
   {
-    term: "かねて",
-    reading: "かねて",
-    meaning: "以前から",
-    category: "副詞",
-    difficulty: "標準",
-    note: "かねてより、という形でよく使う。"
+    "term": "おぼつかない",
+    "reading": "おぼつかない",
+    "meaning": "頼りなく不安であるさま",
+    "category": "形容詞",
+    "difficulty": "標準",
+    "note": "足取り・記憶・見通しなどに使う。"
   },
   {
-    term: "おしなべて",
-    reading: "おしなべて",
-    meaning: "全体的に見て、だいたい",
-    category: "副詞",
-    difficulty: "やや難",
-    note: "例外を細かく見ず、全体傾向を述べる語。"
+    "term": "やにわに",
+    "reading": "やにわに",
+    "meaning": "その場ですぐに、突然",
+    "category": "副詞",
+    "difficulty": "難",
+    "note": "動作が急に始まるさまを表す。"
   },
   {
-    term: "すこぶる",
-    reading: "すこぶる",
-    meaning: "非常に、たいへん",
-    category: "副詞",
-    difficulty: "標準",
-    note: "程度が大きいことを表す。"
+    "term": "しどろもどろ",
+    "reading": "しどろもどろ",
+    "meaning": "話し方が乱れてまとまらないさま",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "慌てて説明が支離滅裂になる状態。"
   },
   {
-    term: "おおむね",
-    reading: "おおむね",
-    meaning: "だいたい、全体として",
-    category: "副詞",
-    difficulty: "標準",
-    note: "完全ではないが大筋で合っている意味。"
+    "term": "ままならない",
+    "reading": "ままならない",
+    "meaning": "思いどおりにならないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "状況を自由に動かせない場合に使う。"
   },
   {
-    term: "かろうじて",
-    reading: "かろうじて",
-    meaning: "やっとのことで",
-    category: "副詞",
-    difficulty: "標準",
-    note: "余裕がなくぎりぎり達成する意味。"
+    "term": "あえなく",
+    "reading": "あえなく",
+    "meaning": "期待に反して簡単にだめになるさま",
+    "category": "副詞",
+    "difficulty": "標準",
+    "note": "失敗や敗北があっけなく起こる意味。"
   },
   {
-    term: "ことさら",
-    reading: "ことさら",
-    meaning: "わざわざ、特に",
-    category: "副詞",
-    difficulty: "標準",
-    note: "意図的に強調する場合に使う。"
+    "term": "おもねる",
+    "reading": "おもねる",
+    "meaning": "人の気に入るようにへつらうこと",
+    "category": "動詞",
+    "difficulty": "やや難",
+    "note": "迎合に近く、相手に取り入ろうとする意味。"
   },
   {
-    term: "あまつさえ",
-    reading: "あまつさえ",
-    meaning: "そのうえ、さらに悪いことに",
-    category: "副詞",
-    difficulty: "難",
-    note: "悪い内容を重ねるときに使うことが多い。"
+    "term": "いなす",
+    "reading": "いなす",
+    "meaning": "相手の勢いをうまくそらすこと",
+    "category": "動詞",
+    "difficulty": "やや難",
+    "note": "攻撃や追及を正面から受けずにかわす意味。"
   },
   {
-    term: "いみじくも",
-    reading: "いみじくも",
-    meaning: "実に適切に、巧みに",
-    category: "副詞",
-    difficulty: "難",
-    note: "発言や表現が本質を突いている場合に使う。"
+    "term": "あしらう",
+    "reading": "あしらう",
+    "meaning": "相手を適当に扱うこと",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "丁寧に対応しないニュアンスがある。"
   },
   {
-    term: "けげん",
-    reading: "けげん",
-    meaning: "不思議に思い納得できないさま",
-    category: "形容動詞",
-    difficulty: "標準",
-    note: "漢字では怪訝。読みが難しい語として出やすい。"
+    "term": "はぐらかす",
+    "reading": "はぐらかす",
+    "meaning": "話の焦点をそらしてごまかすこと",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "質問に正面から答えない場合に使う。"
   },
   {
-    term: "したたか",
-    reading: "したたか",
-    meaning: "手ごわく、簡単には屈しないさま",
-    category: "形容動詞",
-    difficulty: "標準",
-    note: "強くしぶとい性質を表す。"
+    "term": "取り繕う",
+    "reading": "とりつくろう",
+    "meaning": "欠点や失敗が目立たないように表面だけ整えること",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "その場をうまく見せかける意味。"
   },
   {
-    term: "あざとい",
-    reading: "あざとい",
-    meaning: "抜け目がなく、やり方が露骨であるさま",
-    category: "形容詞",
-    difficulty: "標準",
-    note: "計算高さやわざとらしさを含む。"
+    "term": "見限る",
+    "reading": "みかぎる",
+    "meaning": "見込みがないとしてあきらめること",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "期待を捨てる判断を表す。"
   },
   {
-    term: "いぶかしい",
-    reading: "いぶかしい",
-    meaning: "疑わしく不審に思われるさま",
-    category: "形容詞",
-    difficulty: "やや難",
-    note: "理由がわからず怪しく感じる意味。"
+    "term": "見据える",
+    "reading": "みすえる",
+    "meaning": "将来や本質をしっかり見定めること",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "長期的な視点で考える意味。"
   },
   {
-    term: "おぼつかない",
-    reading: "おぼつかない",
-    meaning: "頼りなく不安であるさま",
-    category: "形容詞",
-    difficulty: "標準",
-    note: "足取り・記憶・見通しなどに使う。"
+    "term": "見込む",
+    "reading": "みこむ",
+    "meaning": "将来そうなると予想すること",
+    "category": "動詞",
+    "difficulty": "標準",
+    "note": "売上や効果を予測する場面でも使う。"
   },
   {
-    term: "やにわに",
-    reading: "やにわに",
-    meaning: "その場ですぐに、突然",
-    category: "副詞",
-    difficulty: "難",
-    note: "動作が急に始まるさまを表す。"
+    "term": "かこつける",
+    "reading": "かこつける",
+    "meaning": "別のことを口実にすること",
+    "category": "動詞",
+    "difficulty": "やや難",
+    "note": "本当の理由を隠して理由づけする意味。"
   },
   {
-    term: "しどろもどろ",
-    reading: "しどろもどろ",
-    meaning: "話し方が乱れてまとまらないさま",
-    category: "副詞",
-    difficulty: "標準",
-    note: "慌てて説明が支離滅裂になる状態。"
+    "term": "取り沙汰する",
+    "reading": "とりざたする",
+    "meaning": "世間で話題にすること",
+    "category": "動詞",
+    "difficulty": "やや難",
+    "note": "うわさや評判として取り上げる意味。"
   },
   {
-    term: "ままならない",
-    reading: "ままならない",
-    meaning: "思いどおりにならないこと",
-    category: "語句の意味",
-    difficulty: "標準",
-    note: "状況を自由に動かせない場合に使う。"
-  },
-  {
-    term: "あえなく",
-    reading: "あえなく",
-    meaning: "期待に反して簡単にだめになるさま",
-    category: "副詞",
-    difficulty: "標準",
-    note: "失敗や敗北があっけなく起こる意味。"
-  },
-  {
-    term: "おもねる",
-    reading: "おもねる",
-    meaning: "人の気に入るようにへつらうこと",
-    category: "動詞",
-    difficulty: "やや難",
-    note: "迎合に近く、相手に取り入ろうとする意味。"
-  },
-  {
-    term: "いなす",
-    reading: "いなす",
-    meaning: "相手の勢いをうまくそらすこと",
-    category: "動詞",
-    difficulty: "やや難",
-    note: "攻撃や追及を正面から受けずにかわす意味。"
-  },
-  {
-    term: "あしらう",
-    reading: "あしらう",
-    meaning: "相手を適当に扱うこと",
-    category: "動詞",
-    difficulty: "標準",
-    note: "丁寧に対応しないニュアンスがある。"
-  },
-  {
-    term: "はぐらかす",
-    reading: "はぐらかす",
-    meaning: "話の焦点をそらしてごまかすこと",
-    category: "動詞",
-    difficulty: "標準",
-    note: "質問に正面から答えない場合に使う。"
-  },
-  {
-    term: "取り繕う",
-    reading: "とりつくろう",
-    meaning: "欠点や失敗が目立たないように表面だけ整えること",
-    category: "動詞",
-    difficulty: "標準",
-    note: "その場をうまく見せかける意味。"
-  },
-  {
-    term: "見限る",
-    reading: "みかぎる",
-    meaning: "見込みがないとしてあきらめること",
-    category: "動詞",
-    difficulty: "標準",
-    note: "期待を捨てる判断を表す。"
-  },
-  {
-    term: "見据える",
-    reading: "みすえる",
-    meaning: "将来や本質をしっかり見定めること",
-    category: "動詞",
-    difficulty: "標準",
-    note: "長期的な視点で考える意味。"
-  },
-  {
-    term: "見込む",
-    reading: "みこむ",
-    meaning: "将来そうなると予想すること",
-    category: "動詞",
-    difficulty: "標準",
-    note: "売上や効果を予測する場面でも使う。"
-  },
-  {
-    term: "かこつける",
-    reading: "かこつける",
-    meaning: "別のことを口実にすること",
-    category: "動詞",
-    difficulty: "やや難",
-    note: "本当の理由を隠して理由づけする意味。"
-  },
-  {
-    term: "取り沙汰する",
-    reading: "とりざたする",
-    meaning: "世間で話題にすること",
-    category: "動詞",
-    difficulty: "やや難",
-    note: "うわさや評判として取り上げる意味。"
-  },
-  {
-    term: "うがった見方",
-    reading: "うがったみかた",
-    meaning: "物事の本質を的確にとらえた見方",
-    category: "語句の意味",
-    difficulty: "難",
-    note: "本来は疑い深い見方ではなく、核心を突く見方。"
+    "term": "うがった見方",
+    "reading": "うがったみかた",
+    "meaning": "物事の本質を的確にとらえた見方",
+    "category": "語句の意味",
+    "difficulty": "難",
+    "note": "本来は疑い深い見方ではなく、核心を突く見方。"
   }
 ];
 
