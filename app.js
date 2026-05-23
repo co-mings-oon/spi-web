@@ -6093,8 +6093,6 @@ const els = {
   addToReview: document.querySelector("#addToReview"),
   homeButton: document.querySelector("#homeButton"),
   nextQuestion: document.querySelector("#nextQuestion"),
-  categoryBadge: document.querySelector("#categoryBadge"),
-  difficultyBadge: document.querySelector("#difficultyBadge"),
   promptLabel: document.querySelector("#promptLabel"),
   questionText: document.querySelector("#questionText"),
   choices: document.querySelector("#choices"),
@@ -6142,6 +6140,7 @@ els.homeButton.addEventListener("click", () => renderHome());
 els.addToReview.addEventListener("click", () => {
   if (!state.current || state.showingSummary) return;
   addCurrentQuestionToReview();
+  advanceAfterReviewAdd();
 });
 
 els.nextQuestion.addEventListener("click", () => {
@@ -6310,8 +6309,6 @@ function renderHome(message = "設定を選んで開始してください") {
   state.pendingSetSummary = false;
   state.locked = false;
   resetSet();
-  els.categoryBadge.textContent = "準備";
-  els.difficultyBadge.textContent = "設定";
   els.promptLabel.textContent = "出題モード・問題形式・セット数を選んでください。";
   els.questionText.classList.remove("is-sentence");
   els.questionText.textContent = "開始ボタンで出題します";
@@ -6353,8 +6350,6 @@ function renderQuestion(nextQuestion) {
   const choices = [answer, ...shuffle(decoys).slice(0, 3)];
   const orderedChoices = shuffle(choices);
 
-  els.categoryBadge.textContent = state.current.category;
-  els.difficultyBadge.textContent = state.current.difficulty;
   els.promptLabel.textContent = reverse
     ? "次の意味に合う語句として最も近いものを選んでください。"
     : "次の語句の意味として最も近いものを選んでください。";
@@ -6379,8 +6374,6 @@ function renderUsageQuestion() {
   const question = state.current;
   const orderedChoices = shuffle(question.choices);
 
-  els.categoryBadge.textContent = question.category;
-  els.difficultyBadge.textContent = question.difficulty;
   els.promptLabel.textContent = "下線部の語句と用法が最も近いものを1つ選んでください。";
   els.questionText.innerHTML = underlineTarget(question.sentence, question.target);
   els.choices.replaceChildren();
@@ -6469,8 +6462,6 @@ function renderSetSummary() {
   const wrong = state.setResults.filter((item) => !item.correct);
   const accuracy = total ? Math.round((correct / total) * 100) : 0;
 
-  els.categoryBadge.textContent = "セット結果";
-  els.difficultyBadge.textContent = correct + " / " + total;
   els.promptLabel.textContent = "1セットの結果";
   els.questionText.classList.remove("is-sentence");
   els.questionText.textContent = "正答率 " + accuracy + "%";
@@ -6518,6 +6509,15 @@ function addCurrentQuestionToReview() {
   renderReview();
   els.addToReview.disabled = true;
   els.addToReview.textContent = "復習に追加済み";
+}
+
+function advanceAfterReviewAdd() {
+  if (!state.locked) return;
+  if (state.pendingSetSummary) {
+    renderSetSummary();
+    return;
+  }
+  renderNextQuestion();
 }
 
 function isInManualReview(question) {
