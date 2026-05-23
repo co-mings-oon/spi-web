@@ -519,6 +519,10 @@ h1 {
   gap: 10px;
 }
 
+.review-entry {
+  position: relative;
+}
+
 .review-item {
   width: 100%;
   min-height: 46px;
@@ -535,6 +539,47 @@ h1 {
 .review-item:focus-visible {
   outline: 3px solid rgba(15, 118, 110, 0.18);
   border-color: var(--accent);
+}
+
+.review-meaning-popover {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 8px);
+  left: 0;
+  width: min(320px, 82vw);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px 38px 12px 12px;
+  color: var(--ink);
+  background: white;
+  box-shadow: var(--shadow);
+  line-height: 1.45;
+}
+
+.review-meaning-popover strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.review-meaning-popover p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.review-popover-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 999px;
+  color: var(--muted);
+  background: #eef3f5;
+  font-weight: 900;
 }
 
 .review-item strong {
@@ -879,6 +924,13 @@ h1 {
 
   .review-item {
     padding: 9px;
+  }
+
+  .review-meaning-popover {
+    position: static;
+    width: 100%;
+    margin-top: 6px;
+    box-shadow: none;
   }
 }
 

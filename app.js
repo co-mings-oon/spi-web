@@ -6408,12 +6408,12 @@ function answerQuestion(button) {
   entry.answered += 1;
   entry.correct += isCorrect ? 1 : 0;
   entry.wrong = Math.max(0, (entry.wrong || 0) + (isCorrect ? -1 : 1));
-  if (state.reviewingQuestionId === questionId && isCorrect) {
+  const shouldClearReview = isCorrect && (state.mode === "all" || state.mode === "weak") && state.reviewQueue.includes(questionId);
+  if (shouldClearReview) {
     removeFromReviewQueue(questionId);
     entry.review = false;
     entry.wrong = 0;
   } else if (!isCorrect) {
-    if (state.reviewingQuestionId === questionId) removeFromReviewQueue(questionId);
     appendToReviewQueue(questionId);
     entry.review = true;
   }
@@ -6558,12 +6558,29 @@ function renderReview() {
 
   els.reviewList.replaceChildren(
     ...weakWords.map((word) => {
+      const entry = document.createElement("div");
+      entry.className = "review-entry";
+
       const item = document.createElement("button");
       item.className = "review-item";
       item.type = "button";
       item.textContent = word.term;
-      item.addEventListener("click", () => startReviewQuestion(word));
-      return item;
+      item.addEventListener("click", () => toggleReviewMeaning(entry));
+
+      const popover = document.createElement("div");
+      popover.className = "review-meaning-popover";
+      popover.hidden = true;
+      popover.innerHTML =
+        '<button class="review-popover-close" type="button" aria-label="閉じる">×</button>' +
+        '<strong>' + escapeHtml(word.term) + '</strong>' +
+        '<p>' + escapeHtml(getReviewMeaning(word)) + '</p>';
+      popover.querySelector(".review-popover-close").addEventListener("click", (event) => {
+        event.stopPropagation();
+        popover.hidden = true;
+      });
+
+      entry.append(item, popover);
+      return entry;
     })
   );
 }
@@ -6585,9 +6602,18 @@ function syncReviewQueue() {
   }
 }
 
-function startReviewQuestion(question) {
-  const questionId = getQuestionId(question);
-  startSet([question], [questionId]);
+function toggleReviewMeaning(entry) {
+  const popover = entry.querySelector(".review-meaning-popover");
+  const willOpen = popover.hidden;
+  els.reviewList.querySelectorAll(".review-meaning-popover").forEach((item) => {
+    item.hidden = true;
+  });
+  popover.hidden = !willOpen;
+}
+
+function getReviewMeaning(question) {
+  if (isUsageQuestion(question)) return question.meaning || question.note || "";
+  return question.meaning || question.note || "";
 }
 
 function isReviewTarget(question) {
