@@ -5069,375 +5069,4342 @@ const WORDS = [
     "category": "Excel語句リスト",
     "difficulty": "標準",
     "note": "言葉や物事の意味を、はっきり決めて説明すること。"
+  },
+  {
+    "term": "拘泥",
+    "meaning": "「固執」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "拘泥は、必要以上にこだわること。"
+  },
+  {
+    "term": "稀有",
+    "meaning": "「希少」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "稀有は、めったにないこと。"
+  },
+  {
+    "term": "静謐",
+    "meaning": "「閑静」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "静謐は、静かで落ち着いていること。"
+  },
+  {
+    "term": "逓減",
+    "meaning": "「漸減」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "逓減は、次第に減っていくこと。"
+  },
+  {
+    "term": "俯瞰",
+    "meaning": "「概観」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "俯瞰は、高い視点から全体を見渡すこと。"
+  },
+  {
+    "term": "狡猾",
+    "meaning": "「老獪」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "狡猾は、ずるく悪賢いこと。"
+  },
+  {
+    "term": "瑕疵",
+    "meaning": "「欠陥」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "瑕疵は、欠点や欠陥のこと。"
+  },
+  {
+    "term": "嚆矢",
+    "meaning": "「先駆」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "嚆矢は、物事の始まりや先駆けのこと。"
+  },
+  {
+    "term": "醸成",
+    "meaning": "「形成」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "醸成は、気運や雰囲気を徐々に作り出すこと。"
+  },
+  {
+    "term": "独善",
+    "meaning": "「独りよがり」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "独善は、自分だけが正しいと思い込むこと。"
+  },
+  {
+    "term": "夭折",
+    "meaning": "「早世」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "夭折は、若くして亡くなること。"
+  },
+  {
+    "term": "雄弁",
+    "meaning": "「能弁」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "雄弁は、説得力をもってよく話すこと。"
+  },
+  {
+    "term": "罷免",
+    "meaning": "「解任」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "罷免は、職をやめさせること。"
+  },
+  {
+    "term": "連綿",
+    "meaning": "「継続」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "連綿は、長く続いて絶えないこと。"
+  },
+  {
+    "term": "葛藤",
+    "meaning": "「相克」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "葛藤は、対立する感情や力がせめぎ合うこと。"
+  },
+  {
+    "term": "進捗",
+    "meaning": "「進展」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "進捗は、物事が進みはかどること。"
+  },
+  {
+    "term": "論駁",
+    "meaning": "「反駁」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "論駁は、相手の論を論じて退けること。"
+  },
+  {
+    "term": "折衝",
+    "meaning": "「交渉」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "折衝は、利害が異なる相手と話し合って調整すること。"
+  },
+  {
+    "term": "所与",
+    "meaning": "「前提」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "所与は、あらかじめ与えられているもの。"
+  },
+  {
+    "term": "散逸",
+    "meaning": "「消散」とほぼ同じ意味",
+    "category": "外部データ・同意語",
+    "difficulty": "標準",
+    "note": "散逸は、まとまっていたものが散ってなくなること。"
+  },
+  {
+    "term": "恣意的",
+    "meaning": "「客観的」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "恣意的は自分勝手な判断に基づくこと。反対は客観的。"
+  },
+  {
+    "term": "明示",
+    "meaning": "「暗示」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "明示ははっきり示すこと。反対はそれとなく示す暗示。"
+  },
+  {
+    "term": "先天",
+    "meaning": "「後天」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "先天は生まれつき。反対は生後に身につく後天。"
+  },
+  {
+    "term": "過剰",
+    "meaning": "「不足」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "過剰の反対は、足りないことを表す不足。"
+  },
+  {
+    "term": "沈滞",
+    "meaning": "「活況」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "沈滞は活気がなく滞ること。反対は活況。"
+  },
+  {
+    "term": "融和",
+    "meaning": "「対立」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "融和はとけ合って和むこと。反対は対立。"
+  },
+  {
+    "term": "謙抑",
+    "meaning": "「尊大」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "謙抑は控えめなこと。反対は偉そうな尊大。"
+  },
+  {
+    "term": "単純",
+    "meaning": "「複雑」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "単純の反対は、入り組んでいる複雑。"
+  },
+  {
+    "term": "専制",
+    "meaning": "「民主」と反対の意味",
+    "category": "外部データ・反意語",
+    "difficulty": "標準",
+    "note": "専制は支配者が独断で行う政治。反対は民主。"
+  },
+  {
+    "term": "妥結",
+    "meaning": "話し合いがまとまること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "妥結は、互いに譲り合って話がまとまること。"
+  },
+  {
+    "term": "形骸化",
+    "meaning": "実質が失われ形だけになること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "形骸化は、中身や実質が失われ形だけになること。"
+  },
+  {
+    "term": "相殺",
+    "meaning": "差し引いて帳消しにすること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "相殺は、互いの損得を差し引いて消すこと。"
+  },
+  {
+    "term": "瀬戸際",
+    "meaning": "成否や安危の分かれ目",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "瀬戸際は、事態が決まるぎりぎりの分かれ目。"
+  },
+  {
+    "term": "帰納",
+    "meaning": "個別の事実から一般的な結論を導くこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "帰納は、具体例から一般的な法則を導く考え方。"
+  },
+  {
+    "term": "蓋然性",
+    "meaning": "ある事柄が起こりそうな見込み",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "蓋然性は、確実ではないが起こりそうな可能性の高さ。"
+  },
+  {
+    "term": "牽制",
+    "meaning": "相手の動きを抑えるため警戒させること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "牽制は、相手が自由に動けないように警戒させること。"
+  },
+  {
+    "term": "媒介",
+    "meaning": "二つのものの間に立って関係を取り持つこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "媒介は、間に入って関係を成立させること。"
+  },
+  {
+    "term": "統轄",
+    "meaning": "全体をまとめて管轄すること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "統轄は、全体を一つにまとめて管理すること。"
+  },
+  {
+    "term": "誘因",
+    "meaning": "ある行動や結果を引き起こす要因",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "誘因は、物事を引き起こすきっかけや原因。"
+  },
+  {
+    "term": "堪能",
+    "meaning": "技芸などに優れていること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "堪能は、技芸や学問などに熟達していること。"
+  },
+  {
+    "term": "需要 : 供給",
+    "meaning": "同じ関係になる組み合わせは「権利 : 義務」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "需要と供給は対になる概念。権利と義務も対になる概念です。"
+  },
+  {
+    "term": "序論 : 結論",
+    "meaning": "同じ関係になる組み合わせは「入口 : 出口」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "序論と結論は始まりと終わり。入口と出口も対応します。"
+  },
+  {
+    "term": "予防 : 発病",
+    "meaning": "同じ関係になる組み合わせは「防火 : 火災」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "予防は発病を防ぐこと。防火は火災を防ぐことです。"
+  },
+  {
+    "term": "編集 : 原稿",
+    "meaning": "同じ関係になる組み合わせは「校正 : 誤字」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "編集は原稿を整える作業。校正は誤字を正す作業です。"
+  },
+  {
+    "term": "水 : 液体",
+    "meaning": "同じ関係になる組み合わせは「鉄 : 金属」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "水は液体の一種。鉄は金属の一種です。"
+  },
+  {
+    "term": "耳 : 聴覚",
+    "meaning": "同じ関係になる組み合わせは「舌 : 味覚」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "耳は聴覚に関わる器官。舌は味覚に関わる器官です。"
+  },
+  {
+    "term": "酸素 : 呼吸",
+    "meaning": "同じ関係になる組み合わせは「燃料 : 燃焼」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "酸素は呼吸に必要。燃料は燃焼に必要です。"
+  },
+  {
+    "term": "鍵 : 扉",
+    "meaning": "同じ関係になる組み合わせは「暗証番号 : 金庫」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "鍵で扉を開ける。暗証番号で金庫を開けます。"
+  },
+  {
+    "term": "脚本 : 映画",
+    "meaning": "同じ関係になる組み合わせは「設計図 : 建物」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "脚本をもとに映画を作る。設計図をもとに建物を作ります。"
+  },
+  {
+    "term": "裁判官 : 判決",
+    "meaning": "同じ関係になる組み合わせは「医師 : 診断」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "裁判官が下すものは判決。医師が下すものは診断です。"
+  },
+  {
+    "term": "種子 : 発芽",
+    "meaning": "同じ関係になる組み合わせは「卵 : 孵化」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "種子が発芽する。卵が孵化します。"
+  },
+  {
+    "term": "辞書 : 語義",
+    "meaning": "同じ関係になる組み合わせは「地図 : 位置」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "辞書で語義を調べる。地図で位置を調べます。"
+  },
+  {
+    "term": "仮説 : 検証",
+    "meaning": "同じ関係になる組み合わせは「計画 : 実行」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "仮説は検証されるもの。計画は実行されるものです。"
+  },
+  {
+    "term": "概念 : 具体例",
+    "meaning": "同じ関係になる組み合わせは「法則 : 事例」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "概念は具体例で示せる。法則は事例で示せます。"
+  },
+  {
+    "term": "推敲 : 文章",
+    "meaning": "同じ関係になる組み合わせは「校閲 : 原稿」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "推敲は文章を練り直すこと。校閲は原稿を確認し正すことです。"
+  },
+  {
+    "term": "蒸発 : 液体",
+    "meaning": "同じ関係になる組み合わせは「昇華 : 固体」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "蒸発は液体が気体になること。昇華は固体が気体になることです。"
+  },
+  {
+    "term": "過失 : 責任",
+    "meaning": "同じ関係になる組み合わせは「功績 : 評価」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "過失は責任につながる。功績は評価につながります。"
+  },
+  {
+    "term": "目的 : 手段",
+    "meaning": "同じ関係になる組み合わせは「理念 : 施策」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "目的を達するために手段がある。理念を実現するために施策があります。"
+  },
+  {
+    "term": "医薬品 : 治療",
+    "meaning": "同じ関係になる組み合わせは「肥料 : 栽培」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "医薬品は治療に用いる。肥料は栽培に用います。"
+  },
+  {
+    "term": "憲法 : 法律",
+    "meaning": "同じ関係になる組み合わせは「基本方針 : 個別施策」",
+    "category": "外部データ・二語関係",
+    "difficulty": "標準",
+    "note": "憲法は法律の上位にある基本規範。基本方針は個別施策の上位方針です。"
+  },
+  {
+    "term": "確執",
+    "meaning": "互いに譲らず対立すること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "確執は、意見や感情が合わず対立が続くこと。"
+  },
+  {
+    "term": "具申",
+    "meaning": "上位者に意見や事情を詳しく申し述べること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "具申は、上司などに具体的に意見を述べること。"
+  },
+  {
+    "term": "奔放",
+    "meaning": "世間の型にとらわれず自由に振る舞うこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "奔放は、制約にとらわれず自由なさま。"
+  },
+  {
+    "term": "追随",
+    "meaning": "人の後について従うこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "追随は、他人の後について従うこと。"
+  },
+  {
+    "term": "凌駕",
+    "meaning": "他を上回ること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "凌駕は、他より優れて上回ること。"
+  },
+  {
+    "term": "拙劣",
+    "meaning": "出来が悪く巧みでないこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "拙劣は、技術や出来が劣っていること。"
+  },
+  {
+    "term": "厭世",
+    "meaning": "世の中を嫌なものとして悲観すること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "厭世は、世の中を嫌い悲観する考え方。"
+  },
+  {
+    "term": "諫言",
+    "meaning": "目上の人の過ちをいさめること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "諫言は、上位者に対して過ちを改めるよう忠告すること。"
+  },
+  {
+    "term": "慰撫",
+    "meaning": "なぐさめて不安や不満をしずめること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "慰撫は、なぐさめて心を落ち着かせること。"
+  },
+  {
+    "term": "懲戒",
+    "meaning": "不正や違反をこらしめるため処分すること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "懲戒は、規律違反などを戒める処分。"
+  },
+  {
+    "term": "失墜",
+    "meaning": "名誉や信用などが落ちること",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "失墜は、評判や信用が低下すること。"
+  },
+  {
+    "term": "粛然",
+    "meaning": "静まりかえって厳かなさま",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "粛然は、静かでおごそかな様子。"
+  },
+  {
+    "term": "窮余",
+    "meaning": "追い詰められて他に方法がない状態",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "窮余は、困り果てた末という意味で使われます。"
+  },
+  {
+    "term": "濫觴",
+    "meaning": "物事の始まり",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "濫觴は、物事の起こりや始まり。"
+  },
+  {
+    "term": "沈潜",
+    "meaning": "表に出ず深く打ち込むこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "沈潜は、内面や一つの物事に深く入り込むこと。"
+  },
+  {
+    "term": "随想",
+    "meaning": "折々に感じたことを書いた文章",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "随想は、気ままに思ったことを書いた文章。"
+  },
+  {
+    "term": "機微",
+    "meaning": "表面からは分かりにくい微妙な事情や心の動き",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "機微は、微妙な事情や心の動き。"
+  },
+  {
+    "term": "論旨",
+    "meaning": "議論や文章の中心となる筋道",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "論旨は、論の趣旨や筋道。"
+  },
+  {
+    "term": "審美",
+    "meaning": "美しさを見分け味わうこと",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "審美は、美を判断し味わうこと。"
+  },
+  {
+    "term": "傍証",
+    "meaning": "間接的に事実を支える証拠",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "傍証は、直接ではないが事実を支える証拠。"
+  },
+  {
+    "term": "含蓄",
+    "meaning": "表面に出ない深い意味や味わい",
+    "category": "外部データ・語句",
+    "difficulty": "標準",
+    "note": "含蓄は、奥深い意味や味わいを含んでいること。"
   }
 ];
 
 const IDIOM_QUESTIONS = [
   {
-    term: "豪遊",
-    reading: "ごうゆう",
-    meaning: "惜しげもなく金を使って派手に遊ぶこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "豪は勢いが盛んなこと。派手に遊興する意味。"
+    "term": "豪遊",
+    "reading": "ごうゆう",
+    "meaning": "惜しげもなく金を使って派手に遊ぶこと",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "豪は勢いが盛んなこと。派手に遊興する意味。"
   },
   {
-    term: "奢侈",
-    reading: "しゃし",
-    meaning: "必要以上にぜいたくをすること",
-    category: "熟語",
-    difficulty: "難",
-    note: "生活や消費が分を超えてぜいたくな場合に使う。"
+    "term": "富裕",
+    "reading": "ふゆう",
+    "meaning": "財産が多く生活に余裕があること",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "裕福に近い意味。"
   },
   {
-    term: "専横",
-    reading: "せんおう",
-    meaning: "自分勝手に権力を振るうこと",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "権限をかさに着て横暴にふるまう意味。"
+    "term": "優柔",
+    "reading": "ゆうじゅう",
+    "meaning": "決断力に乏しくぐずぐずすること",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "優柔不断の形でよく使われる。"
   },
   {
-    term: "富裕",
-    reading: "ふゆう",
-    meaning: "財産が多く生活に余裕があること",
-    category: "熟語",
-    difficulty: "標準",
-    note: "裕福に近い意味。"
+    "term": "緩慢",
+    "reading": "かんまん",
+    "meaning": "動きや進み方がゆっくりで締まりがないこと",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "動作や変化が遅い場合に使う。"
   },
   {
-    term: "優柔",
-    reading: "ゆうじゅう",
-    meaning: "決断力に乏しくぐずぐずすること",
-    category: "熟語",
-    difficulty: "標準",
-    note: "優柔不断の形でよく使われる。"
+    "term": "頑迷",
+    "reading": "がんめい",
+    "meaning": "考えに固執して道理を受け入れないこと",
+    "category": "熟語",
+    "difficulty": "やや難",
+    "note": "頑固で聞き分けがない意味。"
   },
   {
-    term: "悠長",
-    reading: "ゆうちょう",
-    meaning: "落ち着きすぎていて急ぐ様子がないこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "状況に対してのんびりしすぎている文脈で使う。"
+    "term": "隆盛",
+    "reading": "りゅうせい",
+    "meaning": "勢いが盛んで栄えていること",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "産業や文化が発展している状態。"
   },
   {
-    term: "拮抗",
-    reading: "きっこう",
-    meaning: "互いの力がほぼ等しく張り合っていること",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "勢力・実力・試合展開などが均衡している状態。"
+    "term": "衰微",
+    "reading": "すいび",
+    "meaning": "勢いが弱まり衰えること",
+    "category": "熟語",
+    "difficulty": "やや難",
+    "note": "隆盛の対義として覚えやすい。"
   },
   {
-    term: "緩慢",
-    reading: "かんまん",
-    meaning: "動きや進み方がゆっくりで締まりがないこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "動作や変化が遅い場合に使う。"
+    "term": "堅牢",
+    "reading": "けんろう",
+    "meaning": "作りがしっかりしていて丈夫なこと",
+    "category": "熟語",
+    "difficulty": "やや難",
+    "note": "建物・構造・仕組みの強さに使う。"
   },
   {
-    term: "頑迷",
-    reading: "がんめい",
-    meaning: "考えに固執して道理を受け入れないこと",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "頑固で聞き分けがない意味。"
+    "term": "荘厳",
+    "reading": "そうごん",
+    "meaning": "重々しく立派でおごそかなこと",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "建築・儀式・雰囲気などに使う。"
   },
   {
-    term: "明晰",
-    reading: "めいせき",
-    meaning: "はっきりしていて筋道が通っていること",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "思考・説明・文章が明確な場合に使う。"
-  },
-  {
-    term: "隆盛",
-    reading: "りゅうせい",
-    meaning: "勢いが盛んで栄えていること",
-    category: "熟語",
-    difficulty: "標準",
-    note: "産業や文化が発展している状態。"
-  },
-  {
-    term: "衰微",
-    reading: "すいび",
-    meaning: "勢いが弱まり衰えること",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "隆盛の対義として覚えやすい。"
-  },
-  {
-    term: "堅牢",
-    reading: "けんろう",
-    meaning: "作りがしっかりしていて丈夫なこと",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "建物・構造・仕組みの強さに使う。"
-  },
-  {
-    term: "脆弱",
-    reading: "ぜいじゃく",
-    meaning: "もろくて弱いこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "堅牢の対義としても出やすい。"
-  },
-  {
-    term: "俊敏",
-    reading: "しゅんびん",
-    meaning: "動作や判断がすばやいこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "素早く機敏な様子を表す。"
-  },
-  {
-    term: "冗漫",
-    reading: "じょうまん",
-    meaning: "締まりがなく無駄に長いこと",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "文章や話がだらだらしている場合に使う。"
-  },
-  {
-    term: "荘厳",
-    reading: "そうごん",
-    meaning: "重々しく立派でおごそかなこと",
-    category: "熟語",
-    difficulty: "標準",
-    note: "建築・儀式・雰囲気などに使う。"
-  },
-  {
-    term: "卑近",
-    reading: "ひきん",
-    meaning: "身近でありふれていること",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "卑近な例、という形でよく使う。"
-  },
-  {
-    term: "泰然",
-    reading: "たいぜん",
-    meaning: "落ち着いていて動じないこと",
-    category: "熟語",
-    difficulty: "やや難",
-    note: "泰然自若の形でも使われる。"
-  },
-  {
-    term: "狼狽",
-    reading: "ろうばい",
-    meaning: "慌てふためいてうろたえること",
-    category: "熟語",
-    difficulty: "標準",
-    note: "予想外の事態に動揺する意味。"
+    "term": "狼狽",
+    "reading": "ろうばい",
+    "meaning": "慌てふためいてうろたえること",
+    "category": "熟語",
+    "difficulty": "標準",
+    "note": "予想外の事態に動揺する意味。"
   }
 ];
 
 const USAGE_QUESTIONS = [
   {
-    id: "usage:ageru:present",
-    term: "あげる",
-    target: "あげる",
-    sentence: "改善案をあげる",
-    meaning: "提示する・例示する",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "ここでの「あげる」は、案や例を提示する意味。",
-    choices: [
-      { text: "候補をあげる", correct: true, note: "候補を提示する意味。" },
-      { text: "旗をあげる", correct: false, note: "上に持ち上げる意味。" },
-      { text: "腕をあげる", correct: false, note: "上達する意味。" },
-      { text: "利益をあげる", correct: false, note: "成果を得る意味。" },
-      { text: "歓声をあげる", correct: false, note: "声を発する意味。" }
+    "id": "usage:ageru:present",
+    "term": "あげる",
+    "target": "あげる",
+    "sentence": "改善案をあげる",
+    "meaning": "提示する・例示する",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "ここでの「あげる」は、案や例を提示する意味。",
+    "choices": [
+      {
+        "text": "候補をあげる",
+        "correct": true,
+        "note": "候補を提示する意味。"
+      },
+      {
+        "text": "旗をあげる",
+        "correct": false,
+        "note": "上に持ち上げる意味。"
+      },
+      {
+        "text": "腕をあげる",
+        "correct": false,
+        "note": "上達する意味。"
+      },
+      {
+        "text": "利益をあげる",
+        "correct": false,
+        "note": "成果を得る意味。"
+      },
+      {
+        "text": "歓声をあげる",
+        "correct": false,
+        "note": "声を発する意味。"
+      }
     ]
   },
   {
-    id: "usage:de:tool",
-    term: "で",
-    target: "で",
-    sentence: "鉛筆で線を引く",
-    meaning: "手段・道具",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「で」は、何を用いるかを表す手段・道具の用法。",
-    choices: [
-      { text: "電車で会社へ行く", correct: true, note: "移動手段を表す。" },
-      { text: "会議室で話し合う", correct: false, note: "場所を表す。" },
-      { text: "病気で休む", correct: false, note: "原因を表す。" },
-      { text: "一人で調べる", correct: false, note: "人数や状態を表す。" },
-      { text: "三日で仕上げる", correct: false, note: "期間を表す。" }
+    "id": "usage:de:tool",
+    "term": "で",
+    "target": "で",
+    "sentence": "鉛筆で線を引く",
+    "meaning": "手段・道具",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「で」は、何を用いるかを表す手段・道具の用法。",
+    "choices": [
+      {
+        "text": "電車で会社へ行く",
+        "correct": true,
+        "note": "移動手段を表す。"
+      },
+      {
+        "text": "会議室で話し合う",
+        "correct": false,
+        "note": "場所を表す。"
+      },
+      {
+        "text": "病気で休む",
+        "correct": false,
+        "note": "原因を表す。"
+      },
+      {
+        "text": "一人で調べる",
+        "correct": false,
+        "note": "人数や状態を表す。"
+      },
+      {
+        "text": "三日で仕上げる",
+        "correct": false,
+        "note": "期間を表す。"
+      }
     ]
   },
   {
-    id: "usage:ni:purpose",
-    term: "に",
-    target: "に",
-    sentence: "資料を借りに行く",
-    meaning: "目的",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「に」は、行く目的を表す用法。",
-    choices: [
-      { text: "友人に会いに行く", correct: true, note: "行く目的を表す。" },
-      { text: "机に本を置く", correct: false, note: "到達点・場所を表す。" },
-      { text: "三時に始まる", correct: false, note: "時を表す。" },
-      { text: "父に似ている", correct: false, note: "比較対象を表す。" },
-      { text: "静かに話す", correct: false, note: "様子を表す。" }
+    "id": "usage:ni:purpose",
+    "term": "に",
+    "target": "に",
+    "sentence": "資料を借りに行く",
+    "meaning": "目的",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「に」は、行く目的を表す用法。",
+    "choices": [
+      {
+        "text": "友人に会いに行く",
+        "correct": true,
+        "note": "行く目的を表す。"
+      },
+      {
+        "text": "机に本を置く",
+        "correct": false,
+        "note": "到達点・場所を表す。"
+      },
+      {
+        "text": "三時に始まる",
+        "correct": false,
+        "note": "時を表す。"
+      },
+      {
+        "text": "父に似ている",
+        "correct": false,
+        "note": "比較対象を表す。"
+      },
+      {
+        "text": "静かに話す",
+        "correct": false,
+        "note": "様子を表す。"
+      }
     ]
   },
   {
-    id: "usage:kakeru:call",
-    term: "かける",
-    target: "かける",
-    sentence: "電話をかける",
-    meaning: "通信・働きかけをする",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「かける」は、相手へ働きかける動作を表す。",
-    choices: [
-      { text: "声をかける", correct: true, note: "相手に働きかける意味。" },
-      { text: "橋をかける", correct: false, note: "渡す・架設する意味。" },
-      { text: "椅子に腰をかける", correct: false, note: "座る意味。" },
-      { text: "壁に時計をかける", correct: false, note: "掛けて固定する意味。" },
-      { text: "費用をかける", correct: false, note: "費やす意味。" }
+    "id": "usage:kakeru:call",
+    "term": "かける",
+    "target": "かける",
+    "sentence": "電話をかける",
+    "meaning": "通信・働きかけをする",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「かける」は、相手へ働きかける動作を表す。",
+    "choices": [
+      {
+        "text": "声をかける",
+        "correct": true,
+        "note": "相手に働きかける意味。"
+      },
+      {
+        "text": "橋をかける",
+        "correct": false,
+        "note": "渡す・架設する意味。"
+      },
+      {
+        "text": "椅子に腰をかける",
+        "correct": false,
+        "note": "座る意味。"
+      },
+      {
+        "text": "壁に時計をかける",
+        "correct": false,
+        "note": "掛けて固定する意味。"
+      },
+      {
+        "text": "費用をかける",
+        "correct": false,
+        "note": "費やす意味。"
+      }
     ]
   },
   {
-    id: "usage:toru:reserve",
-    term: "取る",
-    target: "取る",
-    sentence: "予約を取る",
-    meaning: "確保する",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「取る」は、必要なものを確保する意味。",
-    choices: [
-      { text: "席を取る", correct: true, note: "場所を確保する意味。" },
-      { text: "写真を取る", correct: false, note: "撮影する意味。通常は「撮る」。" },
-      { text: "皿を取る", correct: false, note: "手に持つ意味。" },
-      { text: "年を取る", correct: false, note: "年齢が増える意味。" },
-      { text: "責任を取る", correct: false, note: "引き受ける意味。" }
+    "id": "usage:toru:reserve",
+    "term": "取る",
+    "target": "取る",
+    "sentence": "予約を取る",
+    "meaning": "確保する",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「取る」は、必要なものを確保する意味。",
+    "choices": [
+      {
+        "text": "席を取る",
+        "correct": true,
+        "note": "場所を確保する意味。"
+      },
+      {
+        "text": "写真を取る",
+        "correct": false,
+        "note": "撮影する意味。通常は「撮る」。"
+      },
+      {
+        "text": "皿を取る",
+        "correct": false,
+        "note": "手に持つ意味。"
+      },
+      {
+        "text": "年を取る",
+        "correct": false,
+        "note": "年齢が増える意味。"
+      },
+      {
+        "text": "責任を取る",
+        "correct": false,
+        "note": "引き受ける意味。"
+      }
     ]
   },
   {
-    id: "usage:utsu:measure",
-    term: "打つ",
-    target: "打つ",
-    sentence: "対策を打つ",
-    meaning: "手段を講じる",
-    category: "語句の用法",
-    difficulty: "やや難",
-    note: "この「打つ」は、必要な手段を実行する意味。",
-    choices: [
-      { text: "手を打つ", correct: true, note: "対策を講じる意味。" },
-      { text: "太鼓を打つ", correct: false, note: "たたく意味。" },
-      { text: "電報を打つ", correct: false, note: "送る意味。" },
-      { text: "心を打つ", correct: false, note: "感動させる意味。" },
-      { text: "くぎを打つ", correct: false, note: "打ち込む意味。" }
+    "id": "usage:utsu:measure",
+    "term": "打つ",
+    "target": "打つ",
+    "sentence": "対策を打つ",
+    "meaning": "手段を講じる",
+    "category": "語句の用法",
+    "difficulty": "やや難",
+    "note": "この「打つ」は、必要な手段を実行する意味。",
+    "choices": [
+      {
+        "text": "手を打つ",
+        "correct": true,
+        "note": "対策を講じる意味。"
+      },
+      {
+        "text": "太鼓を打つ",
+        "correct": false,
+        "note": "たたく意味。"
+      },
+      {
+        "text": "電報を打つ",
+        "correct": false,
+        "note": "送る意味。"
+      },
+      {
+        "text": "心を打つ",
+        "correct": false,
+        "note": "感動させる意味。"
+      },
+      {
+        "text": "くぎを打つ",
+        "correct": false,
+        "note": "打ち込む意味。"
+      }
     ]
   },
   {
-    id: "usage:tsuku:judge",
-    term: "つく",
-    target: "つく",
-    sentence: "見当がつく",
-    meaning: "判断できる・分かる",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「つく」は、考えや判断がまとまる意味。",
-    choices: [
-      { text: "区別がつく", correct: true, note: "判断できる意味。" },
-      { text: "火がつく", correct: false, note: "燃え始める意味。" },
-      { text: "駅に着く", underline: "着く", correct: false, note: "到着する意味。漢字も異なる。" },
-      { text: "汚れがつく", correct: false, note: "付着する意味。" },
-      { text: "味方につく", correct: false, note: "所属する意味。" }
+    "id": "usage:tsuku:judge",
+    "term": "つく",
+    "target": "つく",
+    "sentence": "見当がつく",
+    "meaning": "判断できる・分かる",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「つく」は、考えや判断がまとまる意味。",
+    "choices": [
+      {
+        "text": "区別がつく",
+        "correct": true,
+        "note": "判断できる意味。"
+      },
+      {
+        "text": "火がつく",
+        "correct": false,
+        "note": "燃え始める意味。"
+      },
+      {
+        "text": "駅に着く",
+        "underline": "着く",
+        "correct": false,
+        "note": "到着する意味。漢字も異なる。"
+      },
+      {
+        "text": "汚れがつく",
+        "correct": false,
+        "note": "付着する意味。"
+      },
+      {
+        "text": "味方につく",
+        "correct": false,
+        "note": "所属する意味。"
+      }
     ]
   },
   {
-    id: "usage:ireru:include",
-    term: "入れる",
-    target: "入れる",
-    sentence: "予定に入れる",
-    meaning: "含める",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「入れる」は、範囲や計画の中に含める意味。",
-    choices: [
-      { text: "候補に入れる", correct: true, note: "対象に含める意味。" },
-      { text: "箱に入れる", correct: false, note: "中へ移す意味。" },
-      { text: "電源を入れる", correct: false, note: "作動させる意味。" },
-      { text: "力を入れる", correct: false, note: "力を注ぐ意味。" },
-      { text: "茶を入れる", correct: false, note: "飲み物を用意する意味。" }
+    "id": "usage:ireru:include",
+    "term": "入れる",
+    "target": "入れる",
+    "sentence": "予定に入れる",
+    "meaning": "含める",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「入れる」は、範囲や計画の中に含める意味。",
+    "choices": [
+      {
+        "text": "候補に入れる",
+        "correct": true,
+        "note": "対象に含める意味。"
+      },
+      {
+        "text": "箱に入れる",
+        "correct": false,
+        "note": "中へ移す意味。"
+      },
+      {
+        "text": "電源を入れる",
+        "correct": false,
+        "note": "作動させる意味。"
+      },
+      {
+        "text": "力を入れる",
+        "correct": false,
+        "note": "力を注ぐ意味。"
+      },
+      {
+        "text": "茶を入れる",
+        "correct": false,
+        "note": "飲み物を用意する意味。"
+      }
     ]
   },
   {
-    id: "usage:miru:try",
-    term: "みる",
-    target: "みる",
-    sentence: "試してみる",
-    meaning: "試しに行う",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "補助動詞の「みる」で、試しに行う意味。",
-    choices: [
-      { text: "考えてみる", correct: true, note: "試しに考える意味。" },
-      { text: "景色を見る", underline: "見る", correct: false, note: "目で見る意味。" },
-      { text: "面倒を見る", underline: "見る", correct: false, note: "世話をする意味。" },
-      { text: "夢を見る", underline: "見る", correct: false, note: "夢を体験する意味。" },
-      { text: "資料を見る", underline: "見る", correct: false, note: "確認する意味。" }
+    "id": "usage:miru:try",
+    "term": "みる",
+    "target": "みる",
+    "sentence": "試してみる",
+    "meaning": "試しに行う",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "補助動詞の「みる」で、試しに行う意味。",
+    "choices": [
+      {
+        "text": "考えてみる",
+        "correct": true,
+        "note": "試しに考える意味。"
+      },
+      {
+        "text": "景色を見る",
+        "underline": "見る",
+        "correct": false,
+        "note": "目で見る意味。"
+      },
+      {
+        "text": "面倒を見る",
+        "underline": "見る",
+        "correct": false,
+        "note": "世話をする意味。"
+      },
+      {
+        "text": "夢を見る",
+        "underline": "見る",
+        "correct": false,
+        "note": "夢を体験する意味。"
+      },
+      {
+        "text": "資料を見る",
+        "underline": "見る",
+        "correct": false,
+        "note": "確認する意味。"
+      }
     ]
   },
   {
-    id: "usage:ataru:correspond",
-    term: "あたる",
-    target: "あたる",
-    sentence: "担当にあたる",
-    meaning: "役割を引き受ける",
-    category: "語句の用法",
-    difficulty: "やや難",
-    note: "この「あたる」は、役目として受け持つ意味。",
-    choices: [
-      { text: "警備にあたる", correct: true, note: "任務として担当する意味。" },
-      { text: "日があたる", correct: false, note: "光が届く意味。" },
-      { text: "くじにあたる", correct: false, note: "当選する意味。" },
-      { text: "壁にあたる", correct: false, note: "ぶつかる意味。" },
-      { text: "予想があたる", correct: false, note: "的中する意味。" }
+    "id": "usage:ataru:correspond",
+    "term": "あたる",
+    "target": "あたる",
+    "sentence": "担当にあたる",
+    "meaning": "役割を引き受ける",
+    "category": "語句の用法",
+    "difficulty": "やや難",
+    "note": "この「あたる」は、役目として受け持つ意味。",
+    "choices": [
+      {
+        "text": "警備にあたる",
+        "correct": true,
+        "note": "任務として担当する意味。"
+      },
+      {
+        "text": "日があたる",
+        "correct": false,
+        "note": "光が届く意味。"
+      },
+      {
+        "text": "くじにあたる",
+        "correct": false,
+        "note": "当選する意味。"
+      },
+      {
+        "text": "壁にあたる",
+        "correct": false,
+        "note": "ぶつかる意味。"
+      },
+      {
+        "text": "予想があたる",
+        "correct": false,
+        "note": "的中する意味。"
+      }
     ]
   },
   {
-    id: "usage:hiku:quote",
-    term: "引く",
-    target: "引く",
-    sentence: "辞書を引く",
-    meaning: "調べる",
-    category: "語句の用法",
-    difficulty: "標準",
-    note: "この「引く」は、辞書などで調べる意味。",
-    choices: [
-      { text: "索引を引く", correct: true, note: "調べる意味。" },
-      { text: "線を引く", correct: false, note: "線を書く意味。" },
-      { text: "手を引く", correct: false, note: "退く・やめる意味。" },
-      { text: "荷車を引く", correct: false, note: "引っ張る意味。" },
-      { text: "風邪を引く", correct: false, note: "病気にかかる意味。" }
+    "id": "usage:hiku:quote",
+    "term": "引く",
+    "target": "引く",
+    "sentence": "辞書を引く",
+    "meaning": "調べる",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "この「引く」は、辞書などで調べる意味。",
+    "choices": [
+      {
+        "text": "索引を引く",
+        "correct": true,
+        "note": "調べる意味。"
+      },
+      {
+        "text": "線を引く",
+        "correct": false,
+        "note": "線を書く意味。"
+      },
+      {
+        "text": "手を引く",
+        "correct": false,
+        "note": "退く・やめる意味。"
+      },
+      {
+        "text": "荷車を引く",
+        "correct": false,
+        "note": "引っ張る意味。"
+      },
+      {
+        "text": "風邪を引く",
+        "correct": false,
+        "note": "病気にかかる意味。"
+      }
     ]
   },
   {
-    id: "usage:osu:recommend",
-    term: "押す",
-    target: "押す",
-    sentence: "候補者を押す",
-    meaning: "推薦する・支持する",
-    category: "語句の用法",
-    difficulty: "やや難",
-    note: "この「押す」は、推薦して後押しする意味。",
-    choices: [
-      { text: "企画案を押す", correct: true, note: "支持して推す意味。" },
-      { text: "扉を押す", correct: false, note: "力を加える意味。" },
-      { text: "印鑑を押す", correct: false, note: "押印する意味。" },
-      { text: "念を押す", correct: false, note: "確認する意味。" },
-      { text: "時間に押される", underline: "押される", correct: false, note: "余裕がなくなる意味。" }
+    "id": "usage:osu:recommend",
+    "term": "押す",
+    "target": "押す",
+    "sentence": "候補者を押す",
+    "meaning": "推薦する・支持する",
+    "category": "語句の用法",
+    "difficulty": "やや難",
+    "note": "この「押す」は、推薦して後押しする意味。",
+    "choices": [
+      {
+        "text": "企画案を押す",
+        "correct": true,
+        "note": "支持して推す意味。"
+      },
+      {
+        "text": "扉を押す",
+        "correct": false,
+        "note": "力を加える意味。"
+      },
+      {
+        "text": "印鑑を押す",
+        "correct": false,
+        "note": "押印する意味。"
+      },
+      {
+        "text": "念を押す",
+        "correct": false,
+        "note": "確認する意味。"
+      },
+      {
+        "text": "時間に押される",
+        "underline": "押される",
+        "correct": false,
+        "note": "余裕がなくなる意味。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:暫定:暫定の結論として、来月再検討する",
+    "term": "暫定",
+    "target": "暫定",
+    "sentence": "暫定の結論として、来月再検討する",
+    "meaning": "「暫定」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "暫定は、正式決定まで仮に定めることを表します。",
+    "choices": [
+      {
+        "text": "暫定の結論として、来月再検討する",
+        "underline": "暫定",
+        "correct": true,
+        "note": "暫定は、正式決定まで仮に定めることを表します。"
+      },
+      {
+        "text": "暫定な雨が一日中降った",
+        "underline": "暫定",
+        "correct": false,
+        "note": "「暫定」の適切な用法ではありません。"
+      },
+      {
+        "text": "暫定を食べて元気になった",
+        "underline": "暫定",
+        "correct": false,
+        "note": "「暫定」の適切な用法ではありません。"
+      },
+      {
+        "text": "暫定の音が遠くから聞こえた",
+        "underline": "暫定",
+        "correct": false,
+        "note": "「暫定」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は暫定に走るのが速い",
+        "underline": "暫定",
+        "correct": false,
+        "note": "「暫定」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:緩和:規制を緩和して参入しやすくする",
+    "term": "緩和",
+    "target": "緩和",
+    "sentence": "規制を緩和して参入しやすくする",
+    "meaning": "「緩和」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "緩和は、厳しさや激しさをゆるめること。",
+    "choices": [
+      {
+        "text": "規制を緩和して参入しやすくする",
+        "underline": "緩和",
+        "correct": true,
+        "note": "緩和は、厳しさや激しさをゆるめること。"
+      },
+      {
+        "text": "会議を緩和して資料を配る",
+        "underline": "緩和",
+        "correct": false,
+        "note": "「緩和」の適切な用法ではありません。"
+      },
+      {
+        "text": "緩和を机の上に置いた",
+        "underline": "緩和",
+        "correct": false,
+        "note": "「緩和」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで緩和に歩いた",
+        "underline": "緩和",
+        "correct": false,
+        "note": "「緩和」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は緩和な料理を作った",
+        "underline": "緩和",
+        "correct": false,
+        "note": "「緩和」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:喚起:利用者に注意を喚起する",
+    "term": "喚起",
+    "target": "喚起",
+    "sentence": "利用者に注意を喚起する",
+    "meaning": "「喚起」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "喚起は、注意や関心を呼び起こすこと。",
+    "choices": [
+      {
+        "text": "利用者に注意を喚起する",
+        "underline": "喚起",
+        "correct": true,
+        "note": "喚起は、注意や関心を呼び起こすこと。"
+      },
+      {
+        "text": "机を喚起して部屋を片付ける",
+        "underline": "喚起",
+        "correct": false,
+        "note": "「喚起」の適切な用法ではありません。"
+      },
+      {
+        "text": "喚起な天気が続く",
+        "underline": "喚起",
+        "correct": false,
+        "note": "「喚起」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は喚起を飲み干した",
+        "underline": "喚起",
+        "correct": false,
+        "note": "「喚起」の適切な用法ではありません。"
+      },
+      {
+        "text": "資料を喚起に印刷した",
+        "underline": "喚起",
+        "correct": false,
+        "note": "「喚起」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:踏襲:従来の方針を踏襲する",
+    "term": "踏襲",
+    "target": "踏襲",
+    "sentence": "従来の方針を踏襲する",
+    "meaning": "「踏襲」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "踏襲は、前からのやり方や方針を受け継ぐこと。",
+    "choices": [
+      {
+        "text": "従来の方針を踏襲する",
+        "underline": "踏襲",
+        "correct": true,
+        "note": "踏襲は、前からのやり方や方針を受け継ぐこと。"
+      },
+      {
+        "text": "足元の石を踏襲する",
+        "underline": "踏襲",
+        "correct": false,
+        "note": "「踏襲」の適切な用法ではありません。"
+      },
+      {
+        "text": "踏襲の料理を注文する",
+        "underline": "踏襲",
+        "correct": false,
+        "note": "「踏襲」の適切な用法ではありません。"
+      },
+      {
+        "text": "風が踏襲に吹く",
+        "underline": "踏襲",
+        "correct": false,
+        "note": "「踏襲」の適切な用法ではありません。"
+      },
+      {
+        "text": "踏襲を昨日まで延期する",
+        "underline": "踏襲",
+        "correct": false,
+        "note": "「踏襲」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:堅持:基本方針を堅持する",
+    "term": "堅持",
+    "target": "堅持",
+    "sentence": "基本方針を堅持する",
+    "meaning": "「堅持」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "堅持は、かたく守り続けること。",
+    "choices": [
+      {
+        "text": "基本方針を堅持する",
+        "underline": "堅持",
+        "correct": true,
+        "note": "堅持は、かたく守り続けること。"
+      },
+      {
+        "text": "堅持な水を飲む",
+        "underline": "堅持",
+        "correct": false,
+        "note": "「堅持」の適切な用法ではありません。"
+      },
+      {
+        "text": "堅持を部屋に飾る",
+        "underline": "堅持",
+        "correct": false,
+        "note": "「堅持」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は堅持に眠った",
+        "underline": "堅持",
+        "correct": false,
+        "note": "「堅持」の適切な用法ではありません。"
+      },
+      {
+        "text": "荷物を堅持から降ろす",
+        "underline": "堅持",
+        "correct": false,
+        "note": "「堅持」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:弊害:過度な競争の弊害が指摘された",
+    "term": "弊害",
+    "target": "弊害",
+    "sentence": "過度な競争の弊害が指摘された",
+    "meaning": "「弊害」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "弊害は、悪い影響や害となること。",
+    "choices": [
+      {
+        "text": "過度な競争の弊害が指摘された",
+        "underline": "弊害",
+        "correct": true,
+        "note": "弊害は、悪い影響や害となること。"
+      },
+      {
+        "text": "弊害を食卓に並べる",
+        "underline": "弊害",
+        "correct": false,
+        "note": "「弊害」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は弊害に駅へ向かった",
+        "underline": "弊害",
+        "correct": false,
+        "note": "「弊害」の適切な用法ではありません。"
+      },
+      {
+        "text": "弊害な色を選ぶ",
+        "underline": "弊害",
+        "correct": false,
+        "note": "「弊害」の適切な用法ではありません。"
+      },
+      {
+        "text": "書類を弊害して提出した",
+        "underline": "弊害",
+        "correct": false,
+        "note": "「弊害」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:洞察:市場の変化を鋭く洞察する",
+    "term": "洞察",
+    "target": "洞察",
+    "sentence": "市場の変化を鋭く洞察する",
+    "meaning": "「洞察」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "洞察は、物事の本質を見抜くこと。",
+    "choices": [
+      {
+        "text": "市場の変化を鋭く洞察する",
+        "underline": "洞察",
+        "correct": true,
+        "note": "洞察は、物事の本質を見抜くこと。"
+      },
+      {
+        "text": "洞察を机に置いて帰る",
+        "underline": "洞察",
+        "correct": false,
+        "note": "「洞察」の適切な用法ではありません。"
+      },
+      {
+        "text": "洞察な道を歩く",
+        "underline": "洞察",
+        "correct": false,
+        "note": "「洞察」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は洞察を飲み干した",
+        "underline": "洞察",
+        "correct": false,
+        "note": "「洞察」の適切な用法ではありません。"
+      },
+      {
+        "text": "会議を洞察に延期する",
+        "underline": "洞察",
+        "correct": false,
+        "note": "「洞察」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:契機:留学を契機に考え方が変わった",
+    "term": "契機",
+    "target": "契機",
+    "sentence": "留学を契機に考え方が変わった",
+    "meaning": "「契機」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "契機は、物事が始まるきっかけ。",
+    "choices": [
+      {
+        "text": "留学を契機に考え方が変わった",
+        "underline": "契機",
+        "correct": true,
+        "note": "契機は、物事が始まるきっかけ。"
+      },
+      {
+        "text": "契機を三つ買って帰った",
+        "underline": "契機",
+        "correct": false,
+        "note": "「契機」の適切な用法ではありません。"
+      },
+      {
+        "text": "契機な音が聞こえた",
+        "underline": "契機",
+        "correct": false,
+        "note": "「契機」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで契機に歩く",
+        "underline": "契機",
+        "correct": false,
+        "note": "「契機」の適切な用法ではありません。"
+      },
+      {
+        "text": "契機を冷蔵庫に入れる",
+        "underline": "契機",
+        "correct": false,
+        "note": "「契機」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:是正:不適切な表示を是正する",
+    "term": "是正",
+    "target": "是正",
+    "sentence": "不適切な表示を是正する",
+    "meaning": "「是正」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "是正は、悪い点を改め正すこと。",
+    "choices": [
+      {
+        "text": "不適切な表示を是正する",
+        "underline": "是正",
+        "correct": true,
+        "note": "是正は、悪い点を改め正すこと。"
+      },
+      {
+        "text": "是正を机に並べる",
+        "underline": "是正",
+        "correct": false,
+        "note": "「是正」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は是正に眠った",
+        "underline": "是正",
+        "correct": false,
+        "note": "「是正」の適切な用法ではありません。"
+      },
+      {
+        "text": "雨が是正に降った",
+        "underline": "是正",
+        "correct": false,
+        "note": "「是正」の適切な用法ではありません。"
+      },
+      {
+        "text": "是正な音が響いた",
+        "underline": "是正",
+        "correct": false,
+        "note": "「是正」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:齟齬:説明と実態に齟齬がある",
+    "term": "齟齬",
+    "target": "齟齬",
+    "sentence": "説明と実態に齟齬がある",
+    "meaning": "「齟齬」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "齟齬は、食い違いが生じている状態。",
+    "choices": [
+      {
+        "text": "説明と実態に齟齬がある",
+        "underline": "齟齬",
+        "correct": true,
+        "note": "齟齬は、食い違いが生じている状態。"
+      },
+      {
+        "text": "齟齬を冷蔵庫に入れる",
+        "underline": "齟齬",
+        "correct": false,
+        "note": "「齟齬」の適切な用法ではありません。"
+      },
+      {
+        "text": "齟齬な速度で走る",
+        "underline": "齟齬",
+        "correct": false,
+        "note": "「齟齬」の適切な用法ではありません。"
+      },
+      {
+        "text": "書類を齟齬して提出する",
+        "underline": "齟齬",
+        "correct": false,
+        "note": "「齟齬」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は齟齬に笑った",
+        "underline": "齟齬",
+        "correct": false,
+        "note": "「齟齬」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:忌避:投資家は過度なリスクを忌避する",
+    "term": "忌避",
+    "target": "忌避",
+    "sentence": "投資家は過度なリスクを忌避する",
+    "meaning": "「忌避」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "忌避は、嫌って避けること。",
+    "choices": [
+      {
+        "text": "投資家は過度なリスクを忌避する",
+        "underline": "忌避",
+        "correct": true,
+        "note": "忌避は、嫌って避けること。"
+      },
+      {
+        "text": "忌避に資料を読んだ",
+        "underline": "忌避",
+        "correct": false,
+        "note": "「忌避」の適切な用法ではありません。"
+      },
+      {
+        "text": "忌避の花が庭に咲いた",
+        "underline": "忌避",
+        "correct": false,
+        "note": "「忌避」の適切な用法ではありません。"
+      },
+      {
+        "text": "道路を忌避して横断する",
+        "underline": "忌避",
+        "correct": false,
+        "note": "「忌避」の適切な用法ではありません。"
+      },
+      {
+        "text": "忌避を冷蔵庫に入れる",
+        "underline": "忌避",
+        "correct": false,
+        "note": "「忌避」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:形骸化:制度が形だけになり形骸化する",
+    "term": "形骸化",
+    "target": "形骸化",
+    "sentence": "制度が形だけになり形骸化する",
+    "meaning": "「形骸化」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "形骸化は、実質が失われて形だけになること。",
+    "choices": [
+      {
+        "text": "制度が形だけになり形骸化する",
+        "underline": "形骸化",
+        "correct": true,
+        "note": "形骸化は、実質が失われて形だけになること。"
+      },
+      {
+        "text": "荷物が重くて形骸化する",
+        "underline": "形骸化",
+        "correct": false,
+        "note": "「形骸化」の適切な用法ではありません。"
+      },
+      {
+        "text": "夕食を形骸化して食べる",
+        "underline": "形骸化",
+        "correct": false,
+        "note": "「形骸化」の適切な用法ではありません。"
+      },
+      {
+        "text": "形骸化な風が吹く",
+        "underline": "形骸化",
+        "correct": false,
+        "note": "「形骸化」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は形骸化に笑った",
+        "underline": "形骸化",
+        "correct": false,
+        "note": "「形骸化」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:牽制:相手陣営の動きを牽制する",
+    "term": "牽制",
+    "target": "牽制",
+    "sentence": "相手陣営の動きを牽制する",
+    "meaning": "「牽制」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "牽制は、相手の動きを抑えるよう警戒させること。",
+    "choices": [
+      {
+        "text": "相手陣営の動きを牽制する",
+        "underline": "牽制",
+        "correct": true,
+        "note": "牽制は、相手の動きを抑えるよう警戒させること。"
+      },
+      {
+        "text": "牽制の料理を注文する",
+        "underline": "牽制",
+        "correct": false,
+        "note": "「牽制」の適切な用法ではありません。"
+      },
+      {
+        "text": "牽制に熟睡する",
+        "underline": "牽制",
+        "correct": false,
+        "note": "「牽制」の適切な用法ではありません。"
+      },
+      {
+        "text": "机を牽制して掃除する",
+        "underline": "牽制",
+        "correct": false,
+        "note": "「牽制」の適切な用法ではありません。"
+      },
+      {
+        "text": "牽制な青空が広がる",
+        "underline": "牽制",
+        "correct": false,
+        "note": "「牽制」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:敷衍:抽象的な説明を具体例で敷衍する",
+    "term": "敷衍",
+    "target": "敷衍",
+    "sentence": "抽象的な説明を具体例で敷衍する",
+    "meaning": "「敷衍」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "敷衍は、内容を広げて詳しく説明すること。",
+    "choices": [
+      {
+        "text": "抽象的な説明を具体例で敷衍する",
+        "underline": "敷衍",
+        "correct": true,
+        "note": "敷衍は、内容を広げて詳しく説明すること。"
+      },
+      {
+        "text": "敷衍を駅まで歩いた",
+        "underline": "敷衍",
+        "correct": false,
+        "note": "「敷衍」の適切な用法ではありません。"
+      },
+      {
+        "text": "敷衍な温度で冷やす",
+        "underline": "敷衍",
+        "correct": false,
+        "note": "「敷衍」の適切な用法ではありません。"
+      },
+      {
+        "text": "書類を敷衍に閉じる",
+        "underline": "敷衍",
+        "correct": false,
+        "note": "「敷衍」の適切な用法ではありません。"
+      },
+      {
+        "text": "敷衍を飲み干した",
+        "underline": "敷衍",
+        "correct": false,
+        "note": "「敷衍」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:帰結:議論の帰結を慎重に見極める",
+    "term": "帰結",
+    "target": "帰結",
+    "sentence": "議論の帰結を慎重に見極める",
+    "meaning": "「帰結」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "帰結は、物事の結果として行き着くところ。",
+    "choices": [
+      {
+        "text": "議論の帰結を慎重に見極める",
+        "underline": "帰結",
+        "correct": true,
+        "note": "帰結は、物事の結果として行き着くところ。"
+      },
+      {
+        "text": "帰結を棚に飾る",
+        "underline": "帰結",
+        "correct": false,
+        "note": "「帰結」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は帰結に泳いだ",
+        "underline": "帰結",
+        "correct": false,
+        "note": "「帰結」の適切な用法ではありません。"
+      },
+      {
+        "text": "帰結の椅子に座る",
+        "underline": "帰結",
+        "correct": false,
+        "note": "「帰結」の適切な用法ではありません。"
+      },
+      {
+        "text": "雨を帰結して待つ",
+        "underline": "帰結",
+        "correct": false,
+        "note": "「帰結」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:斟酌:相手の事情を斟酌して判断する",
+    "term": "斟酌",
+    "target": "斟酌",
+    "sentence": "相手の事情を斟酌して判断する",
+    "meaning": "「斟酌」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "斟酌は、事情や心情をくみ取って考えること。",
+    "choices": [
+      {
+        "text": "相手の事情を斟酌して判断する",
+        "underline": "斟酌",
+        "correct": true,
+        "note": "斟酌は、事情や心情をくみ取って考えること。"
+      },
+      {
+        "text": "斟酌な坂道を登る",
+        "underline": "斟酌",
+        "correct": false,
+        "note": "「斟酌」の適切な用法ではありません。"
+      },
+      {
+        "text": "斟酌を食べて休む",
+        "underline": "斟酌",
+        "correct": false,
+        "note": "「斟酌」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで斟酌に走る",
+        "underline": "斟酌",
+        "correct": false,
+        "note": "「斟酌」の適切な用法ではありません。"
+      },
+      {
+        "text": "花瓶を斟酌する",
+        "underline": "斟酌",
+        "correct": false,
+        "note": "「斟酌」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:相殺:利益と損失を相殺して計算する",
+    "term": "相殺",
+    "target": "相殺",
+    "sentence": "利益と損失を相殺して計算する",
+    "meaning": "「相殺」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "相殺は、差し引いて帳消しにすること。",
+    "choices": [
+      {
+        "text": "利益と損失を相殺して計算する",
+        "underline": "相殺",
+        "correct": true,
+        "note": "相殺は、差し引いて帳消しにすること。"
+      },
+      {
+        "text": "相殺の靴を履く",
+        "underline": "相殺",
+        "correct": false,
+        "note": "「相殺」の適切な用法ではありません。"
+      },
+      {
+        "text": "会議を相殺に開く",
+        "underline": "相殺",
+        "correct": false,
+        "note": "「相殺」の適切な用法ではありません。"
+      },
+      {
+        "text": "資料を相殺な色にする",
+        "underline": "相殺",
+        "correct": false,
+        "note": "「相殺」の適切な用法ではありません。"
+      },
+      {
+        "text": "相殺を庭に植える",
+        "underline": "相殺",
+        "correct": false,
+        "note": "「相殺」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:逓減:利用者数が年度ごとに逓減している",
+    "term": "逓減",
+    "target": "逓減",
+    "sentence": "利用者数が年度ごとに逓減している",
+    "meaning": "「逓減」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "逓減は、次第に減っていくこと。",
+    "choices": [
+      {
+        "text": "利用者数が年度ごとに逓減している",
+        "underline": "逓減",
+        "correct": true,
+        "note": "逓減は、次第に減っていくこと。"
+      },
+      {
+        "text": "逓減な太陽が昇る",
+        "underline": "逓減",
+        "correct": false,
+        "note": "「逓減」の適切な用法ではありません。"
+      },
+      {
+        "text": "資料を逓減に配る",
+        "underline": "逓減",
+        "correct": false,
+        "note": "「逓減」の適切な用法ではありません。"
+      },
+      {
+        "text": "彼は逓減を飲み干した",
+        "underline": "逓減",
+        "correct": false,
+        "note": "「逓減」の適切な用法ではありません。"
+      },
+      {
+        "text": "机を逓減して運ぶ",
+        "underline": "逓減",
+        "correct": false,
+        "note": "「逓減」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:拮抗:両社の販売シェアが拮抗している",
+    "term": "拮抗",
+    "target": "拮抗",
+    "sentence": "両社の販売シェアが拮抗している",
+    "meaning": "「拮抗」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "拮抗は、互いの力が同じくらいで張り合うこと。",
+    "choices": [
+      {
+        "text": "両社の販売シェアが拮抗している",
+        "underline": "拮抗",
+        "correct": true,
+        "note": "拮抗は、互いの力が同じくらいで張り合うこと。"
+      },
+      {
+        "text": "拮抗を財布に入れる",
+        "underline": "拮抗",
+        "correct": false,
+        "note": "「拮抗」の適切な用法ではありません。"
+      },
+      {
+        "text": "拮抗な香りを食べる",
+        "underline": "拮抗",
+        "correct": false,
+        "note": "「拮抗」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで拮抗に歩く",
+        "underline": "拮抗",
+        "correct": false,
+        "note": "「拮抗」の適切な用法ではありません。"
+      },
+      {
+        "text": "拮抗を昨日まで延期する",
+        "underline": "拮抗",
+        "correct": false,
+        "note": "「拮抗」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:折衝:取引条件について相手先と折衝する",
+    "term": "折衝",
+    "target": "折衝",
+    "sentence": "取引条件について相手先と折衝する",
+    "meaning": "「折衝」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "折衝は、利害の違う相手と話し合って調整すること。",
+    "choices": [
+      {
+        "text": "取引条件について相手先と折衝する",
+        "underline": "折衝",
+        "correct": true,
+        "note": "折衝は、利害の違う相手と話し合って調整すること。"
+      },
+      {
+        "text": "折衝を冷蔵庫で冷やす",
+        "underline": "折衝",
+        "correct": false,
+        "note": "「折衝」の適切な用法ではありません。"
+      },
+      {
+        "text": "折衝な山道を進む",
+        "underline": "折衝",
+        "correct": false,
+        "note": "「折衝」の適切な用法ではありません。"
+      },
+      {
+        "text": "折衝に眠り込む",
+        "underline": "折衝",
+        "correct": false,
+        "note": "「折衝」の適切な用法ではありません。"
+      },
+      {
+        "text": "折衝を机から落とす",
+        "underline": "折衝",
+        "correct": false,
+        "note": "「折衝」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:照準:若年層に照準を合わせて商品を企画する",
+    "term": "照準",
+    "target": "照準",
+    "sentence": "若年層に照準を合わせて商品を企画する",
+    "meaning": "「照準」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "照準を合わせるは、ねらいや対象を定めること。",
+    "choices": [
+      {
+        "text": "若年層に照準を合わせて商品を企画する",
+        "underline": "照準",
+        "correct": true,
+        "note": "照準を合わせるは、ねらいや対象を定めること。"
+      },
+      {
+        "text": "照準を合わせて昼食をとる",
+        "underline": "照準",
+        "correct": false,
+        "note": "「照準」の適切な用法ではありません。"
+      },
+      {
+        "text": "照準な雨が降り続く",
+        "underline": "照準",
+        "correct": false,
+        "note": "「照準」の適切な用法ではありません。"
+      },
+      {
+        "text": "書類を照準に保管する",
+        "underline": "照準",
+        "correct": false,
+        "note": "「照準」の適切な用法ではありません。"
+      },
+      {
+        "text": "照準を眠って忘れる",
+        "underline": "照準",
+        "correct": false,
+        "note": "「照準」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:蹂躙:人権を蹂躙する行為は許されない",
+    "term": "蹂躙",
+    "target": "蹂躙",
+    "sentence": "人権を蹂躙する行為は許されない",
+    "meaning": "「蹂躙」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "蹂躙は、踏みにじって侵害すること。",
+    "choices": [
+      {
+        "text": "人権を蹂躙する行為は許されない",
+        "underline": "蹂躙",
+        "correct": true,
+        "note": "蹂躙は、踏みにじって侵害すること。"
+      },
+      {
+        "text": "人権を蹂躙して守る",
+        "underline": "蹂躙",
+        "correct": false,
+        "note": "「蹂躙」の適切な用法ではありません。"
+      },
+      {
+        "text": "資料を蹂躙に並べる",
+        "underline": "蹂躙",
+        "correct": false,
+        "note": "「蹂躙」の適切な用法ではありません。"
+      },
+      {
+        "text": "蹂躙な説明で理解する",
+        "underline": "蹂躙",
+        "correct": false,
+        "note": "「蹂躙」の適切な用法ではありません。"
+      },
+      {
+        "text": "蹂躙を食卓に出す",
+        "underline": "蹂躙",
+        "correct": false,
+        "note": "「蹂躙」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:苦笑:思わず苦笑するしかなかった",
+    "term": "苦笑",
+    "target": "苦笑",
+    "sentence": "思わず苦笑するしかなかった",
+    "meaning": "「苦笑」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "苦笑は、不快さや困惑を含みながらしかたなく笑うこと。",
+    "choices": [
+      {
+        "text": "思わず苦笑するしかなかった",
+        "underline": "苦笑",
+        "correct": true,
+        "note": "苦笑は、不快さや困惑を含みながらしかたなく笑うこと。"
+      },
+      {
+        "text": "苦笑を机に置く",
+        "underline": "苦笑",
+        "correct": false,
+        "note": "「苦笑」の適切な用法ではありません。"
+      },
+      {
+        "text": "苦笑な計画を印刷する",
+        "underline": "苦笑",
+        "correct": false,
+        "note": "「苦笑」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで苦笑に走る",
+        "underline": "苦笑",
+        "correct": false,
+        "note": "「苦笑」の適切な用法ではありません。"
+      },
+      {
+        "text": "苦笑を契約する",
+        "underline": "苦笑",
+        "correct": false,
+        "note": "「苦笑」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:悠長:危機が迫る中で悠長に構えてはいられない",
+    "term": "悠長",
+    "target": "悠長",
+    "sentence": "危機が迫る中で悠長に構えてはいられない",
+    "meaning": "「悠長」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "悠長は、落ち着き過ぎて急がないさま。",
+    "choices": [
+      {
+        "text": "危機が迫る中で悠長に構えてはいられない",
+        "underline": "悠長",
+        "correct": true,
+        "note": "悠長は、落ち着き過ぎて急がないさま。"
+      },
+      {
+        "text": "悠長を提出する",
+        "underline": "悠長",
+        "correct": false,
+        "note": "「悠長」の適切な用法ではありません。"
+      },
+      {
+        "text": "悠長な石を食べる",
+        "underline": "悠長",
+        "correct": false,
+        "note": "「悠長」の適切な用法ではありません。"
+      },
+      {
+        "text": "悠長に契約を履行する",
+        "underline": "悠長",
+        "correct": false,
+        "note": "「悠長」の適切な用法ではありません。"
+      },
+      {
+        "text": "悠長を棚に飾る",
+        "underline": "悠長",
+        "correct": false,
+        "note": "「悠長」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:強記:彼の博覧強記ぶりに驚かされた",
+    "term": "強記",
+    "target": "強記",
+    "sentence": "彼の博覧強記ぶりに驚かされた",
+    "meaning": "「強記」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "強記は、記憶力が非常に優れていること。",
+    "choices": [
+      {
+        "text": "彼の博覧強記ぶりに驚かされた",
+        "underline": "強記",
+        "correct": true,
+        "note": "強記は、記憶力が非常に優れていること。"
+      },
+      {
+        "text": "強記な料理を注文する",
+        "underline": "強記",
+        "correct": false,
+        "note": "「強記」の適切な用法ではありません。"
+      },
+      {
+        "text": "強記を冷蔵庫で冷やす",
+        "underline": "強記",
+        "correct": false,
+        "note": "「強記」の適切な用法ではありません。"
+      },
+      {
+        "text": "強記に眠り込む",
+        "underline": "強記",
+        "correct": false,
+        "note": "「強記」の適切な用法ではありません。"
+      },
+      {
+        "text": "道を強記して曲がる",
+        "underline": "強記",
+        "correct": false,
+        "note": "「強記」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:領袖:派閥の領袖として発言力を持つ",
+    "term": "領袖",
+    "target": "領袖",
+    "sentence": "派閥の領袖として発言力を持つ",
+    "meaning": "「領袖」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "領袖は、集団を率いる中心人物。",
+    "choices": [
+      {
+        "text": "派閥の領袖として発言力を持つ",
+        "underline": "領袖",
+        "correct": true,
+        "note": "領袖は、集団を率いる中心人物。"
+      },
+      {
+        "text": "領袖を三冊買う",
+        "underline": "領袖",
+        "correct": false,
+        "note": "「領袖」の適切な用法ではありません。"
+      },
+      {
+        "text": "領袖な天気が続く",
+        "underline": "領袖",
+        "correct": false,
+        "note": "「領袖」の適切な用法ではありません。"
+      },
+      {
+        "text": "領袖に水を注ぐ",
+        "underline": "領袖",
+        "correct": false,
+        "note": "「領袖」の適切な用法ではありません。"
+      },
+      {
+        "text": "駅まで領袖で歩く",
+        "underline": "領袖",
+        "correct": false,
+        "note": "「領袖」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:垂涎:その限定品は愛好家にとって垂涎の的だ",
+    "term": "垂涎",
+    "target": "垂涎",
+    "sentence": "その限定品は愛好家にとって垂涎の的だ",
+    "meaning": "「垂涎」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "垂涎は、非常に欲しがること。",
+    "choices": [
+      {
+        "text": "その限定品は愛好家にとって垂涎の的だ",
+        "underline": "垂涎",
+        "correct": true,
+        "note": "垂涎は、非常に欲しがること。"
+      },
+      {
+        "text": "垂涎を実印で押す",
+        "underline": "垂涎",
+        "correct": false,
+        "note": "「垂涎」の適切な用法ではありません。"
+      },
+      {
+        "text": "垂涎な坂を登る",
+        "underline": "垂涎",
+        "correct": false,
+        "note": "「垂涎」の適切な用法ではありません。"
+      },
+      {
+        "text": "垂涎に眠る",
+        "underline": "垂涎",
+        "correct": false,
+        "note": "「垂涎」の適切な用法ではありません。"
+      },
+      {
+        "text": "垂涎を雨で濡らす",
+        "underline": "垂涎",
+        "correct": false,
+        "note": "「垂涎」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:刮目:彼は刮目に値する成果を上げた",
+    "term": "刮目",
+    "target": "刮目",
+    "sentence": "彼は刮目に値する成果を上げた",
+    "meaning": "「刮目」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "刮目は、目をこすってよく見るほど注目すること。",
+    "choices": [
+      {
+        "text": "彼は刮目に値する成果を上げた",
+        "underline": "刮目",
+        "correct": true,
+        "note": "刮目は、目をこすってよく見るほど注目すること。"
+      },
+      {
+        "text": "刮目を冷凍する",
+        "underline": "刮目",
+        "correct": false,
+        "note": "「刮目」の適切な用法ではありません。"
+      },
+      {
+        "text": "刮目な椅子に座る",
+        "underline": "刮目",
+        "correct": false,
+        "note": "「刮目」の適切な用法ではありません。"
+      },
+      {
+        "text": "刮目に契約を破る",
+        "underline": "刮目",
+        "correct": false,
+        "note": "「刮目」の適切な用法ではありません。"
+      },
+      {
+        "text": "刮目を駅で降りる",
+        "underline": "刮目",
+        "correct": false,
+        "note": "「刮目」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:催事:デパートの催事で地方物産展が開かれた",
+    "term": "催事",
+    "target": "催事",
+    "sentence": "デパートの催事で地方物産展が開かれた",
+    "meaning": "「催事」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "催事は、特別に行われる催し物。",
+    "choices": [
+      {
+        "text": "デパートの催事で地方物産展が開かれた",
+        "underline": "催事",
+        "correct": true,
+        "note": "催事は、特別に行われる催し物。"
+      },
+      {
+        "text": "催事を飲み干す",
+        "underline": "催事",
+        "correct": false,
+        "note": "「催事」の適切な用法ではありません。"
+      },
+      {
+        "text": "催事な声で眠る",
+        "underline": "催事",
+        "correct": false,
+        "note": "「催事」の適切な用法ではありません。"
+      },
+      {
+        "text": "催事に計算を間違える",
+        "underline": "催事",
+        "correct": false,
+        "note": "「催事」の適切な用法ではありません。"
+      },
+      {
+        "text": "催事を靴に入れる",
+        "underline": "催事",
+        "correct": false,
+        "note": "「催事」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:気鋭:気鋭の評論家が新説を発表した",
+    "term": "気鋭",
+    "target": "気鋭",
+    "sentence": "気鋭の評論家が新説を発表した",
+    "meaning": "「気鋭」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "気鋭は、意気込みが鋭く勢いがあること。",
+    "choices": [
+      {
+        "text": "気鋭の評論家が新説を発表した",
+        "underline": "気鋭",
+        "correct": true,
+        "note": "気鋭は、意気込みが鋭く勢いがあること。"
+      },
+      {
+        "text": "気鋭を机に置く",
+        "underline": "気鋭",
+        "correct": false,
+        "note": "「気鋭」の適切な用法ではありません。"
+      },
+      {
+        "text": "気鋭な水を飲む",
+        "underline": "気鋭",
+        "correct": false,
+        "note": "「気鋭」の適切な用法ではありません。"
+      },
+      {
+        "text": "気鋭に昨日を延期する",
+        "underline": "気鋭",
+        "correct": false,
+        "note": "「気鋭」の適切な用法ではありません。"
+      },
+      {
+        "text": "気鋭を坂で拾う",
+        "underline": "気鋭",
+        "correct": false,
+        "note": "「気鋭」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:流布:根拠のない噂が流布する",
+    "term": "流布",
+    "target": "流布",
+    "sentence": "根拠のない噂が流布する",
+    "meaning": "「流布」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "流布は、世間に広く知れ渡ること。",
+    "choices": [
+      {
+        "text": "根拠のない噂が流布する",
+        "underline": "流布",
+        "correct": true,
+        "note": "流布は、世間に広く知れ渡ること。"
+      },
+      {
+        "text": "流布を冷やして食べる",
+        "underline": "流布",
+        "correct": false,
+        "note": "「流布」の適切な用法ではありません。"
+      },
+      {
+        "text": "流布な靴を履く",
+        "underline": "流布",
+        "correct": false,
+        "note": "「流布」の適切な用法ではありません。"
+      },
+      {
+        "text": "会議を流布に閉じる",
+        "underline": "流布",
+        "correct": false,
+        "note": "「流布」の適切な用法ではありません。"
+      },
+      {
+        "text": "流布を封筒に眠る",
+        "underline": "流布",
+        "correct": false,
+        "note": "「流布」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:驚嘆:彼の勇気に驚嘆した",
+    "term": "驚嘆",
+    "target": "驚嘆",
+    "sentence": "彼の勇気に驚嘆した",
+    "meaning": "「驚嘆」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "驚嘆は、非常に感心して驚くこと。",
+    "choices": [
+      {
+        "text": "彼の勇気に驚嘆した",
+        "underline": "驚嘆",
+        "correct": true,
+        "note": "驚嘆は、非常に感心して驚くこと。"
+      },
+      {
+        "text": "驚嘆を机に畳む",
+        "underline": "驚嘆",
+        "correct": false,
+        "note": "「驚嘆」の適切な用法ではありません。"
+      },
+      {
+        "text": "驚嘆な道路を渡る",
+        "underline": "驚嘆",
+        "correct": false,
+        "note": "「驚嘆」の適切な用法ではありません。"
+      },
+      {
+        "text": "驚嘆に資料を配る",
+        "underline": "驚嘆",
+        "correct": false,
+        "note": "「驚嘆」の適切な用法ではありません。"
+      },
+      {
+        "text": "驚嘆を郵送する",
+        "underline": "驚嘆",
+        "correct": false,
+        "note": "「驚嘆」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:心服:師として心服する人物に出会った",
+    "term": "心服",
+    "target": "心服",
+    "sentence": "師として心服する人物に出会った",
+    "meaning": "「心服」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "心服は、心から尊敬して従うこと。",
+    "choices": [
+      {
+        "text": "師として心服する人物に出会った",
+        "underline": "心服",
+        "correct": true,
+        "note": "心服は、心から尊敬して従うこと。"
+      },
+      {
+        "text": "心服を燃料にする",
+        "underline": "心服",
+        "correct": false,
+        "note": "「心服」の適切な用法ではありません。"
+      },
+      {
+        "text": "心服な雨が降る",
+        "underline": "心服",
+        "correct": false,
+        "note": "「心服」の適切な用法ではありません。"
+      },
+      {
+        "text": "心服に椅子を並べる",
+        "underline": "心服",
+        "correct": false,
+        "note": "「心服」の適切な用法ではありません。"
+      },
+      {
+        "text": "心服を昨日まで延ばす",
+        "underline": "心服",
+        "correct": false,
+        "note": "「心服」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:進取:進取の精神で新規事業に挑む",
+    "term": "進取",
+    "target": "進取",
+    "sentence": "進取の精神で新規事業に挑む",
+    "meaning": "「進取」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "進取は、自ら進んで新しいことをすること。",
+    "choices": [
+      {
+        "text": "進取の精神で新規事業に挑む",
+        "underline": "進取",
+        "correct": true,
+        "note": "進取は、自ら進んで新しいことをすること。"
+      },
+      {
+        "text": "進取を棚に飾る",
+        "underline": "進取",
+        "correct": false,
+        "note": "「進取」の適切な用法ではありません。"
+      },
+      {
+        "text": "進取な睡眠を飲む",
+        "underline": "進取",
+        "correct": false,
+        "note": "「進取」の適切な用法ではありません。"
+      },
+      {
+        "text": "進取に道路を横断する",
+        "underline": "進取",
+        "correct": false,
+        "note": "「進取」の適切な用法ではありません。"
+      },
+      {
+        "text": "進取を箱に詰める",
+        "underline": "進取",
+        "correct": false,
+        "note": "「進取」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:卓見:会議で将来を見通した卓見を述べた",
+    "term": "卓見",
+    "target": "卓見",
+    "sentence": "会議で将来を見通した卓見を述べた",
+    "meaning": "「卓見」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "卓見は、優れた意見や見識。",
+    "choices": [
+      {
+        "text": "会議で将来を見通した卓見を述べた",
+        "underline": "卓見",
+        "correct": true,
+        "note": "卓見は、優れた意見や見識。"
+      },
+      {
+        "text": "卓見を冷蔵庫で冷やす",
+        "underline": "卓見",
+        "correct": false,
+        "note": "「卓見」の適切な用法ではありません。"
+      },
+      {
+        "text": "卓見な坂道で転ぶ",
+        "underline": "卓見",
+        "correct": false,
+        "note": "「卓見」の適切な用法ではありません。"
+      },
+      {
+        "text": "卓見に昼食を食べる",
+        "underline": "卓見",
+        "correct": false,
+        "note": "「卓見」の適切な用法ではありません。"
+      },
+      {
+        "text": "卓見を契約書に挟む",
+        "underline": "卓見",
+        "correct": false,
+        "note": "「卓見」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:参画:法案の作成に専門家が参画する",
+    "term": "参画",
+    "target": "参画",
+    "sentence": "法案の作成に専門家が参画する",
+    "meaning": "「参画」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "参画は、計画段階から参加すること。",
+    "choices": [
+      {
+        "text": "法案の作成に専門家が参画する",
+        "underline": "参画",
+        "correct": true,
+        "note": "参画は、計画段階から参加すること。"
+      },
+      {
+        "text": "参画を靴に入れる",
+        "underline": "参画",
+        "correct": false,
+        "note": "「参画」の適切な用法ではありません。"
+      },
+      {
+        "text": "参画な料理を食べる",
+        "underline": "参画",
+        "correct": false,
+        "note": "「参画」の適切な用法ではありません。"
+      },
+      {
+        "text": "参画に窓を閉める",
+        "underline": "参画",
+        "correct": false,
+        "note": "「参画」の適切な用法ではありません。"
+      },
+      {
+        "text": "参画を雨で洗う",
+        "underline": "参画",
+        "correct": false,
+        "note": "「参画」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:鎬:二党が鎬を削る激しい選挙戦となった",
+    "term": "鎬",
+    "target": "鎬",
+    "sentence": "二党が鎬を削る激しい選挙戦となった",
+    "meaning": "「鎬」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "鎬を削るは、互いに激しく争うこと。",
+    "choices": [
+      {
+        "text": "二党が鎬を削る激しい選挙戦となった",
+        "underline": "鎬",
+        "correct": true,
+        "note": "鎬を削るは、互いに激しく争うこと。"
+      },
+      {
+        "text": "鎬を削って昼食を作る",
+        "underline": "鎬",
+        "correct": false,
+        "note": "「鎬」の適切な用法ではありません。"
+      },
+      {
+        "text": "鎬な記録をつける",
+        "underline": "鎬",
+        "correct": false,
+        "note": "「鎬」の適切な用法ではありません。"
+      },
+      {
+        "text": "鎬に契約を履行する",
+        "underline": "鎬",
+        "correct": false,
+        "note": "「鎬」の適切な用法ではありません。"
+      },
+      {
+        "text": "鎬を合わせて照準を定める",
+        "underline": "鎬",
+        "correct": false,
+        "note": "「鎬」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:鳩首:関係者が鳩首協議を重ねた",
+    "term": "鳩首",
+    "target": "鳩首",
+    "sentence": "関係者が鳩首協議を重ねた",
+    "meaning": "「鳩首」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "鳩首は、人々が集まって額を寄せ合うこと。",
+    "choices": [
+      {
+        "text": "関係者が鳩首協議を重ねた",
+        "underline": "鳩首",
+        "correct": true,
+        "note": "鳩首は、人々が集まって額を寄せ合うこと。"
+      },
+      {
+        "text": "鳩首を机に眠る",
+        "underline": "鳩首",
+        "correct": false,
+        "note": "「鳩首」の適切な用法ではありません。"
+      },
+      {
+        "text": "鳩首な天気を選ぶ",
+        "underline": "鳩首",
+        "correct": false,
+        "note": "「鳩首」の適切な用法ではありません。"
+      },
+      {
+        "text": "鳩首を水で割る",
+        "underline": "鳩首",
+        "correct": false,
+        "note": "「鳩首」の適切な用法ではありません。"
+      },
+      {
+        "text": "鳩首に切符を買う",
+        "underline": "鳩首",
+        "correct": false,
+        "note": "「鳩首」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:木鐸:新聞は社会の木鐸であるべきだ",
+    "term": "木鐸",
+    "target": "木鐸",
+    "sentence": "新聞は社会の木鐸であるべきだ",
+    "meaning": "「木鐸」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "木鐸は、世の人を教え導く人や機関をたとえる語。",
+    "choices": [
+      {
+        "text": "新聞は社会の木鐸であるべきだ",
+        "underline": "木鐸",
+        "correct": true,
+        "note": "木鐸は、世の人を教え導く人や機関をたとえる語。"
+      },
+      {
+        "text": "木鐸を食器棚にしまう",
+        "underline": "木鐸",
+        "correct": false,
+        "note": "「木鐸」の適切な用法ではありません。"
+      },
+      {
+        "text": "木鐸な速度で走る",
+        "underline": "木鐸",
+        "correct": false,
+        "note": "「木鐸」の適切な用法ではありません。"
+      },
+      {
+        "text": "木鐸に眠り込む",
+        "underline": "木鐸",
+        "correct": false,
+        "note": "「木鐸」の適切な用法ではありません。"
+      },
+      {
+        "text": "木鐸を雨に濡らす",
+        "underline": "木鐸",
+        "correct": false,
+        "note": "「木鐸」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:陥穽:甘い誘いの陥穽にはまった",
+    "term": "陥穽",
+    "target": "陥穽",
+    "sentence": "甘い誘いの陥穽にはまった",
+    "meaning": "「陥穽」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "陥穽は、人をおとし入れる落とし穴やわな。",
+    "choices": [
+      {
+        "text": "甘い誘いの陥穽にはまった",
+        "underline": "陥穽",
+        "correct": true,
+        "note": "陥穽は、人をおとし入れる落とし穴やわな。"
+      },
+      {
+        "text": "陥穽を履いて出かける",
+        "underline": "陥穽",
+        "correct": false,
+        "note": "「陥穽」の適切な用法ではありません。"
+      },
+      {
+        "text": "陥穽な料理を選ぶ",
+        "underline": "陥穽",
+        "correct": false,
+        "note": "「陥穽」の適切な用法ではありません。"
+      },
+      {
+        "text": "陥穽に会議を印刷する",
+        "underline": "陥穽",
+        "correct": false,
+        "note": "「陥穽」の適切な用法ではありません。"
+      },
+      {
+        "text": "陥穽を机で眠る",
+        "underline": "陥穽",
+        "correct": false,
+        "note": "「陥穽」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:義憤:不正な処分に義憤を覚えた",
+    "term": "義憤",
+    "target": "義憤",
+    "sentence": "不正な処分に義憤を覚えた",
+    "meaning": "「義憤」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "義憤は、不正に対して起こる正義感からの怒り。",
+    "choices": [
+      {
+        "text": "不正な処分に義憤を覚えた",
+        "underline": "義憤",
+        "correct": true,
+        "note": "義憤は、不正に対して起こる正義感からの怒り。"
+      },
+      {
+        "text": "義憤を冷やして飲む",
+        "underline": "義憤",
+        "correct": false,
+        "note": "「義憤」の適切な用法ではありません。"
+      },
+      {
+        "text": "義憤な駅に着く",
+        "underline": "義憤",
+        "correct": false,
+        "note": "「義憤」の適切な用法ではありません。"
+      },
+      {
+        "text": "義憤に書類を重ねる",
+        "underline": "義憤",
+        "correct": false,
+        "note": "「義憤」の適切な用法ではありません。"
+      },
+      {
+        "text": "義憤を靴で洗う",
+        "underline": "義憤",
+        "correct": false,
+        "note": "「義憤」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:謳歌:青春を謳歌する",
+    "term": "謳歌",
+    "target": "謳歌",
+    "sentence": "青春を謳歌する",
+    "meaning": "「謳歌」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "謳歌は、恵まれた状態を大いに楽しみ表すこと。",
+    "choices": [
+      {
+        "text": "青春を謳歌する",
+        "underline": "謳歌",
+        "correct": true,
+        "note": "謳歌は、恵まれた状態を大いに楽しみ表すこと。"
+      },
+      {
+        "text": "謳歌を契約する",
+        "underline": "謳歌",
+        "correct": false,
+        "note": "「謳歌」の適切な用法ではありません。"
+      },
+      {
+        "text": "謳歌な雨が降る",
+        "underline": "謳歌",
+        "correct": false,
+        "note": "「謳歌」の適切な用法ではありません。"
+      },
+      {
+        "text": "謳歌に資料を留める",
+        "underline": "謳歌",
+        "correct": false,
+        "note": "「謳歌」の適切な用法ではありません。"
+      },
+      {
+        "text": "謳歌を机に塗る",
+        "underline": "謳歌",
+        "correct": false,
+        "note": "「謳歌」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:粉飾:決算を粉飾して業績をよく見せた",
+    "term": "粉飾",
+    "target": "粉飾",
+    "sentence": "決算を粉飾して業績をよく見せた",
+    "meaning": "「粉飾」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "粉飾は、実態をよく見せようと飾ること。",
+    "choices": [
+      {
+        "text": "決算を粉飾して業績をよく見せた",
+        "underline": "粉飾",
+        "correct": true,
+        "note": "粉飾は、実態をよく見せようと飾ること。"
+      },
+      {
+        "text": "粉飾を夕食にする",
+        "underline": "粉飾",
+        "correct": false,
+        "note": "「粉飾」の適切な用法ではありません。"
+      },
+      {
+        "text": "粉飾な駅で降りる",
+        "underline": "粉飾",
+        "correct": false,
+        "note": "「粉飾」の適切な用法ではありません。"
+      },
+      {
+        "text": "粉飾に眠って忘れる",
+        "underline": "粉飾",
+        "correct": false,
+        "note": "「粉飾」の適切な用法ではありません。"
+      },
+      {
+        "text": "粉飾を契約として守る",
+        "underline": "粉飾",
+        "correct": false,
+        "note": "「粉飾」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:因習:古い因習を打ち破る",
+    "term": "因習",
+    "target": "因習",
+    "sentence": "古い因習を打ち破る",
+    "meaning": "「因習」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "因習は、昔から続く古いしきたりや習慣。",
+    "choices": [
+      {
+        "text": "古い因習を打ち破る",
+        "underline": "因習",
+        "correct": true,
+        "note": "因習は、昔から続く古いしきたりや習慣。"
+      },
+      {
+        "text": "因習を冷蔵庫に入れる",
+        "underline": "因習",
+        "correct": false,
+        "note": "「因習」の適切な用法ではありません。"
+      },
+      {
+        "text": "因習な水を飲む",
+        "underline": "因習",
+        "correct": false,
+        "note": "「因習」の適切な用法ではありません。"
+      },
+      {
+        "text": "因習に電車へ乗る",
+        "underline": "因習",
+        "correct": false,
+        "note": "「因習」の適切な用法ではありません。"
+      },
+      {
+        "text": "因習を机で洗う",
+        "underline": "因習",
+        "correct": false,
+        "note": "「因習」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:大度:寛仁大度な態度で相手を許す",
+    "term": "大度",
+    "target": "大度",
+    "sentence": "寛仁大度な態度で相手を許す",
+    "meaning": "「大度」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "大度は、度量が大きく細事にこだわらないこと。",
+    "choices": [
+      {
+        "text": "寛仁大度な態度で相手を許す",
+        "underline": "大度",
+        "correct": true,
+        "note": "大度は、度量が大きく細事にこだわらないこと。"
+      },
+      {
+        "text": "大度を封筒に貼る",
+        "underline": "大度",
+        "correct": false,
+        "note": "「大度」の適切な用法ではありません。"
+      },
+      {
+        "text": "大度な速度で眠る",
+        "underline": "大度",
+        "correct": false,
+        "note": "「大度」の適切な用法ではありません。"
+      },
+      {
+        "text": "大度に靴を磨く",
+        "underline": "大度",
+        "correct": false,
+        "note": "「大度」の適切な用法ではありません。"
+      },
+      {
+        "text": "大度を駅で拾う",
+        "underline": "大度",
+        "correct": false,
+        "note": "「大度」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:言下:彼はその提案を言下に否定した",
+    "term": "言下",
+    "target": "言下",
+    "sentence": "彼はその提案を言下に否定した",
+    "meaning": "「言下」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "言下は、言い終わるか終わらないかのすぐその時。",
+    "choices": [
+      {
+        "text": "彼はその提案を言下に否定した",
+        "underline": "言下",
+        "correct": true,
+        "note": "言下は、言い終わるか終わらないかのすぐその時。"
+      },
+      {
+        "text": "言下を三つ食べる",
+        "underline": "言下",
+        "correct": false,
+        "note": "「言下」の適切な用法ではありません。"
+      },
+      {
+        "text": "言下な青空が続く",
+        "underline": "言下",
+        "correct": false,
+        "note": "「言下」の適切な用法ではありません。"
+      },
+      {
+        "text": "言下に椅子を冷やす",
+        "underline": "言下",
+        "correct": false,
+        "note": "「言下」の適切な用法ではありません。"
+      },
+      {
+        "text": "言下を靴で履く",
+        "underline": "言下",
+        "correct": false,
+        "note": "「言下」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:居丈高:相手は居丈高な態度に出た",
+    "term": "居丈高",
+    "target": "居丈高",
+    "sentence": "相手は居丈高な態度に出た",
+    "meaning": "「居丈高」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "居丈高は、人を威圧するような態度。",
+    "choices": [
+      {
+        "text": "相手は居丈高な態度に出た",
+        "underline": "居丈高",
+        "correct": true,
+        "note": "居丈高は、人を威圧するような態度。"
+      },
+      {
+        "text": "居丈高を郵送する",
+        "underline": "居丈高",
+        "correct": false,
+        "note": "「居丈高」の適切な用法ではありません。"
+      },
+      {
+        "text": "居丈高な水を飲む",
+        "underline": "居丈高",
+        "correct": false,
+        "note": "「居丈高」の適切な用法ではありません。"
+      },
+      {
+        "text": "居丈高に契約を履く",
+        "underline": "居丈高",
+        "correct": false,
+        "note": "「居丈高」の適切な用法ではありません。"
+      },
+      {
+        "text": "居丈高を机に植える",
+        "underline": "居丈高",
+        "correct": false,
+        "note": "「居丈高」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:瞠目:瞠目すべき活躍を見せた",
+    "term": "瞠目",
+    "target": "瞠目",
+    "sentence": "瞠目すべき活躍を見せた",
+    "meaning": "「瞠目」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "瞠目は、驚いたり感心したりして目を見張ること。",
+    "choices": [
+      {
+        "text": "瞠目すべき活躍を見せた",
+        "underline": "瞠目",
+        "correct": true,
+        "note": "瞠目は、驚いたり感心したりして目を見張ること。"
+      },
+      {
+        "text": "瞠目を棚に飾る",
+        "underline": "瞠目",
+        "correct": false,
+        "note": "「瞠目」の適切な用法ではありません。"
+      },
+      {
+        "text": "瞠目な靴を買う",
+        "underline": "瞠目",
+        "correct": false,
+        "note": "「瞠目」の適切な用法ではありません。"
+      },
+      {
+        "text": "瞠目に資料を冷やす",
+        "underline": "瞠目",
+        "correct": false,
+        "note": "「瞠目」の適切な用法ではありません。"
+      },
+      {
+        "text": "瞠目を駅で眠る",
+        "underline": "瞠目",
+        "correct": false,
+        "note": "「瞠目」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:保身:責任追及を恐れて保身に走った",
+    "term": "保身",
+    "target": "保身",
+    "sentence": "責任追及を恐れて保身に走った",
+    "meaning": "「保身」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "保身は、自分の地位や安全を守ろうとすること。",
+    "choices": [
+      {
+        "text": "責任追及を恐れて保身に走った",
+        "underline": "保身",
+        "correct": true,
+        "note": "保身は、自分の地位や安全を守ろうとすること。"
+      },
+      {
+        "text": "保身を水で割る",
+        "underline": "保身",
+        "correct": false,
+        "note": "「保身」の適切な用法ではありません。"
+      },
+      {
+        "text": "保身な花を植える",
+        "underline": "保身",
+        "correct": false,
+        "note": "「保身」の適切な用法ではありません。"
+      },
+      {
+        "text": "保身に皿を洗う",
+        "underline": "保身",
+        "correct": false,
+        "note": "「保身」の適切な用法ではありません。"
+      },
+      {
+        "text": "保身を靴に入れる",
+        "underline": "保身",
+        "correct": false,
+        "note": "「保身」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:跳梁:悪徳業者が跳梁する状況を放置できない",
+    "term": "跳梁",
+    "target": "跳梁",
+    "sentence": "悪徳業者が跳梁する状況を放置できない",
+    "meaning": "「跳梁」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "跳梁は、悪者などが勝手にのさばること。",
+    "choices": [
+      {
+        "text": "悪徳業者が跳梁する状況を放置できない",
+        "underline": "跳梁",
+        "correct": true,
+        "note": "跳梁は、悪者などが勝手にのさばること。"
+      },
+      {
+        "text": "跳梁を冷やして食べる",
+        "underline": "跳梁",
+        "correct": false,
+        "note": "「跳梁」の適切な用法ではありません。"
+      },
+      {
+        "text": "跳梁な資料を読む",
+        "underline": "跳梁",
+        "correct": false,
+        "note": "「跳梁」の適切な用法ではありません。"
+      },
+      {
+        "text": "跳梁に眠り込む",
+        "underline": "跳梁",
+        "correct": false,
+        "note": "「跳梁」の適切な用法ではありません。"
+      },
+      {
+        "text": "跳梁を契約に結ぶ",
+        "underline": "跳梁",
+        "correct": false,
+        "note": "「跳梁」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:履行:契約を履行する義務がある",
+    "term": "履行",
+    "target": "履行",
+    "sentence": "契約を履行する義務がある",
+    "meaning": "「履行」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "履行は、約束や契約を実際に行うこと。",
+    "choices": [
+      {
+        "text": "契約を履行する義務がある",
+        "underline": "履行",
+        "correct": true,
+        "note": "履行は、約束や契約を実際に行うこと。"
+      },
+      {
+        "text": "履行を食卓に並べる",
+        "underline": "履行",
+        "correct": false,
+        "note": "「履行」の適切な用法ではありません。"
+      },
+      {
+        "text": "履行な坂を登る",
+        "underline": "履行",
+        "correct": false,
+        "note": "「履行」の適切な用法ではありません。"
+      },
+      {
+        "text": "履行に眠る",
+        "underline": "履行",
+        "correct": false,
+        "note": "「履行」の適切な用法ではありません。"
+      },
+      {
+        "text": "履行を机で洗う",
+        "underline": "履行",
+        "correct": false,
+        "note": "「履行」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:安閑:被害が広がる中で安閑としてはいられない",
+    "term": "安閑",
+    "target": "安閑",
+    "sentence": "被害が広がる中で安閑としてはいられない",
+    "meaning": "「安閑」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "安閑は、安らかで静かにしているさま。",
+    "choices": [
+      {
+        "text": "被害が広がる中で安閑としてはいられない",
+        "underline": "安閑",
+        "correct": true,
+        "note": "安閑は、安らかで静かにしているさま。"
+      },
+      {
+        "text": "安閑を郵送する",
+        "underline": "安閑",
+        "correct": false,
+        "note": "「安閑」の適切な用法ではありません。"
+      },
+      {
+        "text": "安閑な料理を飲む",
+        "underline": "安閑",
+        "correct": false,
+        "note": "「安閑」の適切な用法ではありません。"
+      },
+      {
+        "text": "安閑に書類を洗う",
+        "underline": "安閑",
+        "correct": false,
+        "note": "「安閑」の適切な用法ではありません。"
+      },
+      {
+        "text": "安閑を駅に置く",
+        "underline": "安閑",
+        "correct": false,
+        "note": "「安閑」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:私淑:彼は若い頃からその作家に私淑していた",
+    "term": "私淑",
+    "target": "私淑",
+    "sentence": "彼は若い頃からその作家に私淑していた",
+    "meaning": "「私淑」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "私淑は、直接教えを受けていない人をひそかに尊敬し師と仰ぐこと。",
+    "choices": [
+      {
+        "text": "彼は若い頃からその作家に私淑していた",
+        "underline": "私淑",
+        "correct": true,
+        "note": "私淑は、直接教えを受けていない人をひそかに尊敬し師と仰ぐこと。"
+      },
+      {
+        "text": "私淑を冷凍する",
+        "underline": "私淑",
+        "correct": false,
+        "note": "「私淑」の適切な用法ではありません。"
+      },
+      {
+        "text": "私淑な雨を食べる",
+        "underline": "私淑",
+        "correct": false,
+        "note": "「私淑」の適切な用法ではありません。"
+      },
+      {
+        "text": "私淑に机を洗う",
+        "underline": "私淑",
+        "correct": false,
+        "note": "「私淑」の適切な用法ではありません。"
+      },
+      {
+        "text": "私淑を靴で履く",
+        "underline": "私淑",
+        "correct": false,
+        "note": "「私淑」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:鼓舞:監督の言葉が選手の士気を鼓舞した",
+    "term": "鼓舞",
+    "target": "鼓舞",
+    "sentence": "監督の言葉が選手の士気を鼓舞した",
+    "meaning": "「鼓舞」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "鼓舞は、励まして奮い立たせること。",
+    "choices": [
+      {
+        "text": "監督の言葉が選手の士気を鼓舞した",
+        "underline": "鼓舞",
+        "correct": true,
+        "note": "鼓舞は、励まして奮い立たせること。"
+      },
+      {
+        "text": "鼓舞を封筒で眠る",
+        "underline": "鼓舞",
+        "correct": false,
+        "note": "「鼓舞」の適切な用法ではありません。"
+      },
+      {
+        "text": "鼓舞な天気を飲む",
+        "underline": "鼓舞",
+        "correct": false,
+        "note": "「鼓舞」の適切な用法ではありません。"
+      },
+      {
+        "text": "鼓舞に靴を置く",
+        "underline": "鼓舞",
+        "correct": false,
+        "note": "「鼓舞」の適切な用法ではありません。"
+      },
+      {
+        "text": "鼓舞を昨日に延期する",
+        "underline": "鼓舞",
+        "correct": false,
+        "note": "「鼓舞」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:当意即妙:記者会見で当意即妙な受け答えをした",
+    "term": "当意即妙",
+    "target": "当意即妙",
+    "sentence": "記者会見で当意即妙な受け答えをした",
+    "meaning": "「当意即妙」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "当意即妙は、その場に応じて機転がきくこと。",
+    "choices": [
+      {
+        "text": "記者会見で当意即妙な受け答えをした",
+        "underline": "当意即妙",
+        "correct": true,
+        "note": "当意即妙は、その場に応じて機転がきくこと。"
+      },
+      {
+        "text": "当意即妙を冷蔵庫に入れる",
+        "underline": "当意即妙",
+        "correct": false,
+        "note": "「当意即妙」の適切な用法ではありません。"
+      },
+      {
+        "text": "当意即妙な靴を履く",
+        "underline": "当意即妙",
+        "correct": false,
+        "note": "「当意即妙」の適切な用法ではありません。"
+      },
+      {
+        "text": "当意即妙に水をこぼす",
+        "underline": "当意即妙",
+        "correct": false,
+        "note": "「当意即妙」の適切な用法ではありません。"
+      },
+      {
+        "text": "当意即妙を封筒で送る",
+        "underline": "当意即妙",
+        "correct": false,
+        "note": "「当意即妙」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:崇高:崇高な理想を抱いて活動する",
+    "term": "崇高",
+    "target": "崇高",
+    "sentence": "崇高な理想を抱いて活動する",
+    "meaning": "「崇高」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "崇高は、気高く尊いこと。",
+    "choices": [
+      {
+        "text": "崇高な理想を抱いて活動する",
+        "underline": "崇高",
+        "correct": true,
+        "note": "崇高は、気高く尊いこと。"
+      },
+      {
+        "text": "崇高を食べて休む",
+        "underline": "崇高",
+        "correct": false,
+        "note": "「崇高」の適切な用法ではありません。"
+      },
+      {
+        "text": "崇高な駅を渡る",
+        "underline": "崇高",
+        "correct": false,
+        "note": "「崇高」の適切な用法ではありません。"
+      },
+      {
+        "text": "崇高に椅子を洗う",
+        "underline": "崇高",
+        "correct": false,
+        "note": "「崇高」の適切な用法ではありません。"
+      },
+      {
+        "text": "崇高を契約する",
+        "underline": "崇高",
+        "correct": false,
+        "note": "「崇高」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:出仕:若くして官庁に出仕した",
+    "term": "出仕",
+    "target": "出仕",
+    "sentence": "若くして官庁に出仕した",
+    "meaning": "「出仕」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "出仕は、役所などに勤めること。",
+    "choices": [
+      {
+        "text": "若くして官庁に出仕した",
+        "underline": "出仕",
+        "correct": true,
+        "note": "出仕は、役所などに勤めること。"
+      },
+      {
+        "text": "出仕を冷やして飲む",
+        "underline": "出仕",
+        "correct": false,
+        "note": "「出仕」の適切な用法ではありません。"
+      },
+      {
+        "text": "出仕な机を買う",
+        "underline": "出仕",
+        "correct": false,
+        "note": "「出仕」の適切な用法ではありません。"
+      },
+      {
+        "text": "出仕に雨を畳む",
+        "underline": "出仕",
+        "correct": false,
+        "note": "「出仕」の適切な用法ではありません。"
+      },
+      {
+        "text": "出仕を棚に眠る",
+        "underline": "出仕",
+        "correct": false,
+        "note": "「出仕」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:射幸:射幸心をあおる広告には注意が必要だ",
+    "term": "射幸",
+    "target": "射幸",
+    "sentence": "射幸心をあおる広告には注意が必要だ",
+    "meaning": "「射幸」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "射幸は、偶然の利益や成功を当てにすること。",
+    "choices": [
+      {
+        "text": "射幸心をあおる広告には注意が必要だ",
+        "underline": "射幸",
+        "correct": true,
+        "note": "射幸は、偶然の利益や成功を当てにすること。"
+      },
+      {
+        "text": "射幸を皿に盛る",
+        "underline": "射幸",
+        "correct": false,
+        "note": "「射幸」の適切な用法ではありません。"
+      },
+      {
+        "text": "射幸な雨を浴びる",
+        "underline": "射幸",
+        "correct": false,
+        "note": "「射幸」の適切な用法ではありません。"
+      },
+      {
+        "text": "射幸に机を磨く",
+        "underline": "射幸",
+        "correct": false,
+        "note": "「射幸」の適切な用法ではありません。"
+      },
+      {
+        "text": "射幸を駅で拾う",
+        "underline": "射幸",
+        "correct": false,
+        "note": "「射幸」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:蔓延:汚職が蔓延している組織を改革する",
+    "term": "蔓延",
+    "target": "蔓延",
+    "sentence": "汚職が蔓延している組織を改革する",
+    "meaning": "「蔓延」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "蔓延は、好ましくないことが広がること。",
+    "choices": [
+      {
+        "text": "汚職が蔓延している組織を改革する",
+        "underline": "蔓延",
+        "correct": true,
+        "note": "蔓延は、好ましくないことが広がること。"
+      },
+      {
+        "text": "蔓延を靴で履く",
+        "underline": "蔓延",
+        "correct": false,
+        "note": "「蔓延」の適切な用法ではありません。"
+      },
+      {
+        "text": "蔓延な説明を冷やす",
+        "underline": "蔓延",
+        "correct": false,
+        "note": "「蔓延」の適切な用法ではありません。"
+      },
+      {
+        "text": "蔓延に昼食を眠る",
+        "underline": "蔓延",
+        "correct": false,
+        "note": "「蔓延」の適切な用法ではありません。"
+      },
+      {
+        "text": "蔓延を机で食べる",
+        "underline": "蔓延",
+        "correct": false,
+        "note": "「蔓延」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:落成:新社屋が落成し記念式典が開かれた",
+    "term": "落成",
+    "target": "落成",
+    "sentence": "新社屋が落成し記念式典が開かれた",
+    "meaning": "「落成」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "落成は、工事が完了して建物などができあがること。",
+    "choices": [
+      {
+        "text": "新社屋が落成し記念式典が開かれた",
+        "underline": "落成",
+        "correct": true,
+        "note": "落成は、工事が完了して建物などができあがること。"
+      },
+      {
+        "text": "落成を冷蔵庫に入れる",
+        "underline": "落成",
+        "correct": false,
+        "note": "「落成」の適切な用法ではありません。"
+      },
+      {
+        "text": "落成な声で走る",
+        "underline": "落成",
+        "correct": false,
+        "note": "「落成」の適切な用法ではありません。"
+      },
+      {
+        "text": "落成に椅子を洗う",
+        "underline": "落成",
+        "correct": false,
+        "note": "「落成」の適切な用法ではありません。"
+      },
+      {
+        "text": "落成を契約で眠る",
+        "underline": "落成",
+        "correct": false,
+        "note": "「落成」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:言外:彼は不満を言外ににおわせた",
+    "term": "言外",
+    "target": "言外",
+    "sentence": "彼は不満を言外ににおわせた",
+    "meaning": "「言外」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "言外は、直接は言葉に出さない部分。",
+    "choices": [
+      {
+        "text": "彼は不満を言外ににおわせた",
+        "underline": "言外",
+        "correct": true,
+        "note": "言外は、直接は言葉に出さない部分。"
+      },
+      {
+        "text": "言外を食卓に出す",
+        "underline": "言外",
+        "correct": false,
+        "note": "「言外」の適切な用法ではありません。"
+      },
+      {
+        "text": "言外な坂を飲む",
+        "underline": "言外",
+        "correct": false,
+        "note": "「言外」の適切な用法ではありません。"
+      },
+      {
+        "text": "言外に靴を履く",
+        "underline": "言外",
+        "correct": false,
+        "note": "「言外」の適切な用法ではありません。"
+      },
+      {
+        "text": "言外を机で洗う",
+        "underline": "言外",
+        "correct": false,
+        "note": "「言外」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:言質:交渉相手から言質をとる",
+    "term": "言質",
+    "target": "言質",
+    "sentence": "交渉相手から言質をとる",
+    "meaning": "「言質」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "言質は、後で証拠となる言葉。",
+    "choices": [
+      {
+        "text": "交渉相手から言質をとる",
+        "underline": "言質",
+        "correct": true,
+        "note": "言質は、後で証拠となる言葉。"
+      },
+      {
+        "text": "言質を水で割る",
+        "underline": "言質",
+        "correct": false,
+        "note": "「言質」の適切な用法ではありません。"
+      },
+      {
+        "text": "言質な花を飾る",
+        "underline": "言質",
+        "correct": false,
+        "note": "「言質」の適切な用法ではありません。"
+      },
+      {
+        "text": "言質に眠り込む",
+        "underline": "言質",
+        "correct": false,
+        "note": "「言質」の適切な用法ではありません。"
+      },
+      {
+        "text": "言質を駅で履く",
+        "underline": "言質",
+        "correct": false,
+        "note": "「言質」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:博覧:資料を博覧に供する",
+    "term": "博覧",
+    "target": "博覧",
+    "sentence": "資料を博覧に供する",
+    "meaning": "「博覧」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "博覧に供するは、広く一般の人が見られるようにすること。",
+    "choices": [
+      {
+        "text": "資料を博覧に供する",
+        "underline": "博覧",
+        "correct": true,
+        "note": "博覧に供するは、広く一般の人が見られるようにすること。"
+      },
+      {
+        "text": "博覧を飲み干す",
+        "underline": "博覧",
+        "correct": false,
+        "note": "「博覧」の適切な用法ではありません。"
+      },
+      {
+        "text": "博覧な靴を選ぶ",
+        "underline": "博覧",
+        "correct": false,
+        "note": "「博覧」の適切な用法ではありません。"
+      },
+      {
+        "text": "博覧に椅子を洗う",
+        "underline": "博覧",
+        "correct": false,
+        "note": "「博覧」の適切な用法ではありません。"
+      },
+      {
+        "text": "博覧を契約に履く",
+        "underline": "博覧",
+        "correct": false,
+        "note": "「博覧」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:画策:勢力拡大を実現しようと画策する",
+    "term": "画策",
+    "target": "画策",
+    "sentence": "勢力拡大を実現しようと画策する",
+    "meaning": "「画策」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "画策は、計画を立てて実行しようとすること。",
+    "choices": [
+      {
+        "text": "勢力拡大を実現しようと画策する",
+        "underline": "画策",
+        "correct": true,
+        "note": "画策は、計画を立てて実行しようとすること。"
+      },
+      {
+        "text": "画策を食べて休む",
+        "underline": "画策",
+        "correct": false,
+        "note": "「画策」の適切な用法ではありません。"
+      },
+      {
+        "text": "画策な水を飲む",
+        "underline": "画策",
+        "correct": false,
+        "note": "「画策」の適切な用法ではありません。"
+      },
+      {
+        "text": "画策に机を洗う",
+        "underline": "画策",
+        "correct": false,
+        "note": "「画策」の適切な用法ではありません。"
+      },
+      {
+        "text": "画策を駅で拾う",
+        "underline": "画策",
+        "correct": false,
+        "note": "「画策」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:慇懃:来客に慇懃に応対する",
+    "term": "慇懃",
+    "target": "慇懃",
+    "sentence": "来客に慇懃に応対する",
+    "meaning": "「慇懃」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "慇懃は、礼儀正しく丁寧なこと。",
+    "choices": [
+      {
+        "text": "来客に慇懃に応対する",
+        "underline": "慇懃",
+        "correct": true,
+        "note": "慇懃は、礼儀正しく丁寧なこと。"
+      },
+      {
+        "text": "慇懃を冷凍する",
+        "underline": "慇懃",
+        "correct": false,
+        "note": "「慇懃」の適切な用法ではありません。"
+      },
+      {
+        "text": "慇懃な坂を飲む",
+        "underline": "慇懃",
+        "correct": false,
+        "note": "「慇懃」の適切な用法ではありません。"
+      },
+      {
+        "text": "慇懃に皿を履く",
+        "underline": "慇懃",
+        "correct": false,
+        "note": "「慇懃」の適切な用法ではありません。"
+      },
+      {
+        "text": "慇懃を封筒に眠る",
+        "underline": "慇懃",
+        "correct": false,
+        "note": "「慇懃」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:果断:果断な対応が功を奏した",
+    "term": "果断",
+    "target": "果断",
+    "sentence": "果断な対応が功を奏した",
+    "meaning": "「果断」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "果断は、ためらわず思い切って行うさま。",
+    "choices": [
+      {
+        "text": "果断な対応が功を奏した",
+        "underline": "果断",
+        "correct": true,
+        "note": "果断は、ためらわず思い切って行うさま。"
+      },
+      {
+        "text": "果断を机で飲む",
+        "underline": "果断",
+        "correct": false,
+        "note": "「果断」の適切な用法ではありません。"
+      },
+      {
+        "text": "果断な眠りを食べる",
+        "underline": "果断",
+        "correct": false,
+        "note": "「果断」の適切な用法ではありません。"
+      },
+      {
+        "text": "果断に雨を保存する",
+        "underline": "果断",
+        "correct": false,
+        "note": "「果断」の適切な用法ではありません。"
+      },
+      {
+        "text": "果断を駅に冷やす",
+        "underline": "果断",
+        "correct": false,
+        "note": "「果断」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:省察:自らの言動を省察する",
+    "term": "省察",
+    "target": "省察",
+    "sentence": "自らの言動を省察する",
+    "meaning": "「省察」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "省察は、自分自身を反省して考えること。",
+    "choices": [
+      {
+        "text": "自らの言動を省察する",
+        "underline": "省察",
+        "correct": true,
+        "note": "省察は、自分自身を反省して考えること。"
+      },
+      {
+        "text": "省察を机に植える",
+        "underline": "省察",
+        "correct": false,
+        "note": "「省察」の適切な用法ではありません。"
+      },
+      {
+        "text": "省察な速度で眠る",
+        "underline": "省察",
+        "correct": false,
+        "note": "「省察」の適切な用法ではありません。"
+      },
+      {
+        "text": "省察に水を食べる",
+        "underline": "省察",
+        "correct": false,
+        "note": "「省察」の適切な用法ではありません。"
+      },
+      {
+        "text": "省察を契約で履く",
+        "underline": "省察",
+        "correct": false,
+        "note": "「省察」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:嘆息:失敗の知らせに嘆息をもらした",
+    "term": "嘆息",
+    "target": "嘆息",
+    "sentence": "失敗の知らせに嘆息をもらした",
+    "meaning": "「嘆息」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "嘆息は、なげいてため息をつくこと。",
+    "choices": [
+      {
+        "text": "失敗の知らせに嘆息をもらした",
+        "underline": "嘆息",
+        "correct": true,
+        "note": "嘆息は、なげいてため息をつくこと。"
+      },
+      {
+        "text": "嘆息を冷蔵庫に入れる",
+        "underline": "嘆息",
+        "correct": false,
+        "note": "「嘆息」の適切な用法ではありません。"
+      },
+      {
+        "text": "嘆息な道路を走る",
+        "underline": "嘆息",
+        "correct": false,
+        "note": "「嘆息」の適切な用法ではありません。"
+      },
+      {
+        "text": "嘆息に資料を洗う",
+        "underline": "嘆息",
+        "correct": false,
+        "note": "「嘆息」の適切な用法ではありません。"
+      },
+      {
+        "text": "嘆息を机で履く",
+        "underline": "嘆息",
+        "correct": false,
+        "note": "「嘆息」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:意匠:照明に意匠を凝らした店舗",
+    "term": "意匠",
+    "target": "意匠",
+    "sentence": "照明に意匠を凝らした店舗",
+    "meaning": "「意匠」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "意匠は、工夫をめぐらしたデザインや考案。",
+    "choices": [
+      {
+        "text": "照明に意匠を凝らした店舗",
+        "underline": "意匠",
+        "correct": true,
+        "note": "意匠は、工夫をめぐらしたデザインや考案。"
+      },
+      {
+        "text": "意匠を昼食にする",
+        "underline": "意匠",
+        "correct": false,
+        "note": "「意匠」の適切な用法ではありません。"
+      },
+      {
+        "text": "意匠な雨を飲む",
+        "underline": "意匠",
+        "correct": false,
+        "note": "「意匠」の適切な用法ではありません。"
+      },
+      {
+        "text": "意匠に駅へ眠る",
+        "underline": "意匠",
+        "correct": false,
+        "note": "「意匠」の適切な用法ではありません。"
+      },
+      {
+        "text": "意匠を靴に履く",
+        "underline": "意匠",
+        "correct": false,
+        "note": "「意匠」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:迎合:時代の風潮に迎合する発言が目立つ",
+    "term": "迎合",
+    "target": "迎合",
+    "sentence": "時代の風潮に迎合する発言が目立つ",
+    "meaning": "「迎合」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "迎合は、相手や世間に調子を合わせること。",
+    "choices": [
+      {
+        "text": "時代の風潮に迎合する発言が目立つ",
+        "underline": "迎合",
+        "correct": true,
+        "note": "迎合は、相手や世間に調子を合わせること。"
+      },
+      {
+        "text": "迎合を机で飲む",
+        "underline": "迎合",
+        "correct": false,
+        "note": "「迎合」の適切な用法ではありません。"
+      },
+      {
+        "text": "迎合な靴を食べる",
+        "underline": "迎合",
+        "correct": false,
+        "note": "「迎合」の適切な用法ではありません。"
+      },
+      {
+        "text": "迎合に契約を冷やす",
+        "underline": "迎合",
+        "correct": false,
+        "note": "「迎合」の適切な用法ではありません。"
+      },
+      {
+        "text": "迎合を雨で眠る",
+        "underline": "迎合",
+        "correct": false,
+        "note": "「迎合」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:完備:条件を完備した立地を選ぶ",
+    "term": "完備",
+    "target": "完備",
+    "sentence": "条件を完備した立地を選ぶ",
+    "meaning": "「完備」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "完備は、必要なものが十分に備わっていること。",
+    "choices": [
+      {
+        "text": "条件を完備した立地を選ぶ",
+        "underline": "完備",
+        "correct": true,
+        "note": "完備は、必要なものが十分に備わっていること。"
+      },
+      {
+        "text": "完備を食べて休む",
+        "underline": "完備",
+        "correct": false,
+        "note": "「完備」の適切な用法ではありません。"
+      },
+      {
+        "text": "完備な雨を履く",
+        "underline": "完備",
+        "correct": false,
+        "note": "「完備」の適切な用法ではありません。"
+      },
+      {
+        "text": "完備に机を眠る",
+        "underline": "完備",
+        "correct": false,
+        "note": "「完備」の適切な用法ではありません。"
+      },
+      {
+        "text": "完備を昨日に延期する",
+        "underline": "完備",
+        "correct": false,
+        "note": "「完備」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:銘記:師の教えを胸に銘記する",
+    "term": "銘記",
+    "target": "銘記",
+    "sentence": "師の教えを胸に銘記する",
+    "meaning": "「銘記」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "銘記は、心に刻み込むこと。",
+    "choices": [
+      {
+        "text": "師の教えを胸に銘記する",
+        "underline": "銘記",
+        "correct": true,
+        "note": "銘記は、心に刻み込むこと。"
+      },
+      {
+        "text": "銘記を冷やして食べる",
+        "underline": "銘記",
+        "correct": false,
+        "note": "「銘記」の適切な用法ではありません。"
+      },
+      {
+        "text": "銘記な駅に座る",
+        "underline": "銘記",
+        "correct": false,
+        "note": "「銘記」の適切な用法ではありません。"
+      },
+      {
+        "text": "銘記に皿を洗う",
+        "underline": "銘記",
+        "correct": false,
+        "note": "「銘記」の適切な用法ではありません。"
+      },
+      {
+        "text": "銘記を靴で眠る",
+        "underline": "銘記",
+        "correct": false,
+        "note": "「銘記」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:断腸:断腸の思いで店を手放した",
+    "term": "断腸",
+    "target": "断腸",
+    "sentence": "断腸の思いで店を手放した",
+    "meaning": "「断腸」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "断腸は、非常につらく悲しいこと。",
+    "choices": [
+      {
+        "text": "断腸の思いで店を手放した",
+        "underline": "断腸",
+        "correct": true,
+        "note": "断腸は、非常につらく悲しいこと。"
+      },
+      {
+        "text": "断腸を昼食にする",
+        "underline": "断腸",
+        "correct": false,
+        "note": "「断腸」の適切な用法ではありません。"
+      },
+      {
+        "text": "断腸な靴を履く",
+        "underline": "断腸",
+        "correct": false,
+        "note": "「断腸」の適切な用法ではありません。"
+      },
+      {
+        "text": "断腸に資料を冷やす",
+        "underline": "断腸",
+        "correct": false,
+        "note": "「断腸」の適切な用法ではありません。"
+      },
+      {
+        "text": "断腸を机で洗う",
+        "underline": "断腸",
+        "correct": false,
+        "note": "「断腸」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:仮託:神話に仮託して現代社会を語る",
+    "term": "仮託",
+    "target": "仮託",
+    "sentence": "神話に仮託して現代社会を語る",
+    "meaning": "「仮託」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "仮託は、他の物事を借りて言い表すこと。",
+    "choices": [
+      {
+        "text": "神話に仮託して現代社会を語る",
+        "underline": "仮託",
+        "correct": true,
+        "note": "仮託は、他の物事を借りて言い表すこと。"
+      },
+      {
+        "text": "仮託を食卓に並べる",
+        "underline": "仮託",
+        "correct": false,
+        "note": "「仮託」の適切な用法ではありません。"
+      },
+      {
+        "text": "仮託な水を飲む",
+        "underline": "仮託",
+        "correct": false,
+        "note": "「仮託」の適切な用法ではありません。"
+      },
+      {
+        "text": "仮託に駅を洗う",
+        "underline": "仮託",
+        "correct": false,
+        "note": "「仮託」の適切な用法ではありません。"
+      },
+      {
+        "text": "仮託を靴で履く",
+        "underline": "仮託",
+        "correct": false,
+        "note": "「仮託」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:雄飛:海外に雄飛して事業を広げる",
+    "term": "雄飛",
+    "target": "雄飛",
+    "sentence": "海外に雄飛して事業を広げる",
+    "meaning": "「雄飛」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "雄飛は、勢い盛んに活動すること。",
+    "choices": [
+      {
+        "text": "海外に雄飛して事業を広げる",
+        "underline": "雄飛",
+        "correct": true,
+        "note": "雄飛は、勢い盛んに活動すること。"
+      },
+      {
+        "text": "雄飛を冷蔵庫に入れる",
+        "underline": "雄飛",
+        "correct": false,
+        "note": "「雄飛」の適切な用法ではありません。"
+      },
+      {
+        "text": "雄飛な椅子を食べる",
+        "underline": "雄飛",
+        "correct": false,
+        "note": "「雄飛」の適切な用法ではありません。"
+      },
+      {
+        "text": "雄飛に契約を洗う",
+        "underline": "雄飛",
+        "correct": false,
+        "note": "「雄飛」の適切な用法ではありません。"
+      },
+      {
+        "text": "雄飛を昨日で眠る",
+        "underline": "雄飛",
+        "correct": false,
+        "note": "「雄飛」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:晦日:晦日前で店は忙しい",
+    "term": "晦日",
+    "target": "晦日",
+    "sentence": "晦日前で店は忙しい",
+    "meaning": "「晦日」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "晦日は、月の最後の日。",
+    "choices": [
+      {
+        "text": "晦日前で店は忙しい",
+        "underline": "晦日",
+        "correct": true,
+        "note": "晦日は、月の最後の日。"
+      },
+      {
+        "text": "晦日を靴で履く",
+        "underline": "晦日",
+        "correct": false,
+        "note": "「晦日」の適切な用法ではありません。"
+      },
+      {
+        "text": "晦日な料理を冷やす",
+        "underline": "晦日",
+        "correct": false,
+        "note": "「晦日」の適切な用法ではありません。"
+      },
+      {
+        "text": "晦日に机を飲む",
+        "underline": "晦日",
+        "correct": false,
+        "note": "「晦日」の適切な用法ではありません。"
+      },
+      {
+        "text": "晦日を駅で眠る",
+        "underline": "晦日",
+        "correct": false,
+        "note": "「晦日」の適切な用法ではありません。"
+      }
+    ]
+  },
+  {
+    "id": "external-usage:不埒:不埒な振る舞いを厳しく注意する",
+    "term": "不埒",
+    "target": "不埒",
+    "sentence": "不埒な振る舞いを厳しく注意する",
+    "meaning": "「不埒」の使い方",
+    "category": "語句の用法",
+    "difficulty": "標準",
+    "note": "不埒は、道理に外れていてけしからぬこと。",
+    "choices": [
+      {
+        "text": "不埒な振る舞いを厳しく注意する",
+        "underline": "不埒",
+        "correct": true,
+        "note": "不埒は、道理に外れていてけしからぬこと。"
+      },
+      {
+        "text": "不埒を食べて休む",
+        "underline": "不埒",
+        "correct": false,
+        "note": "「不埒」の適切な用法ではありません。"
+      },
+      {
+        "text": "不埒な雨を飲む",
+        "underline": "不埒",
+        "correct": false,
+        "note": "「不埒」の適切な用法ではありません。"
+      },
+      {
+        "text": "不埒に椅子を洗う",
+        "underline": "不埒",
+        "correct": false,
+        "note": "「不埒」の適切な用法ではありません。"
+      },
+      {
+        "text": "不埒を契約に履く",
+        "underline": "不埒",
+        "correct": false,
+        "note": "「不埒」の適切な用法ではありません。"
+      }
     ]
   }
 ];
@@ -5446,12 +9413,19 @@ const state = {
   mode: "all",
   direction: "term-to-meaning",
   current: null,
+  reviewingQuestionId: null,
+  started: false,
   answeredThisSession: 0,
   setSize: 10,
+  activeSetSize: 10,
+  activeQuestions: [],
+  activeReviewQuestionIds: [],
   setResults: [],
   showingSummary: false,
+  pendingSetSummary: false,
   locked: false,
-  progress: loadProgress()
+  progress: loadProgress(),
+  reviewQueue: loadReviewQueue()
 };
 
 const els = {
@@ -5463,6 +9437,7 @@ const els = {
   sessionProgress: document.querySelector("#sessionProgress"),
   sessionCount: document.querySelector("#sessionCount"),
   addToReview: document.querySelector("#addToReview"),
+  homeButton: document.querySelector("#homeButton"),
   nextQuestion: document.querySelector("#nextQuestion"),
   categoryBadge: document.querySelector("#categoryBadge"),
   difficultyBadge: document.querySelector("#difficultyBadge"),
@@ -5470,6 +9445,7 @@ const els = {
   questionText: document.querySelector("#questionText"),
   choices: document.querySelector("#choices"),
   feedback: document.querySelector("#feedback"),
+  startSet: document.querySelector("#startSet"),
   resetProgress: document.querySelector("#resetProgress"),
   clearWeak: document.querySelector("#clearWeak"),
   reviewList: document.querySelector("#reviewList"),
@@ -5482,7 +9458,7 @@ document.querySelectorAll(".mode-button").forEach((button) => {
     document.querySelectorAll(".mode-button").forEach((item) => {
       item.classList.toggle("is-active", item === button);
     });
-    renderQuestion();
+    renderHome();
   });
 });
 
@@ -5492,7 +9468,7 @@ document.querySelectorAll(".direction-button").forEach((button) => {
     document.querySelectorAll(".direction-button").forEach((item) => {
       item.classList.toggle("is-active", item === button);
     });
-    renderQuestion();
+    renderHome();
   });
 });
 document.querySelectorAll(".set-size-button").forEach((button) => {
@@ -5502,9 +9478,13 @@ document.querySelectorAll(".set-size-button").forEach((button) => {
       item.classList.toggle("is-active", item === button);
     });
     resetSet();
-    renderQuestion();
+    renderHome();
   });
 });
+els.startSet.addEventListener("click", () => startSet());
+
+els.homeButton.addEventListener("click", () => renderHome());
+
 els.addToReview.addEventListener("click", () => {
   if (!state.current || state.showingSummary) return;
   addCurrentQuestionToReview();
@@ -5512,20 +9492,27 @@ els.addToReview.addEventListener("click", () => {
 
 els.nextQuestion.addEventListener("click", () => {
   if (!state.locked) return;
-  if (state.showingSummary) {
-    resetSet();
+  if (state.pendingSetSummary) {
+    renderSetSummary();
+    return;
   }
-  renderQuestion();
+  if (state.showingSummary) {
+    startSet();
+    return;
+  }
+  renderNextQuestion();
 });
 
 els.resetProgress.addEventListener("click", () => {
   if (!confirm("学習状況をリセットしますか？")) return;
   state.progress = {};
+  state.reviewQueue = [];
   resetSet();
   saveProgress();
+  saveReviewQueue();
   renderStats();
   renderReview();
-  renderQuestion();
+  renderHome();
 });
 
 els.clearWeak.addEventListener("click", () => {
@@ -5533,7 +9520,9 @@ els.clearWeak.addEventListener("click", () => {
     entry.wrong = 0;
     entry.review = false;
   });
+  state.reviewQueue = [];
   saveProgress();
+  saveReviewQueue();
   renderStats();
   renderReview();
 });
@@ -5550,33 +9539,96 @@ function saveProgress() {
   localStorage.setItem("spi-vocab-progress", JSON.stringify(state.progress));
 }
 
-function pickQuestion() {
-  const pool = getPool();
-  if (pool.length === 0) return getAllQuestions()[Math.floor(Math.random() * getAllQuestions().length)];
+function loadReviewQueue() {
+  try {
+    const queue = JSON.parse(localStorage.getItem("spi-vocab-review-queue") || "[]");
+    return Array.isArray(queue) ? queue : [];
+  } catch {
+    return [];
+  }
+}
 
+function saveReviewQueue() {
+  localStorage.setItem("spi-vocab-review-queue", JSON.stringify(state.reviewQueue));
+}
+
+function appendToReviewQueue(questionId) {
+  if (state.reviewQueue.includes(questionId)) return;
+  state.reviewQueue.push(questionId);
+  saveReviewQueue();
+}
+
+function removeFromReviewQueue(questionId) {
+  const nextQueue = state.reviewQueue.filter((id) => id !== questionId);
+  if (nextQueue.length === state.reviewQueue.length) return;
+  state.reviewQueue = nextQueue;
+  saveReviewQueue();
+}
+
+function startSet(questions = null, reviewQuestionIds = []) {
+  syncReviewQueue();
+  const nextQuestions = questions || buildQuestionSet();
+  if (!nextQuestions.length) {
+    const message = state.mode === "weak"
+      ? "復習リストに問題がありません"
+      : "出題できる問題がありません";
+    renderHome(message);
+    return;
+  }
+
+  const nextReviewQuestionIds = reviewQuestionIds.length
+    ? reviewQuestionIds
+    : state.mode === "weak"
+      ? nextQuestions.map((question) => getQuestionId(question))
+      : [];
+
+  resetSet();
+  state.started = true;
+  state.activeQuestions = nextQuestions;
+  state.activeSetSize = nextQuestions.length;
+  state.activeReviewQuestionIds = nextReviewQuestionIds;
+  renderQuestion(nextQuestions[0]);
+  document.querySelector(".quiz-panel")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function buildQuestionSet() {
+  if (state.mode === "weak") {
+    return getReviewQuestions().slice(0, state.setSize);
+  }
+
+  const pool = getPool();
+  const questions = pickQuestions(pool, state.setSize);
+  if (questions.length >= state.setSize || state.mode !== "fresh") return questions;
+
+  const used = new Set(questions.map((question) => getQuestionId(question)));
+  const fallback = getQuestionsByGenre().filter((question) => !used.has(getQuestionId(question)));
+  return [...questions, ...pickQuestions(fallback, state.setSize - questions.length)];
+}
+
+function pickQuestions(pool, count) {
+  const available = [...pool];
+  const selected = [];
+  while (available.length && selected.length < count) {
+    const next = pickWeightedQuestion(available);
+    selected.push(next);
+    const nextId = getQuestionId(next);
+    const index = available.findIndex((question) => getQuestionId(question) === nextId);
+    if (index >= 0) available.splice(index, 1);
+  }
+  return selected;
+}
+
+function pickWeightedQuestion(pool) {
   const weighted = pool.flatMap((question) => {
     const entry = state.progress[getQuestionId(question)] || {};
     const weight = 1 + Math.min(entry.wrong || 0, 4);
     return Array.from({ length: weight }, () => question);
   });
-
-  let next = weighted[Math.floor(Math.random() * weighted.length)];
-  if (weighted.length > 1 && state.current) {
-    let guard = 0;
-    while (getQuestionId(next) === getQuestionId(state.current) && guard < 8) {
-      next = weighted[Math.floor(Math.random() * weighted.length)];
-      guard += 1;
-    }
-  }
-  return next;
+  return weighted[Math.floor(Math.random() * weighted.length)];
 }
 
 function getPool() {
   const all = getQuestionsByGenre();
-  if (state.mode === "weak") {
-    const weak = all.filter((question) => (state.progress[getQuestionId(question)]?.wrong || 0) > 0);
-    return weak.length ? weak : all;
-  }
   if (state.mode === "fresh") {
     const fresh = all.filter((question) => !state.progress[getQuestionId(question)]?.answered);
     return fresh.length ? fresh : all;
@@ -5584,10 +9636,53 @@ function getPool() {
   return all;
 }
 
-function renderQuestion() {
+function renderNextQuestion() {
+  const next = state.activeQuestions[state.answeredThisSession];
+  if (!next) {
+    renderSetSummary();
+    return;
+  }
+  renderQuestion(next);
+}
+
+function renderHome(message = "設定を選んで開始してください") {
+  state.started = false;
+  state.current = null;
+  state.reviewingQuestionId = null;
+  state.activeQuestions = [];
+  state.activeReviewQuestionIds = [];
+  state.activeSetSize = state.setSize;
   state.showingSummary = false;
+  state.pendingSetSummary = false;
   state.locked = false;
-  state.current = pickQuestion();
+  resetSet();
+  els.categoryBadge.textContent = "準備";
+  els.difficultyBadge.textContent = "設定";
+  els.promptLabel.textContent = "出題モード・問題形式・セット数を選んでください。";
+  els.questionText.classList.remove("is-sentence");
+  els.questionText.textContent = "開始ボタンで出題します";
+  els.choices.replaceChildren();
+  els.feedback.textContent = message;
+  els.addToReview.hidden = true;
+  els.homeButton.hidden = true;
+  els.nextQuestion.hidden = true;
+  updateSessionProgress();
+}
+
+function renderQuestion(nextQuestion) {
+  if (!nextQuestion) {
+    renderHome();
+    return;
+  }
+  state.showingSummary = false;
+  state.pendingSetSummary = false;
+  state.locked = false;
+  state.current = nextQuestion;
+  const questionId = getQuestionId(state.current);
+  state.reviewingQuestionId = state.activeReviewQuestionIds.includes(questionId) ? questionId : null;
+  els.addToReview.hidden = false;
+  els.homeButton.hidden = true;
+  els.nextQuestion.hidden = false;
   els.questionText.classList.toggle("is-sentence", isUsageQuestion(state.current));
 
   if (isUsageQuestion(state.current)) {
@@ -5659,6 +9754,16 @@ function answerQuestion(button) {
   entry.answered += 1;
   entry.correct += isCorrect ? 1 : 0;
   entry.wrong = Math.max(0, (entry.wrong || 0) + (isCorrect ? -1 : 1));
+  if (state.reviewingQuestionId === questionId && isCorrect) {
+    removeFromReviewQueue(questionId);
+    entry.review = false;
+    entry.wrong = 0;
+  } else if (!isCorrect) {
+    if (state.reviewingQuestionId === questionId) removeFromReviewQueue(questionId);
+    appendToReviewQueue(questionId);
+    entry.review = true;
+  }
+  state.reviewingQuestionId = null;
   state.progress[questionId] = entry;
   state.answeredThisSession += 1;
   recordSetResult(button, isCorrect);
@@ -5670,11 +9775,11 @@ function answerQuestion(button) {
   if (!isCorrect) button.classList.add("is-wrong");
 
   const answerLabel = getAnswerLabel(state.current);
-  const readingHint = state.current.reading ? ` 読み：${state.current.reading}。` : "";
-  const usageHint = isUsageQuestion(state.current) ? ` ${state.current.note}` : state.current.note;
+  const readingHint = state.current.reading ? " 読み：" + state.current.reading + "。" : "";
+  const usageHint = isUsageQuestion(state.current) ? " " + state.current.note : state.current.note;
   els.feedback.innerHTML = isCorrect
-    ? `<strong>正解。</strong>${readingHint}${usageHint}`
-    : `<strong>正解は「${answerLabel}」。</strong>${readingHint}${usageHint}`;
+    ? "<strong>正解。</strong>" + readingHint + usageHint
+    : "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint;
 
   saveProgress();
   renderStats();
@@ -5683,8 +9788,9 @@ function answerQuestion(button) {
   els.addToReview.disabled = false;
   els.addToReview.textContent = isInManualReview(state.current) ? "復習に追加済み" : "復習に追加";
   els.nextQuestion.disabled = false;
-  if (state.answeredThisSession >= state.setSize) {
-    renderSetSummary();
+  if (state.answeredThisSession >= state.activeSetSize) {
+    state.pendingSetSummary = true;
+    els.nextQuestion.querySelector("span").textContent = "セット終了";
     return;
   }
   els.nextQuestion.querySelector("span").textContent = "次の問題";
@@ -5703,6 +9809,7 @@ function recordSetResult(button, isCorrect) {
 
 function renderSetSummary() {
   state.showingSummary = true;
+  state.pendingSetSummary = false;
   const total = state.setResults.length;
   const correct = state.setResults.filter((item) => item.correct).length;
   const wrong = state.setResults.filter((item) => !item.correct);
@@ -5715,8 +9822,11 @@ function renderSetSummary() {
   els.questionText.textContent = "正答率 " + accuracy + "%";
   els.choices.replaceChildren();
   els.feedback.innerHTML = buildSummaryHtml(wrong);
+  els.addToReview.hidden = true;
   els.addToReview.disabled = true;
   els.addToReview.textContent = "復習に追加";
+  els.homeButton.hidden = false;
+  els.nextQuestion.hidden = false;
   els.nextQuestion.disabled = false;
   els.nextQuestion.querySelector("span").textContent = "次のセットを開始";
 }
@@ -5738,6 +9848,8 @@ function resetSet() {
   state.answeredThisSession = 0;
   state.setResults = [];
   state.showingSummary = false;
+  state.pendingSetSummary = false;
+  state.activeSetSize = state.started ? state.activeSetSize : state.setSize;
   updateSessionProgress();
 }
 
@@ -5746,6 +9858,7 @@ function addCurrentQuestionToReview() {
   const entry = state.progress[questionId] || { answered: 0, correct: 0, wrong: 0 };
   entry.review = true;
   state.progress[questionId] = entry;
+  appendToReviewQueue(questionId);
   saveProgress();
   renderStats();
   renderReview();
@@ -5758,6 +9871,9 @@ function isInManualReview(question) {
 }
 
 function resetQuestionActions() {
+  els.addToReview.hidden = false;
+  els.homeButton.hidden = true;
+  els.nextQuestion.hidden = false;
   els.addToReview.disabled = true;
   els.addToReview.textContent = "復習に追加";
   els.nextQuestion.disabled = true;
@@ -5768,23 +9884,18 @@ function renderStats() {
   const values = Object.values(state.progress);
   const answered = values.reduce((sum, item) => sum + (item.answered || 0), 0);
   const correct = values.reduce((sum, item) => sum + (item.correct || 0), 0);
-  const weak = getQuestionsByGenre().filter((question) => isReviewTarget(question)).length;
+  const weak = getReviewQuestions().length;
 
   els.answeredCount.textContent = answered;
   els.correctCount.textContent = correct;
   els.weakCount.textContent = weak;
   els.totalCount.textContent = getQuestionsByGenre().length;
-  els.accuracy.textContent = answered ? `${Math.round((correct / answered) * 100)}%` : "--%";
+  els.accuracy.textContent = answered ? Math.round((correct / answered) * 100) + "%" : "--%";
 }
 
 function renderReview() {
-  const weakWords = getQuestionsByGenre()
-    .filter((question) => isReviewTarget(question))
-    .sort(
-      (a, b) =>
-        (state.progress[getQuestionId(b)]?.wrong || 0) - (state.progress[getQuestionId(a)]?.wrong || 0)
-    )
-    .slice(0, 9);
+  syncReviewQueue();
+  const weakWords = getReviewQuestions();
 
   if (!weakWords.length) {
     els.reviewList.innerHTML = `<p class="empty-state">間違えた語句がここに表示されます。</p>`;
@@ -5793,12 +9904,36 @@ function renderReview() {
 
   els.reviewList.replaceChildren(
     ...weakWords.map((word) => {
-      const item = document.createElement("div");
+      const item = document.createElement("button");
       item.className = "review-item";
-      item.innerHTML = `<strong>${word.term}</strong><span>${word.meaning}</span>`;
+      item.type = "button";
+      item.textContent = word.term;
+      item.addEventListener("click", () => startReviewQuestion(word));
       return item;
     })
   );
+}
+
+function getReviewQuestions() {
+  const byId = new Map(getQuestionsByGenre().map((question) => [getQuestionId(question), question]));
+  return state.reviewQueue.map((id) => byId.get(id)).filter(Boolean);
+}
+
+function syncReviewQueue() {
+  const allIds = new Set(getQuestionsByGenre().map((question) => getQuestionId(question)));
+  const migratedIds = getQuestionsByGenre()
+    .filter((question) => isReviewTarget(question))
+    .map((question) => getQuestionId(question));
+  const nextQueue = [...state.reviewQueue, ...migratedIds].filter((id, index, queue) => allIds.has(id) && queue.indexOf(id) === index);
+  if (nextQueue.length !== state.reviewQueue.length || nextQueue.some((id, index) => id !== state.reviewQueue[index])) {
+    state.reviewQueue = nextQueue;
+    saveReviewQueue();
+  }
+}
+
+function startReviewQuestion(question) {
+  const questionId = getQuestionId(question);
+  startSet([question], [questionId]);
 }
 
 function isReviewTarget(question) {
@@ -5807,9 +9942,10 @@ function isReviewTarget(question) {
 }
 
 function updateSessionProgress() {
-  const width = Math.min(100, (state.answeredThisSession / state.setSize) * 100);
-  els.sessionProgress.style.width = `${width}%`;
-  els.sessionCount.textContent = `${Math.min(state.answeredThisSession, state.setSize)} / ${state.setSize}`;
+  const total = state.activeSetSize || state.setSize;
+  const width = Math.min(100, (state.answeredThisSession / total) * 100);
+  els.sessionProgress.style.width = width + "%";
+  els.sessionCount.textContent = Math.min(state.answeredThisSession, total) + " / " + total;
 }
 
 function getQuestionPrompt(question) {
@@ -5873,6 +10009,6 @@ function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
-renderStats();
 renderReview();
-renderQuestion();
+renderStats();
+renderHome();
