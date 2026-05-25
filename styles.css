@@ -102,12 +102,14 @@ h1 {
   grid-template-columns: 280px minmax(0, 1fr);
   grid-template-areas:
     "controls quiz"
+    "study study"
     "review review";
   gap: 18px;
 }
 
 .control-panel,
 .quiz-panel,
+.study-panel,
 .review-panel {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -123,6 +125,11 @@ h1 {
 .quiz-panel {
   grid-area: quiz;
   min-height: 520px;
+  padding: 18px;
+}
+
+.study-panel {
+  grid-area: study;
   padding: 18px;
 }
 
@@ -512,12 +519,73 @@ h1 {
   margin: 8px 0 0;
 }
 
+.study-header,
 .review-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 10px;
+}
+
+.study-header h2 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.study-count {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.study-search {
+  width: 100%;
+  min-height: 42px;
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  color: var(--ink);
+  background: white;
+  font-weight: 800;
+}
+
+.study-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  max-height: 560px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+.study-item {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: #f8fafc;
+}
+
+.study-item strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.study-item p {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.study-item span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.45;
 }
 
 .review-list {
@@ -623,6 +691,7 @@ h1 {
     grid-template-areas:
       "quiz"
       "controls"
+      "study"
       "review";
   }
 
@@ -685,6 +754,7 @@ h1 {
     grid-template-areas:
       "controls"
       "quiz"
+      "study"
       "review";
     gap: 8px;
     margin-bottom: 12px;
@@ -692,6 +762,7 @@ h1 {
 
   .control-panel,
   .quiz-panel,
+  .study-panel,
   .review-panel {
     border-radius: 8px;
     box-shadow: none;
@@ -864,6 +935,7 @@ h1 {
   }
 
   .choices,
+  .study-list,
   .review-list {
     grid-template-columns: 1fr;
   }

@@ -70,6 +70,7 @@
 
         <div class="panel-actions">
           <button id="startSet" class="primary-button" type="button">開始</button>
+          <button id="showStudyList" class="secondary-button" type="button">一覧で学習</button>
           <button id="resetProgress" class="secondary-button" type="button">進捗をリセット</button>
         </div>
       </section>
@@ -99,6 +100,18 @@
           </div>
           <div id="feedback" class="feedback" aria-live="polite"></div>
         </article>
+      </section>
+
+      <section id="studyPanel" class="study-panel" aria-label="収録問題一覧" hidden>
+        <div class="study-header">
+          <div>
+            <h2>収録問題一覧</h2>
+            <span id="studyCount" class="study-count">0件</span>
+          </div>
+          <button id="closeStudyList" class="text-button" type="button">閉じる</button>
+        </div>
+        <input id="studySearch" class="study-search" type="search" placeholder="語句や意味で検索" autocomplete="off" />
+        <div id="studyList" class="study-list"></div>
       </section>
 
       <section class="review-panel" aria-label="復習リスト">

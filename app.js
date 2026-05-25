@@ -6099,6 +6099,12 @@ const els = {
   choices: document.querySelector("#choices"),
   feedback: document.querySelector("#feedback"),
   startSet: document.querySelector("#startSet"),
+  showStudyList: document.querySelector("#showStudyList"),
+  closeStudyList: document.querySelector("#closeStudyList"),
+  studyPanel: document.querySelector("#studyPanel"),
+  studySearch: document.querySelector("#studySearch"),
+  studyCount: document.querySelector("#studyCount"),
+  studyList: document.querySelector("#studyList"),
   resetProgress: document.querySelector("#resetProgress"),
   clearWeak: document.querySelector("#clearWeak"),
   reviewList: document.querySelector("#reviewList"),
@@ -6135,6 +6141,12 @@ document.querySelectorAll(".set-size-button").forEach((button) => {
   });
 });
 els.startSet.addEventListener("click", () => startSet());
+
+els.showStudyList.addEventListener("click", () => showStudyList());
+els.closeStudyList.addEventListener("click", () => {
+  els.studyPanel.hidden = true;
+});
+els.studySearch.addEventListener("input", () => renderStudyList(els.studySearch.value));
 
 els.homeButton.addEventListener("click", () => renderHome());
 
@@ -6585,6 +6597,52 @@ function resetQuestionActions() {
   els.nextQuestion.querySelector("span").textContent = "次の問題";
 }
 
+function showStudyList() {
+  els.studyPanel.hidden = false;
+  renderStudyList(els.studySearch.value);
+  els.studyPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderStudyList(filter = "") {
+  const query = normalizeSearchText(filter);
+  const items = getStudyItems().filter((item) => {
+    if (!query) return true;
+    return normalizeSearchText(item.term + " " + item.meaning + " " + item.note).includes(query);
+  });
+
+  els.studyCount.textContent = items.length + "件 / " + getStudyItems().length + "件";
+  if (!items.length) {
+    els.studyList.innerHTML = '<p class="empty-state">一致する語句がありません。</p>';
+    return;
+  }
+
+  els.studyList.replaceChildren(
+    ...items.map((item) => {
+      const card = document.createElement("div");
+      card.className = "study-item";
+      card.innerHTML =
+        '<strong>' + escapeHtml(item.term) + '</strong>' +
+        '<p>' + escapeHtml(item.meaning) + '</p>' +
+        (item.note && item.note !== item.meaning ? '<span>' + escapeHtml(item.note) + '</span>' : '');
+      return card;
+    })
+  );
+}
+
+function getStudyItems() {
+  return getAllQuestions()
+    .map((question) => ({
+      term: question.term,
+      meaning: isUsageQuestion(question) ? question.meaning || question.note || question.sentence : question.meaning,
+      note: question.note || ""
+    }))
+    .sort((a, b) => a.term.localeCompare(b.term, "ja"));
+}
+
+function normalizeSearchText(value) {
+  return String(value || "").toLowerCase().replace(/[\s　]+/g, "");
+}
+
 function renderStats() {
   const values = Object.values(state.progress);
   const answered = values.reduce((sum, item) => sum + (item.answered || 0), 0);
@@ -6745,4 +6803,5 @@ function shuffle(items) {
 
 renderReview();
 renderStats();
+renderStudyList();
 renderHome();
