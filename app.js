@@ -6363,8 +6363,21 @@ function renderQuestion(nextQuestion) {
   const answer = reverse ? state.current.term : state.current.meaning;
   const decoys = getSimpleQuestions()
     .filter((word) => word.term !== state.current.term)
-    .map((word) => (reverse ? word.term : word.meaning));
-  const choices = [answer, ...shuffle(decoys).slice(0, 3)];
+    .map((word) => ({
+      label: reverse ? word.term : word.meaning,
+      term: word.term,
+      meaning: word.meaning,
+      correct: false
+    }));
+  const choices = [
+    {
+      label: answer,
+      term: state.current.term,
+      meaning: state.current.meaning,
+      correct: true
+    },
+    ...shuffle(decoys).slice(0, 3)
+  ];
   const orderedChoices = shuffle(choices);
 
   els.promptLabel.textContent = reverse
@@ -6377,9 +6390,11 @@ function renderQuestion(nextQuestion) {
 
   orderedChoices.forEach((choice) => {
     const button = els.choiceTemplate.content.firstElementChild.cloneNode(true);
-    button.textContent = choice;
-    button.dataset.correct = String(choice === answer);
-    button.dataset.answerLabel = choice;
+    button.textContent = choice.label;
+    button.dataset.correct = String(choice.correct);
+    button.dataset.answerLabel = choice.label;
+    button.dataset.term = choice.term;
+    button.dataset.meaning = choice.meaning;
     button.addEventListener("click", () => answerQuestion(button));
     els.choices.append(button);
   });
@@ -6403,6 +6418,7 @@ function renderUsageQuestion() {
     button.dataset.correct = String(choice.correct);
     button.dataset.answerLabel = choice.text;
     button.dataset.note = choice.note;
+    button.dataset.meaning = choice.note || "";
     button.addEventListener("click", () => answerQuestion(button));
     els.choices.append(button);
   });
@@ -6442,9 +6458,9 @@ function answerQuestion(button) {
   const answerLabel = getAnswerLabel(state.current);
   const readingHint = state.current.reading ? " 読み：" + state.current.reading + "。" : "";
   const usageHint = isUsageQuestion(state.current) ? " " + state.current.note : state.current.note;
-  els.feedback.innerHTML = isCorrect
+  els.feedback.innerHTML = (isCorrect
     ? "<strong>正解。</strong>" + readingHint + usageHint
-    : "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint;
+    : "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint) + buildChoiceExplanationHtml();
 
   saveProgress();
   renderStats();
@@ -6485,7 +6501,7 @@ function answerUnknown() {
   const answerLabel = getAnswerLabel(state.current);
   const readingHint = state.current.reading ? " 読み：" + state.current.reading + "。" : "";
   const usageHint = isUsageQuestion(state.current) ? " " + state.current.note : state.current.note;
-  els.feedback.innerHTML = "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint;
+  els.feedback.innerHTML = "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint + buildChoiceExplanationHtml();
 
   saveProgress();
   renderStats();
@@ -6500,6 +6516,26 @@ function answerUnknown() {
     return;
   }
   els.nextQuestion.querySelector("span").textContent = "次の問題";
+}
+
+function buildChoiceExplanationHtml() {
+  const wrongChoices = [...els.choices.children].filter((button) => button.dataset.correct !== "true");
+  if (!wrongChoices.length) return "";
+
+  const items = wrongChoices
+    .map((button) => {
+      const label = button.dataset.answerLabel || button.textContent;
+      const meaning = getChoiceMeaning(button);
+      return '<li><strong>' + escapeHtml(label) + '</strong><span>' + escapeHtml(meaning) + '</span></li>';
+    })
+    .join("");
+  return '<div class="choice-explanations"><h3>ほかの選択肢</h3><ul>' + items + '</ul></div>';
+}
+
+function getChoiceMeaning(button) {
+  if (isUsageQuestion(state.current)) return button.dataset.note || "用法が異なります。";
+  if (state.direction === "meaning-to-term") return button.dataset.meaning || "";
+  return button.dataset.term ? "対応語句：" + button.dataset.term : button.dataset.meaning || "";
 }
 
 function recordSetResult(button, isCorrect) {

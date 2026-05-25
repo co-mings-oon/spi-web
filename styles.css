@@ -480,6 +480,42 @@ h1 {
   color: var(--ink);
 }
 
+.choice-explanations {
+  margin-top: 14px;
+  color: var(--ink);
+}
+
+.choice-explanations h3 {
+  margin: 0 0 8px;
+  font-size: 0.92rem;
+}
+
+.choice-explanations ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.choice-explanations li {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 9px 10px;
+  background: #f8fafc;
+}
+
+.choice-explanations li strong,
+.choice-explanations li span {
+  display: block;
+}
+
+.choice-explanations li span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
 .summary-panel {
   margin-top: 4px;
   color: var(--ink);
