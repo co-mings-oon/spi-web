@@ -321,7 +321,8 @@ h1 {
 }
 
 .next-button,
-.review-add-button {
+.review-add-button,
+.unknown-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -352,8 +353,14 @@ h1 {
   background: white;
 }
 
+.unknown-button {
+  color: var(--muted);
+  background: white;
+}
+
 .next-button:disabled,
-.review-add-button:disabled {
+.review-add-button:disabled,
+.unknown-button:disabled {
   cursor: default;
   color: #94a3b8;
   background: #e8edf2;
@@ -875,13 +882,14 @@ h1 {
 
   .question-actions {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 7px;
     margin-top: 8px;
   }
 
   .next-button,
-  .review-add-button {
+  .review-add-button,
+  .unknown-button {
     width: 100%;
     min-height: 39px;
     align-self: stretch;

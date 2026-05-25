@@ -5212,66 +5212,66 @@ const WORDS = [
   },
   {
     "term": "恣意的",
-    "meaning": "「客観的」と反対の意味",
+    "meaning": "自分勝手な判断に基づくこと。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "恣意的は自分勝手な判断に基づくこと。反対は客観的。"
+    "note": "恣意的は、自分勝手な判断に基づくこと。"
   },
   {
     "term": "明示",
-    "meaning": "「暗示」と反対の意味",
+    "meaning": "はっきり示すこと。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "明示ははっきり示すこと。反対はそれとなく示す暗示。"
+    "note": "明示は、はっきり示すこと。"
   },
   {
     "term": "先天",
-    "meaning": "「後天」と反対の意味",
+    "meaning": "生まれつき備わっていること。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "先天は生まれつき。反対は生後に身につく後天。"
+    "note": "先天は、生まれつき備わっていること。"
   },
   {
     "term": "過剰",
-    "meaning": "「不足」と反対の意味",
+    "meaning": "必要な程度や数量を超えて多すぎること。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "過剰の反対は、足りないことを表す不足。"
+    "note": "過剰は、必要な程度や数量を超えて多すぎること。"
   },
   {
     "term": "沈滞",
-    "meaning": "「活況」と反対の意味",
+    "meaning": "活気がなく滞ること。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "沈滞は活気がなく滞ること。反対は活況。"
+    "note": "沈滞は、活気がなく滞ること。"
   },
   {
     "term": "融和",
-    "meaning": "「対立」と反対の意味",
+    "meaning": "とけ合って和むこと。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "融和はとけ合って和むこと。反対は対立。"
+    "note": "融和は、とけ合って和むこと。"
   },
   {
     "term": "謙抑",
-    "meaning": "「尊大」と反対の意味",
+    "meaning": "控えめにへりくだること。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "謙抑は控えめなこと。反対は偉そうな尊大。"
+    "note": "謙抑は、控えめにへりくだること。"
   },
   {
     "term": "単純",
-    "meaning": "「複雑」と反対の意味",
+    "meaning": "複雑でなく、こみいっていないこと。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "単純の反対は、入り組んでいる複雑。"
+    "note": "単純は、複雑でなく、こみいっていないこと。"
   },
   {
     "term": "専制",
-    "meaning": "「民主」と反対の意味",
+    "meaning": "支配者が独断で政治を行うこと。",
     "category": "外部データ・反意語",
     "difficulty": "標準",
-    "note": "専制は支配者が独断で行う政治。反対は民主。"
+    "note": "専制は、支配者が独断で政治を行うこと。"
   },
   {
     "term": "妥結",
@@ -6090,6 +6090,7 @@ const els = {
   totalCount: document.querySelector("#totalCount"),
   sessionProgress: document.querySelector("#sessionProgress"),
   sessionCount: document.querySelector("#sessionCount"),
+  unknownQuestion: document.querySelector("#unknownQuestion"),
   addToReview: document.querySelector("#addToReview"),
   homeButton: document.querySelector("#homeButton"),
   nextQuestion: document.querySelector("#nextQuestion"),
@@ -6136,6 +6137,8 @@ document.querySelectorAll(".set-size-button").forEach((button) => {
 els.startSet.addEventListener("click", () => startSet());
 
 els.homeButton.addEventListener("click", () => renderHome());
+
+els.unknownQuestion.addEventListener("click", () => answerUnknown());
 
 els.addToReview.addEventListener("click", () => {
   if (!state.current || state.showingSummary) return;
@@ -6314,6 +6317,7 @@ function renderHome(message = "設定を選んで開始してください") {
   els.questionText.textContent = "開始ボタンで出題します";
   els.choices.replaceChildren();
   els.feedback.textContent = message;
+  els.unknownQuestion.hidden = true;
   els.addToReview.hidden = true;
   els.homeButton.hidden = true;
   els.nextQuestion.hidden = true;
@@ -6331,6 +6335,7 @@ function renderQuestion(nextQuestion) {
   state.current = nextQuestion;
   const questionId = getQuestionId(state.current);
   state.reviewingQuestionId = state.activeReviewQuestionIds.includes(questionId) ? questionId : null;
+  els.unknownQuestion.hidden = false;
   els.addToReview.hidden = false;
   els.homeButton.hidden = true;
   els.nextQuestion.hidden = false;
@@ -6419,6 +6424,7 @@ function answerQuestion(button) {
     choiceButton.disabled = true;
     if (choiceButton.dataset.correct === "true") choiceButton.classList.add("is-correct");
   });
+  els.unknownQuestion.disabled = true;
   if (!isCorrect) button.classList.add("is-wrong");
 
   const answerLabel = getAnswerLabel(state.current);
@@ -6443,11 +6449,52 @@ function answerQuestion(button) {
   els.nextQuestion.querySelector("span").textContent = "次の問題";
 }
 
+function answerUnknown() {
+  if (state.locked || !state.current || state.showingSummary) return;
+  state.locked = true;
+
+  const questionId = getQuestionId(state.current);
+  const entry = state.progress[questionId] || { answered: 0, correct: 0, wrong: 0 };
+  entry.answered += 1;
+  entry.wrong = (entry.wrong || 0) + 1;
+  entry.review = true;
+  state.progress[questionId] = entry;
+  appendToReviewQueue(questionId);
+  state.reviewingQuestionId = null;
+  state.answeredThisSession += 1;
+  recordSetResult(null, false);
+
+  [...els.choices.children].forEach((choiceButton) => {
+    choiceButton.disabled = true;
+    if (choiceButton.dataset.correct === "true") choiceButton.classList.add("is-correct");
+  });
+  els.unknownQuestion.disabled = true;
+
+  const answerLabel = getAnswerLabel(state.current);
+  const readingHint = state.current.reading ? " 読み：" + state.current.reading + "。" : "";
+  const usageHint = isUsageQuestion(state.current) ? " " + state.current.note : state.current.note;
+  els.feedback.innerHTML = "<strong>正解は「" + answerLabel + "」。</strong>" + readingHint + usageHint;
+
+  saveProgress();
+  renderStats();
+  renderReview();
+  updateSessionProgress();
+  els.addToReview.disabled = true;
+  els.addToReview.textContent = "復習に追加済み";
+  els.nextQuestion.disabled = false;
+  if (state.answeredThisSession >= state.activeSetSize) {
+    state.pendingSetSummary = true;
+    els.nextQuestion.querySelector("span").textContent = "セット終了";
+    return;
+  }
+  els.nextQuestion.querySelector("span").textContent = "次の問題";
+}
+
 function recordSetResult(button, isCorrect) {
   state.setResults.push({
     question: state.current,
     correct: isCorrect,
-    selected: button.dataset.answerLabel || button.textContent,
+    selected: button ? button.dataset.answerLabel || button.textContent : "わからない",
     answer: getAnswerLabel(state.current),
     explanation: getExplanation(state.current),
     prompt: getQuestionPrompt(state.current)
@@ -6467,6 +6514,8 @@ function renderSetSummary() {
   els.questionText.textContent = "正答率 " + accuracy + "%";
   els.choices.replaceChildren();
   els.feedback.innerHTML = buildSummaryHtml(wrong);
+  els.unknownQuestion.hidden = true;
+  els.unknownQuestion.disabled = true;
   els.addToReview.hidden = true;
   els.addToReview.disabled = true;
   els.addToReview.textContent = "復習に追加";
@@ -6525,6 +6574,8 @@ function isInManualReview(question) {
 }
 
 function resetQuestionActions() {
+  els.unknownQuestion.hidden = false;
+  els.unknownQuestion.disabled = false;
   els.addToReview.hidden = false;
   els.homeButton.hidden = true;
   els.nextQuestion.hidden = false;
@@ -6565,7 +6616,10 @@ function renderReview() {
       item.className = "review-item";
       item.type = "button";
       item.textContent = word.term;
-      item.addEventListener("click", () => toggleReviewMeaning(entry));
+      item.addEventListener("click", (event) => {
+        toggleReviewMeaning(entry);
+        event.currentTarget.blur();
+      });
 
       const popover = document.createElement("div");
       popover.className = "review-meaning-popover";
