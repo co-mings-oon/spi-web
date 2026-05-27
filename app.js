@@ -6328,7 +6328,6 @@ const els = {
   studySearch: document.querySelector("#studySearch"),
   studyCount: document.querySelector("#studyCount"),
   studyList: document.querySelector("#studyList"),
-  resetProgress: document.querySelector("#resetProgress"),
   clearWeak: document.querySelector("#clearWeak"),
   reviewList: document.querySelector("#reviewList"),
   choiceTemplate: document.querySelector("#choiceTemplate")
@@ -6394,17 +6393,6 @@ els.nextQuestion.addEventListener("click", () => {
   renderNextQuestion();
 });
 
-els.resetProgress.addEventListener("click", () => {
-  if (!confirm("学習状況をリセットしますか？")) return;
-  state.progress = {};
-  state.reviewQueue = [];
-  resetSet();
-  saveProgress();
-  saveReviewQueue();
-  renderStats();
-  renderReview();
-  renderHome();
-});
 
 els.clearWeak.addEventListener("click", () => {
   Object.values(state.progress).forEach((entry) => {
