@@ -5825,6 +5825,998 @@ const IDIOM_QUESTIONS = [
     "category": "熟語",
     "difficulty": "標準",
     "note": "予想外の事態に動揺する意味。"
+  },
+  {
+    "term": "役不足",
+    "reading": "やくぶそく",
+    "meaning": "本人の能力に対して役目が軽すぎること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "力不足ではなく、役目のほうが軽すぎるという意味。"
+  },
+  {
+    "term": "余分",
+    "reading": "よぶん",
+    "meaning": "必要な量を超えて余っていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "必要以上に多い状態を表す。"
+  },
+  {
+    "term": "応分",
+    "reading": "おうぶん",
+    "meaning": "身分や能力にふさわしいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "程度や立場に相応している意味。"
+  },
+  {
+    "term": "随分",
+    "reading": "ずいぶん",
+    "meaning": "程度が普通より大きいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "かなり、たいそうという意味。"
+  },
+  {
+    "term": "大して",
+    "reading": "たいして",
+    "meaning": "それほど、特に",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "多くは打ち消しを伴い、程度が大きくないことを表す。"
+  },
+  {
+    "term": "明らか",
+    "reading": "あきらか",
+    "meaning": "はっきりしていて疑う余地がないさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "事実や理由がはっきりしている状態。"
+  },
+  {
+    "term": "しかして",
+    "reading": "しかして",
+    "meaning": "そうして、それから",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "前の内容を受けて次へつなぐ古風な表現。"
+  },
+  {
+    "term": "熟慮",
+    "reading": "じゅくりょ",
+    "meaning": "十分にじっくり考えること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "軽く考えるのではなく、よく考え抜く意味。"
+  },
+  {
+    "term": "悔悟",
+    "reading": "かいご",
+    "meaning": "過ちを認めて後悔すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "自分の過失を悔いる意味。"
+  },
+  {
+    "term": "耽溺",
+    "reading": "たんでき",
+    "meaning": "一つの物事に夢中になっておぼれること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "好ましくないほど深く入り込む意味。"
+  },
+  {
+    "term": "不断",
+    "reading": "ふだん",
+    "meaning": "決断力に乏しいこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "迷って決められない様子を表す。"
+  },
+  {
+    "term": "遅延",
+    "reading": "ちえん",
+    "meaning": "遅れて長引くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "予定や進行が遅れる意味。"
+  },
+  {
+    "term": "果敢",
+    "reading": "かかん",
+    "meaning": "思い切って物事を行うさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "大胆に決断し実行する意味。"
+  },
+  {
+    "term": "古参",
+    "reading": "こさん",
+    "meaning": "古くからその組織や立場にいること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "長く所属している人にも使う。"
+  },
+  {
+    "term": "古株",
+    "reading": "ふるかぶ",
+    "meaning": "古くからその集団にいる人",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "経験の長い成員を指す。"
+  },
+  {
+    "term": "子飼い",
+    "reading": "こがい",
+    "meaning": "未熟なときから育て上げること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "幼い時や未熟な時期から面倒を見て育てる意味。"
+  },
+  {
+    "term": "えり抜き",
+    "reading": "えりぬき",
+    "meaning": "多くの中から特によいものを選び出すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "選抜された優れた人や物を表す。"
+  },
+  {
+    "term": "生え抜き",
+    "reading": "はえぬき",
+    "meaning": "初めから続けてその組織に属していること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "転属や移籍ではなく同じ組織で育った意味。"
+  },
+  {
+    "term": "粗悪",
+    "reading": "そあく",
+    "meaning": "品質が悪いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "物の質が劣っている意味。"
+  },
+  {
+    "term": "粗漏",
+    "reading": "そろう",
+    "meaning": "大ざっぱで手落ちがあること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "注意が行き届かず漏れがある意味。"
+  },
+  {
+    "term": "粗製",
+    "reading": "そせい",
+    "meaning": "作り方が雑で粗いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "丁寧に作られていない意味。"
+  },
+  {
+    "term": "粗野",
+    "reading": "そや",
+    "meaning": "荒々しく洗練されていないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "態度や言動が上品でない様子。"
+  },
+  {
+    "term": "粗略",
+    "reading": "そりゃく",
+    "meaning": "扱い方がぞんざいで丁寧でないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "物事を丁寧に扱わない意味。"
+  },
+  {
+    "term": "愚直",
+    "reading": "ぐちょく",
+    "meaning": "ばか正直で気が利かないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "融通は利かないが正直なさま。"
+  },
+  {
+    "term": "短慮",
+    "reading": "たんりょ",
+    "meaning": "考えが浅いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "先をよく考えず判断する意味。"
+  },
+  {
+    "term": "無謀",
+    "reading": "むぼう",
+    "meaning": "先を考えずに行動すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "無計画で危険を顧みない意味。"
+  },
+  {
+    "term": "勇猛",
+    "reading": "ゆうもう",
+    "meaning": "勇ましくたけだけしいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "勢いがあり恐れない様子。"
+  },
+  {
+    "term": "散漫",
+    "reading": "さんまん",
+    "meaning": "まとまりがなく集中していないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "注意や文章の構成がばらばらな状態。"
+  },
+  {
+    "term": "蛇足",
+    "reading": "だそく",
+    "meaning": "余分な付け足し",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "加えたためにかえって不要になるもの。"
+  },
+  {
+    "term": "漫然",
+    "reading": "まんぜん",
+    "meaning": "ぼんやりとしていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "目的や注意がはっきりしない様子。"
+  },
+  {
+    "term": "放漫",
+    "reading": "ほうまん",
+    "meaning": "しまりがなくいいかげんなこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "管理や態度がだらしない意味。"
+  },
+  {
+    "term": "ひいき",
+    "reading": "ひいき",
+    "meaning": "気に入った者を特別扱いすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "公平でなく特定の人を好んで扱う意味。"
+  },
+  {
+    "term": "目こぼし",
+    "reading": "めこぼし",
+    "meaning": "悪事や過失を見逃すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "知っていながら大目に見る意味。"
+  },
+  {
+    "term": "甘やかし",
+    "reading": "あまやかし",
+    "meaning": "厳しくせず、わがままにさせておくこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "必要なしつけや注意をしない意味。"
+  },
+  {
+    "term": "大雑把",
+    "reading": "おおざっぱ",
+    "meaning": "細部にこだわらず大まかなこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "細かい点を気にしない様子。"
+  },
+  {
+    "term": "知らん顔",
+    "reading": "しらんかお",
+    "meaning": "知っているのに知らないふりをすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "気付かないふりをする意味。"
+  },
+  {
+    "term": "反駁",
+    "reading": "はんばく",
+    "meaning": "他人の意見に反対して論じ返すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "相手の説に反論する意味。"
+  },
+  {
+    "term": "弁駁",
+    "reading": "べんばく",
+    "meaning": "他人の誤りを論じて攻撃すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "議論で相手の主張を退ける意味。"
+  },
+  {
+    "term": "応戦",
+    "reading": "おうせん",
+    "meaning": "相手の攻撃に対して戦うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "攻撃や議論に応じて対抗する意味。"
+  },
+  {
+    "term": "逆ねじ",
+    "reading": "さかねじ",
+    "meaning": "相手の批判に批判で言い返すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "逆に相手を責め返す意味。"
+  },
+  {
+    "term": "嘱望",
+    "reading": "しょくぼう",
+    "meaning": "将来に望みをかけること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "将来性を期待する意味。"
+  },
+  {
+    "term": "待望",
+    "reading": "たいぼう",
+    "meaning": "待ち望むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "実現を心待ちにする意味。"
+  },
+  {
+    "term": "貪欲",
+    "reading": "どんよく",
+    "meaning": "非常に欲が深いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "強い欲望を持つ様子。"
+  },
+  {
+    "term": "不測",
+    "reading": "ふそく",
+    "meaning": "予測できないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "思いがけない出来事に使う。"
+  },
+  {
+    "term": "不覚",
+    "reading": "ふかく",
+    "meaning": "思わずそうなること、油断して失敗すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "意外な失敗や気づかない状態を表す。"
+  },
+  {
+    "term": "不慮",
+    "reading": "ふりょ",
+    "meaning": "思いがけないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "予期しない事故や出来事に使う。"
+  },
+  {
+    "term": "算段",
+    "reading": "さんだん",
+    "meaning": "何とか方法を考えて都合をつけること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "資金や手段を工面する意味。"
+  },
+  {
+    "term": "胸算用",
+    "reading": "むなざんよう",
+    "meaning": "心の中で見積もりを立てること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "事前に頭の中で計算する意味。"
+  },
+  {
+    "term": "推定",
+    "reading": "すいてい",
+    "meaning": "おしはかって決めること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "資料や状況から判断する意味。"
+  },
+  {
+    "term": "皮算用",
+    "reading": "かわざんよう",
+    "meaning": "まだ実現していないことを当てにして計画すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "取らぬ狸の皮算用の略として使う。"
+  },
+  {
+    "term": "目論見",
+    "reading": "もくろみ",
+    "meaning": "計画や企て",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "何かをしようとする意図や計画。"
+  },
+  {
+    "term": "横柄",
+    "reading": "おうへい",
+    "meaning": "人を見下した偉そうなさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "態度が尊大な意味。"
+  },
+  {
+    "term": "横着",
+    "reading": "おうちゃく",
+    "meaning": "すべきことを怠けてしないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "やるべきことをわざと省く様子。"
+  },
+  {
+    "term": "飽食",
+    "reading": "ほうしょく",
+    "meaning": "腹いっぱい食べること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "食物に不自由しないことにも使う。"
+  },
+  {
+    "term": "食傷",
+    "reading": "しょくしょう",
+    "meaning": "同じことが続いて嫌になること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "本来は食べ飽きる意味から、飽き飽きする意味にも使う。"
+  },
+  {
+    "term": "蚕食",
+    "reading": "さんしょく",
+    "meaning": "少しずつ他の領域を侵すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "蚕が桑の葉を食べるように少しずつ侵す意味。"
+  },
+  {
+    "term": "過食",
+    "reading": "かしょく",
+    "meaning": "食べすぎること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "必要以上に食べる意味。"
+  },
+  {
+    "term": "徒食",
+    "reading": "としょく",
+    "meaning": "働かないで遊び暮らすこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "仕事をせずに暮らす意味。"
+  },
+  {
+    "term": "必須",
+    "reading": "ひっす",
+    "meaning": "必ず用いるべきこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "なくてはならないこと。"
+  },
+  {
+    "term": "必中",
+    "reading": "ひっちゅう",
+    "meaning": "必ず命中すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "狙ったものに必ず当たる意味。"
+  },
+  {
+    "term": "必死",
+    "reading": "ひっし",
+    "meaning": "死ぬ覚悟で全力を尽くすこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "全力で取り組む様子。"
+  },
+  {
+    "term": "けなげ",
+    "reading": "けなげ",
+    "meaning": "困難な状況でも懸命に努めるさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "弱い立場の者が一生懸命な様子に使う。"
+  },
+  {
+    "term": "ひたむき",
+    "reading": "ひたむき",
+    "meaning": "一つのことに熱中するさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "一途に努力する意味。"
+  },
+  {
+    "term": "やみくも",
+    "reading": "やみくも",
+    "meaning": "むやみに行動すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "見通しなく手当たり次第にする意味。"
+  },
+  {
+    "term": "おおわらわ",
+    "reading": "おおわらわ",
+    "meaning": "非常に忙しく懸命に事に当たる様子",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "大忙しで取り組む状態。"
+  },
+  {
+    "term": "てんてこまい",
+    "reading": "てんてこまい",
+    "meaning": "あわてて騒ぐこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "忙しさで落ち着かない様子。"
+  },
+  {
+    "term": "与る",
+    "reading": "あずかる",
+    "meaning": "物事に関与すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "恩恵や分け前を受ける意味もある。"
+  },
+  {
+    "term": "供する",
+    "reading": "きょうする",
+    "meaning": "差し出す、ささげる",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "相手のために提供する意味。"
+  },
+  {
+    "term": "充てる",
+    "reading": "あてる",
+    "meaning": "割り当てる、充当する",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "目的に合うように使う意味。"
+  },
+  {
+    "term": "支える",
+    "reading": "ささえる",
+    "meaning": "維持するために力を添えること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "物理的にも精神的にも用いる。"
+  },
+  {
+    "term": "目算",
+    "reading": "もくさん",
+    "meaning": "もくろみ、計画",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "見込みを立てること。"
+  },
+  {
+    "term": "概算",
+    "reading": "がいさん",
+    "meaning": "大まかな計算や勘定",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "細部を省いてざっと計算する意味。"
+  },
+  {
+    "term": "試算",
+    "reading": "しさん",
+    "meaning": "ためしに行う計算",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "見通しを得るための計算。"
+  },
+  {
+    "term": "打算",
+    "reading": "ださん",
+    "meaning": "利害や損得を見積もること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "自分の利益を考えて計算する意味。"
+  },
+  {
+    "term": "公算",
+    "reading": "こうさん",
+    "meaning": "確からしさ、見込み",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "そうなる可能性を表す。"
+  },
+  {
+    "term": "あげつらう",
+    "reading": "あげつらう",
+    "meaning": "欠点や短所などを取り立てて言うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "細かく取り上げて非難する意味。"
+  },
+  {
+    "term": "かしずく",
+    "reading": "かしずく",
+    "meaning": "人に仕えて世話をすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "丁寧に仕える意味。"
+  },
+  {
+    "term": "ことほぐ",
+    "reading": "ことほぐ",
+    "meaning": "祝福や祝賀の言葉を述べること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "喜びを言葉で表す意味。"
+  },
+  {
+    "term": "たまわる",
+    "reading": "たまわる",
+    "meaning": "いただく、くださる",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "目上から受ける意味の謙譲表現。"
+  },
+  {
+    "term": "もうしあげる",
+    "reading": "もうしあげる",
+    "meaning": "言うの謙譲表現",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "相手に対してへりくだって述べる意味。"
+  },
+  {
+    "term": "そよぐ",
+    "reading": "そよぐ",
+    "meaning": "風に吹かれて草木などがかすかに揺れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "軽く揺れ動く意味。"
+  },
+  {
+    "term": "はためく",
+    "reading": "はためく",
+    "meaning": "旗などが風に吹かれて音を立てて揺れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "布や旗がばたばた揺れる意味。"
+  },
+  {
+    "term": "たゆたう",
+    "reading": "たゆたう",
+    "meaning": "ゆらゆらと揺れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "水面や気持ちが揺れ動く様子。"
+  },
+  {
+    "term": "ぶれる",
+    "reading": "ぶれる",
+    "meaning": "正しい位置からずれて動くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "考えや方針が揺れる意味にも使う。"
+  },
+  {
+    "term": "ふるえる",
+    "reading": "ふるえる",
+    "meaning": "細かく揺れ動くこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "寒さや緊張で体が震える場合にも使う。"
+  },
+  {
+    "term": "さかしげ",
+    "reading": "さかしげ",
+    "meaning": "利口そうにふるまうさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "賢そうな様子。"
+  },
+  {
+    "term": "利発",
+    "reading": "りはつ",
+    "meaning": "頭がよく賢いこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "子どもの賢さなどにも使う。"
+  },
+  {
+    "term": "小利口",
+    "reading": "こりこう",
+    "meaning": "目先のことだけに気が利いて抜け目がないさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "浅い賢さをやや否定的に表す。"
+  },
+  {
+    "term": "暴露",
+    "reading": "ばくろ",
+    "meaning": "秘密などをあばいて明るみに出すこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "隠されていたことを表に出す意味。"
+  },
+  {
+    "term": "あけすけ",
+    "reading": "あけすけ",
+    "meaning": "包み隠さないさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "遠慮せず率直に言う様子。"
+  },
+  {
+    "term": "あか抜け",
+    "reading": "あかぬけ",
+    "meaning": "洗練されていること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "野暮ったさがなく垢抜けている意味。"
+  },
+  {
+    "term": "つつ抜け",
+    "reading": "つつぬけ",
+    "meaning": "秘密や音声がそのまま他人に漏れること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "筒を通るように外へ漏れる意味。"
+  },
+  {
+    "term": "気に病む",
+    "reading": "きにやむ",
+    "meaning": "非常に気にかけて悩むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "心配して思い悩む意味。"
+  },
+  {
+    "term": "臍をかむ",
+    "reading": "ほぞをかむ",
+    "meaning": "どうにもならないことを残念がること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "後悔しても取り返しがつかない意味。"
+  },
+  {
+    "term": "胸を痛める",
+    "reading": "むねをいためる",
+    "meaning": "ひどく心配すること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "心を痛めるほど案じる意味。"
+  },
+  {
+    "term": "頭をたれる",
+    "reading": "こうべをたれる",
+    "meaning": "謙虚になる、敬意を表して頭を下げる",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "へりくだる意味にも使う。"
+  },
+  {
+    "term": "細やか",
+    "reading": "こまやか",
+    "meaning": "細かいところまで心が行き届くさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "配慮が丁寧な様子。"
+  },
+  {
+    "term": "際やか",
+    "reading": "きわやか",
+    "meaning": "くっきりとして際立つさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "境目や印象がはっきりしている意味。"
+  },
+  {
+    "term": "あざやか",
+    "reading": "あざやか",
+    "meaning": "鮮やかではっきり目立つさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "色や手際が見事な場合にも使う。"
+  },
+  {
+    "term": "つまびらか",
+    "reading": "つまびらか",
+    "meaning": "詳しくはっきりしているさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "細部まで明らかな意味。"
+  },
+  {
+    "term": "あくどい",
+    "reading": "あくどい",
+    "meaning": "度を超えてたちが悪いさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "色や味がしつこい場合にも使う。"
+  },
+  {
+    "term": "はかばかしい",
+    "reading": "はかばかしい",
+    "meaning": "順調に進んでいるさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "多くは打ち消しを伴い、進みが悪い意味で使う。"
+  },
+  {
+    "term": "さもしい",
+    "reading": "さもしい",
+    "meaning": "品性が下劣で心がいやしいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "情けないほど卑しい様子。"
+  },
+  {
+    "term": "かいがいしい",
+    "reading": "かいがいしい",
+    "meaning": "きびきびと働くさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "世話や仕事をまめにする様子。"
+  },
+  {
+    "term": "はなはだ",
+    "reading": "はなはだ",
+    "meaning": "たいへん、非常に",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "程度が大きいことを表す。"
+  },
+  {
+    "term": "ひたる",
+    "reading": "ひたる",
+    "meaning": "つかる、入りきる",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "水などにつかる意味から、感情に入り込む意味にも使う。"
+  },
+  {
+    "term": "かまける",
+    "reading": "かまける",
+    "meaning": "そのことだけに気を取られ他をおろそかにすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "一つのことにとらわれる意味。"
+  },
+  {
+    "term": "かかりきる",
+    "reading": "かかりきる",
+    "meaning": "一つのことに全力を注ぐこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "他のことができないほど専念する意味。"
+  },
+  {
+    "term": "いそしむ",
+    "reading": "いそしむ",
+    "meaning": "熱心につとめ励むこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "仕事や学問に精を出す意味。"
+  },
+  {
+    "term": "なおざりにする",
+    "reading": "なおざりにする",
+    "meaning": "おろそかにすること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "十分に注意を払わず放っておく意味。"
+  },
+  {
+    "term": "はがゆい",
+    "reading": "はがゆい",
+    "meaning": "思いどおりにならずもどかしいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "じれったく感じる意味。"
+  },
+  {
+    "term": "おもはゆい",
+    "reading": "おもはゆい",
+    "meaning": "照れくさく気恥ずかしいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "面映ゆいとも書く。"
+  },
+  {
+    "term": "もどかしい",
+    "reading": "もどかしい",
+    "meaning": "思うようにならずいらいらするさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "物事が進まずじれったい意味。"
+  },
+  {
+    "term": "後ろめたい",
+    "reading": "うしろめたい",
+    "meaning": "気がとがめる、やましいさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "自分に非があるようで落ち着かない意味。"
+  },
+  {
+    "term": "ふがいない",
+    "reading": "ふがいない",
+    "meaning": "意気地がなく情けないさま",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "期待に応えられず頼りない意味。"
+  },
+  {
+    "term": "水を向ける",
+    "reading": "みずをむける",
+    "meaning": "相手の関心が向くようにそれとなく誘うこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "聞きたいことを相手が話すように仕向ける意味。"
+  },
+  {
+    "term": "打診する",
+    "reading": "だしんする",
+    "meaning": "事前に相手の考えや反応をうかがうこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "本格的に進める前に意向を探る意味。"
+  },
+  {
+    "term": "手を回す",
+    "reading": "てをまわす",
+    "meaning": "ひそかに手段をめぐらすこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "前もって働きかけておく意味。"
+  },
+  {
+    "term": "呼び水になる",
+    "reading": "よびみずになる",
+    "meaning": "物事を起こす誘いになること",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "きっかけとなって動きを引き出す意味。"
+  },
+  {
+    "term": "忌憚ない",
+    "reading": "きたんない",
+    "meaning": "遠慮がないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "思ったことを率直に言うさま。"
+  },
+  {
+    "term": "如才ない",
+    "reading": "じょさいない",
+    "meaning": "気が利いていて抜かりがないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "愛想よく手抜かりがない意味。"
+  },
+  {
+    "term": "抜き差しならない",
+    "reading": "ぬきさしならない",
+    "meaning": "動きが取れずどうしようもないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "進退に困る状況を表す。"
+  },
+  {
+    "term": "滅相もない",
+    "reading": "めっそうもない",
+    "meaning": "とんでもないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "相手の言葉を強く否定する表現。"
+  },
+  {
+    "term": "拠ん所ない",
+    "reading": "よんどころない",
+    "meaning": "そうするより仕方がないこと",
+    "category": "語句の意味",
+    "difficulty": "標準",
+    "note": "頼りや根拠がなく、やむを得ない意味。"
   }
 ];
 
